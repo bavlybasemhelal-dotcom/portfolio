@@ -1,0 +1,23 @@
+{
+  "site": "yogen",
+  "environment": "Actual final Flutter release, clean Chrome and live Firebase",
+  "checks": [
+    {
+      "name": "Anonymous media route requires team login",
+      "ok": true
+    },
+    {
+      "name": "Original independent manager opens the protected media library",
+      "ok": true
+    },
+    {
+      "name": "Saved live connection restored; administrative email deferred",
+      "ok": true
+    },
+    {
+      "name": "Final yogen space contains no test media and no uncaught exceptions",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

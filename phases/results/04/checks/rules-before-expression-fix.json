@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-09T21:45:05.147Z",
+  "environment": "Real Firestore rules emulator, demo-yogen-phase04; no production writes",
+  "checks": [
+    {
+      "name": "P04-T01 visitor reads publication but not draft/settings",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L109, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L144, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, evaluation error at L151:34 for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L171:24 for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, false for 'update' @ L109, false for 'update' @ L200, false for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210"
+    },
+    {
+      "name": "P04-T02 unauthenticated and roleless direct writes rejected",
+      "ok": true
+    },
+    {
+      "name": "P04-T03 all three editors can save/publish, cannot manage accounts/settings",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L109, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L144, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, evaluation error at L151:34 for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L171:24 for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, false for 'update' @ L109, false for 'update' @ L200, false for 'update' @ L210, false for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, false for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210"
+    },
+    {
+      "name": "P04-T04 direct self-promotion refused including forged auth claim",
+      "ok": true
+    },
+    {
+      "name": "P04-T05 incomplete English saves but publish fails; complete no-link succeeds",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L109, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L144, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, evaluation error at L151:34 for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L171:24 for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, false for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, false for 'update' @ L109, false for 'update' @ L200, false for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210"
+    },
+    {
+      "name": "P04-T06 old public version survives draft editing, changes on publish",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L109, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L144, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, evaluation error at L151:34 for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L171:24 for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, false for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, false for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, false for 'update' @ L109, false for 'update' @ L200, false for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210"
+    },
+    {
+      "name": "P04-T07 failed atomic publish-related batch preserves all prior data",
+      "ok": true
+    },
+    {
+      "name": "P04-T08 unpublish/archive/restore retains content/media without public read",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L109, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L144, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, evaluation error at L151:34 for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L171:24 for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, false for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210"
+    },
+    {
+      "name": "P04-T09 manager provisions editor role, revocation blocks existing session",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nevaluation error at L95:26 for 'create' @ L95, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L97:26 for 'update' @ L97, false for 'update' @ L200, false for 'update' @ L210, false for 'create' @ L95, false for 'create' @ L200, false for 'create' @ L210"
+    },
+    {
+      "name": "P04-T10 stale revision rejected directly by rules",
+      "ok": true
+    },
+    {
+      "name": "E01 no private note/audit injection into public snapshot",
+      "ok": false,
+      "error": "Cannot use 'in' operator to search for 'internalNote' in undefined"
+    },
+    {
+      "name": "E02 pending/missing media and video cover cannot publish",
+      "ok": false,
+      "error": "Expected PERMISSION_DENIED but got unexpected error: TypeError: Cannot read properties of undefined (reading 'public')"
+    },
+    {
+      "name": "E03 six media references fit actual rules access budget",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L109, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L144, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, evaluation error at L151:34 for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L171:24 for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, false for 'update' @ L109, false for 'update' @ L200, false for 'update' @ L210, false for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210"
+    },
+    {
+      "name": "E04 duplicate stable slug cannot steal another project",
+      "ok": true
+    },
+    {
+      "name": "E05 manager cannot disable/remove own account or elevate another editor",
+      "ok": true
+    },
+    {
+      "name": "E06 hidden public team data independent of admin membership",
+      "ok": true
+    },
+    {
+      "name": "E07 media metadata creates with server audit; Base64 injection refused",
+      "ok": true
+    },
+    {
+      "name": "E08 multiline content valid; impersonated HTTPS user-info link rejected",
+      "ok": false,
+      "error": "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L109, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L144, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L210, evaluation error at L151:34 for 'create' @ L151, false for 'create' @ L200, false for 'create' @ L210, evaluation error at L171:24 for 'get' @ L171, false for 'get' @ L200, false for 'get' @ L210, evaluation error at L159:24 for 'get' @ L159, false for 'get' @ L200, false for 'get' @ L210, false for 'update' @ L109, false for 'update' @ L200, false for 'update' @ L210, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L143, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L200, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L210"
+    }
+  ],
+  "errors": [
+    "P04-T01 visitor reads publication but not draft/settings",
+    "P04-T03 all three editors can save/publish, cannot manage accounts/settings",
+    "P04-T05 incomplete English saves but publish fails; complete no-link succeeds",
+    "P04-T06 old public version survives draft editing, changes on publish",
+    "P04-T08 unpublish/archive/restore retains content/media without public read",
+    "P04-T09 manager provisions editor role, revocation blocks existing session",
+    "E01 no private note/audit injection into public snapshot",
+    "E02 pending/missing media and video cover cannot publish",
+    "E03 six media references fit actual rules access budget",
+    "E08 multiline content valid; impersonated HTTPS user-info link rejected"
+  ]
+}

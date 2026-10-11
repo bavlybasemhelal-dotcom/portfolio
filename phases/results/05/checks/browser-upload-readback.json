@@ -1,0 +1,38 @@
+{
+  "environment": "Actual Flutter browser-generated files read from Drive; original bytes match local fixtures",
+  "checks": [
+    {
+      "name": "صورة-أفقية.png actual browser upload and anonymous PNG thumbnail readback",
+      "ok": true,
+      "assetId": "m_344649ec3ed252cc4eb78305bc932af959515ee85b7d48def6962ecf8be49b98",
+      "originalSha256": "5909514f6b1f5add9bb1c4ebff0dd00ddece4f59fa4fad892941703f0d6dff1f",
+      "thumbnailPixels": [
+        320,
+        180
+      ],
+      "thumbnailBytes": 4226
+    },
+    {
+      "name": "صورة-رأسية.jpg actual browser upload and anonymous PNG thumbnail readback",
+      "ok": true,
+      "assetId": "m_ab23dbbe504a8bd94d05de4f8d67e4c8d4b8729cfb0f6491d4580b49c8b5101d",
+      "originalSha256": "508569fd0e019165a58b5ff92093c8cc74d3b4f5d24f426fa92a34e5ae220eae",
+      "thumbnailPixels": [
+        320,
+        569
+      ],
+      "thumbnailBytes": 18332
+    },
+    {
+      "name": "صورة-ويب.webp actual browser upload and anonymous PNG thumbnail readback",
+      "ok": true,
+      "assetId": "m_b7217f6f820a6309c5b0fb1d8ec545b3a48ebb6016080be0cbf38321a268f84d",
+      "originalSha256": "e12082d15f75799e730d3f4b923649363dcba9516686920c99e99b8ff891f86b",
+      "thumbnailPixels": [
+        320,
+        240
+      ],
+      "thumbnailBytes": 28791
+    }
+  ]
+}

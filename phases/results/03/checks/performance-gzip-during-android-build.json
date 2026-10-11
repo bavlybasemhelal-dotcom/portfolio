@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-09T20:40:57.190Z",
+  "environment": {
+    "channel": "Chrome",
+    "viewport": "1440×900",
+    "downloadMbps": 10,
+    "uploadMbps": 5,
+    "latencyMs": 80,
+    "coldContexts": true,
+    "compression": "Precompressed gzip responses; local preview only",
+    "renderer": "CanvasKit, release JS build",
+    "browserVersion": "154.0.8037.98"
+  },
+  "loads": [
+    {
+      "run": 1,
+      "usableMs": 5316,
+      "languageResponseMs": 1131,
+      "transferredBytes": 3400330,
+      "jsHeapBytes": 25012872
+    },
+    {
+      "run": 2,
+      "usableMs": 3598,
+      "languageResponseMs": 536,
+      "transferredBytes": 3400330,
+      "jsHeapBytes": 27317784
+    },
+    {
+      "run": 3,
+      "usableMs": 3656,
+      "languageResponseMs": 346,
+      "transferredBytes": 3400856,
+      "jsHeapBytes": 26807760
+    }
+  ],
+  "scene": {
+    "browserRafCadence": {
+      "samples": 301,
+      "medianMs": 16.699999999999818,
+      "p95Ms": 16.800000000000182,
+      "over34ms": 0
+    },
+    "nativeScrollFullTurn": true,
+    "mobileViewport": {
+      "width": 375,
+      "height": 812,
+      "reducedMotion": true,
+      "physicalPhone": false
+    }
+  },
+  "errors": []
+}

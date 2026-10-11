@@ -1,0 +1,26 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [],
+  "errors": [
+    "admin: saved_settings_restore_timeout"
+  ],
+  "videos": [],
+  "networkFailures": [
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "imageEvents": []
+}

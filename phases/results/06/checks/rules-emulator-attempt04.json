@@ -1,0 +1,48 @@
+{
+  "environment": "Real rules emulator, demo-yogen-phase05; server receipts seeded with rules disabled",
+  "checks": [
+    {
+      "name": "P05-T01 manager settings and routing; editor change denied",
+      "ok": true
+    },
+    {
+      "name": "Client cannot create trusted receipt, even manager",
+      "ok": true
+    },
+    {
+      "name": "Forged ready reference without a receipt rejected",
+      "ok": true
+    },
+    {
+      "name": "Attested reference registration and staff library reads",
+      "ok": true
+    },
+    {
+      "name": "Receipt binds Drive ID, thumbnail, MIME, size, folder, uploader and hash",
+      "ok": true
+    },
+    {
+      "name": "Descriptions editable; storage metadata and original audit preserved",
+      "ok": true
+    },
+    {
+      "name": "Oversize and embedded file data are refused in persisted operations",
+      "ok": true
+    },
+    {
+      "name": "Pending requests persist with immutable input; another member cannot edit",
+      "ok": true
+    },
+    {
+      "name": "Revoked, roleless and anonymous cannot register or prepare uploads",
+      "ok": true
+    },
+    {
+      "name": "Six verified media publish atomically within rule read budget; forged snapshot rejected",
+      "ok": true
+    }
+  ],
+  "errors": [
+    "7 PERMISSION_DENIED: \nUnable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L131, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L276, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L286, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L136, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L276, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'update' @ L286, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L131, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L276, Unable to evaluate the expression as the maximum of 1000 expressions to evaluate has been reached. for 'create' @ L286"
+  ]
+}

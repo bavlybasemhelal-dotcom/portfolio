@@ -1,0 +1,164 @@
+{
+  "requests": [
+    {
+      "host": "firestore.googleapis.com",
+      "status": 200
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 200
+    },
+    {
+      "host": "script.google.com",
+      "status": 302
+    },
+    {
+      "host": "script.google.com",
+      "status": 302
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "status": 200
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "status": 200
+    },
+    {
+      "host": "script.google.com",
+      "status": 302
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "status": 200
+    }
+  ],
+  "text": "YOGEN\nTechnical verification · Phase 05\nالعربية\nTheme\nPause motion\nPublished media preview\nRenamed technical media test\nEnlarge image\nEnlarge image\nEnlarge image\nLoad and play video\nLoad and play video\nDownload attachment",
+  "semantics": [
+    {
+      "role": null,
+      "label": null,
+      "text": "YOGEN\nTechnical verification · Phase 05\nالعربية\nTheme\nPause motion\nPublished media preview\nRenamed t"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "YOGEN\nTechnical verification · Phase 05\nالعربية\nTheme\nPause motion\nPublished media preview\nRenamed t"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "YOGEN\nTechnical verification · Phase 05\nالعربية\nTheme\nPause motion\nPublished media preview\nRenamed t"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "YOGEN"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Technical verification · Phase 05"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "العربية"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Theme"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Pause motion"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Published media preview\nRenamed technical media test\nEnlarge image\nEnlarge image\nEnlarge image\nLoad "
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Published media preview\nRenamed technical media test\nEnlarge image\nEnlarge image\nEnlarge image\nLoad "
+    },
+    {
+      "role": "group",
+      "label": null,
+      "text": "Published media preview\nRenamed technical media test\nEnlarge image\nEnlarge image\nEnlarge image\nLoad "
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Published media preview"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Renamed technical media test"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Enlarge image"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Enlarge image"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Enlarge image"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Enlarge image"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Enlarge image"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Enlarge image"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Load and play video"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Load and play video"
+    },
+    {
+      "role": null,
+      "label": null,
+      "text": "Load and play video"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Load and play video"
+    },
+    {
+      "role": "group",
+      "label": "Technical media fixture — not company work\nمرفق-اختبار.pdf",
+      "text": "Download attachment"
+    },
+    {
+      "role": "button",
+      "label": null,
+      "text": "Download attachment"
+    }
+  ]
+}

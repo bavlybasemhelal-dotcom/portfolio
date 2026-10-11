@@ -1,0 +1,34 @@
+i  emulators: Starting emulators: auth, firestore
+i  emulators: Detected demo project ID "demo-yogen-phase04", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail.
+i  firestore: Firestore Emulator logging to firestore-debug.log
++  firestore: Firestore Emulator was started in standard edition.
++  firestore: Firestore Emulator UI websocket is running on 9150.
+!  emulators: The Emulator UI is not starting because none of the running emulators have a UI component.
+
+[90m┌─────────────────────────────────────────────────────────────┐[39m
+[90m│[39m ✔  All emulators ready! It is now safe to connect your app. [90m│[39m
+[90m└─────────────────────────────────────────────────────────────┘[39m
+
+[90m┌────────────────[39m[90m┬────────────────┐[39m
+[90m│[39m[33m Emulator       [39m[90m│[39m[33m Host:Port      [39m[90m│[39m
+[90m├────────────────[39m[90m┼────────────────┤[39m
+[90m│[39m Authentication [90m│[39m 127.0.0.1:9094 [90m│[39m
+[90m├────────────────[39m[90m┼────────────────┤[39m
+[90m│[39m Firestore      [90m│[39m 127.0.0.1:8084 [90m│[39m
+[90m└────────────────[39m[90m┴────────────────┘[39m
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500, 9150
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+i  firestore: Change detected, updating rules...
+!  firebase\firestore.phase04.rules:195:58 - ERROR Unexpected 'request.resource.data.contacts'.
+!  firebase\firestore.phase04.rules:203:5 - ERROR Unexpected 'match'.
+!  firebase\firestore.phase04.rules:205:7 - ERROR Unexpected 'allow'.
++  firestore: Rules updated.
+i  firestore: Change detected, updating rules...
++  firestore: Rules updated.
+i  firestore: Change detected, updating rules...
++  firestore: Rules updated.
+i  firestore: Change detected, updating rules...
++  firestore: Rules updated.

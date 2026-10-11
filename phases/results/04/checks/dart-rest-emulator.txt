@@ -1,0 +1,10 @@
+00:00 +0: loading D:/Projects/Portfolio/test/phase04_rest_integration_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore
+Shell: REST failure: POST /v1/projects/demo-yogen-phase04/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/demo-yogen-phase04/databases/(default)/documents:commit PERMISSION_DENIED
+00:00 +1: All three cloud editors publish; visitors and roleless users cannot access private data or promote themselves
+00:00 +1 ~1: Real Auth REST signup does not change manager session; restart and role revocation work
+Shell: REST failure: GET /v1/projects/demo-yogen-phase04/databases/(default)/documents/sites/phase04-test/projectDrafts/new-member-1791589375456 PERMISSION_DENIED
+00:00 +2 ~1: (tearDownAll)
+00:00 +2 ~1: All tests passed!

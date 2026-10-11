@@ -1,0 +1,9 @@
+{
+  "firestore": {"database": "(default)", "rules": "firebase/firestore.phase04.rules"},
+  "emulators": {
+    "firestore": {"host": "127.0.0.1", "port": 8084},
+    "auth": {"host": "127.0.0.1", "port": 9094},
+    "ui": {"enabled": false},
+    "singleProjectMode": true
+  }
+}

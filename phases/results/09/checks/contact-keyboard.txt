@@ -1,0 +1,26 @@
+Browser tab: 4, Title: "Start your project | YOGEN", URL: "http://127.0.0.1:8781/#/contact?lang=en".
+There has been no change in the accessibility tree.
+The focused UI element is 26 text entry area (settable) Project idea and requirements
+Browser tab: 4, Title: "Start your project | YOGEN", URL: "http://127.0.0.1:8781/#/contact?lang=en".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
++				32 container flt-semantic-node-37
++					33 text YOGEN
++					34 text Ideas for a brighter tomorrow.
++					35 button Explore all work, ID: flt-semantic-node-40
++					36 button Start your project, ID: flt-semantic-node-41
++					37 button Team sign in, ID: flt-semantic-node-42
++					38 button Pause motion, ID: flt-semantic-node-43
++					39 button Reduced motion, ID: flt-semantic-node-44
++					40 button Refresh content, ID: flt-semantic-node-45
+The focused UI element is 29 button Send request, ID: flt-semantic-node-23
+Browser tab: 4, Title: "Start your project | YOGEN", URL: "http://127.0.0.1:8781/#/contact?lang=en".
+The following is a diff from the previous accessibility tree with ~ and + representing changed and added elements, respectively. Removed elements are summarized by ID range.
+Removed element IDs: 23, 32-40
++					32 container Description: Review these fields; your input has been kept., ID: flt-semantic-node-47
++						33 button Enter your name (up to 120 characters)., ID: flt-semantic-node-48
++						34 button Enter a valid email or an international phone number starting with +., ID: flt-semantic-node-49
++						35 button Enter between 10 and 5000 characters., ID: flt-semantic-node-50
++						36 text Enter your name (up to 120 characters).
++						37 text Enter a valid email or an international phone number starting with +.
++						38 text Enter between 10 and 5000 characters.
+The focused UI element is 32 container Description: Review these fields; your input has been kept., ID: flt-semantic-node-47

@@ -1,0 +1,35 @@
+00:00 +0: loading D:/Projects/Portfolio/test/account_auth_test.dart
+00:00 +0: D:/Projects/Portfolio/test/account_auth_test.dart: Login alias is normalized and never sends mail to the entered Gmail address
+00:00 +1: D:/Projects/Portfolio/test/account_auth_test.dart: Desktop session persists refresh only; independent signup never replaces manager
+00:00 +2: D:/Projects/Portfolio/test/account_auth_test.dart: Restart restores via refresh and concurrent expiration calls share one refresh
+00:00 +3: D:/Projects/Portfolio/test/account_auth_test.dart: A refresh completing after logout cannot restore or persist the old session
+00:00 +4: D:/Projects/Portfolio/test/account_auth_test.dart: Invalid refresh clears the stored session; untrusted endpoints refused
+00:00 +5: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:01 +6: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +7: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +8: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +9: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +10: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +11: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +12: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +13: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +14: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +15: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +16: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +17: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +18: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:04 +19: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:05 +20: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:05 +20 ~1: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:05 +21 ~1: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(360.0, 640.0)
+00:05 +22 ~1: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(768.0, 900.0)
+00:05 +23 ~1: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(1366.0, 657.0)
+00:06 +24 ~1: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:06 +24 ~2: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:06 +24 ~3: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:06 +24 ~4: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:06 +25 ~4: D:/Projects/Portfolio/test/preferences_test.dart: First theme switch from a dark system follows the visible theme
+00:07 +26 ~4: D:/Projects/Portfolio/test/project_contract_test.dart: Incomplete drafts save without fabricated translations; publishing refuses them
+00:07 +27 ~4: D:/Projects/Portfolio/test/project_contract_test.dart: A complete project publishes without demo links, team names or results
+00:07 +28 ~4: D:/Projects/Portfolio/test/project_contract_test.dart: Unsafe links, duplicate assets and oversized public snapshots fail
+00:07 +29 ~4: All tests passed!

@@ -1,0 +1,184 @@
+{
+  "checks": [
+    {
+      "name": "browser-public no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "browser-public completed",
+      "ok": true
+    },
+    {
+      "name": "browser-matrix no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "browser-matrix completed",
+      "ok": true
+    },
+    {
+      "name": "72 browser layouts captured",
+      "ok": true
+    },
+    {
+      "name": "browser-routes no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "browser-routes completed",
+      "ok": true
+    },
+    {
+      "name": "6 direct routes survive reload",
+      "ok": true
+    },
+    {
+      "name": "browser-keyboard no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "browser-keyboard completed",
+      "ok": true
+    },
+    {
+      "name": "browser-live-company no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "browser-live-company completed",
+      "ok": true
+    },
+    {
+      "name": "final-browser no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "final-browser completed",
+      "ok": true
+    },
+    {
+      "name": "cloud-initial no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "cloud-initial completed",
+      "ok": true
+    },
+    {
+      "name": "rules-emulator no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "deployed-rules no failed checks or errors",
+      "ok": true
+    },
+    {
+      "name": "Local and deployed rules match",
+      "ok": true
+    },
+    {
+      "name": "flutter-all-final.txt succeeded",
+      "ok": true
+    },
+    {
+      "name": "analyze-final.txt succeeded",
+      "ok": true
+    },
+    {
+      "name": "build-web-final.txt succeeded",
+      "ok": true
+    },
+    {
+      "name": "build-web-test-final.txt succeeded",
+      "ok": true
+    },
+    {
+      "name": "build-android-final.txt succeeded",
+      "ok": true
+    },
+    {
+      "name": "Saved public Web equals the delivered build",
+      "ok": true
+    },
+    {
+      "name": "Local Markdown handover links resolve",
+      "ok": true
+    }
+  ],
+  "reports": {
+    "browser-public": {
+      "checks": 28,
+      "layouts": 0,
+      "routes": 0
+    },
+    "browser-matrix": {
+      "checks": 0,
+      "layouts": 72,
+      "routes": 6
+    },
+    "browser-routes": {
+      "checks": 0,
+      "layouts": 6,
+      "routes": 6
+    },
+    "browser-keyboard": {
+      "checks": 2,
+      "layouts": 0,
+      "routes": 0
+    },
+    "browser-live-company": {
+      "checks": 3,
+      "layouts": 0,
+      "routes": 0
+    },
+    "final-browser": {
+      "checks": 11,
+      "layouts": 0,
+      "routes": 0
+    },
+    "cloud-initial": {
+      "checks": 6,
+      "layouts": 0,
+      "routes": 0
+    },
+    "rules-emulator": {
+      "checks": 12,
+      "layouts": 0,
+      "routes": 0
+    },
+    "deployed-rules": {
+      "checks": 0,
+      "layouts": 0,
+      "routes": 0
+    }
+  },
+  "artifacts": {
+    "build/web/main.dart.js": {
+      "bytes": 3673374,
+      "sha256": "75a7912e545a65c6bec5a4a727e831f7b730f10267e70bb3ae380ac7f183e300"
+    },
+    ".runtime/phase06-test-web/main.dart.js": {
+      "bytes": 3674107,
+      "sha256": "12673374d3b5ba0630197749d9bc76b402eb4fa03183062a1fd31ac39539a913"
+    },
+    ".runtime/phase06-release-web/main.dart.js": {
+      "bytes": 3673374,
+      "sha256": "75a7912e545a65c6bec5a4a727e831f7b730f10267e70bb3ae380ac7f183e300"
+    },
+    "build/app/outputs/flutter-apk/app-debug.apk": {
+      "bytes": 232434939,
+      "sha256": "8c128f52076d459ac919a1fa87513191903c262f84ba93b8fade5b7cd0831f33"
+    },
+    "firebase/firestore.phase06.rules": {
+      "bytes": 23159,
+      "sha256": "ca760200436b63b6ae8ff8639dd3570d97ee34b50481281f90ebd377748eb6ab"
+    },
+    "lib/data/public_content_repository.dart": {
+      "bytes": 6959,
+      "sha256": "201f68baff604aef1a52d9663861d8c08a753acbfe81fc153d75779fe5d233e5"
+    }
+  },
+  "errors": [],
+  "missingLinks": [],
+  "complete": true
+}

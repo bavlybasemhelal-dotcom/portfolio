@@ -1,0 +1,1 @@
+{"transport":"Actual Dart Auth/Firestore REST against real rules/Auth emulators","checks":[{"name":"Dart publication cycle, private/public separation, atomic rejection and optimistic conflict","ok":true},{"name":"Dart Auth create editor, unchanged manager, refreshed restored session and immediate rule revocation","ok":true}]}

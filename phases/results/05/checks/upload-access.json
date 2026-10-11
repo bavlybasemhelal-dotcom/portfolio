@@ -1,0 +1,14 @@
+{
+  "checks": [
+    {
+      "actor": "anonymous",
+      "directUploadRejected": true,
+      "error": "authentication_required"
+    },
+    {
+      "actor": "roleless",
+      "directUploadRejected": true,
+      "error": "upload_not_allowed"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-09T20:40:57.362057+00:00",
+  "transport": "real Apps Script + Drive + Firestore REST",
+  "checks": [
+    {
+      "name": "anonymous_upload_rejected",
+      "ok": true,
+      "elapsedMs": 1984,
+      "response": {
+        "success": false,
+        "error": "authentication_required",
+        "stage": "request"
+      }
+    },
+    {
+      "name": "invalid_token_rejected",
+      "ok": true,
+      "elapsedMs": 1438,
+      "response": {
+        "success": false,
+        "error": "authentication_required",
+        "stage": "request"
+      }
+    },
+    {
+      "name": "arabic_image_upload",
+      "ok": true,
+      "bytes": 36009,
+      "elapsedMs": 3125,
+      "response": {
+        "success": true,
+        "projectId": "portfolio-14d15",
+        "testOnly": true,
+        "fileId": "1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29",
+        "fileName": "YOGEN-صورة-اختبار.png",
+        "fileSize": 36009,
+        "mimeType": "image/png",
+        "directUrl": "https://drive.google.com/uc?export=view&id=1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29",
+        "viewUrl": "https://drive.google.com/file/d/1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29/view",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29"
+      }
+    },
+    {
+      "name": "firestore_media_metadata",
+      "ok": true
+    },
+    {
+      "name": "retry_avoids_duplicate",
+      "ok": true,
+      "elapsedMs": 2516
+    },
+    {
+      "name": "anonymous_image_bytes",
+      "ok": true,
+      "bytes": 36009,
+      "elapsedMs": 2937
+    },
+    {
+      "name": "video_5MiB_real_upload",
+      "ok": true,
+      "bytes": 5242880,
+      "base64Bytes": 6990508,
+      "elapsedMs": 39890,
+      "response": {
+        "success": true,
+        "projectId": "portfolio-14d15",
+        "testOnly": true,
+        "fileId": "1YVV8jDGpZJqHWH0rp_QmBLnIxmgl3CQU",
+        "fileName": "YOGEN-phase03-video-5MiB.mp4",
+        "fileSize": 5242880,
+        "mimeType": "video/mp4",
+        "directUrl": "https://drive.google.com/uc?export=view&id=1YVV8jDGpZJqHWH0rp_QmBLnIxmgl3CQU",
+        "viewUrl": "https://drive.google.com/file/d/1YVV8jDGpZJqHWH0rp_QmBLnIxmgl3CQU/view",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1YVV8jDGpZJqHWH0rp_QmBLnIxmgl3CQU"
+      }
+    }
+  ]
+}

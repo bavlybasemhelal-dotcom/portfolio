@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09T20:31:52.550833+00:00",
+  "test": "real_bridge_ping",
+  "httpStatus": 200,
+  "responseBytes": 85,
+  "elapsedMs": 4750,
+  "result": {
+    "success": true,
+    "projectId": "portfolio-14d15",
+    "testOnly": true,
+    "maxTestBytes": 5242880
+  },
+  "ok": true
+}

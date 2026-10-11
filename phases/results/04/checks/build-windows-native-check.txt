@@ -1,0 +1,4 @@
+Building Windows application...                                 
+D:\Projects\Portfolio\windows\flutter\ephemeral\.plugin_symlinks\flutter_secure_storage_windows\windows\flutter_secure_storage_windows_plugin.cpp(6,10): error C1083: Cannot open include file: 'atlstr.h': No such file or directory [D:\Projects\Portfolio\build\windows\x64\plugins\flutter_secure_storage_windows\flutter_secure_storage_windows_plugin.vcxproj]
+Building Windows application...                                    38.6s
+Build process failed.

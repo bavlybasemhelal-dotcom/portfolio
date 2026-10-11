@@ -1,0 +1,7 @@
+{
+  "environment": "Real rules emulator, demo-yogen-phase05; server receipts seeded with rules disabled",
+  "checks": [],
+  "errors": [
+    "{\"error\":{\"code\":400,\"message\":\"Error compiling rules:\\nL55:43 Unexpected 's'.\\nL55:80 token recognition error at: '^'\\nL55:81 token recognition error at: '\\\\'\\nL56:42 token recognition error at: '\\\\'\\nL56:82 token recognition error at: '^'\\nL56:83 token recognition error at: '\\\\'\\nL57:39 token recognition error at: '\\\\'\\nL57:76 token recognition error at: '^'\\nL57:77 token recognition error at: '\\\\'\\nL58:47 token recognition error at: '\\\\'\\nL58:92 token recognition error at: '^'\\nL58:93 token recognition error at: '\\\\'\",\"status\":\"INVALID_ARGUMENT\"}}"
+  ]
+}

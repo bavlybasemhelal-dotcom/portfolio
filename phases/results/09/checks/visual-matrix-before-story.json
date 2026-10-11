@@ -1,0 +1,542 @@
+[
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "home",
+    "file": "1440-ar-dark-home.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"تطبيقات برمجية حسب الطلب | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/?lang=ar\".\nThere has been no change in the accessibility tree.\nThe focused UI element is 14 container flt-semantic-node-5"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "work",
+    "file": "1440-ar-dark-work.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"أعمالنا | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/work?lang=ar\".\n1 AXWebArea أعمالنا | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/work?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-30\n\t\t\t\t15 container flt-semantic-node-50\n\t\t\t\t\t16 container flt-semantic-node-46\n\t\t\t\t\t\t17 text YOGEN / أعمالنا\n\t\t\t\t\t\t18 text أفكار اتحوّلت لتجارب.\n\t\t\t\t\t\t19 text استكشف المشاريع المنشورة، واختار المجال اللي يهمك.\n\t\t\t\t\t20 container flt-semantic-node-39\n\t\t\t\t\t\t21 text field (settable) ابحث عن مشروع\n\t\t\t\t\t\t22 checkbox Description: الكل, Value: 1, ID: flt-semantic-node-41\n\t\t\t\t\t\t23 checkbox Description: وسيط اختبار تقني — ليس من أعمال الشركة, Value: 0, ID: flt-semantic-node-42\n\t\t\t\t\t\t24 checkbox Description: ويب, Value: 0, ID: flt-semantic-node-43\n\t\t\t\t\t\t25 checkbox Description: حجز, Value: 0, ID: flt-semantic-node-44\n\t\t\t\t\t\t26 checkbox Description: أنظمة, Value: 0, ID: flt-semantic-node-45\n\t\t\t\t\t27 text 29 مشروع\n\t\t\t\t\t28 container flt-semantic-node-33\n\t\t\t\t\t\t29 button استكشف المشروع: اختبار وسائط تقني, ID: flt-semantic-node-34\n\t\t\t\t\t\t30 button استكشف المشروع: مشروع اختبار 01, ID: flt-semantic-node-35\n\t\t\t\t\t\t31 button استكشف المشروع: مشروع اختبار 02, ID: flt-semantic-node-36\n\nThe focused UI element is 14 container flt-semantic-node-30"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "detail",
+    "file": "1440-ar-dark-detail.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"اختبار وسائط تقني | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=ar\".\n1 AXWebArea اختبار وسائط تقني | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-53\n\t\t\t\t15 container flt-semantic-node-83\n\t\t\t\t\t16 container flt-semantic-node-55\n\t\t\t\t\t\t17 button العودة للأعمال, ID: flt-semantic-node-57\n\t\t\t\t\t\t18 container flt-semantic-node-58\n\t\t\t\t\t\t\t19 text وسيط اختبار تقني — ليس من أعمال الشركة\n\t\t\t\t\t\t\t20 text اختبار وسائط تقني\n\t\t\t\t\t\t\t21 text وسيط اختبار تقني — ليس من أعمال الشركة\n\t\t\t\t\t\t22 text عن المشروع\n\nThe focused UI element is 14 container flt-semantic-node-53"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "services",
+    "file": "1440-ar-dark-services.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"خدماتنا | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/services?lang=ar\".\n1 AXWebArea خدماتنا | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/services?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-88\n\t\t\t\t15 container flt-semantic-node-117\n\t\t\t\t\t16 container flt-semantic-node-91\n\t\t\t\t\t\t17 text YOGEN / خدماتنا\n\t\t\t\t\t\t18 text برمجيات مبنية على احتياجك.\n\t\t\t\t\t\t19 text إنشاء تطبيقات برمجية حسب طلب العميل.\n\t\t\t\t\t20 container flt-semantic-node-96\n\t\t\t\t\t\t21 text تطوير تطبيقات حسب الطلب\n\t\t\t\t\t\t22 text خدمة اختبار لتطوير تطبيقات حسب الطلب.\n\t\t\t\t\t\t23 button احكيلنا عن فكرتك, ID: flt-semantic-node-99\n\t\t\t\t\t24 container flt-semantic-node-101\n\t\t\t\t\t\t25 text نحدد النطاق معاك\n\t\t\t\t\t\t26 text نوع التطبيق ووظائفه والمنصات المطلوبة بيتحددوا حسب هدف المشروع واحتياجات المستخدمين.\n\nThe focused UI element is 14 container flt-semantic-node-88"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "about",
+    "file": "1440-ar-dark-about.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"عن YOGEN | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/about?lang=ar\".\n1 AXWebArea عن YOGEN | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/about?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-120\n\t\t\t\t15 container flt-semantic-node-144\n\t\t\t\t\t16 container flt-semantic-node-123\n\t\t\t\t\t\t17 text YOGEN / عنّا\n\t\t\t\t\t\t18 text أفكار لمستقبل أكثر إشراقًا.\n\t\t\t\t\t\t19 text YOGEN فريق لتطوير التطبيقات البرمجية حسب الطلب. بنحوّل احتياجاتك لأفكار واضحة وتجارب عملية.\n\t\t\t\t\t20 container flt-semantic-node-128\n\t\t\t\t\t\t21 text عن YOGEN\n\t\t\t\t\t\t22 text بيانات اختبار تقنية معزولة، ليست بيانات فريق YOGEN أو عملائه.\n\t\t\t\t\t23 container flt-semantic-node-134\n\t\t\t\t\t\t24 text YOGEN\n\t\t\t\t\t\t25 text أفكار لمستقبل أكثر إشراقًا.\n\t\t\t\t\t\t26 button استكشف كل الأعمال, ID: flt-semantic-node-137\n\t\t\t\t\t\t27 button ابدأ مشروعك, ID: flt-semantic-node-138\n\t\t\t\t\t\t28 button دخول الفريق, ID: flt-semantic-node-139\n\t\t\t\t\t\t29 button إيقاف الحركة, ID: flt-semantic-node-140\n\t\t\t\t\t\t30 button تقليل الحركة, ID: flt-semantic-node-141\n\t\t\t\t\t\t31 button تحديث المحتوى, ID: flt-semantic-node-142\n\t\t\t\t\t\t32 text © 2026 YOGEN\n\nThe focused UI element is 14 container flt-semantic-node-120"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "contact",
+    "file": "1440-ar-dark-contact.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"ابدأ مشروعك | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/contact?lang=ar\".\n1 AXWebArea ابدأ مشروعك | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/contact?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-147\n\t\t\t\t15 container flt-semantic-node-179\n\t\t\t\t\t16 container flt-semantic-node-150\n\t\t\t\t\t\t17 text YOGEN / خلّينا نتكلم\n\t\t\t\t\t\t18 text كل مشروع بيبدأ بفكرة.\n\t\t\t\t\t\t19 text احكيلنا عن اللي محتاج تبنيه، والهدف اللي عايز توصله.\n\t\t\t\t\t20 container flt-semantic-node-156\n\t\t\t\t\t\t21 container flt-semantic-node-157\n\t\t\t\t\t\t\t22 text field (settable) اسمك\n\t\t\t\t\t\t\t23 text 120 حرفًا متبقيًا\n\t\t\t\t\t\t24 container flt-semantic-node-159\n\t\t\t\t\t\t\t25 text field (settable) وسيلة تواصل\n\t\t\t\t\t\t\t26 text بريد إلكتروني أو هاتف بالصيغة الدولية.\n\t\t\t\t\t\t\t27 text 254 حرفًا متبقيًا\n\t\t\t\t\t\t28 container flt-semantic-node-162\n\t\t\t\t\t\t\t29 text entry area (settable) فكرة المشروع واحتياجاتك\n\t\t\t\t\t\t\t30 text 5,000 حرف متبقٍ\n\t\t\t\t\t\t31 text بياناتك تُرسل لفريق YOGEN فقط للرد على طلبك. تُحفظ المسودة على هذا الجهاز حتى الإرسال أو مسحها.\n\t\t\t\t\t\t32 button إرسال الطلب, ID: flt-semantic-node-165\n\t\t\t\t\t\t33 button مسح المسودة, ID: flt-semantic-node-166\n\t\t\t\t\t\t34 button نسخ التفاصيل, ID: flt-semantic-node-167\n\t\t\t\t\t35 text YOGEN\n\nThe focused UI element is 14 container flt-semantic-node-147"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "light",
+    "route": "home",
+    "file": "1440-ar-light-home.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"تطبيقات برمجية حسب الطلب | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/?lang=ar\".\n1 AXWebArea تطبيقات برمجية حسب الطلب | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-182\n\t\t\t\t15 container flt-semantic-node-194\n\t\t\t\t\t16 container flt-semantic-node-184\n\t\t\t\t\t\t17 text YOGEN / تطوير برمجيات حسب الطلب\n\t\t\t\t\t\t18 text أفكارك تستحق\n\t\t\t\t\t\t19 text تطبيقًا يليق بها.\n\t\t\t\t\t\t20 text نطوّر تطبيقات برمجية حسب احتياجك. استكشف أعمالنا، وشوف نقطة البداية لمشروعك القادم.\n\t\t\t\t\t\t21 button ابدأ مشروعك, ID: flt-semantic-node-189\n\t\t\t\t\t\t22 button استكشف كل الأعمال, ID: flt-semantic-node-190\n\t\t\t\t\t\t23 text من فكرة واضحة إلى تجربة عملية.\n\t\t\t\t\t\t24 text YOGEN / IDEAS IN MOTION\n\t\t\t\t\t\t25 button إيقاف الحركة, ID: flt-semantic-node-193\n\nThe focused UI element is 14 container flt-semantic-node-182"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "light",
+    "route": "work",
+    "file": "1440-ar-light-work.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"أعمالنا | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/work?lang=ar\".\n1 AXWebArea أعمالنا | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/work?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-197\n\t\t\t\t15 container flt-semantic-node-217\n\t\t\t\t\t16 container flt-semantic-node-213\n\t\t\t\t\t\t17 text YOGEN / أعمالنا\n\t\t\t\t\t\t18 text أفكار اتحوّلت لتجارب.\n\t\t\t\t\t\t19 text استكشف المشاريع المنشورة، واختار المجال اللي يهمك.\n\t\t\t\t\t20 container flt-semantic-node-206\n\t\t\t\t\t\t21 text field (settable) ابحث عن مشروع\n\t\t\t\t\t\t22 checkbox Description: الكل, Value: 1, ID: flt-semantic-node-208\n\t\t\t\t\t\t23 checkbox Description: وسيط اختبار تقني — ليس من أعمال الشركة, Value: 0, ID: flt-semantic-node-209\n\t\t\t\t\t\t24 checkbox Description: ويب, Value: 0, ID: flt-semantic-node-210\n\t\t\t\t\t\t25 checkbox Description: حجز, Value: 0, ID: flt-semantic-node-211\n\t\t\t\t\t\t26 checkbox Description: أنظمة, Value: 0, ID: flt-semantic-node-212\n\t\t\t\t\t27 text 29 مشروع\n\t\t\t\t\t28 container flt-semantic-node-200\n\t\t\t\t\t\t29 button استكشف المشروع: اختبار وسائط تقني, ID: flt-semantic-node-201\n\t\t\t\t\t\t30 button استكشف المشروع: مشروع اختبار 01, ID: flt-semantic-node-202\n\t\t\t\t\t\t31 button استكشف المشروع: مشروع اختبار 02, ID: flt-semantic-node-203\n\nThe focused UI element is 14 container flt-semantic-node-197"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "light",
+    "route": "detail",
+    "file": "1440-ar-light-detail.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"اختبار وسائط تقني | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=ar\".\n1 AXWebArea اختبار وسائط تقني | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 image Description: وسيط اختبار تقني — ليس من أعمال الشركة, ID: flt-semantic-node-252\n\t\t\t15 container flt-semantic-node-220\n\t\t\t\t16 container flt-semantic-node-250\n\t\t\t\t\t17 container flt-semantic-node-222\n\t\t\t\t\t\t18 button العودة للأعمال, ID: flt-semantic-node-224\n\t\t\t\t\t\t19 container flt-semantic-node-225\n\t\t\t\t\t\t\t20 text وسيط اختبار تقني — ليس من أعمال الشركة\n\t\t\t\t\t\t\t21 text اختبار وسائط تقني\n\t\t\t\t\t\t\t22 text وسيط اختبار تقني — ليس من أعمال الشركة\n\t\t\t\t\t\t23 text عن المشروع\n\nThe focused UI element is 15 container flt-semantic-node-220"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "light",
+    "route": "services",
+    "file": "1440-ar-light-services.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"خدماتنا | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/services?lang=ar\".\n1 AXWebArea خدماتنا | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/services?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-257\n\t\t\t\t15 container flt-semantic-node-286\n\t\t\t\t\t16 container flt-semantic-node-260\n\t\t\t\t\t\t17 text YOGEN / خدماتنا\n\t\t\t\t\t\t18 text برمجيات مبنية على احتياجك.\n\t\t\t\t\t\t19 text إنشاء تطبيقات برمجية حسب طلب العميل.\n\t\t\t\t\t20 container flt-semantic-node-265\n\t\t\t\t\t\t21 text تطوير تطبيقات حسب الطلب\n\t\t\t\t\t\t22 text خدمة اختبار لتطوير تطبيقات حسب الطلب.\n\t\t\t\t\t\t23 button احكيلنا عن فكرتك, ID: flt-semantic-node-268\n\t\t\t\t\t24 container flt-semantic-node-270\n\t\t\t\t\t\t25 text نحدد النطاق معاك\n\t\t\t\t\t\t26 text نوع التطبيق ووظائفه والمنصات المطلوبة بيتحددوا حسب هدف المشروع واحتياجات المستخدمين.\n\nThe focused UI element is 14 container flt-semantic-node-257"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "light",
+    "route": "about",
+    "file": "1440-ar-light-about.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"عن YOGEN | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/about?lang=ar\".\n1 AXWebArea عن YOGEN | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/about?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-289\n\t\t\t\t15 container flt-semantic-node-313\n\t\t\t\t\t16 container flt-semantic-node-292\n\t\t\t\t\t\t17 text YOGEN / عنّا\n\t\t\t\t\t\t18 text أفكار لمستقبل أكثر إشراقًا.\n\t\t\t\t\t\t19 text YOGEN فريق لتطوير التطبيقات البرمجية حسب الطلب. بنحوّل احتياجاتك لأفكار واضحة وتجارب عملية.\n\t\t\t\t\t20 container flt-semantic-node-297\n\t\t\t\t\t\t21 text عن YOGEN\n\t\t\t\t\t\t22 text بيانات اختبار تقنية معزولة، ليست بيانات فريق YOGEN أو عملائه.\n\t\t\t\t\t23 container flt-semantic-node-303\n\t\t\t\t\t\t24 text YOGEN\n\t\t\t\t\t\t25 text أفكار لمستقبل أكثر إشراقًا.\n\t\t\t\t\t\t26 button استكشف كل الأعمال, ID: flt-semantic-node-306\n\t\t\t\t\t\t27 button ابدأ مشروعك, ID: flt-semantic-node-307\n\t\t\t\t\t\t28 button دخول الفريق, ID: flt-semantic-node-308\n\t\t\t\t\t\t29 button إيقاف الحركة, ID: flt-semantic-node-309\n\t\t\t\t\t\t30 button تقليل الحركة, ID: flt-semantic-node-310\n\t\t\t\t\t\t31 button تحديث المحتوى, ID: flt-semantic-node-311\n\t\t\t\t\t\t32 text © 2026 YOGEN\n\nThe focused UI element is 14 container flt-semantic-node-289"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "ar",
+    "theme": "light",
+    "route": "contact",
+    "file": "1440-ar-light-contact.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"ابدأ مشروعك | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/contact?lang=ar\".\n1 AXWebArea ابدأ مشروعك | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/contact?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t4 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t7 button الرئيسية, ID: flt-semantic-node-20\n\t\t\t8 button الأعمال, ID: flt-semantic-node-21\n\t\t\t9 button خدماتنا, ID: flt-semantic-node-22\n\t\t\t10 button عن YOGEN, ID: flt-semantic-node-23\n\t\t\t11 button تواصل معنا, ID: flt-semantic-node-24\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t14 container flt-semantic-node-316\n\t\t\t\t15 container flt-semantic-node-348\n\t\t\t\t\t16 container flt-semantic-node-319\n\t\t\t\t\t\t17 text YOGEN / خلّينا نتكلم\n\t\t\t\t\t\t18 text كل مشروع بيبدأ بفكرة.\n\t\t\t\t\t\t19 text احكيلنا عن اللي محتاج تبنيه، والهدف اللي عايز توصله.\n\t\t\t\t\t20 container flt-semantic-node-325\n\t\t\t\t\t\t21 container flt-semantic-node-326\n\t\t\t\t\t\t\t22 text field (settable) اسمك\n\t\t\t\t\t\t\t23 text 120 حرفًا متبقيًا\n\t\t\t\t\t\t24 container flt-semantic-node-328\n\t\t\t\t\t\t\t25 text field (settable) وسيلة تواصل\n\t\t\t\t\t\t\t26 text بريد إلكتروني أو هاتف بالصيغة الدولية.\n\t\t\t\t\t\t\t27 text 254 حرفًا متبقيًا\n\t\t\t\t\t\t28 container flt-semantic-node-331\n\t\t\t\t\t\t\t29 text entry area (settable) فكرة المشروع واحتياجاتك\n\t\t\t\t\t\t\t30 text 5,000 حرف متبقٍ\n\t\t\t\t\t\t31 text بياناتك تُرسل لفريق YOGEN فقط للرد على طلبك. تُحفظ المسودة على هذا الجهاز حتى الإرسال أو مسحها.\n\t\t\t\t\t\t32 button إرسال الطلب, ID: flt-semantic-node-334\n\t\t\t\t\t\t33 button مسح المسودة, ID: flt-semantic-node-335\n\t\t\t\t\t\t34 button نسخ التفاصيل, ID: flt-semantic-node-336\n\t\t\t\t\t35 text YOGEN\n\nThe focused UI element is 14 container flt-semantic-node-316"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "light",
+    "route": "home",
+    "file": "1440-en-light-home.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Custom software applications | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/?lang=en\".\n1 AXWebArea Custom software applications | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 container ID: flt-semantic-node-351, Description: YOGEN / CUSTOM SOFTWARE Your ideas deserve software that fits. We create software around your needs. Explore our work and find the starting point for your next project. Start your project Explore all work From a clear idea to a practical experience. YOGEN / IDEAS IN MOTION Pause motion\n\t\t\t\t16 container flt-semantic-node-353\n\t\t\t\t\t17 text YOGEN / CUSTOM SOFTWARE\n\t\t\t\t\t18 text Your ideas deserve\n\t\t\t\t\t19 text software that fits.\n\t\t\t\t\t20 text We create software around your needs. Explore our work and find the starting point for your next project.\n\t\t\t\t\t21 button Start your project, ID: flt-semantic-node-358\n\t\t\t\t\t22 button Explore all work, ID: flt-semantic-node-359\n\t\t\t\t\t23 text From a clear idea to a practical experience.\n\t\t\t\t\t24 text YOGEN / IDEAS IN MOTION\n\t\t\t\t\t25 button Pause motion, ID: flt-semantic-node-362\n\nThe focused UI element is 15 container ID: flt-semantic-node-351, Description: YOGEN / CUSTOM SOFTWARE Your ideas deserve software that fits. We create software around your needs. Explore our work and find the starting point for your next project. Start your project Explore all work From a clear idea to a practical experience. YOGEN / IDEAS IN MOTION Pause motion"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "light",
+    "route": "work",
+    "file": "1440-en-light-work.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Our work | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/work?lang=en\".\n1 AXWebArea Our work | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/work?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 container flt-semantic-node-366\n\t\t\t\t16 container flt-semantic-node-386\n\t\t\t\t\t17 container flt-semantic-node-382\n\t\t\t\t\t\t18 text YOGEN / OUR WORK\n\t\t\t\t\t\t19 text Ideas turned into experiences.\n\t\t\t\t\t\t20 text Explore published projects and find the work that interests you.\n\t\t\t\t\t21 container flt-semantic-node-375\n\t\t\t\t\t\t22 text field (settable) Search projects\n\t\t\t\t\t\t23 checkbox Description: All, Value: 1, ID: flt-semantic-node-377\n\t\t\t\t\t\t24 checkbox Description: Technical media fixture — not company work, Value: 0, ID: flt-semantic-node-378\n\t\t\t\t\t\t25 checkbox Description: Web, Value: 0, ID: flt-semantic-node-379\n\t\t\t\t\t\t26 checkbox Description: Booking, Value: 0, ID: flt-semantic-node-380\n\t\t\t\t\t\t27 checkbox Description: Systems, Value: 0, ID: flt-semantic-node-381\n\t\t\t\t\t28 text 29 projects\n\t\t\t\t\t29 container flt-semantic-node-369\n\t\t\t\t\t\t30 button Explore project: Renamed technical media test, ID: flt-semantic-node-370\n\t\t\t\t\t\t31 button Explore project: Technical project 01, ID: flt-semantic-node-371\n\t\t\t\t\t\t32 button Explore project: Technical project 02, ID: flt-semantic-node-372\n\nThe focused UI element is 15 container flt-semantic-node-366"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "light",
+    "route": "detail",
+    "file": "1440-en-light-detail.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Renamed technical media test | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=en\".\n1 AXWebArea Renamed technical media test | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 image Description: Technical media fixture — not company work, ID: flt-semantic-node-421\n\t\t\t16 container flt-semantic-node-389\n\t\t\t\t17 container flt-semantic-node-419\n\t\t\t\t\t18 container flt-semantic-node-391\n\t\t\t\t\t\t19 button Back to work, ID: flt-semantic-node-393\n\t\t\t\t\t\t20 container flt-semantic-node-394\n\t\t\t\t\t\t\t21 text Technical media fixture — not company work\n\t\t\t\t\t\t\t22 text Renamed technical media test\n\t\t\t\t\t\t\t23 text Technical media fixture — not company work\n\t\t\t\t\t\t24 text About the project\n\nThe focused UI element is 16 container flt-semantic-node-389"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "light",
+    "route": "services",
+    "file": "1440-en-light-services.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Our services | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/services?lang=en\".\n1 AXWebArea Our services | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/services?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 container flt-semantic-node-426\n\t\t\t\t16 container flt-semantic-node-455\n\t\t\t\t\t17 container flt-semantic-node-429\n\t\t\t\t\t\t18 text YOGEN / OUR SERVICE\n\t\t\t\t\t\t19 text Software shaped by your needs.\n\t\t\t\t\t\t20 text Custom software applications built around each client’s requirements.\n\t\t\t\t\t21 container flt-semantic-node-434\n\t\t\t\t\t\t22 text Custom application development\n\t\t\t\t\t\t23 text Technical fixture for custom application development.\n\t\t\t\t\t\t24 button Tell us about your idea, ID: flt-semantic-node-437\n\t\t\t\t\t25 container flt-semantic-node-439\n\t\t\t\t\t\t26 text Define the scope together\n\t\t\t\t\t\t27 text The application, its features and target platforms are defined around the project’s goals and users.\n\nThe focused UI element is 15 container flt-semantic-node-426"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "light",
+    "route": "about",
+    "file": "1440-en-light-about.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"About YOGEN | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/about?lang=en\".\n1 AXWebArea About YOGEN | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/about?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 container flt-semantic-node-458\n\t\t\t\t16 container flt-semantic-node-482\n\t\t\t\t\t17 container flt-semantic-node-461\n\t\t\t\t\t\t18 text YOGEN / ABOUT US\n\t\t\t\t\t\t19 text Ideas for a brighter tomorrow.\n\t\t\t\t\t\t20 text YOGEN is a team creating custom software applications. We turn your requirements into clear ideas and practical experiences.\n\t\t\t\t\t21 container flt-semantic-node-466\n\t\t\t\t\t\t22 text About YOGEN\n\t\t\t\t\t\t23 text Isolated technical fixtures, not YOGEN team or client data.\n\t\t\t\t\t24 container flt-semantic-node-472\n\t\t\t\t\t\t25 text YOGEN\n\t\t\t\t\t\t26 text Ideas for a brighter tomorrow.\n\t\t\t\t\t\t27 button Explore all work, ID: flt-semantic-node-475\n\t\t\t\t\t\t28 button Start your project, ID: flt-semantic-node-476\n\t\t\t\t\t\t29 button Team sign in, ID: flt-semantic-node-477\n\t\t\t\t\t\t30 button Pause motion, ID: flt-semantic-node-478\n\t\t\t\t\t\t31 button Reduced motion, ID: flt-semantic-node-479\n\t\t\t\t\t\t32 button Refresh content, ID: flt-semantic-node-480\n\t\t\t\t\t\t33 text © 2026 YOGEN\n\nThe focused UI element is 15 container flt-semantic-node-458"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "light",
+    "route": "contact",
+    "file": "1440-en-light-contact.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Start your project | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/contact?lang=en\".\n1 AXWebArea Start your project | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/contact?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 container flt-semantic-node-485\n\t\t\t\t16 container flt-semantic-node-517\n\t\t\t\t\t17 container flt-semantic-node-488\n\t\t\t\t\t\t18 text YOGEN / LET’S TALK\n\t\t\t\t\t\t19 text Every project starts with an idea.\n\t\t\t\t\t\t20 text Tell us what you want to build and the goal you want to achieve.\n\t\t\t\t\t21 container flt-semantic-node-494\n\t\t\t\t\t\t22 container flt-semantic-node-495\n\t\t\t\t\t\t\t23 text field (settable) Your name\n\t\t\t\t\t\t\t24 text 120 characters remaining\n\t\t\t\t\t\t25 container flt-semantic-node-497\n\t\t\t\t\t\t\t26 text field (settable) Contact information\n\t\t\t\t\t\t\t27 text An email address or a phone number in international format.\n\t\t\t\t\t\t\t28 text 254 characters remaining\n\t\t\t\t\t\t29 container flt-semantic-node-500\n\t\t\t\t\t\t\t30 text entry area (settable) Project idea and requirements\n\t\t\t\t\t\t\t31 text 5,000 characters remaining\n\t\t\t\t\t\t32 text Your information is sent to the YOGEN team to respond to your request. A draft stays on this device until submission or clearing.\n\t\t\t\t\t\t33 button Send request, ID: flt-semantic-node-503\n\t\t\t\t\t\t34 button Clear draft, ID: flt-semantic-node-504\n\t\t\t\t\t\t35 button Copy brief, ID: flt-semantic-node-505\n\nThe focused UI element is 15 container flt-semantic-node-485"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "home",
+    "file": "1440-en-dark-home.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Custom software applications | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/?lang=en\".\n1 AXWebArea Custom software applications | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme Change theme, ID: flt-semantic-node-26\n\t\t\t\t17 text Change theme\n\t\t\t\t16 text Change theme\n\t\t\t18 container flt-semantic-node-523\n\t\t\t\t19 container flt-semantic-node-535\n\t\t\t\t\t20 container flt-semantic-node-525\n\t\t\t\t\t\t21 text YOGEN / CUSTOM SOFTWARE\n\t\t\t\t\t\t22 text Your ideas deserve\n\t\t\t\t\t\t23 text software that fits.\n\t\t\t\t\t\t24 text We create software around your needs. Explore our work and find the starting point for your next project.\n\t\t\t\t\t\t25 button Start your project, ID: flt-semantic-node-530\n\t\t\t\t\t\t26 button Explore all work, ID: flt-semantic-node-531\n\t\t\t\t\t\t27 text From a clear idea to a practical experience.\n\t\t\t\t\t\t28 text YOGEN / IDEAS IN MOTION\n\t\t\t\t\t\t29 button Pause motion, ID: flt-semantic-node-534\n\nThe focused UI element is 18 container flt-semantic-node-523"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "work",
+    "file": "1440-en-dark-work.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Our work | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/work?lang=en\".\n1 AXWebArea Our work | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/work?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme Change theme, ID: flt-semantic-node-26\n\t\t\t\t17 text Change theme\n\t\t\t\t16 text Change theme\n\t\t\t18 container flt-semantic-node-538\n\t\t\t\t19 container flt-semantic-node-558\n\t\t\t\t\t20 container flt-semantic-node-554\n\t\t\t\t\t\t21 text YOGEN / OUR WORK\n\t\t\t\t\t\t22 text Ideas turned into experiences.\n\t\t\t\t\t\t23 text Explore published projects and find the work that interests you.\n\t\t\t\t\t24 container flt-semantic-node-547\n\t\t\t\t\t\t25 text field (settable) Search projects\n\t\t\t\t\t\t26 checkbox Description: All, Value: 1, ID: flt-semantic-node-549\n\t\t\t\t\t\t27 checkbox Description: Technical media fixture — not company work, Value: 0, ID: flt-semantic-node-550\n\t\t\t\t\t\t28 checkbox Description: Web, Value: 0, ID: flt-semantic-node-551\n\t\t\t\t\t\t29 checkbox Description: Booking, Value: 0, ID: flt-semantic-node-552\n\t\t\t\t\t\t30 checkbox Description: Systems, Value: 0, ID: flt-semantic-node-553\n\t\t\t\t\t31 text 29 projects\n\t\t\t\t\t32 container flt-semantic-node-541\n\t\t\t\t\t\t33 button Explore project: Renamed technical media test, ID: flt-semantic-node-542\n\t\t\t\t\t\t34 button Explore project: Technical project 01, ID: flt-semantic-node-543\n\t\t\t\t\t\t35 button Explore project: Technical project 02, ID: flt-semantic-node-544\n\nThe focused UI element is 18 container flt-semantic-node-538"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "detail",
+    "file": "1440-en-dark-detail.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Renamed technical media test | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=en\".\n1 AXWebArea Renamed technical media test | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme Change theme, ID: flt-semantic-node-26\n\t\t\t\t17 text Change theme\n\t\t\t\t16 text Change theme\n\t\t\t18 image Description: Technical media fixture — not company work, ID: flt-semantic-node-593\n\t\t\t19 container flt-semantic-node-561\n\t\t\t\t20 container flt-semantic-node-591\n\t\t\t\t\t21 container flt-semantic-node-563\n\t\t\t\t\t\t22 button Back to work, ID: flt-semantic-node-565\n\t\t\t\t\t\t23 container flt-semantic-node-566\n\t\t\t\t\t\t\t24 text Technical media fixture — not company work\n\t\t\t\t\t\t\t25 text Renamed technical media test\n\t\t\t\t\t\t\t26 text Technical media fixture — not company work\n\t\t\t\t\t\t27 text About the project\n\nThe focused UI element is 19 container flt-semantic-node-561"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "services",
+    "file": "1440-en-dark-services.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Our services | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/services?lang=en\".\n1 AXWebArea Our services | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/services?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme Change theme, ID: flt-semantic-node-26\n\t\t\t\t17 text Change theme\n\t\t\t\t16 text Change theme\n\t\t\t18 container flt-semantic-node-598\n\t\t\t\t19 container flt-semantic-node-627\n\t\t\t\t\t20 container flt-semantic-node-601\n\t\t\t\t\t\t21 text YOGEN / OUR SERVICE\n\t\t\t\t\t\t22 text Software shaped by your needs.\n\t\t\t\t\t\t23 text Custom software applications built around each client’s requirements.\n\t\t\t\t\t24 container flt-semantic-node-606\n\t\t\t\t\t\t25 text Custom application development\n\t\t\t\t\t\t26 text Technical fixture for custom application development.\n\t\t\t\t\t\t27 button Tell us about your idea, ID: flt-semantic-node-609\n\t\t\t\t\t28 container flt-semantic-node-611\n\t\t\t\t\t\t29 text Define the scope together\n\t\t\t\t\t\t30 text The application, its features and target platforms are defined around the project’s goals and users.\n\nThe focused UI element is 18 container flt-semantic-node-598"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "about",
+    "file": "1440-en-dark-about.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"About YOGEN | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/about?lang=en\".\n1 AXWebArea About YOGEN | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/about?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme Change theme, ID: flt-semantic-node-26\n\t\t\t\t17 text Change theme\n\t\t\t\t16 text Change theme\n\t\t\t18 container flt-semantic-node-630\n\t\t\t\t19 container flt-semantic-node-654\n\t\t\t\t\t20 container flt-semantic-node-633\n\t\t\t\t\t\t21 text YOGEN / ABOUT US\n\t\t\t\t\t\t22 text Ideas for a brighter tomorrow.\n\t\t\t\t\t\t23 text YOGEN is a team creating custom software applications. We turn your requirements into clear ideas and practical experiences.\n\t\t\t\t\t24 container flt-semantic-node-638\n\t\t\t\t\t\t25 text About YOGEN\n\t\t\t\t\t\t26 text Isolated technical fixtures, not YOGEN team or client data.\n\t\t\t\t\t27 container flt-semantic-node-644\n\t\t\t\t\t\t28 text YOGEN\n\t\t\t\t\t\t29 text Ideas for a brighter tomorrow.\n\t\t\t\t\t\t30 button Explore all work, ID: flt-semantic-node-647\n\t\t\t\t\t\t31 button Start your project, ID: flt-semantic-node-648\n\t\t\t\t\t\t32 button Team sign in, ID: flt-semantic-node-649\n\t\t\t\t\t\t33 button Pause motion, ID: flt-semantic-node-650\n\t\t\t\t\t\t34 button Reduced motion, ID: flt-semantic-node-651\n\t\t\t\t\t\t35 button Refresh content, ID: flt-semantic-node-652\n\t\t\t\t\t\t36 text © 2026 YOGEN\n\nThe focused UI element is 18 container flt-semantic-node-630"
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "contact",
+    "file": "1440-en-dark-contact.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 1440,
+      "width": 1440
+    },
+    "ax": "Browser tab: 6, Title: \"Start your project | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/contact?lang=en\".\n1 AXWebArea Start your project | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/contact?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t7 button Home, ID: flt-semantic-node-20\n\t\t\t8 button Work, ID: flt-semantic-node-21\n\t\t\t9 button Services, ID: flt-semantic-node-22\n\t\t\t10 button About, ID: flt-semantic-node-23\n\t\t\t11 button Contact, ID: flt-semantic-node-24\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme Change theme, ID: flt-semantic-node-26\n\t\t\t\t17 text Change theme\n\t\t\t\t16 text Change theme\n\t\t\t18 container flt-semantic-node-657\n\t\t\t\t19 container flt-semantic-node-689\n\t\t\t\t\t20 container flt-semantic-node-660\n\t\t\t\t\t\t21 text YOGEN / LET’S TALK\n\t\t\t\t\t\t22 text Every project starts with an idea.\n\t\t\t\t\t\t23 text Tell us what you want to build and the goal you want to achieve.\n\t\t\t\t\t24 container flt-semantic-node-666\n\t\t\t\t\t\t25 container flt-semantic-node-667\n\t\t\t\t\t\t\t26 text field (settable) Your name\n\t\t\t\t\t\t\t27 text 120 characters remaining\n\t\t\t\t\t\t28 container flt-semantic-node-669\n\t\t\t\t\t\t\t29 text field (settable) Contact information\n\t\t\t\t\t\t\t30 text An email address or a phone number in international format.\n\t\t\t\t\t\t\t31 text 254 characters remaining\n\t\t\t\t\t\t32 container flt-semantic-node-672\n\t\t\t\t\t\t\t33 text entry area (settable) Project idea and requirements\n\t\t\t\t\t\t\t34 text 5,000 characters remaining\n\t\t\t\t\t\t35 text Your information is sent to the YOGEN team to respond to your request. A draft stays on this device until submission or clearing.\n\t\t\t\t\t\t36 button Send request, ID: flt-semantic-node-675\n\t\t\t\t\t\t37 button Clear draft, ID: flt-semantic-node-676\n\t\t\t\t\t\t38 button Copy brief, ID: flt-semantic-node-677\n\nThe focused UI element is 18 container flt-semantic-node-657"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "home",
+    "file": "768-en-dark-home.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"Custom software applications | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/?lang=en\".\n1 AXWebArea Custom software applications | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 button Open menu, ID: flt-semantic-node-693\n\t\t\t16 container flt-semantic-node-712\n\t\t\t\t17 container flt-semantic-node-702\n\t\t\t\t\t18 text YOGEN / CUSTOM SOFTWARE\n\t\t\t\t\t19 text Your ideas deserve\n\t\t\t\t\t20 text software that fits.\n\t\t\t\t\t21 text We create software around your needs. Explore our work and find the starting point for your next project.\n\t\t\t\t\t22 button Start your project, ID: flt-semantic-node-707\n\t\t\t\t\t23 button Explore all work, ID: flt-semantic-node-708\n\t\t\t\t\t24 text From a clear idea to a practical experience.\n\t\t\t\t\t25 text YOGEN / IDEAS IN MOTION\n\t\t\t\t\t26 button Pause motion, ID: flt-semantic-node-711\n\t\t\t\t27 container flt-semantic-node-699\n\t\t\t\t\t28 text Every idea has its own experience\n\t\t\t\t\t29 button Explore project: Renamed technical media test, ID: flt-semantic-node-701\n\nThe focused UI element is 1 AXWebArea Custom software applications | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/?lang=en"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "work",
+    "file": "768-en-dark-work.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"Our work | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/work?lang=en\".\n1 AXWebArea Our work | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/work?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 button Open menu, ID: flt-semantic-node-693\n\t\t\t16 container flt-semantic-node-715\n\t\t\t\t17 container flt-semantic-node-734\n\t\t\t\t\t18 container flt-semantic-node-730\n\t\t\t\t\t\t19 text YOGEN / OUR WORK\n\t\t\t\t\t\t20 text Ideas turned into experiences.\n\t\t\t\t\t\t21 text Explore published projects and find the work that interests you.\n\t\t\t\t\t22 container flt-semantic-node-723\n\t\t\t\t\t\t23 text field (settable) Search projects\n\t\t\t\t\t\t24 checkbox Description: All, Value: 1, ID: flt-semantic-node-725\n\t\t\t\t\t\t25 checkbox Description: Technical media fixture — not company work, Value: 0, ID: flt-semantic-node-726\n\t\t\t\t\t\t26 checkbox Description: Web, Value: 0, ID: flt-semantic-node-727\n\t\t\t\t\t\t27 checkbox Description: Booking, Value: 0, ID: flt-semantic-node-728\n\t\t\t\t\t\t28 checkbox Description: Systems, Value: 0, ID: flt-semantic-node-729\n\t\t\t\t\t29 text 29 projects\n\t\t\t\t\t30 container flt-semantic-node-718\n\t\t\t\t\t\t31 button Explore project: Renamed technical media test, ID: flt-semantic-node-719\n\t\t\t\t\t\t32 button Explore project: Technical project 01, ID: flt-semantic-node-720\n\nThe focused UI element is 16 container flt-semantic-node-715"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "detail",
+    "file": "768-en-dark-detail.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"Renamed technical media test | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=en\".\n1 AXWebArea Renamed technical media test | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 button Open menu, ID: flt-semantic-node-693\n\t\t\t16 container flt-semantic-node-737\n\t\t\t\t17 container flt-semantic-node-767\n\t\t\t\t\t18 container flt-semantic-node-739\n\t\t\t\t\t\t19 button Back to work, ID: flt-semantic-node-741\n\t\t\t\t\t\t20 container flt-semantic-node-742\n\t\t\t\t\t\t\t21 text Technical media fixture — not company work\n\t\t\t\t\t\t\t22 text Renamed technical media test\n\t\t\t\t\t\t\t23 text Technical media fixture — not company work\n\t\t\t\t\t\t24 text About the project\n\nThe focused UI element is 16 container flt-semantic-node-737"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "services",
+    "file": "768-en-dark-services.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"Our services | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/services?lang=en\".\n1 AXWebArea Our services | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/services?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 button Open menu, ID: flt-semantic-node-693\n\t\t\t16 container flt-semantic-node-774\n\t\t\t\t17 container flt-semantic-node-803\n\t\t\t\t\t18 container flt-semantic-node-777\n\t\t\t\t\t\t19 text YOGEN / OUR SERVICE\n\t\t\t\t\t\t20 text Software shaped by your needs.\n\t\t\t\t\t\t21 text Custom software applications built around each client’s requirements.\n\t\t\t\t\t22 container flt-semantic-node-782\n\t\t\t\t\t\t23 text Custom application development\n\t\t\t\t\t\t24 text Technical fixture for custom application development.\n\t\t\t\t\t\t25 button Tell us about your idea, ID: flt-semantic-node-785\n\t\t\t\t\t26 container flt-semantic-node-787\n\t\t\t\t\t\t27 text Define the scope together\n\t\t\t\t\t\t28 text The application, its features and target platforms are defined around the project’s goals and users.\n\nThe focused UI element is 16 container flt-semantic-node-774"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "about",
+    "file": "768-en-dark-about.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"About YOGEN | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/about?lang=en\".\n1 AXWebArea About YOGEN | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/about?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 button Open menu, ID: flt-semantic-node-693\n\t\t\t16 container flt-semantic-node-806\n\t\t\t\t17 container flt-semantic-node-830\n\t\t\t\t\t18 container flt-semantic-node-809\n\t\t\t\t\t\t19 text YOGEN / ABOUT US\n\t\t\t\t\t\t20 text Ideas for a brighter tomorrow.\n\t\t\t\t\t\t21 text YOGEN is a team creating custom software applications. We turn your requirements into clear ideas and practical experiences.\n\t\t\t\t\t22 container flt-semantic-node-814\n\t\t\t\t\t\t23 text About YOGEN\n\t\t\t\t\t\t24 text Isolated technical fixtures, not YOGEN team or client data.\n\t\t\t\t\t25 container flt-semantic-node-820\n\t\t\t\t\t\t26 text YOGEN\n\t\t\t\t\t\t27 text Ideas for a brighter tomorrow.\n\t\t\t\t\t\t28 button Explore all work, ID: flt-semantic-node-823\n\t\t\t\t\t\t29 button Start your project, ID: flt-semantic-node-824\n\t\t\t\t\t\t30 button Team sign in, ID: flt-semantic-node-825\n\t\t\t\t\t\t31 button Pause motion, ID: flt-semantic-node-826\n\t\t\t\t\t\t32 button Reduced motion, ID: flt-semantic-node-827\n\t\t\t\t\t\t33 button Refresh content, ID: flt-semantic-node-828\n\t\t\t\t\t\t34 text © 2026 YOGEN\n\nThe focused UI element is 16 container flt-semantic-node-806"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "en",
+    "theme": "dark",
+    "route": "contact",
+    "file": "768-en-dark-contact.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "en",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"Start your project | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/contact?lang=en\".\n1 AXWebArea Start your project | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/contact?lang=en\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t14 text Isolated test environment — fixtures are not YOGEN client work\n\t\t\t5 button YOGEN — home, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — home, ID: flt-semantic-node-19\n\t\t\t12 button العربية, ID: flt-semantic-node-25\n\t\t\t13 button Change theme, ID: flt-semantic-node-26\n\t\t\t15 button Open menu, ID: flt-semantic-node-693\n\t\t\t16 container flt-semantic-node-833\n\t\t\t\t17 container flt-semantic-node-865\n\t\t\t\t\t18 container flt-semantic-node-836\n\t\t\t\t\t\t19 text YOGEN / LET’S TALK\n\t\t\t\t\t\t20 text Every project starts with an idea.\n\t\t\t\t\t\t21 text Tell us what you want to build and the goal you want to achieve.\n\t\t\t\t\t22 container flt-semantic-node-842\n\t\t\t\t\t\t23 container flt-semantic-node-843\n\t\t\t\t\t\t\t24 text field (settable) Your name\n\t\t\t\t\t\t\t25 text 120 characters remaining\n\t\t\t\t\t\t26 container flt-semantic-node-845\n\t\t\t\t\t\t\t27 text field (settable) Contact information\n\t\t\t\t\t\t\t28 text An email address or a phone number in international format.\n\t\t\t\t\t\t\t29 text 254 characters remaining\n\t\t\t\t\t\t30 container flt-semantic-node-848\n\t\t\t\t\t\t\t31 text entry area (settable) Project idea and requirements\n\t\t\t\t\t\t\t32 text 5,000 characters remaining\n\t\t\t\t\t\t33 text Your information is sent to the YOGEN team to respond to your request. A draft stays on this device until submission or clearing.\n\t\t\t\t\t\t34 button Send request, ID: flt-semantic-node-851\n\t\t\t\t\t\t35 button Clear draft, ID: flt-semantic-node-852\n\t\t\t\t\t\t36 button Copy brief, ID: flt-semantic-node-853\n\nThe focused UI element is 16 container flt-semantic-node-833"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "home",
+    "file": "768-ar-dark-home.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"تطبيقات برمجية حسب الطلب | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/?lang=ar\".\n1 AXWebArea تطبيقات برمجية حسب الطلب | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t16 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t15 button فتح القائمة, ID: flt-semantic-node-693\n\t\t\t17 container ID: flt-semantic-node-868, Description: YOGEN / تطوير برمجيات حسب الطلب أفكارك تستحق تطبيقًا يليق بها. نطوّر تطبيقات برمجية حسب احتياجك. استكشف أعمالنا، وشوف نقطة البداية لمشروعك القادم. ابدأ مشروعك استكشف كل الأعمال من فكرة واضحة إلى تجربة عملية. YOGEN / IDEAS IN MOTION إيقاف الحركة كل فكرة، لها تجربة استكشف المشروع: اختبار وسائط تقني\n\t\t\t\t18 container\n\t\t\t\t\t19 button\n\t\t\t\t\t20 button\n\t\t\t\t\t21 button\n\t\t\t\t\t22 container\n\t\t\t\t\t\t23 button\n\nThe focused UI element is 17 container ID: flt-semantic-node-868, Description: YOGEN / تطوير برمجيات حسب الطلب أفكارك تستحق تطبيقًا يليق بها. نطوّر تطبيقات برمجية حسب احتياجك. استكشف أعمالنا، وشوف نقطة البداية لمشروعك القادم. ابدأ مشروعك استكشف كل الأعمال من فكرة واضحة إلى تجربة عملية. YOGEN / IDEAS IN MOTION إيقاف الحركة كل فكرة، لها تجربة استكشف المشروع: اختبار وسائط تقني"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "work",
+    "file": "768-ar-dark-work.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"أعمالنا | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/work?lang=ar\".\n1 AXWebArea أعمالنا | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/work?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t16 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t15 button فتح القائمة, ID: flt-semantic-node-693\n\t\t\t17 container flt-semantic-node-887\n\t\t\t\t18 container flt-semantic-node-906\n\t\t\t\t\t19 container flt-semantic-node-902\n\t\t\t\t\t\t20 text YOGEN / أعمالنا\n\t\t\t\t\t\t21 text أفكار اتحوّلت لتجارب.\n\t\t\t\t\t\t22 text استكشف المشاريع المنشورة، واختار المجال اللي يهمك.\n\t\t\t\t\t23 container flt-semantic-node-895\n\t\t\t\t\t\t24 text field (settable) ابحث عن مشروع\n\t\t\t\t\t\t25 checkbox Description: الكل, Value: 1, ID: flt-semantic-node-897\n\t\t\t\t\t\t26 checkbox Description: وسيط اختبار تقني — ليس من أعمال الشركة, Value: 0, ID: flt-semantic-node-898\n\t\t\t\t\t\t27 checkbox Description: ويب, Value: 0, ID: flt-semantic-node-899\n\t\t\t\t\t\t28 checkbox Description: حجز, Value: 0, ID: flt-semantic-node-900\n\t\t\t\t\t\t29 checkbox Description: أنظمة, Value: 0, ID: flt-semantic-node-901\n\t\t\t\t\t30 text 29 مشروع\n\t\t\t\t\t31 container flt-semantic-node-890\n\t\t\t\t\t\t32 button استكشف المشروع: اختبار وسائط تقني, ID: flt-semantic-node-891\n\t\t\t\t\t\t33 button استكشف المشروع: مشروع اختبار 01, ID: flt-semantic-node-892\n\nThe focused UI element is 17 container flt-semantic-node-887"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "detail",
+    "file": "768-ar-dark-detail.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"اختبار وسائط تقني | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=ar\".\n1 AXWebArea اختبار وسائط تقني | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/projects/phase05-1791602768901?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t16 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t15 button فتح القائمة, ID: flt-semantic-node-693\n\t\t\t17 container flt-semantic-node-909\n\t\t\t\t18 container flt-semantic-node-939\n\t\t\t\t\t19 container flt-semantic-node-911\n\t\t\t\t\t\t20 button العودة للأعمال, ID: flt-semantic-node-913\n\t\t\t\t\t\t21 container flt-semantic-node-914\n\t\t\t\t\t\t\t22 text وسيط اختبار تقني — ليس من أعمال الشركة\n\t\t\t\t\t\t\t23 text اختبار وسائط تقني\n\t\t\t\t\t\t\t24 text وسيط اختبار تقني — ليس من أعمال الشركة\n\t\t\t\t\t\t25 text عن المشروع\n\t\t\t26 image Description: وسيط اختبار تقني — ليس من أعمال الشركة, ID: flt-semantic-node-941\n\nThe focused UI element is 17 container flt-semantic-node-909"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "services",
+    "file": "768-ar-dark-services.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"خدماتنا | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/services?lang=ar\".\n1 AXWebArea خدماتنا | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/services?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t16 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t15 button فتح القائمة, ID: flt-semantic-node-693\n\t\t\t17 container flt-semantic-node-946\n\t\t\t\t18 container flt-semantic-node-975\n\t\t\t\t\t19 container flt-semantic-node-949\n\t\t\t\t\t\t20 text YOGEN / خدماتنا\n\t\t\t\t\t\t21 text برمجيات مبنية على احتياجك.\n\t\t\t\t\t\t22 text إنشاء تطبيقات برمجية حسب طلب العميل.\n\t\t\t\t\t23 container flt-semantic-node-954\n\t\t\t\t\t\t24 text تطوير تطبيقات حسب الطلب\n\t\t\t\t\t\t25 text خدمة اختبار لتطوير تطبيقات حسب الطلب.\n\t\t\t\t\t\t26 button احكيلنا عن فكرتك, ID: flt-semantic-node-957\n\t\t\t\t\t27 container flt-semantic-node-959\n\t\t\t\t\t\t28 text نحدد النطاق معاك\n\t\t\t\t\t\t29 text نوع التطبيق ووظائفه والمنصات المطلوبة بيتحددوا حسب هدف المشروع واحتياجات المستخدمين.\n\nThe focused UI element is 17 container flt-semantic-node-946"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "about",
+    "file": "768-ar-dark-about.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"عن YOGEN | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/about?lang=ar\".\n1 AXWebArea عن YOGEN | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/about?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t16 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t15 button فتح القائمة, ID: flt-semantic-node-693\n\t\t\t17 container flt-semantic-node-978\n\t\t\t\t18 container flt-semantic-node-1002\n\t\t\t\t\t19 container flt-semantic-node-981\n\t\t\t\t\t\t20 text YOGEN / عنّا\n\t\t\t\t\t\t21 text أفكار لمستقبل أكثر إشراقًا.\n\t\t\t\t\t\t22 text YOGEN فريق لتطوير التطبيقات البرمجية حسب الطلب. بنحوّل احتياجاتك لأفكار واضحة وتجارب عملية.\n\t\t\t\t\t23 container flt-semantic-node-986\n\t\t\t\t\t\t24 text عن YOGEN\n\t\t\t\t\t\t25 text بيانات اختبار تقنية معزولة، ليست بيانات فريق YOGEN أو عملائه.\n\t\t\t\t\t26 container flt-semantic-node-992\n\t\t\t\t\t\t27 text YOGEN\n\t\t\t\t\t\t28 button استكشف كل الأعمال, ID: flt-semantic-node-995\n\t\t\t\t\t\t29 button ابدأ مشروعك, ID: flt-semantic-node-996\n\t\t\t\t\t\t30 button دخول الفريق, ID: flt-semantic-node-997\n\t\t\t\t\t\t31 text أفكار لمستقبل أكثر إشراقًا.\n\t\t\t\t\t\t32 button إيقاف الحركة, ID: flt-semantic-node-998\n\t\t\t\t\t\t33 button تقليل الحركة, ID: flt-semantic-node-999\n\t\t\t\t\t\t34 button تحديث المحتوى, ID: flt-semantic-node-1000\n\t\t\t\t\t\t35 text © 2026 YOGEN\n\nThe focused UI element is 17 container flt-semantic-node-978"
+  },
+  {
+    "width": 768,
+    "height": 900,
+    "lang": "ar",
+    "theme": "dark",
+    "route": "contact",
+    "file": "768-ar-dark-contact.jpg",
+    "dimensions": {
+      "height": 900,
+      "lang": "ar",
+      "scrollWidth": 768,
+      "width": 768
+    },
+    "ax": "Browser tab: 6, Title: \"ابدأ مشروعك | YOGEN\", URL: \"http://127.0.0.1:8780/?revision=p09-final#/contact?lang=ar\".\n1 AXWebArea ابدأ مشروعك | YOGEN, URL: 127.0.0.1:8780/?revision=p09-final#/contact?lang=ar\n\t2 container\n\t\t3 container flt-semantic-node-2\n\t\t\t16 text بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN\n\t\t\t5 button YOGEN — الرئيسية, ID: flt-semantic-node-18\n\t\t\t\t6 image Description: YOGEN — الرئيسية, ID: flt-semantic-node-19\n\t\t\t12 button English, ID: flt-semantic-node-25\n\t\t\t13 button تغيير المظهر, ID: flt-semantic-node-26\n\t\t\t15 button فتح القائمة, ID: flt-semantic-node-693\n\t\t\t17 container flt-semantic-node-1005\n\t\t\t\t18 container flt-semantic-node-1037\n\t\t\t\t\t19 container flt-semantic-node-1008\n\t\t\t\t\t\t20 text YOGEN / خلّينا نتكلم\n\t\t\t\t\t\t21 text كل مشروع بيبدأ بفكرة.\n\t\t\t\t\t\t22 text احكيلنا عن اللي محتاج تبنيه، والهدف اللي عايز توصله.\n\t\t\t\t\t23 container flt-semantic-node-1014\n\t\t\t\t\t\t24 container flt-semantic-node-1015\n\t\t\t\t\t\t\t25 text field (settable) اسمك\n\t\t\t\t\t\t\t26 text 120 حرفًا متبقيًا\n\t\t\t\t\t\t27 container flt-semantic-node-1017\n\t\t\t\t\t\t\t28 text field (settable) وسيلة تواصل\n\t\t\t\t\t\t\t29 text بريد إلكتروني أو هاتف بالصيغة الدولية.\n\t\t\t\t\t\t\t30 text 254 حرفًا متبقيًا\n\t\t\t\t\t\t31 container flt-semantic-node-1020\n\t\t\t\t\t\t\t32 text entry area (settable) فكرة المشروع واحتياجاتك\n\t\t\t\t\t\t\t33 text 5,000 حرف متبقٍ\n\t\t\t\t\t\t34 text بياناتك تُرسل لفريق YOGEN فقط للرد على طلبك. تُحفظ المسودة على هذا الجهاز حتى الإرسال أو مسحها.\n\t\t\t\t\t\t35 button إرسال الطلب, ID: flt-semantic-node-1023\n\t\t\t\t\t\t36 button مسح المسودة, ID: flt-semantic-node-1024\n\t\t\t\t\t\t37 button نسخ التفاصيل, ID: flt-semantic-node-1025\n\nThe focused UI element is 17 container flt-semantic-node-1005"
+  }
+]

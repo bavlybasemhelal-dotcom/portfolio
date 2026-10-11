@@ -1,0 +1,27 @@
+[
+  {
+    "name": "صورة-أفقية.png",
+    "bytes": 3927,
+    "width": 800,
+    "height": 450,
+    "thumbnailBytes": 2159
+  },
+  {
+    "name": "صورة-رأسية.jpg",
+    "bytes": 13879,
+    "width": 450,
+    "height": 800,
+    "thumbnailBytes": 2262
+  },
+  {
+    "name": "صورة-ويب.webp",
+    "bytes": 2516,
+    "width": 640,
+    "height": 480,
+    "thumbnailBytes": 2703
+  },
+  {
+    "name": "مرفق-اختبار.pdf",
+    "bytes": 595
+  }
+]

@@ -1,0 +1,12 @@
+{"verified":"P07-T02 same rich project template used by private preview"}
+{"verified":"P07-T01 full editor publication and anonymous read"}
+{"verified":"P07-T01 title restores after fresh editor reopen"}
+{"verified":"P07-T06 draft body cannot alter public snapshot"}
+{"verified":"P07-T06 republish acknowledged before public changes"}
+{"verified":"P07-T04 offline save keeps pending state"}
+{"verified":"P07-T05 unsaved navigation can stay in editor"}
+{"verified":"P07-T04/05 retained local draft resumes and reaches server"}
+{"verified":"P07-T08 explicit cover reorder preserves all files"}
+{"verified":"P07-T08 UI duplicate draft reuses assets"}
+{"verified":"P07-T09 UI archive removes public snapshot"}
+{"verified":"P07-T09 UI restore keeps content and media"}

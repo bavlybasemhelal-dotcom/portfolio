@@ -1,0 +1,189 @@
+{
+  "source": "Google Drive connector metadata, observed after live tests",
+  "files": [
+    {
+      "id": "1HWbf6MvBF1ElUza8_lRSgO97G43YOhh6",
+      "title": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd.original",
+      "mime_type": "image/png",
+      "size": "3927",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1hFU0HEy5tszOoaN1sPXLB5YjxdsvBQhG"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": [
+        {
+          "type": "anyone",
+          "role": "reader",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        },
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    },
+    {
+      "id": "1tRMzwmH0Fx9KaUdLgRYGhu3-9z_mRnGR",
+      "title": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd.thumbnail.png",
+      "mime_type": "image/png",
+      "size": "2159",
+      "url": null,
+      "file_or_folder": "file",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1hFU0HEy5tszOoaN1sPXLB5YjxdsvBQhG"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": [
+        {
+          "type": "anyone",
+          "role": "reader",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        },
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    },
+    {
+      "id": "1hFU0HEy5tszOoaN1sPXLB5YjxdsvBQhG",
+      "title": "Images",
+      "mime_type": "application/vnd.google-apps.folder",
+      "size": null,
+      "url": null,
+      "file_or_folder": "folder",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1-fteh4uo1HMuIA4Jc8iB5dhg-NWo5VJs"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": [
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    },
+    {
+      "id": "1f-aPcfkLaWly5JZGtcq-6RuSW3xsrck_",
+      "title": "YOGEN Portfolio",
+      "mime_type": "application/vnd.google-apps.folder",
+      "size": null,
+      "url": null,
+      "file_or_folder": "folder",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "0AJE1yM8G7PkAUk9PVA"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": [
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    },
+    {
+      "id": "1-fteh4uo1HMuIA4Jc8iB5dhg-NWo5VJs",
+      "title": "phase05-1791602768901",
+      "mime_type": "application/vnd.google-apps.folder",
+      "size": null,
+      "url": null,
+      "file_or_folder": "folder",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "1IjGxqlNdlTesjKKcniSOJZM8km6JFAB-"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": [
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    },
+    {
+      "id": "1IjGxqlNdlTesjKKcniSOJZM8km6JFAB-",
+      "title": "project",
+      "mime_type": "application/vnd.google-apps.folder",
+      "size": null,
+      "url": null,
+      "file_or_folder": "folder",
+      "created_time": null,
+      "modified_time": null,
+      "parent_ids": [
+        "176LcK_ck8Eerzs3PvUgk7eJwSXLOyNFz"
+      ],
+      "drive_id": null,
+      "current_user_can_share": null,
+      "has_augmented_permissions": null,
+      "shared": null,
+      "permissions": [
+        {
+          "type": "user",
+          "role": "owner",
+          "emailAddress": null,
+          "domain": null,
+          "displayName": null,
+          "allowFileDiscovery": null
+        }
+      ],
+      "source_visibility_status": "permission_metadata_available"
+    }
+  ]
+}

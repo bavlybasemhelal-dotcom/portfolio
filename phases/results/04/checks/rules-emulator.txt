@@ -1,0 +1,20 @@
+{"name":"P04-T01 visitor reads publication but not draft/settings","ok":true}
+{"name":"P04-T02 unauthenticated and roleless direct writes rejected","ok":true}
+{"name":"P04-T03 all three editors can save/publish, cannot manage accounts/settings","ok":true}
+{"name":"P04-T04 direct self-promotion refused including forged auth claim","ok":true}
+{"name":"P04-T05 incomplete English saves but publish fails; complete no-link succeeds","ok":true}
+{"name":"P04-T06 old public version survives draft editing, changes on publish","ok":true}
+{"name":"P04-T07 failed atomic publish-related batch preserves all prior data","ok":true}
+{"name":"P04-T08 unpublish/archive/restore retains content/media without public read","ok":true}
+{"name":"P04-T09 manager provisions editor role, revocation blocks existing session","ok":true}
+{"name":"P04-T10 stale revision rejected directly by rules","ok":true}
+{"name":"E01 no private note/audit injection into public snapshot","ok":true}
+{"name":"E02 pending/missing media and video cover cannot publish","ok":true}
+{"name":"E03 six media references fit actual rules access budget","ok":true}
+{"name":"E04 duplicate stable slug cannot steal another project","ok":true}
+{"name":"E05 manager cannot disable/remove own account or elevate another editor","ok":true}
+{"name":"E06 hidden public team data independent of admin membership","ok":true}
+{"name":"E07 media metadata creates with server audit; Base64 injection refused","ok":true}
+{"name":"E08 multiline content valid; impersonated HTTPS user-info link rejected","ok":true}
+{"name":"E09 company contacts validated on server; optional contacts allowed","ok":true}
+{"name":"E10 partial biography refused; hiding team does not revoke editor","ok":true}

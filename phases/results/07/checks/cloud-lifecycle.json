@@ -1,0 +1,75 @@
+{
+  "environment": "Real Firebase; phase04-test only, no company/client data or writes to yogen",
+  "checks": [
+    {
+      "name": "Partial bilingual drafts round trip while anonymous publication remains absent",
+      "ok": true
+    },
+    {
+      "name": "Six media/tags/features/links publish atomically without private notes",
+      "ok": true
+    },
+    {
+      "name": "Published body and cover stay unchanged while editing draft",
+      "ok": true
+    },
+    {
+      "name": "Stale session save refuses overwrite",
+      "ok": true
+    },
+    {
+      "name": "Republish updates cover and rich description only after acknowledgment",
+      "ok": true
+    },
+    {
+      "name": "Duplicate is draft with blank slug and same ordered Drive assets",
+      "ok": true
+    },
+    {
+      "name": "Archive removes public snapshot and retains media references",
+      "ok": true
+    },
+    {
+      "name": "Restore requires publish; unpublish preserves complete draft",
+      "ok": true
+    },
+    {
+      "name": "Editor 1 publishes; settings and self-granted manager role rejected",
+      "ok": true
+    },
+    {
+      "name": "Manager revokes/restores editor while its own session stays stable",
+      "ok": true
+    },
+    {
+      "name": "Editor 2 publishes; settings and self-granted manager role rejected",
+      "ok": true
+    },
+    {
+      "name": "Editor 3 publishes; settings and self-granted manager role rejected",
+      "ok": true
+    },
+    {
+      "name": "Four public profiles/photos/links; partial hidden, hide preserves draft and login role",
+      "ok": true
+    },
+    {
+      "name": "Empty company channels have no public links",
+      "ok": true
+    },
+    {
+      "name": "Validated company contacts edit and removal round trip",
+      "ok": true
+    },
+    {
+      "name": "Stable category ID retains project relationships after bilingual rename",
+      "ok": true
+    },
+    {
+      "name": "Real YOGEN projects and profiles remain empty",
+      "ok": true
+    }
+  ],
+  "projectId": "phase07-1791650848432",
+  "previewProjectId": "phase07-1791650848432"
+}

@@ -1,0 +1,4 @@
+chrome routes: locator.waitFor: Timeout 60000ms exceeded.
+Call log:
+  - waiting for getByText('Technical project 01', { exact: true }).first() to be visible
+

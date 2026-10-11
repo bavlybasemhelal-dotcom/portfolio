@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-09T21:09:01.095Z",
+  "environment": "Fresh Chrome, no Google login; actual Drive MP4 served as Base64 and played using a Blob in Flutter HtmlElementView",
+  "checks": [
+    {
+      "name": "Real Drive MP4 bytes play inside Flutter without Google login",
+      "ok": true,
+      "duration": 4.036667,
+      "currentTime": 1.012262,
+      "readyState": 4,
+      "error": null
+    }
+  ],
+  "errors": [],
+  "networkErrors": [],
+  "jsHeapBeforeBytes": 29925428,
+  "jsHeapBufferedBytes": 29077124,
+  "beforePlay": {
+    "duration": 4.036667,
+    "readyState": 4,
+    "error": null
+  },
+  "jsHeapPlayingBytes": 30590296
+}

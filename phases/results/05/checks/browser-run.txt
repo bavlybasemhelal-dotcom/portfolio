@@ -1,0 +1,54 @@
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 0"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 1"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 2"}
+{"verified":"P05-T08 three original images and zoom render inside the site"}
+{"verified":"P05-T08 chrome private anonymous images render without Google login"}
+{"verified":"chrome no Drive embed/login frames"}
+{"verified":"chrome in-app image zoom dialog"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 0"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 1"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 2"}
+{"verified":"P05-T08 three original images and zoom render inside the site"}
+{"verified":"chrome anonymous media survives reload"}
+{"verified":"P05-T09 cover before load; no video element or autoplay"}
+{"verified":"Video 0 loads valid dimensions and remains paused"}
+{"verified":"P05-T09 actual MP4 5 MiB playback"}
+{"verified":"Video 1 loads valid dimensions and remains paused"}
+{"verified":"P05-T09 actual WebM playback"}
+{"verified":"P05-T09 PDF download has original Arabic name and byte-identical content"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 0"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 1"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 2"}
+{"verified":"P05-T08 three original images and zoom render inside the site"}
+{"verified":"P05-T08 msedge private anonymous images render without Google login"}
+{"verified":"msedge no Drive embed/login frames"}
+{"verified":"msedge in-app image zoom dialog"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 0"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 1"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"Actual decoded and rendered image 2"}
+{"verified":"P05-T08 three original images and zoom render inside the site"}
+{"verified":"msedge anonymous media survives reload"}
+{"verified":"P05-T11 injected image failure has local placeholder"}
+<string>:1: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+{"verified":"P05-T11 retry decodes and renders the original image"}
+{"checks":32,"failed":0,"errors":1}

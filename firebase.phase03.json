@@ -1,0 +1,6 @@
+{
+  "firestore": {
+    "database": "(default)",
+    "rules": "firebase/firestore.phase03.rules"
+  }
+}

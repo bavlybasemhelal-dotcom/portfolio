@@ -1,0 +1,38 @@
+{
+  "environment": "Apps Script contract VM with Drive/Firestore fixtures; not live service proof",
+  "checks": [
+    {
+      "name": "P05-T04 anonymous, roleless, wrong-project and revoked identities refused at receiver",
+      "ok": true
+    },
+    {
+      "name": "P05-T03 server checks MIME, signature and >5 MiB before Drive creation",
+      "ok": true
+    },
+    {
+      "name": "P05-T02 stable project directories, Arabic metadata, real file and thumbnail receipts",
+      "ok": true
+    },
+    {
+      "name": "P05-T05 repeated request reuses original and thumbnail",
+      "ok": true
+    },
+    {
+      "name": "Same request with changed content, filename, target or thumbnail rejected",
+      "ok": true
+    },
+    {
+      "name": "P05-T06 unknown outcome reconciles by status before resend",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 anonymous reads are receipt-bounded and preserve original bytes",
+      "ok": true
+    },
+    {
+      "name": "Moved or trashed files fail safely; restoration keeps same reference",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

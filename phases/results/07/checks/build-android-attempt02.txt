@@ -1,0 +1,20 @@
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -XX:ActiveProcessorCount=2
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not determine the dependencies of task ':android_file_picker:mergeDebugGeneratedProguardFiles'.
+> Could not create task ':android_file_picker:compileDebugJavaWithJavac'.
+   > Failed to calculate the value of task ':android_file_picker:compileDebugJavaWithJavac' property 'javaCompiler'.
+      > Toolchain installation 'D:\Projects\Portfolio\.runtime\yogen-jre21\jdk-21.0.12.1+1-jre' does not provide the required capabilities: [JAVA_COMPILER]
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1m 13s
+Running Gradle task 'assembleDebug'...                             73.6s
+Gradle task assembleDebug failed with exit code 1

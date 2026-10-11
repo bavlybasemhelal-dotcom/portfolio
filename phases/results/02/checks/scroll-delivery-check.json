@@ -1,0 +1,108 @@
+{
+  "revision": "scroll-v4",
+  "checkedAt": "2026-10-09T18:46:45.726842+00:00",
+  "scope": "Phase 2 prototype and planning documents only",
+  "syntax": [
+    {
+      "file": "prototype.js",
+      "ok": true,
+      "diagnostic": ""
+    },
+    {
+      "file": "motion.js",
+      "ok": true,
+      "diagnostic": ""
+    },
+    {
+      "file": "story.js",
+      "ok": true,
+      "diagnostic": ""
+    },
+    {
+      "file": "depth.js",
+      "ok": true,
+      "diagnostic": ""
+    }
+  ],
+  "documentation": {
+    "files": 41,
+    "localLinks": 265,
+    "missingLinks": []
+  },
+  "scroll": {
+    "checks": 17,
+    "passed": 17,
+    "failed": 0,
+    "layoutCases": 12,
+    "layoutFailures": 0,
+    "scriptErrors": 0
+  },
+  "depth": {
+    "checks": 5,
+    "passed": 5,
+    "failed": 0,
+    "pages": 34,
+    "pageFailures": 0,
+    "scriptErrors": 0
+  },
+  "generalReview": {
+    "coreScreens": 60,
+    "extraScreens": 24,
+    "contrastPairs": 30,
+    "flowChecks": 8,
+    "issues": 0
+  },
+  "applicationFiles": [],
+  "unstartedPhases": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "localPreview": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 1644
+    },
+    {
+      "file": "prototype.js",
+      "status": 200,
+      "bytes": 51187
+    },
+    {
+      "file": "motion.js",
+      "status": 200,
+      "bytes": 17716
+    },
+    {
+      "file": "story.js",
+      "status": 200,
+      "bytes": 13303
+    },
+    {
+      "file": "depth.js",
+      "status": 200,
+      "bytes": 1517
+    },
+    {
+      "file": "depth.css",
+      "status": 200,
+      "bytes": 6875
+    },
+    {
+      "file": "scroll.css",
+      "status": 200,
+      "bytes": 3551
+    }
+  ],
+  "limitations": [
+    "Desktop browser touch emulation, not a physical phone test",
+    "Flutter and Firebase/Drive integration not started"
+  ],
+  "ok": true
+}

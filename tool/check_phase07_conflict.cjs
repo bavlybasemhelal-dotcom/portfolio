@@ -1,0 +1,21 @@
+const h=require('./phase07_browser_helpers.cjs');
+const {chromium,fs,path,out,open,login,fill,click,text,button,field,token,doc,saved}=h;
+const report={environment:'Actual Flutter editor and independent Firestore write, isolated phase04-test site',checks:[],errors:[]};
+let b,p;
+const write=()=>fs.writeFileSync(path.join(out,'checks/browser-conflict.json'),JSON.stringify(report,null,2));
+const check=(name,ok)=>{report.checks.push({name,ok});write();if(!ok)throw Error(name);console.log(JSON.stringify({verified:name}));};
+(async()=>{try{
+ b=await chromium.launch({channel:'chrome',headless:true});const ctx=await b.newContext({viewport:{width:1440,height:950}});
+ await ctx.addInitScript(()=>{localStorage.setItem('flutter.language','"en"');localStorage.setItem('flutter.motionPaused','true');});
+ p=await ctx.newPage();await login(p);const tk=await token(),id='phase07-conflict-'+Date.now();report.projectId=id;write();
+ await open(p,`/admin/projects/${id}/edit`);await field(p,'Project title · EN').waitFor();await fill(p,'Project title · EN','Initial server title');await click(p,'Save draft');await saved(p);
+ await ctx.route('**/firestore.googleapis.com/**',r=>r.abort('internetdisconnected'));await fill(p,'Project title · EN','Local unsaved title');await p.waitForTimeout(3000);
+ const url=`https://firestore.googleapis.com/v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/${id}`;
+ const response=await fetch(url,{headers:{Authorization:'Bearer '+tk}}),wire=await response.json();if(!response.ok)throw Error('Independent read failed');
+ const fields=structuredClone(wire.fields);fields.content.mapValue.fields.title.mapValue.fields.en={stringValue:'Other session title'};fields.revision.integerValue=String(Number(fields.revision.integerValue)+1);delete fields.updatedAt;
+ const commit=await fetch('https://firestore.googleapis.com/v1/projects/portfolio-14d15/databases/(default)/documents:commit',{method:'POST',headers:{Authorization:'Bearer '+tk,'Content-Type':'application/json'},body:JSON.stringify({writes:[{update:{name:wire.name,fields},currentDocument:{updateTime:wire.updateTime},updateTransforms:[{fieldPath:'updatedAt',setToServerValue:'REQUEST_TIME'}]}]})});if(!commit.ok)throw Error('Independent write failed: '+commit.status);
+ await ctx.unroute('**/firestore.googleapis.com/**');await click(p,'Save draft');await text(p,'Save edits as a new project').waitFor({timeout:60000});
+ await field(p,'Project title · EN').click();check('P07-T04/05 conflict preserves local form and newer server version',await field(p,'Project title · EN').inputValue()==='Local unsaved title'&&(await doc(id,tk)).content.title.en==='Other session title');
+ await click(p,'Save edits as a new project');await p.waitForURL(u=>u.hash.includes('/edit')&&!u.hash.includes(id),{timeout:60000});const copy=p.url().match(/projects\/([^/]+)\/edit/)[1];report.copyId=copy;write();await field(p,'Project title · EN').waitFor();const value=await doc(copy,tk);
+ check('P07-T05 conflict copy keeps edits and requires a new public URL',value.content.title.en==='Local unsaved title'&&value.content.slug===''&&value.status==='draft');await p.screenshot({path:path.join(out,'screenshots/conflict-recovery.png')});report.complete=true;write();
+}catch(e){report.errors.push(e.message);write();if(p)await p.screenshot({path:path.join(out,'screenshots/conflict-failure.png')}).catch(()=>{});console.error(e.message);process.exitCode=1;}finally{if(b)await b.close();}})();

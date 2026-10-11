@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-09T20:47:26.414Z",
+  "environment": "Fresh Chrome, no Google login; Drive preview inside a Flutter HtmlElementView",
+  "checks": [],
+  "errors": [
+    "locator.waitFor: Timeout 60000ms exceeded.\nCall log:\n\u001b[2m  - waiting for locator('video').first()\u001b[22m\n"
+  ]
+}

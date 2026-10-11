@@ -1,0 +1,38 @@
+[√] Flutter (Channel stable, 3.41.2, on Microsoft Windows [Version 10.0.26300.9550], locale en-US) [708ms]
+    • Flutter version 3.41.2 on channel stable at C:\dev\flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 90673a4eef (8 months ago), 2026-02-18 13:54:59 -0800
+    • Engine revision 6c0baaebf7
+    • Dart version 3.11.0
+    • DevTools version 2.54.1
+    • Feature flags: enable-web, enable-linux-desktop, enable-macos-desktop, enable-windows-desktop, enable-android, enable-ios, cli-animations, enable-native-assets, omit-legacy-version-file, enable-lldb-debugging, enable-uiscene-migration
+
+[√] Windows Version (Windows 11 or higher, 26H2, 2009) [3.9s]
+
+[!] Android toolchain - develop for Android devices (Android SDK version 36.1.0) [3.5s]
+    • Android SDK at C:\Users\Dell\AppData\Local\Android\sdk
+    • Emulator version 36.2.12.0 (build_id 14214601) (CL:N/A)
+    • Platform android-36, build-tools 36.1.0
+    • Java binary at: C:\Program Files\Common Files\Oracle\Java\javapath\java.exe
+      This JDK was found in the system PATH.
+      To manually set the JDK path, use: `flutter config --jdk-dir="path/to/jdk"`.
+    • Java version Java(TM) SE Runtime Environment (build 17.0.12+8-LTS-286)
+    ! Some Android licenses not accepted. To resolve this, run: flutter doctor --android-licenses
+
+[√] Chrome - develop for the web [179ms]
+    • Chrome at C:\Program Files\Google\Chrome\Application\chrome.exe
+
+[√] Visual Studio - develop Windows apps (Visual Studio Community 2026 18.9.2) [177ms]
+    • Visual Studio at D:\Visiual studio
+    • Visual Studio Community 2026 version 18.9.12120.119
+    • Windows 10 SDK version 10.0.26100.0
+
+[√] Connected device (3 available) [756ms]
+    • Windows (desktop) • windows • windows-x64    • Microsoft Windows [Version 10.0.26300.9550]
+    • Chrome (web)      • chrome  • web-javascript • Google Chrome 154.0.8037.98
+    • Edge (web)        • edge    • web-javascript • Microsoft Edge 154.0.4258.62
+
+[√] Network resources [2.2s]
+    • All expected network resources are available.
+
+! Doctor found issues in 1 category.

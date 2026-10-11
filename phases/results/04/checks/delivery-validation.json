@@ -1,0 +1,60 @@
+{
+  "ok": true,
+  "localLinksChecked": 111,
+  "brokenLinks": [],
+  "publicTextFilesScanned": 304,
+  "credentialPatternPaths": [],
+  "evidence": {
+    "rules-emulator": {
+      "checks": 20,
+      "expected": 20,
+      "ok": true
+    },
+    "dart-rest-emulator": {
+      "checks": 2,
+      "expected": 2,
+      "ok": true
+    },
+    "dart-rest-cloud": {
+      "checks": 3,
+      "expected": 3,
+      "ok": true
+    },
+    "browser-cloud": {
+      "checks": 12,
+      "expected": 12,
+      "ok": true
+    },
+    "final-browser": {
+      "checks": 5,
+      "expected": 5,
+      "ok": true
+    }
+  },
+  "deliveryChecks": {
+    "strictRulesRestored": true,
+    "deployedRulesMatchStrictPhase04": true,
+    "recoverySameUidAndNoEmail": true,
+    "testAccountsCleanedOwnerPreserved": true,
+    "flutter29Passed4IntentionalSkipped": true,
+    "analysisClean": true,
+    "finalBrowserUsesYogen": true,
+    "windowsDeferredByUser": true,
+    "phase5NotStarted": true,
+    "webBuildCompleted": true,
+    "androidBuildCompleted": true
+  },
+  "buildArtifacts": [
+    {
+      "path": "build/web/main.dart.js",
+      "bytes": 3277535,
+      "sha256": "11c148378fd2189b73a776a40b4b68a8560a6e013892c3e3c10779f1ef63bd6f"
+    },
+    {
+      "path": "build/app/outputs/flutter-apk/app-debug.apk",
+      "bytes": 201826842,
+      "sha256": "bf8d9fdd03d2699d0b6352fe0d7b59641b0aa317fd0702647d767803bb2deb19"
+    }
+  ],
+  "windows": "Deferred by explicit user request; excluded"
+}

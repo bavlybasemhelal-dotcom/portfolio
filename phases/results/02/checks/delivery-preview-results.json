@@ -1,0 +1,32 @@
+[
+  {
+    "lang": "ar",
+    "theme": "dark",
+    "width": 1440,
+    "height": 950,
+    "renderer": "webgl",
+    "running": "true",
+    "viewport": 1440,
+    "scroll": 1440
+  },
+  {
+    "lang": "ar",
+    "theme": "dark",
+    "width": 360,
+    "height": 1000,
+    "renderer": "webgl",
+    "running": "true",
+    "viewport": 360,
+    "scroll": 360
+  },
+  {
+    "lang": "en",
+    "theme": "light",
+    "width": 1440,
+    "height": 950,
+    "renderer": "webgl",
+    "running": "true",
+    "viewport": 1440,
+    "scroll": 1440
+  }
+]

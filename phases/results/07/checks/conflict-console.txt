@@ -1,0 +1,2 @@
+{"verified":"P07-T04/05 conflict preserves local form and newer server version"}
+{"verified":"P07-T05 conflict copy keeps edits and requires a new public URL"}

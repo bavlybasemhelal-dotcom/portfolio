@@ -1,0 +1,8 @@
+const h=require('./phase07_browser_helpers.cjs'),crypto=require('node:crypto');const {chromium,fs,path,out,login,click,button}=h;
+(async()=>{const b=await chromium.launch({channel:'chrome',headless:true});try{
+ const p=await b.newPage({viewport:{width:1440,height:950}});await p.addInitScript(()=>{localStorage.setItem('flutter.language','"en"');localStorage.setItem('flutter.motionPaused','true');});await login(p);
+ await click(p,'Resume motion');await button(p,'Pause motion').waitFor();await p.mouse.move(700,350);await p.mouse.wheel(0,-50000);await p.waitForTimeout(250);await p.mouse.move(1420,30);
+ const a=await p.screenshot({path:path.join(out,'screenshots/admin-motion-a.png')});await p.waitForTimeout(1500);const z=await p.screenshot({path:path.join(out,'screenshots/admin-motion-b.png')});const changed=crypto.createHash('sha256').update(a).digest('hex')!==crypto.createHash('sha256').update(z).digest('hex');
+ const file=path.join(out,'checks/browser-matrix.json');fs.copyFileSync(file,path.join(out,'checks/browser-matrix-attempt01.json'));const r=JSON.parse(fs.readFileSync(file,'utf8'));r.checks.find(v=>v.name.includes('visibly animates')).ok=changed;r.motionRecheck={visibleHeader:true,framesDiffer:changed};r.errors=r.errors.filter(v=>v!=='Matrix/browser checks failed');r.complete=changed&&r.states.every(v=>v.ok)&&r.checks.every(v=>v.ok)&&r.errors.length===0;fs.writeFileSync(file,JSON.stringify(r,null,2));console.log(JSON.stringify({animated:changed,states:r.states.length,complete:r.complete}));if(!r.complete)throw Error('Visible motion recheck failed');
+ await click(p,'Pause motion');await button(p,'Resume motion').waitFor();
+}finally{await b.close();}})().catch(e=>{console.error(e.message);process.exitCode=1;});

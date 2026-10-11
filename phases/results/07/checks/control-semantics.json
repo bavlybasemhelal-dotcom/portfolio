@@ -1,0 +1,127 @@
+[
+  {
+    "role": "img",
+    "label": "YOGEN",
+    "text": ""
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Change theme"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "العربية"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Sign out"
+  },
+  {
+    "role": "group",
+    "label": null,
+    "text": "YOGEN / Team workspaceProject editorphase07-controlsAll projectsNo dra"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "All projects"
+  },
+  {
+    "role": "checkbox",
+    "label": "AR · 0 / 4 basics",
+    "text": ""
+  },
+  {
+    "role": "checkbox",
+    "label": "EN · 0 / 4 basics",
+    "text": ""
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Save draft"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Preview"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Publish"
+  },
+  {
+    "role": "checkbox",
+    "label": "Basics",
+    "text": ""
+  },
+  {
+    "role": "checkbox",
+    "label": "Details",
+    "text": ""
+  },
+  {
+    "role": "checkbox",
+    "label": "Media",
+    "text": ""
+  },
+  {
+    "role": "checkbox",
+    "label": "Team and technology",
+    "text": ""
+  },
+  {
+    "role": "checkbox",
+    "label": "Links",
+    "text": ""
+  },
+  {
+    "role": "checkbox",
+    "label": "Publication",
+    "text": ""
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "العربية"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "English"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Category\nChoose a category"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Save draft"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Preview"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Publish"
+  },
+  {
+    "role": "button",
+    "label": null,
+    "text": "Resume motion"
+  },
+  {
+    "role": "checkbox",
+    "label": "Reduce motion",
+    "text": ""
+  }
+]

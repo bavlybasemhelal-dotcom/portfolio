@@ -1,0 +1,342 @@
+{
+  "environment": "Chrome/Edge clean anonymous contexts; live Firebase/Drive; local Flutter release test site",
+  "checks": [
+    {
+      "name": "P06-T06 images zoom/next inside YOGEN, no Google/Drive iframe",
+      "ok": true
+    },
+    {
+      "name": "P06-T10 keyboard Escape closes gallery",
+      "ok": true
+    },
+    {
+      "name": "chrome public project direct link/reload",
+      "ok": true
+    },
+    {
+      "name": "chrome detail ID survives reload",
+      "ok": true
+    },
+    {
+      "name": "P06-T01 accessible card opens and route is reflected in URL",
+      "ok": true
+    },
+    {
+      "name": "P06-T04 reload then explicit Back preserves encoded search and filters",
+      "ok": true
+    },
+    {
+      "name": "P06-T03 project identity survives locale",
+      "ok": true
+    },
+    {
+      "name": "P06-T04 browser back restores search and multi-tag filters",
+      "ok": true
+    },
+    {
+      "name": "P06-T08 similar solution carries project ID/name",
+      "ok": true
+    },
+    {
+      "name": "P06-T08 project reference and fields survive locale",
+      "ok": true
+    },
+    {
+      "name": "P06-T07 work never requests video bytes",
+      "ok": true
+    },
+    {
+      "name": "P06-T07 detail has no automatic video",
+      "ok": true
+    },
+    {
+      "name": "Video loaded only on request and starts paused",
+      "ok": true
+    },
+    {
+      "name": "P06-T07 actual playback progresses",
+      "ok": true
+    },
+    {
+      "name": "P06-T07 PDF preserves name/content",
+      "ok": true
+    },
+    {
+      "name": "Scroll selects next project",
+      "ok": true
+    },
+    {
+      "name": "Reverse scroll selects previous",
+      "ok": true
+    },
+    {
+      "name": "Compact resize retains selected project",
+      "ok": true
+    },
+    {
+      "name": "Showcase skip exits naturally",
+      "ok": true
+    },
+    {
+      "name": "P06-T05 private/unpublished link reveals no draft",
+      "ok": true
+    },
+    {
+      "name": "P06-T05 read error and Retry recover",
+      "ok": true
+    },
+    {
+      "name": "P06-T06 images zoom/next inside YOGEN, no Google/Drive iframe",
+      "ok": true
+    },
+    {
+      "name": "P06-T10 keyboard Escape closes gallery",
+      "ok": true
+    },
+    {
+      "name": "msedge public project direct link/reload",
+      "ok": true
+    },
+    {
+      "name": "msedge detail ID survives reload",
+      "ok": true
+    },
+    {
+      "name": "P06-T02 first visit uses dark system appearance",
+      "ok": true
+    },
+    {
+      "name": "P06-T02 manual appearance persisted",
+      "ok": true
+    },
+    {
+      "name": "No uncaught browser errors",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "matrix": [],
+  "requests": [
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": false
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "filter/back",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "contact context",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "contact context",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "contact context",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "contact context",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_b01a3bbbda42c3fdeac794a53470f5415c1cdfc9c2cbcd2cd6b11f2e2080ada7",
+      "thumbnail": false
+    },
+    {
+      "stage": "media on demand",
+      "assetId": "m_c9fe73e1c73c6a29ba6cc14d68593ccc85650f4c0bc70040aed516ea0c589677",
+      "thumbnail": false
+    },
+    {
+      "stage": "scroll story",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "scroll story",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": false
+    },
+    {
+      "stage": "scroll story",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": false
+    },
+    {
+      "stage": "read failure",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "read failure",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": false
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "msedge routes",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "theme",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    }
+  ],
+  "complete": true
+}

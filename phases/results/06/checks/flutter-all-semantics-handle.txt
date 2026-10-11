@@ -1,0 +1,159 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (109.0.0 available)
+  analyzer 10.0.1 (14.5.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  go_router 17.5.0 (18.0.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  image 4.10.1 (4.10.2 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.18 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  objective_c 9.5.0 (9.6.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  shared_preferences_android 2.4.23 (2.4.28 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.29.0 (1.33.0 available)
+  test_api 0.7.9 (0.7.15 available)
+  test_core 0.6.15 (0.6.21 available)
+  url_launcher_android 6.3.30 (6.3.33 available)
+  vector_math 2.2.0 (2.4.3 available)
+  video_player 2.11.1 (2.14.1 available)
+  video_player_android 2.9.5 (2.12.2 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+29 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading D:/Projects/Portfolio/test/account_auth_test.dart
+00:00 +0: D:/Projects/Portfolio/test/account_auth_test.dart: Login alias is normalized and never sends mail to the entered Gmail address
+00:00 +1: D:/Projects/Portfolio/test/account_auth_test.dart: Desktop session persists refresh only; independent signup never replaces manager
+00:00 +2: D:/Projects/Portfolio/test/account_auth_test.dart: Restart restores via refresh and concurrent expiration calls share one refresh
+00:00 +3: D:/Projects/Portfolio/test/account_auth_test.dart: A refresh completing after logout cannot restore or persist the old session
+00:00 +4: D:/Projects/Portfolio/test/account_auth_test.dart: Invalid refresh clears the stored session; untrusted endpoints refused
+00:00 +5: loading D:/Projects/Portfolio/test/admin_access_widget_test.dart
+00:01 +5: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:04 +6: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (en)
+00:05 +7: loading D:/Projects/Portfolio/test/company_contract_test.dart
+00:06 +7: D:/Projects/Portfolio/test/company_contract_test.dart: Deferred contact details remain empty; valid international contacts normalize
+00:06 +8: D:/Projects/Portfolio/test/company_contract_test.dart: Invalid contacts and impersonated website are rejected
+00:06 +9: loading D:/Projects/Portfolio/test/drive_bridge_test.dart
+00:07 +9: D:/Projects/Portfolio/test/drive_bridge_test.dart: Base64 request retains Arabic name and authenticated identity in POST body
+00:07 +10: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject unsafe endpoint before sending any request
+00:07 +11: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject oversized, empty and unsupported file locally
+00:07 +12: D:/Projects/Portfolio/test/drive_bridge_test.dart: ContentService redirect uses only Google GET and does not forward token
+00:07 +13: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject redirect to unrelated host
+00:07 +14: D:/Projects/Portfolio/test/drive_bridge_test.dart: Timeout is surfaced; no automatic duplicate upload
+00:07 +15: D:/Projects/Portfolio/test/drive_bridge_test.dart: Anonymous image request has no Firebase token
+00:07 +16: D:/Projects/Portfolio/test/drive_bridge_test.dart: HTML error and malformed upload response do not become success
+00:07 +17: loading D:/Projects/Portfolio/test/firebase_config_test.dart
+00:08 +17: D:/Projects/Portfolio/test/firebase_config_test.dart: Correct project and compatible platform are mandatory
+00:08 +18: D:/Projects/Portfolio/test/firebase_config_test.dart: Public definitions map into the correct Firebase options
+00:08 +19: loading D:/Projects/Portfolio/test/foundation_widget_test.dart
+00:09 +19: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:11 +20: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(360.0, 640.0)
+00:11 +21: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(768.0, 900.0)
+00:11 +22: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(1366.0, 657.0)
+00:11 +23: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +24: loading D:/Projects/Portfolio/test/media_limits_test.dart
+00:13 +24: D:/Projects/Portfolio/test/media_limits_test.dart: Reject 20/50/100 MiB before reading or allocating file bytes
+00:13 +25: loading D:/Projects/Portfolio/test/media_repository_test.dart
+00:14 +25: D:/Projects/Portfolio/test/media_repository_test.dart: Manager tests and atomically saves private settings and public route; editor refuses before ping
+00:14 +26: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T03 guards file size, signature, type and bilingual alt before any operation
+00:14 +27: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T05 registration failure preserves request and recovers same Drive file without resend
+00:14 +28: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T06 timeout after server commit is reconciled before retry; changed file cannot send
+00:14 +29: D:/Projects/Portfolio/test/media_repository_test.dart: Roleless or revoked member cannot prepare or query upload status
+00:14 +30: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T07/T10/T11 shared file survives unlink, ordering, archive and restore; revision conflicts fail
+00:14 +31: D:/Projects/Portfolio/test/media_repository_test.dart: Cache coalesces, evicts by bytes, retries failures and ignores late completion after clear
+00:14 +32: loading D:/Projects/Portfolio/test/media_thumbnail_test.dart
+00:15 +32: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-أفقية.png produces bounded PNG without distortion
+00:15 +33: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-رأسية.jpg produces bounded PNG without distortion
+00:16 +34: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-ويب.webp produces bounded PNG without distortion
+00:16 +35: D:/Projects/Portfolio/test/media_thumbnail_test.dart: small original is not enlarged
+00:16 +36: D:/Projects/Portfolio/test/media_thumbnail_test.dart: truncated input is rejected before upload
+00:16 +37: D:/Projects/Portfolio/test/media_thumbnail_test.dart: oversized image axis is rejected
+00:16 +38: loading D:/Projects/Portfolio/test/media_widgets_test.dart
+00:17 +38: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:19 +39: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/768.0
+00:19 +40: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/1440.0
+00:20 +41: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/360.0
+00:20 +42: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/768.0
+00:20 +43: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/1440.0
+00:21 +44: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/360.0
+00:21 +45: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/768.0
+00:21 +46: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/1440.0
+00:21 +47: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/360.0
+00:22 +48: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/768.0
+00:22 +49: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/1440.0
+00:22 +50: D:/Projects/Portfolio/test/media_widgets_test.dart: Failed Drive image has local placeholder and retries its request
+00:22 +51: loading D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart
+00:23 +51: D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart: Prepare isolated cloud fixtures
+00:23 +51 ~1: loading D:/Projects/Portfolio/test/phase04_rest_integration_test.dart
+00:24 +51 ~1: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (setUpAll)
+00:24 +51 ~1: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore
+00:24 +51 ~2: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: All three cloud editors publish; visitors and roleless users cannot access private data or promote themselves
+00:24 +51 ~3: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Real Auth REST signup does not change manager session; restart and role revocation work
+00:24 +51 ~4: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (tearDownAll)
+00:24 +51 ~4: loading D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart
+00:25 +51 ~4: D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart: Actual isolated Firebase/Drive upload, recovery, reuse and publication
+00:25 +51 ~5: loading D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart
+00:27 +51 ~5: D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart: Actual published catalogue, cursor growth, private isolation and live company change
+00:27 +51 ~6: loading D:/Projects/Portfolio/test/preferences_test.dart
+00:28 +51 ~6: D:/Projects/Portfolio/test/preferences_test.dart: First theme switch from a dark system follows the visible theme
+00:28 +52 ~6: loading D:/Projects/Portfolio/test/project_contract_test.dart
+00:29 +52 ~6: D:/Projects/Portfolio/test/project_contract_test.dart: Optional case study bounded lines round trip and reject partial/mismatched bilingual lists
+00:29 +53 ~6: D:/Projects/Portfolio/test/project_contract_test.dart: Incomplete drafts save without fabricated translations; publishing refuses them
+00:29 +54 ~6: D:/Projects/Portfolio/test/project_contract_test.dart: A complete project publishes without demo links, team names or results
+00:29 +55 ~6: D:/Projects/Portfolio/test/project_contract_test.dart: Unsafe links, duplicate assets and oversized public snapshots fail
+00:29 +56 ~6: loading D:/Projects/Portfolio/test/public_website_test.dart
+00:30 +56 ~6: D:/Projects/Portfolio/test/public_website_test.dart: Story geometry makes a full turn and advances/exits for arbitrary project counts
+00:30 +57 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A SemanticsHandle was active at the end of the test.
+All SemanticsHandle instances must be disposed by calling dispose() on the SemanticsHandle.
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester._verifySemanticsHandlesWereDisposed (package:flutter_test/src/widget_tester.dart:1074:7)
+#1      WidgetTester._endOfTestVerifications (package:flutter_test/src/widget_tester.dart:1063:5)
+#2      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1698:22)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  P06-T03/T04 filters and detail context survive locale switching and browser back
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:33 +57 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back [E]
+  Test failed. See exception logs above.
+  The test description was: P06-T03/T04 filters and detail context survive locale switching and browser back
+  
+Warning: At least one test in this suite creates an HttpClient. When running a test suite that uses
+TestWidgetsFlutterBinding, all HTTP requests will return status code 400, and no network request
+will actually be made. Any test expecting a real network connection and status code will fail.
+To test code that needs an HttpClient, provide your own HttpClient implementation to the code under
+test, so that your test can consistently provide a testable response to the code under test.
+00:33 +57 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 empty/error/retry and unpublished direct link reveal no draft
+00:34 +58 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T06/T10 image next/Escape returns focus to opener
+00:34 +59 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes
+00:35 +60 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+00:36 +61 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar light
+00:36 +62 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+00:37 +63 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en light
+00:38 +64 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en dark
+00:38 +65 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar light
+00:39 +66 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar dark
+00:40 +67 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en light
+00:40 +68 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en dark
+00:41 +69 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar light
+00:41 +70 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar dark
+00:42 +71 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en light
+00:43 +72 ~6 -1: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en dark
+00:43 +73 ~6 -1: Some tests failed.

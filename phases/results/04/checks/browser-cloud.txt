@@ -1,0 +1,12 @@
+{"name":"Protected deep link redirects anonymous visitor","ok":true}
+{"name":"Wrong credentials show readable error","ok":true}
+{"name":"Actual Firebase SDK owner login with role","ok":true}
+{"name":"Protected URL restores SDK session after reload","ok":true}
+{"name":"Manager provisions editor without replacing own SDK session","ok":true}
+{"name":"Manager forms remain available at 360","ok":true}
+{"name":"Manager forms remain available at 768","ok":true}
+{"name":"Logout returns to guarded login","ok":true}
+{"name":"Editor enters workspace without account management","ok":true}
+{"name":"Revoked editor leaves protected screen on role refresh","ok":true}
+{"name":"Recovery uses project owner and sends no email","ok":true}
+{"name":"No uncaught browser errors","ok":true}

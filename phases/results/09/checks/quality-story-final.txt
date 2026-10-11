@@ -1,0 +1,29 @@
+00:00 +0: loading D:/Projects/Portfolio/test/phase09_quality_test.dart
+00:00 +0: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T09 offscreen gallery defers reads and retains image extent
+00:00 +1: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T09 offscreen gallery defers reads and retains image extent
+00:01 +2: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+00:01 +3: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+00:06 +4: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T01/T03 rapid transitions and locale leave a usable final page
+00:07 +5: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T01/T03 rapid transitions and locale leave a usable final page
+00:07 +6: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T01/T03 rapid transitions and locale leave a usable final page
+00:08 +7: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T01/T03 rapid transitions and locale leave a usable final page
+00:08 +8: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes
+00:09 +9: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T04 long sticky gallery exits and OS reduction preserves access
+00:10 +10: D:/Projects/Portfolio/test/public_website_test.dart: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+00:11 +11: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09 touch story Size(360.0, 850.0) follows scroll, cycles projects and exits
+00:12 +12: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar light
+00:12 +13: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09 touch story Size(768.0, 900.0) follows scroll, cycles projects and exits
+00:13 +14: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+00:13 +15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+00:14 +16: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T06 contrast uses actual Flutter themes and gradient surfaces
+00:14 +17: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en light
+00:15 +18: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en dark
+00:16 +19: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar light
+00:17 +20: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar dark
+00:18 +21: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en light
+00:19 +22: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en dark
+00:19 +23: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar light
+00:20 +24: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar dark
+00:21 +25: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en light
+00:22 +26: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en dark
+00:23 +27: All tests passed!

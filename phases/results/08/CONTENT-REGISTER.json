@@ -1,0 +1,291 @@
+{
+  "projects": [
+    {
+      "sourceId": "P001",
+      "documentId": "yogen-p001",
+      "titleAr": "برنامج مبيعات",
+      "titleEn": "",
+      "sourceUrl": "https://dr-sales-activation.web.app",
+      "sourceReference": "dr-sales-activation.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P002",
+      "documentId": "yogen-p002",
+      "titleAr": "عيادة طبيب - موقع حجز ومتابعة حالات",
+      "titleEn": "",
+      "sourceUrl": "https://nexera-2ba1d.web.app",
+      "sourceReference": "nexera-2ba1d.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P003",
+      "documentId": "yogen-p003",
+      "titleAr": "برنامج إدارة مدرسة",
+      "titleEn": "",
+      "sourceUrl": "https://uuwagdy.github.io/School",
+      "sourceReference": "uuwagdy.github.io/School",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P004",
+      "documentId": "yogen-p004",
+      "titleAr": "معمل أسنان - موقع حجز",
+      "titleEn": "",
+      "sourceUrl": "https://quality-dental-lab.web.app",
+      "sourceReference": "quality-dental-lab.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P005",
+      "documentId": "yogen-p005",
+      "titleAr": "مكتب محامي - موقع حجز",
+      "titleEn": "",
+      "sourceUrl": "https://me-and-law.web.app",
+      "sourceReference": "me-and-law.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P006",
+      "documentId": "yogen-p006",
+      "titleAr": "متجر إلكتروني بسيط",
+      "titleEn": "",
+      "sourceUrl": "https://test-8e5e2.web.app",
+      "sourceReference": "test-8e5e2.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P007",
+      "documentId": "yogen-p007",
+      "titleAr": "Portfolio",
+      "titleEn": "Portfolio",
+      "sourceUrl": "https://portofolio-youssab.web.app",
+      "sourceReference": "portofolio-youssab.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P008",
+      "documentId": "yogen-p008",
+      "titleAr": "برنامج مدارس الأحد / مدرسة الشمامسة",
+      "titleEn": "",
+      "sourceUrl": "",
+      "sourceReference": "uuwagdy.github.io/Sun...School",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P009",
+      "documentId": "yogen-p009",
+      "titleAr": "برنامج العضوية الكنسية",
+      "titleEn": "",
+      "sourceUrl": "",
+      "sourceReference": "uuwagdy.github.io/Chu...ership",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P010",
+      "documentId": "yogen-p010",
+      "titleAr": "برنامج ألعاب كنسي",
+      "titleEn": "",
+      "sourceUrl": "https://games-platform-church.web.app",
+      "sourceReference": "games-platform-church.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P011",
+      "documentId": "yogen-p011",
+      "titleAr": "موقع لكنيسة",
+      "titleEn": "",
+      "sourceUrl": "https://mar-markos-anba-beshoy.web.app",
+      "sourceReference": "mar-markos-anba-beshoy.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P012",
+      "documentId": "yogen-p012",
+      "titleAr": "صالون حلاقة - موقع حجز",
+      "titleEn": "",
+      "sourceUrl": "https://tomy-barber-shop-main.web.app",
+      "sourceReference": "tomy-barber-shop-main.web.app",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P013",
+      "documentId": "yogen-p013",
+      "titleAr": "لعبة المرتبطين",
+      "titleEn": "",
+      "sourceUrl": "",
+      "sourceReference": "labyrinth-of-love-47987471064.us-w…",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P014",
+      "documentId": "yogen-p014",
+      "titleAr": "برنامج حساب مرتبات لشركة بالإمارات",
+      "titleEn": "",
+      "sourceUrl": "",
+      "sourceReference": "غير متوفر",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    },
+    {
+      "sourceId": "P015",
+      "documentId": "yogen-p015",
+      "titleAr": "برنامج لخدمة الرجاء للمرضى بالمطرانية",
+      "titleEn": "",
+      "sourceUrl": "",
+      "sourceReference": "غير متوفر",
+      "source": "User project overview; phase 1 catalog",
+      "missing": [
+        "عنوان إنجليزي معتمد",
+        "ملخص ووصف باللغتين",
+        "مساهمة الفريق ونسبة العمل",
+        "حالة الاستخدام",
+        "التصنيف",
+        "معرف URL",
+        "غلاف وصور ووصفها وحق العرض"
+      ],
+      "status": "pending_team_content"
+    }
+  ],
+  "teamProfiles": "Deferred to user; optional",
+  "contacts": "Not provided; private inbox prepared"
+}

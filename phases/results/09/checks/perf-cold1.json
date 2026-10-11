@@ -1,0 +1,203 @@
+{
+  "pageLoads": 1,
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "viewport": [
+    1440,
+    900
+  ],
+  "firstFlutterFrameMs": 8919.900000095367,
+  "shellPaintedMs": 10195,
+  "languageResponseMs": [],
+  "resources": [
+    {
+      "name": "/__qa/metrics.js",
+      "durationMs": 281.39999997615814,
+      "transferBytes": 3567,
+      "encodedBytes": 3267,
+      "decodedBytes": 3267
+    },
+    {
+      "name": "/flutter_bootstrap.js",
+      "durationMs": 385.89999997615814,
+      "transferBytes": 4169,
+      "encodedBytes": 3869,
+      "decodedBytes": 9978
+    },
+    {
+      "name": "/canvaskit/chromium/canvaskit.wasm",
+      "durationMs": 3132.4000000953674,
+      "transferBytes": 2158415,
+      "encodedBytes": 2158115,
+      "decodedBytes": 5686836
+    },
+    {
+      "name": "/canvaskit/chromium/canvaskit.js",
+      "durationMs": 233.29999995231628,
+      "transferBytes": 27747,
+      "encodedBytes": 27447,
+      "decodedBytes": 86496
+    },
+    {
+      "name": "/main.dart.js",
+      "durationMs": 3350.5,
+      "transferBytes": 1168311,
+      "encodedBytes": 1168011,
+      "decodedBytes": 4096328
+    },
+    {
+      "name": "/assets/FontManifest.json",
+      "durationMs": 205.29999995231628,
+      "transferBytes": 487,
+      "encodedBytes": 187,
+      "decodedBytes": 376
+    },
+    {
+      "name": "/favicon.png",
+      "durationMs": 219.10000002384186,
+      "transferBytes": 1217,
+      "encodedBytes": 917,
+      "decodedBytes": 917
+    },
+    {
+      "name": "/assets/fonts/MaterialIcons-Regular.otf",
+      "durationMs": 130.19999992847443,
+      "transferBytes": 8188,
+      "encodedBytes": 7888,
+      "decodedBytes": 14712
+    },
+    {
+      "name": "/assets/assets/fonts/ibmplexsansarabic/IBMPlexSansArabic-Regular.ttf",
+      "durationMs": 327.60000002384186,
+      "transferBytes": 102786,
+      "encodedBytes": 102486,
+      "decodedBytes": 235924
+    },
+    {
+      "name": "/assets/assets/fonts/ibmplexsansarabic/IBMPlexSansArabic-SemiBold.ttf",
+      "durationMs": 398.5,
+      "transferBytes": 107839,
+      "encodedBytes": 107539,
+      "decodedBytes": 244616
+    },
+    {
+      "name": "/assets/assets/fonts/ibmplexsans/IBMPlexSans%255Bwdth,wght%255D.ttf",
+      "durationMs": 956,
+      "transferBytes": 292227,
+      "encodedBytes": 291927,
+      "decodedBytes": 537244
+    },
+    {
+      "name": "external",
+      "durationMs": 36.60000002384186,
+      "transferBytes": 0,
+      "encodedBytes": 63464,
+      "decodedBytes": 63464
+    },
+    {
+      "name": "external",
+      "durationMs": 728.1000000238419,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "/assets/AssetManifest.bin.json",
+      "durationMs": 624.5999999046326,
+      "transferBytes": 628,
+      "encodedBytes": 328,
+      "decodedBytes": 654
+    },
+    {
+      "name": "external",
+      "durationMs": 421.2000000476837,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 375.7999999523163,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 326.2000000476837,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 588.5999999046326,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 650.5999999046326,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 915.1000000238419,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "/assets/planning-assets/yogen-logo-horizontal.png",
+      "durationMs": 1155.5,
+      "transferBytes": 204898,
+      "encodedBytes": 204598,
+      "decodedBytes": 204598
+    },
+    {
+      "name": "external",
+      "durationMs": 205.29999995231628,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 208.70000004768372,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 331.2000000476837,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 333.3000000715256,
+      "transferBytes": 0,
+      "encodedBytes": 0,
+      "decodedBytes": 0
+    },
+    {
+      "name": "external",
+      "durationMs": 11.700000047683716,
+      "transferBytes": 0,
+      "encodedBytes": 66412,
+      "decodedBytes": 66412
+    }
+  ],
+  "visibility": [],
+  "browserRafCadence": {
+    "samples": 126,
+    "medianMs": 16.80000000000109,
+    "p95Ms": 33.600000000000364,
+    "over34ms": 5
+  },
+  "localTransferredBytes": 4082199
+}

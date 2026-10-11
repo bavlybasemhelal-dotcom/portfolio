@@ -1,0 +1,41 @@
+/* Scroll-v4: native page progress changes projects; no wheel/touch interception. */
+.project-scroll-track { position:relative;--project-top:108px;overflow-anchor:none; }
+.project-scroll-track:not([data-scroll-mode="flow"]) > .showcase { position:sticky;top:var(--project-top);padding-block:10px 14px; }
+.scroll-gallery-guide { display:flex;align-items:center;justify-content:space-between;gap:16px;margin-bottom:12px;color:var(--muted);font-size:13px; }
+.scroll-gallery-guide > span { display:flex;align-items:center;gap:8px; }
+.scroll-gallery-guide .icon { color:var(--primary); }
+.scroll-gallery-guide button { min-height:44px;padding:8px 12px;border:1px solid var(--control);color:var(--ink);background:var(--surface);font-size:13px;flex-shrink:0; }
+.scroll-project-select { display:none; }
+.project-scroll-track:not([data-scroll-mode="flow"]) .showcase-layout { min-height:0; }
+.project-scroll-track:not([data-scroll-mode="flow"]) .project-theatre { height:480px; }
+.project-scroll-track:not([data-scroll-mode="flow"]) .showcase-layer { top:66px; }
+.project-scroll-track:not([data-scroll-mode="flow"]) .layer-near { top:42px; }
+.project-scroll-track:not([data-scroll-mode="flow"]) .layer-far { top:18px; }
+.project-scroll-track:not([data-scroll-mode="flow"]) .exhibition-index { margin-top:8px;padding-top:16px;gap:16px; }
+@media(max-width:1100px) and (min-width:901px) {
+  .project-scroll-track:not([data-scroll-mode="flow"]) .project-theatre { height:360px; }
+}
+@media(max-width:900px) {
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-layout { gap:8px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .project-theatre { width:min(100%,42svh,360px);height:min(300px,calc(26svh + 55px));max-width:360px;overflow:hidden; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-layer { top:35px;padding:7px;border-radius:13px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .layer-near { top:20px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .layer-far { top:2px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .browser-bar { height:20px;font-size:8px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .frame-caption { font-size:11px;padding:10px 4px 4px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-copy { gap:8px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-copy h3 { font-size:clamp(21px,3.8vw,28px); }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-category { font-size:13px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-summary { display:none; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-open { min-height:44px;padding:8px 14px;font-size:14px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-controls { gap:12px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .showcase-controls .icon-btn { width:44px;height:44px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .gallery-index { display:none; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .scroll-project-select { display:block;min-height:44px;font-size:14px;padding:8px 12px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .exhibition-index { display:block;margin-top:12px;padding-top:12px; }
+  .project-scroll-track:not([data-scroll-mode="flow"]) .exhibition-index > span { display:none; }
+}
+@media(max-width:600px) {
+  .scroll-gallery-guide { font-size:12px;gap:8px; }
+  .scroll-gallery-guide button { font-size:12px;padding-inline:10px; }
+}

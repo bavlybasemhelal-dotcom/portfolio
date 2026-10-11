@@ -1,0 +1,25 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [
+    {
+      "name": "Three original images arrive byte-identically in browser",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 chrome private anonymous images render without Google login",
+      "ok": true
+    },
+    {
+      "name": "chrome no Drive embed/login frames",
+      "ok": true
+    },
+    {
+      "name": "chrome in-app image zoom dialog",
+      "ok": true
+    }
+  ],
+  "errors": [
+    "chrome gallery: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'English', exact: true }) to be visible\u001b[22m\n"
+  ],
+  "videos": []
+}

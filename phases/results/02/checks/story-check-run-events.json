@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-09",
+  "events": [
+    {
+      "kind": "incomplete-check-run",
+      "scripts": ["story-spacing.cjs", "story-recheck.cjs"],
+      "message": "locator.click: Timeout 30000ms exceeded while waiting for [data-showcase-index=7]",
+      "resultWritten": false,
+      "countsAsPass": false
+    },
+    {
+      "kind": "preview-load-diagnostic",
+      "script": "story-load-diagnostic.cjs",
+      "action": "Drained the local preview server output and checked the page again before rerunning the affected checks.",
+      "projectIndexCount": 15,
+      "scriptHttpStatuses": [200, 200, 200, 200],
+      "requestFailures": [],
+      "pageErrors": []
+    }
+  ]
+}

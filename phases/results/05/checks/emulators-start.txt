@@ -1,0 +1,25 @@
+i  emulators: Starting emulators: auth, firestore
+i  emulators: Detected demo project ID "demo-yogen-phase05", emulated services will use a demo configuration and attempts to access non-emulated services for this project will fail.
+!  hub: emulator hub unable to start on port 4400, starting on 4401 instead.
+!  logging: Logging Emulator unable to start on port 4500, starting on 4501 instead.
+i  firestore: Firestore Emulator logging to firestore-debug.log
++  firestore: Firestore Emulator was started in standard edition.
++  firestore: Firestore Emulator UI websocket is running on 9151.
+!  emulators: The Emulator UI is not starting because none of the running emulators have a UI component.
+
+[90m┌─────────────────────────────────────────────────────────────┐[39m
+[90m│[39m ✔  All emulators ready! It is now safe to connect your app. [90m│[39m
+[90m└─────────────────────────────────────────────────────────────┘[39m
+
+[90m┌────────────────[39m[90m┬────────────────┐[39m
+[90m│[39m[33m Emulator       [39m[90m│[39m[33m Host:Port      [39m[90m│[39m
+[90m├────────────────[39m[90m┼────────────────┤[39m
+[90m│[39m Authentication [90m│[39m 127.0.0.1:9095 [90m│[39m
+[90m├────────────────[39m[90m┼────────────────┤[39m
+[90m│[39m Firestore      [90m│[39m 127.0.0.1:8085 [90m│[39m
+[90m└────────────────[39m[90m┴────────────────┘[39m
+  Emulator Hub host: 127.0.0.1 port: 4401
+  Other reserved ports: 4501, 9151
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 

@@ -1,0 +1,23 @@
+{
+  "environment": "Final release web build, real yogen site, reads only",
+  "checks": [
+    {
+      "name": "Final manager sign-in and actual overview",
+      "ok": true
+    },
+    {
+      "name": "Final project management route",
+      "ok": true
+    },
+    {
+      "name": "Final manager company controls",
+      "ok": true
+    },
+    {
+      "name": "Final public home remains connected to yogen",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

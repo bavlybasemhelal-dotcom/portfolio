@@ -1,0 +1,16 @@
+{
+  "scriptId": "1lHvWFz6bmDMusHkTQa0UXJT83p_pM_f-nKt7JGJcq9QQuIG-wW3b28VV",
+  "rootDir": "google_drive_script",
+  "scriptExtensions": [
+    ".js",
+    ".gs"
+  ],
+  "htmlExtensions": [
+    ".html"
+  ],
+  "jsonExtensions": [
+    ".json"
+  ],
+  "filePushOrder": [],
+  "skipSubdirectories": false
+}

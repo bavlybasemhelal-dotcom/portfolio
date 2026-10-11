@@ -1,0 +1,14 @@
+00:00 +0: loading D:/Projects/Portfolio/test/phase04_rest_integration_test.dart
+00:00 +0: (setUpAll)
+00:00 +0: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore
+00:25 +0 -1: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore [E]
+  TimeoutException after 0:00:25.000000: Future not completed
+  dart:async  _startMicrotaskLoop
+  
+00:25 +0 -1: Real Auth REST signup does not change manager session; restart and role revocation work
+00:50 +0 -2: Real Auth REST signup does not change manager session; restart and role revocation work [E]
+  TimeoutException after 0:00:25.000000: Future not completed
+  dart:async  _startMicrotaskLoop
+  
+00:50 +0 -2: (tearDownAll)
+00:50 +0 -2: Some tests failed.

@@ -1,0 +1,21 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Isolated phase-03 account and path only; all production paths remain denied.
+    match /phase03_checks/{owner}/{collection}/{record} {
+      function testOwner() {
+        return request.auth != null && request.auth.uid == 'QUUM6tS8dGbRd9rpwxOdEw5oLPS2' && owner == request.auth.uid;
+      }
+      allow read: if testOwner() && collection in ['runs', 'media'];
+      allow create, update: if testOwner() && collection in ['runs', 'media']
+        && request.resource.data.testOnly == true
+        && request.resource.data.keys().hasOnly(['testOnly','createdAt','projectId','runId',
+          'fileId','fileName','mimeType','fileSize','directUrl','viewUrl','downloadUrl']);
+      allow delete: if testOwner() && collection in ['runs', 'media'] && resource.data.testOnly == true;
+    }
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

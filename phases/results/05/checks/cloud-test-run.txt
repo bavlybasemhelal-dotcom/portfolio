@@ -1,0 +1,17 @@
+00:00 +0: loading D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart
+00:00 +0: Actual isolated Firebase/Drive upload, recovery, reuse and publication
+Shell: Verified: P05-T01 actual manager connection/settings restore, editor denied at service and rules
+Shell: Verified: P05-T04 actual server rejects anonymous, roleless and revoked existing session
+Shell: Verified: P05-T05 actual Drive commit then injected reference failure; recover same receipt without another upload
+Shell: Verified: Actual image/png upload, same-request deduplication and anonymous byte-identical read
+Shell: Verified: P05-T06 actual committed upload, injected lost response; persistent status query recovers without resend
+Shell: Verified: Actual image/jpeg upload, same-request deduplication and anonymous byte-identical read
+Shell: Verified: Actual image/webp upload, same-request deduplication and anonymous byte-identical read
+Shell: Verified: Actual video/mp4 upload, same-request deduplication and anonymous byte-identical read
+Shell: Verified: Actual video/webm upload, same-request deduplication and anonymous byte-identical read
+Shell: Verified: Actual application/pdf upload, same-request deduplication and anonymous byte-identical read
+Shell: Verified: P05-T03 actual valid MP4 at exactly 5 MiB; oversized and unsupported inputs rejected before upload
+Shell: Verified: P05-T07 one actual file in two projects; draft unlink preserves published usage; unpublish keeps other reference
+Shell: Verified: P05-T02/T11 Arabic landscape/portrait names, stable folder after title change, order and portrait cover persisted
+Shell: Verified: P05-T10 actual archive/restore/republication and independent REST login retain data/file references
+04:36 +1: All tests passed!

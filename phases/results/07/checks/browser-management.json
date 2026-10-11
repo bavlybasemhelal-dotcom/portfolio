@@ -1,0 +1,61 @@
+{
+  "environment": "Chrome manager/editor, actual accounts/category/profile/contact controls in isolated site",
+  "checks": [
+    {
+      "name": "P07-T10 UI creates bilingual enabled category with stable ID",
+      "ok": true
+    },
+    {
+      "name": "P07-T10 category filter applies to project list",
+      "ok": true
+    },
+    {
+      "name": "P07-T13 partial profile is persisted and hidden",
+      "ok": true
+    },
+    {
+      "name": "P07-T13 complete bilingual profile becomes visible in server order",
+      "ok": true
+    },
+    {
+      "name": "P07-T13 public About reads new profile without rebuild",
+      "ok": true
+    },
+    {
+      "name": "P07-T14 validated email and WhatsApp are saved from UI",
+      "ok": true
+    },
+    {
+      "name": "P07-T14 public contact reads manager changes without rebuild",
+      "ok": true
+    },
+    {
+      "name": "P07-T14 invalid channel rejected beside field without changing server",
+      "ok": true
+    },
+    {
+      "name": "P07-T14 blank channels removed from public snapshot",
+      "ok": true
+    },
+    {
+      "name": "P07-T11 UI creation preserves manager session and clears password",
+      "ok": true
+    },
+    {
+      "name": "P07-T11 new account has enabled editor role",
+      "ok": true
+    },
+    {
+      "name": "P07-T07 direct manager page is guarded for editor",
+      "ok": true
+    },
+    {
+      "name": "P07-T07 editor library hides storage connection settings",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "categoryId": "phase07-ui-1791653610406",
+  "profileId": "team1791652734725000",
+  "complete": true
+}

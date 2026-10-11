@@ -1,0 +1,15 @@
+00:00 +0: loading D:/Projects/Portfolio/test/media_widgets_test.dart
+00:00 +0: Media manager settings restore and layout ar/light/360.0
+00:02 +1: Media manager settings restore and layout ar/light/768.0
+00:02 +2: Media manager settings restore and layout ar/light/1440.0
+00:02 +3: Media manager settings restore and layout ar/dark/360.0
+00:02 +4: Media manager settings restore and layout ar/dark/768.0
+00:03 +5: Media manager settings restore and layout ar/dark/1440.0
+00:03 +6: Media manager settings restore and layout en/light/360.0
+00:03 +7: Media manager settings restore and layout en/light/768.0
+00:03 +8: Media manager settings restore and layout en/light/1440.0
+00:04 +9: Media manager settings restore and layout en/dark/360.0
+00:04 +10: Media manager settings restore and layout en/dark/768.0
+00:04 +11: Media manager settings restore and layout en/dark/1440.0
+00:04 +12: Failed Drive image has local placeholder and retries its request
+00:05 +13: All tests passed!

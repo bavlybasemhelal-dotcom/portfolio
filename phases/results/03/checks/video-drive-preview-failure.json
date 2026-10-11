@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-09T20:55:13.114Z",
+  "environment": "Fresh Chrome, no Google login; Drive preview inside a Flutter HtmlElementView",
+  "checks": [],
+  "errors": [
+    "locator.evaluate: Error: video_play_timeout\n    at eval (eval at evaluate (:311:30), <anonymous>:1:111)"
+  ],
+  "networkErrors": [],
+  "beforePlay": {
+    "duration": null,
+    "readyState": 0,
+    "error": null
+  }
+}

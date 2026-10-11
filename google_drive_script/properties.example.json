@@ -1,0 +1,6 @@
+{
+  "FIREBASE_API_KEY": "copy the public key from config/firebase.web.json",
+  "ROOT_FOLDER_ID": "1f-aPcfkLaWly5JZGtcq-6RuSW3xsrck_",
+  "TEST_FOLDER_ID": "176LcK_ck8Eerzs3PvUgk7eJwSXLOyNFz",
+  "ALLOWED_UIDS": "isolated Firebase test user UID; not a client supplied role"
+}

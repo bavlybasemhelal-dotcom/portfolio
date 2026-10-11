@@ -1,0 +1,51 @@
+{
+  "environment": "Default yogen release, clean Chrome, real Firebase",
+  "checks": [
+    {
+      "name": "Default root is the Arabic public website",
+      "ok": true
+    },
+    {
+      "name": "P06-T02 manual theme and language survive reload",
+      "ok": true
+    },
+    {
+      "name": "P06-T05 real YOGEN catalogue is honestly empty",
+      "ok": true
+    },
+    {
+      "name": "P06-T11 no invented member profiles",
+      "ok": true
+    },
+    {
+      "name": "P06-T11 no fabricated public email/phone",
+      "ok": true
+    },
+    {
+      "name": "Deferred submission is disabled and honest",
+      "ok": true
+    },
+    {
+      "name": "Public Firestore reads never use an administrator token",
+      "ok": true
+    },
+    {
+      "name": "Anonymous administrative route still requires login",
+      "ok": true
+    },
+    {
+      "name": "Existing independent manager still signs in",
+      "ok": true
+    },
+    {
+      "name": "Logged-in manager also sees published-only public reads",
+      "ok": true
+    },
+    {
+      "name": "No uncaught browser errors",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

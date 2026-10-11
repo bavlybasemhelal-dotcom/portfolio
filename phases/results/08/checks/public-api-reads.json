@@ -1,0 +1,29 @@
+{
+  "scope": "Anonymous REST reads, no document contents recorded",
+  "checks": [
+    {
+      "name": "published projects query",
+      "status": 200,
+      "ok": true,
+      "hasDocument": null
+    },
+    {
+      "name": "company public document",
+      "status": 200,
+      "ok": true,
+      "hasDocument": true
+    },
+    {
+      "name": "team public collection",
+      "status": 200,
+      "ok": true,
+      "hasDocument": false
+    },
+    {
+      "name": "public media routing",
+      "status": 200,
+      "ok": true,
+      "hasDocument": true
+    }
+  ]
+}

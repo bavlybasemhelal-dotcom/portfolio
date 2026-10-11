@@ -1,0 +1,197 @@
+{
+  "kind": "Phase 02 motion revision only",
+  "date": "2026-10-09",
+  "checks": [
+    {
+      "id": "M01",
+      "name": "Real illuminated geometry produces nonempty pixels",
+      "ok": true,
+      "renderer": "webgl",
+      "triangles": 380,
+      "occupied": 74048,
+      "coverage": 0.23373737373737374,
+      "glError": 0
+    },
+    {
+      "id": "M02",
+      "name": "Scene visibly moves: pixel image changes over time",
+      "ok": true,
+      "beforeFrames": 8,
+      "afterFrames": 49,
+      "beforeAngle": "-0.3563",
+      "afterAngle": "-0.2716",
+      "pixelsChanged": true
+    },
+    {
+      "id": "M03",
+      "name": "Keyboard pause freezes the scene and resume restarts it",
+      "ok": true,
+      "pausedFrames": 59,
+      "pixelsFrozen": true,
+      "pressed": "true"
+    },
+    {
+      "id": "M04",
+      "name": "Resume produces new frames",
+      "ok": true,
+      "resumedFrames": 80
+    },
+    {
+      "id": "M05",
+      "name": "Pointer changes the scene perspective",
+      "ok": true,
+      "before": "-0.2238",
+      "after": "-0.1517"
+    },
+    {
+      "id": "M06",
+      "name": "Scene loop stops outside the viewport",
+      "ok": true,
+      "framesA": 103,
+      "framesB": 103,
+      "running": "false"
+    },
+    {
+      "id": "M07",
+      "name": "Sections animate on entering view",
+      "ok": true,
+      "before": {
+        "revealed": null,
+        "scrollY": 0,
+        "top": 1709.171875,
+        "viewport": 900
+      },
+      "after": {
+        "revealed": "true",
+        "animations": 1,
+        "scrollY": 1237,
+        "top": 472.171875
+      },
+      "recheck": "Fresh navigation and observation of the actual animation start, rather than a fixed timing assumption."
+    },
+    {
+      "id": "M08",
+      "name": "Card hover provides visible depth and image response",
+      "ok": true,
+      "before": "matrix(1, 0, 0, 1, 0, 7.33928e-05)",
+      "transform": "matrix3d(0.999053, -0.000999822, 0.0434888, -3.95353e-05, 0, 0.999736, 0.0229842, -2.08948e-05, -0.0435003, -0.0229625, 0.998789, -0.00090799, 0, -6.99815, -0.16089, 1.00015)",
+      "imageTransform": "matrix(0.974161, 0, 0, 0.974161, 0, 0)"
+    },
+    {
+      "id": "M09",
+      "name": "Card image transitions into the project page",
+      "ok": true,
+      "pointerEvents": "none",
+      "animations": 1
+    },
+    {
+      "id": "M10",
+      "name": "Gallery animates, Escape closes and focus returns",
+      "ok": true,
+      "open": true,
+      "animations": 1,
+      "modalClose": true,
+      "focusReturned": true
+    },
+    {
+      "id": "M11",
+      "name": "Filters transition with correct results, focus and reset",
+      "ok": true,
+      "count": 6,
+      "animations": 1,
+      "focus": "systems",
+      "empty": 0,
+      "reset": 15
+    },
+    {
+      "id": "M12",
+      "name": "Theme and language transitions preserve operable controls",
+      "ok": true,
+      "color": {
+        "theme": "light",
+        "animations": 1,
+        "focus": "theme"
+      },
+      "language": {
+        "lang": "en",
+        "dir": "ltr",
+        "focus": "lang"
+      }
+    },
+    {
+      "id": "M13",
+      "name": "System reduced motion freezes geometry and disables animations",
+      "ok": true,
+      "animations": 0,
+      "scroll": "auto",
+      "disabled": true,
+      "pixelsFrozen": true,
+      "frames": 3
+    },
+    {
+      "id": "M14",
+      "name": "Manual reduced motion is independent of system setting",
+      "ok": true,
+      "running": "false",
+      "animations": 0,
+      "scroll": "auto"
+    },
+    {
+      "id": "M15",
+      "name": "Narrow mobile layout keeps menu and project/gallery controls operable",
+      "ok": true,
+      "menu": {
+        "display": "flex",
+        "animations": 1
+      },
+      "touchProject": true,
+      "touchClosed": true,
+      "viewport": 360,
+      "touch": "Emulated; not a physical phone"
+    },
+    {
+      "id": "M16",
+      "name": "Lost WebGL context keeps readable content and a local image fallback",
+      "ok": true,
+      "renderer": "fallback",
+      "image": "flex",
+      "loaded": true,
+      "main": true
+    },
+    {
+      "id": "M17",
+      "name": "Restored graphics context rebuilds the scene",
+      "ok": true,
+      "renderer": "webgl"
+    },
+    {
+      "id": "M18",
+      "name": "Edge displays 3D and supports pause",
+      "ok": true,
+      "renderer": "webgl",
+      "running": "false"
+    }
+  ],
+  "browsers": [
+    {
+      "browser": "Chrome",
+      "version": "154.0.8037.98",
+      "rendering": "Headless ANGLE SwiftShader software WebGL"
+    },
+    {
+      "browser": "Edge",
+      "version": "154.0.4258.62",
+      "rendering": "Headless ANGLE SwiftShader software WebGL"
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Headless desktop browsers; no physical Android/iOS or Flutter runtime performance measurement."
+  ],
+  "summary": {
+    "checks": 18,
+    "passed": 18,
+    "failed": 0,
+    "scriptErrors": 0
+  }
+}

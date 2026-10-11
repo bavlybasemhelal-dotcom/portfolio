@@ -1,0 +1,15 @@
+{
+  "environment": "Actual manager controls and independent editor session, isolated test site",
+  "checks": [
+    {
+      "name": "P07-T11 disabling through UI revokes independent editor session",
+      "ok": true
+    },
+    {
+      "name": "P07-T11 UI enables editor while manager remains signed in",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

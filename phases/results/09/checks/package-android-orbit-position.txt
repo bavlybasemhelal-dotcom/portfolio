@@ -1,0 +1,4 @@
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -XX:ActiveProcessorCount=2
+Running Gradle task 'assembleDebug'...                            189.8s
+√ Built build\app\outputs\flutter-apk\app-debug.apk

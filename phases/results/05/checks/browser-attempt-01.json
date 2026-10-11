@@ -1,0 +1,8 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [],
+  "errors": [
+    "chrome gallery: page.waitForFunction: Timeout 90000ms exceeded."
+  ],
+  "videos": []
+}

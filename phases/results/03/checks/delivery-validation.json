@@ -1,0 +1,55 @@
+{
+  "localLinksChecked": 102,
+  "brokenLinks": [],
+  "publicTextFilesScanned": 229,
+  "credentialPatternPaths": [],
+  "evidence": {
+    "browser-smoke": {
+      "checks": 10,
+      "failedChecks": 0,
+      "errors": 0
+    },
+    "media-browser": {
+      "checks": 5,
+      "failedChecks": 0,
+      "errors": 0
+    },
+    "video-browser": {
+      "checks": 1,
+      "failedChecks": 0,
+      "errors": 0
+    },
+    "script-contract": {
+      "checks": 9,
+      "failedChecks": 0,
+      "errors": 0
+    },
+    "permissions-cloud": {
+      "checks": 2,
+      "failedChecks": 0,
+      "errors": 0
+    },
+    "performance-gzip": {
+      "checks": 0,
+      "failedChecks": 0,
+      "errors": 0
+    }
+  },
+  "buildArtifacts": [
+    {
+      "path": "build/web/main.dart.js",
+      "bytes": 3176886,
+      "sha256": "2160da72237f6198d102881cd9eee55d20621416d8c183bb18f7aa21ba85bea3"
+    },
+    {
+      "path": "build/windows/x64/runner/Release/yogen_portfolio.exe",
+      "bytes": 15922688,
+      "sha256": "35375f72c7a2d276ca60404182a302969fb8a2fa11cae6e49709eed38dc0c166"
+    },
+    {
+      "path": "build/app/outputs/flutter-apk/app-debug.apk",
+      "bytes": 188252813,
+      "sha256": "38ff6a11c3e0e11cb97337805338538d636c13844314cfa152d2615272430406"
+    }
+  ]
+}

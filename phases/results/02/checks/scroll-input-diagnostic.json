@@ -1,0 +1,15 @@
+{
+  "before": "P006",
+  "after": "P006",
+  "start": 1366,
+  "gesture": {
+    "active": "P002",
+    "scrollY": 1611,
+    "mode": "pinned",
+    "trace": {
+      "start": 1,
+      "move": 10,
+      "end": 1
+    }
+  }
+}

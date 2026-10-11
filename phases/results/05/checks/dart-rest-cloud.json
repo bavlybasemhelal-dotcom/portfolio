@@ -1,0 +1,133 @@
+{
+  "environment": "Actual Dart REST/Auth/Apps Script/Drive, isolated phase04-test; fault injection only at client boundary",
+  "checks": [
+    {
+      "name": "P05-T01 actual manager connection/settings restore, editor denied at service and rules",
+      "ok": true
+    },
+    {
+      "name": "P05-T04 actual server rejects anonymous, roleless and revoked existing session",
+      "ok": true
+    },
+    {
+      "name": "P05-T05 actual Drive commit then injected reference failure; recover same receipt without another upload",
+      "ok": true
+    },
+    {
+      "name": "Actual image/png upload, same-request deduplication and anonymous byte-identical read",
+      "ok": true
+    },
+    {
+      "name": "P05-T06 actual committed upload, injected lost response; persistent status query recovers without resend",
+      "ok": true
+    },
+    {
+      "name": "Actual image/jpeg upload, same-request deduplication and anonymous byte-identical read",
+      "ok": true
+    },
+    {
+      "name": "Actual image/webp upload, same-request deduplication and anonymous byte-identical read",
+      "ok": true
+    },
+    {
+      "name": "Actual video/mp4 upload, same-request deduplication and anonymous byte-identical read",
+      "ok": true
+    },
+    {
+      "name": "Actual video/webm upload, same-request deduplication and anonymous byte-identical read",
+      "ok": true
+    },
+    {
+      "name": "Actual application/pdf upload, same-request deduplication and anonymous byte-identical read",
+      "ok": true
+    },
+    {
+      "name": "P05-T03 actual valid MP4 at exactly 5 MiB; oversized and unsupported inputs rejected before upload",
+      "ok": true
+    },
+    {
+      "name": "P05-T07 one actual file in two projects; draft unlink preserves published usage; unpublish keeps other reference",
+      "ok": true
+    },
+    {
+      "name": "P05-T02/T11 Arabic landscape/portrait names, stable folder after title change, order and portrait cover persisted",
+      "ok": true
+    },
+    {
+      "name": "P05-T10 actual archive/restore/republication and independent REST login retain data/file references",
+      "ok": true
+    }
+  ],
+  "assets": [
+    {
+      "id": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "fileId": "1HWbf6MvBF1ElUza8_lRSgO97G43YOhh6",
+      "thumbnailFileId": "1tRMzwmH0Fx9KaUdLgRYGhu3-9z_mRnGR",
+      "folderId": "1hFU0HEy5tszOoaN1sPXLB5YjxdsvBQhG",
+      "name": "صورة-أفقية.png",
+      "mime": "image/png",
+      "bytes": 3927,
+      "elapsedMs": 31056,
+      "sha256": "5909514f6b1f5add9bb1c4ebff0dd00ddece4f59fa4fad892941703f0d6dff1f"
+    },
+    {
+      "id": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "fileId": "1BIbJD9o_ttxH7ci5cDyC3DEXSoCfHZXy",
+      "thumbnailFileId": "1lVBpolWC6X_yRxCOMD_UXcJXHV1AjpzA",
+      "folderId": "1hFU0HEy5tszOoaN1sPXLB5YjxdsvBQhG",
+      "name": "صورة-رأسية.jpg",
+      "mime": "image/jpeg",
+      "bytes": 13879,
+      "elapsedMs": 30356,
+      "sha256": "508569fd0e019165a58b5ff92093c8cc74d3b4f5d24f426fa92a34e5ae220eae"
+    },
+    {
+      "id": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "fileId": "16kVuTEr5Rir-QV4arRiKTnhbiNROCBbP",
+      "thumbnailFileId": "1VbBfzv5eXfnKuobbgVB1SbBfRgYxBT0u",
+      "folderId": "1hFU0HEy5tszOoaN1sPXLB5YjxdsvBQhG",
+      "name": "صورة-ويب.webp",
+      "mime": "image/webp",
+      "bytes": 2516,
+      "elapsedMs": 20357,
+      "sha256": "e12082d15f75799e730d3f4b923649363dcba9516686920c99e99b8ff891f86b"
+    },
+    {
+      "id": "m_b01a3bbbda42c3fdeac794a53470f5415c1cdfc9c2cbcd2cd6b11f2e2080ada7",
+      "fileId": "1g5Raf05j5BxHzXB1ywbyczr672esik9G",
+      "thumbnailFileId": "",
+      "folderId": "1bqW3i_pWDxDtvLXc8cUi_tD22CFRbom8",
+      "name": "فيديو-اختبار.mp4",
+      "mime": "video/mp4",
+      "bytes": 5242880,
+      "elapsedMs": 87755,
+      "sha256": "7d05e47307a62d3645a43cc83bb775895e5bc31c934da1619263aef78c0cf177"
+    },
+    {
+      "id": "m_e5af75fa6eec6affb7a27f2cf45aa4b831fb3fcd71f727d46d4b2a8896abc183",
+      "fileId": "18y0HNqBgsUmGOkj2qvWS5pT9-u9wq2JK",
+      "thumbnailFileId": "",
+      "folderId": "1bqW3i_pWDxDtvLXc8cUi_tD22CFRbom8",
+      "name": "فيديو-اختبار.webm",
+      "mime": "video/webm",
+      "bytes": 9253,
+      "elapsedMs": 27502,
+      "sha256": "96f14f8743a3d78d4328e1eecd4277c6313e19dbe45f60536adc85fe506e762d"
+    },
+    {
+      "id": "m_c9fe73e1c73c6a29ba6cc14d68593ccc85650f4c0bc70040aed516ea0c589677",
+      "fileId": "1-mwIDup79Ie6yzUuLZpqrBnFEArLnLyd",
+      "thumbnailFileId": "",
+      "folderId": "1L8sNvO1KtH0K4669ZOer7f3VZoSqepp5",
+      "name": "مرفق-اختبار.pdf",
+      "mime": "application/pdf",
+      "bytes": 595,
+      "elapsedMs": 16034,
+      "sha256": "2726806b3ec17d0e6aaf6fd1b590c3dfba86a6f0e9856a62791e1ac2b9ab39fe"
+    }
+  ],
+  "projectId": "phase05-1791602768901",
+  "sharedId": "phase05-shared-1791602768901",
+  "publicGalleryPath": "/#/validation/media-gallery?site=phase04-test&project=phase05-1791602768901",
+  "complete": true
+}

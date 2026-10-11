@@ -1,0 +1,183 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (109.0.0 available)
+  analyzer 10.0.1 (14.5.0 available)
+  archive 4.4.0 (4.5.1 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  file_picker_darwin 2.1.3 (2.2.0 available)
+  file_picker_platform_interface 4.0.0 (4.1.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  go_router 17.5.0 (18.0.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  image 4.10.1 (4.12.0 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.18 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  objective_c 9.5.0 (9.6.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  shared_preferences_android 2.4.23 (2.4.28 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.29.0 (1.33.0 available)
+  test_api 0.7.9 (0.7.15 available)
+  test_core 0.6.15 (0.6.21 available)
+  url_launcher_android 6.3.30 (6.3.33 available)
+  vector_math 2.2.0 (2.4.3 available)
+  video_player 2.11.1 (2.14.1 available)
+  video_player_android 2.9.5 (2.12.2 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+32 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading D:/Projects/Portfolio/test/account_auth_test.dart
+00:00 +0: D:/Projects/Portfolio/test/account_auth_test.dart: Login alias is normalized and never sends mail to the entered Gmail address
+00:00 +1: D:/Projects/Portfolio/test/account_auth_test.dart: Desktop session persists refresh only; independent signup never replaces manager
+00:00 +2: D:/Projects/Portfolio/test/account_auth_test.dart: Restart restores via refresh and concurrent expiration calls share one refresh
+00:00 +3: D:/Projects/Portfolio/test/account_auth_test.dart: A refresh completing after logout cannot restore or persist the old session
+00:00 +4: D:/Projects/Portfolio/test/account_auth_test.dart: Invalid refresh clears the stored session; untrusted endpoints refused
+00:00 +5: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:01 +6: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:01 +7: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +8: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +9: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +10: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +11: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +12: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +13: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +14: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:03 +15: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:05 +16: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:05 +17: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:06 +18: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (en)
+00:09 +19: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:10 +20: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:10 +21: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(360.0, 640.0)
+00:11 +22: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(768.0, 900.0)
+00:11 +23: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(1366.0, 657.0)
+00:11 +24: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +25: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +26: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +27: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +28: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +29: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +30: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:12 +31: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:14 +32: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-أفقية.png produces bounded PNG without distortion
+00:14 +33: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-رأسية.jpg produces bounded PNG without distortion
+00:14 +34: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-ويب.webp produces bounded PNG without distortion
+00:14 +35: D:/Projects/Portfolio/test/media_thumbnail_test.dart: small original is not enlarged
+00:14 +36: D:/Projects/Portfolio/test/media_thumbnail_test.dart: truncated input is rejected before upload
+00:14 +37: D:/Projects/Portfolio/test/media_thumbnail_test.dart: oversized image axis is rejected
+00:15 +38: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:16 +38 ~1: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:18 +38 ~2: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:18 +38 ~3: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:18 +38 ~4: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:19 +39 ~4: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/768.0
+00:19 +39 ~5: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/768.0
+00:20 +40 ~5: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/1440.0
+00:21 +40 ~6: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/1440.0
+00:21 +41 ~6: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/360.0
+00:22 +42 ~6: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/768.0
+00:22 +43 ~6: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/1440.0
+00:23 +44 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:24 +45 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:25 +46 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:25 +47 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:26 +48 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:26 +49 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:27 +50 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:28 +51 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:29 +51 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+00:29 +52 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:31 +53 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:31 +54 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:31 +55 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:31 +56 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:31 +57 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:31 +58 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:31 +59 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:33 +60 ~7: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:34 +60 ~8: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:34 +60 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +61 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +62 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +63 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +64 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +65 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +66 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +67 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +68 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:36 +69 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar dark
+00:41 +70 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar dark
+00:41 +71 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar dark retains responsive fields
+00:41 +72 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:42 +73 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:43 +74 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:43 +75 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:44 +76 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:44 +77 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:45 +78 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:45 +79 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:45 +80 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+00:46 +81 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en light retains responsive fields
+00:46 +82 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en dark
+00:46 +83 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en dark
+00:49 +84 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en dark
+00:50 +85 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en dark
+00:50 +86 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar light
+00:56 +87 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar light
+00:57 +88 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar light
+00:57 +89 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 en light with long request
+00:57 +90 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+00:58 +91 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+00:58 +92 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+00:58 +93 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+00:59 +94 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+00:59 +95 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+01:00 +96 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+01:00 +97 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 ar dark with long request
+01:00 +98 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en light
+01:05 +99 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en light
+01:08 +100 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en light
+01:14 +101 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en dark
+01:42 +102 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en dark
+01:45 +103 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en dark
+01:49 +104 ~9: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T01/T03 rapid transitions and locale leave a usable final page
+02:39 +105 ~9: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T01/T03 rapid transitions and locale leave a usable final page
+02:47 +106 ~9: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T01/T03 rapid transitions and locale leave a usable final page
+02:48 +107 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 en light
+02:50 +108 ~9: D:/Projects/Portfolio/test/phase09_quality_test.dart: P09-T04 long sticky gallery exits and OS reduction preserves access
+02:50 +109 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 en dark
+02:51 +110 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 en dark
+02:54 +111 ~9: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 en dark
+02:55 +112 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: Optional case study bounded lines round trip and reject partial/mismatched bilingual lists
+02:55 +113 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: Incomplete drafts save without fabricated translations; publishing refuses them
+02:55 +114 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: A complete project publishes without demo links, team names or results
+02:55 +115 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: Unsafe links, duplicate assets and oversized public snapshots fail
+02:56 +116 ~9: D:/Projects/Portfolio/test/public_website_test.dart: Story geometry makes a full turn and advances/exits for arbitrary project counts
+02:56 +117 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+03:07 +118 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 empty/error/retry and unpublished direct link reveal no draft
+03:08 +119 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 first-load failure is visible and Retry recovers
+03:09 +120 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T06/T10 image next/Escape returns focus to opener
+03:11 +121 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes
+03:13 +122 ~9: D:/Projects/Portfolio/test/public_website_test.dart: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+03:15 +123 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar light
+03:18 +124 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+03:21 +125 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en light
+03:23 +126 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en dark
+03:26 +127 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar light
+03:28 +128 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar dark
+03:30 +129 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en light
+03:31 +130 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en dark
+03:33 +131 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar light
+03:35 +132 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar dark
+03:36 +133 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en light
+03:39 +134 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en dark
+03:41 +135 ~9: All tests passed!

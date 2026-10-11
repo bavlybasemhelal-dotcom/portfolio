@@ -1,0 +1,66 @@
+{
+  "environment": "Firestore emulator; phase 8 atomic anonymous submission and private staff inbox",
+  "checks": [
+    {
+      "name": "P08-T04 anonymous request and receipt commit atomically",
+      "ok": true
+    },
+    {
+      "name": "P08-T04 invalid name, email, phone, language and brief rejected",
+      "ok": true
+    },
+    {
+      "name": "P08-T04 international phone accepted",
+      "ok": true
+    },
+    {
+      "name": "P08-T05 second write cannot replace accepted input",
+      "ok": true
+    },
+    {
+      "name": "P08-T05 standalone request or receipt denied",
+      "ok": true
+    },
+    {
+      "name": "P08-T05 anonymous reads only non-personal receipt by random ID; receipt listing denied",
+      "ok": true
+    },
+    {
+      "name": "P08-T06 published project titles and ID accepted",
+      "ok": true
+    },
+    {
+      "name": "P08-T06 spoofed title and unpublished project rejected",
+      "ok": true
+    },
+    {
+      "name": "P08-T07 visitors and roleless users cannot read private requests",
+      "ok": true
+    },
+    {
+      "name": "P08-T07 enabled manager and editors can read the team inbox",
+      "ok": true
+    },
+    {
+      "name": "P08-T07 staff may change status and private note with audit",
+      "ok": true
+    },
+    {
+      "name": "P08-T07 submitted contact and context immutable even to manager",
+      "ok": true
+    },
+    {
+      "name": "P08-T07 visitors, revoked accounts and roleless users cannot manage requests",
+      "ok": true
+    },
+    {
+      "name": "P08-T07 unexpected fields, receipt data, forged status and audit rejected",
+      "ok": true
+    },
+    {
+      "name": "P08-T07 arbitrary site and weak receipt ID denied",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

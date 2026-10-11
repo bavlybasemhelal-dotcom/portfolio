@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-09T20:33:36.515789+00:00",
+  "transport": "real Apps Script + Drive + Firestore REST",
+  "checks": [
+    {
+      "name": "anonymous_upload_rejected",
+      "ok": true,
+      "elapsedMs": 1688,
+      "response": {
+        "success": false,
+        "error": "authentication_required"
+      }
+    },
+    {
+      "name": "invalid_token_rejected",
+      "ok": true,
+      "elapsedMs": 1390,
+      "response": {
+        "success": false,
+        "error": "authentication_required"
+      }
+    },
+    {
+      "name": "arabic_image_upload",
+      "ok": true,
+      "bytes": 36009,
+      "elapsedMs": 6609,
+      "response": {
+        "success": true,
+        "projectId": "portfolio-14d15",
+        "testOnly": true,
+        "fileId": "1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29",
+        "fileName": "YOGEN-صورة-اختبار.png",
+        "fileSize": 36009,
+        "mimeType": "image/png",
+        "directUrl": "https://drive.google.com/uc?export=view&id=1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29",
+        "viewUrl": "https://drive.google.com/file/d/1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29/view",
+        "downloadUrl": "https://drive.google.com/uc?export=download&id=1v0XR_P4WEUoXsgWXg2S6YqsyQsugly29"
+      }
+    },
+    {
+      "name": "firestore_media_metadata",
+      "ok": true
+    },
+    {
+      "name": "retry_avoids_duplicate",
+      "ok": true,
+      "elapsedMs": 3484
+    },
+    {
+      "name": "anonymous_image_bytes",
+      "ok": true,
+      "bytes": 36009,
+      "elapsedMs": 3375
+    },
+    {
+      "name": "video_5MiB_real_upload",
+      "ok": false,
+      "bytes": 5242880,
+      "base64Bytes": 6990508,
+      "elapsedMs": 24172,
+      "response": {
+        "success": false,
+        "error": "bridge_failure"
+      }
+    }
+  ]
+}

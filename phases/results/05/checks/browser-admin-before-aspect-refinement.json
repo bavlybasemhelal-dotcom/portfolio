@@ -1,0 +1,87 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [
+    {
+      "name": "P05-T01 manager saved settings restore in browser",
+      "ok": true
+    },
+    {
+      "name": "Editor media library omits private connection settings",
+      "ok": true
+    },
+    {
+      "name": "Actual Flutter browser picker, generated PNG thumbnail and live registration: صورة-أفقية.png",
+      "ok": true
+    },
+    {
+      "name": "Actual Flutter browser picker, generated PNG thumbnail and live registration: صورة-رأسية.jpg",
+      "ok": true
+    },
+    {
+      "name": "Actual Flutter browser picker, generated PNG thumbnail and live registration: صورة-ويب.webp",
+      "ok": true
+    },
+    {
+      "name": "Library bilingual search and media preview with usage metadata",
+      "ok": true
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "videos": [],
+  "networkFailures": [
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/mediaOperations/m_1465cab9f01651f638091974f4e42075fddb11fbb9fe00d3a90b564c11600d26\" not found."
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/media/m_1465cab9f01651f638091974f4e42075fddb11fbb9fe00d3a90b564c11600d26\" not found."
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/mediaOperations/m_032ed6ec03dc92a43361d0bcfbe7b73bee3d4de563771fe3b776e6609ba388fa\" not found."
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/media/m_032ed6ec03dc92a43361d0bcfbe7b73bee3d4de563771fe3b776e6609ba388fa\" not found."
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/mediaOperations/m_d87eba1f6b5a794b9a85ff8510b7b8a0ab390aea9b44373d51d69590b24d0570\" not found."
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/media/m_d87eba1f6b5a794b9a85ff8510b7b8a0ab390aea9b44373d51d69590b24d0570\" not found."
+    }
+  ]
+}

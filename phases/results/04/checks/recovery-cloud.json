@@ -1,0 +1,8 @@
+{
+  "testedOn": "isolated editor fixture, never human owner password",
+  "sameUid": true,
+  "oldPasswordRejected": true,
+  "newPasswordWorks": true,
+  "noEmailSent": true,
+  "stdinOnly": true
+}

@@ -1,0 +1,9 @@
+00:00 +0: loading D:/Projects/Portfolio/test/admin_access_widget_test.dart
+00:00 +0: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +1: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +2: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +3: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +4: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:02 +5: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:03 +6: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (en)
+00:03 +7: All tests passed!

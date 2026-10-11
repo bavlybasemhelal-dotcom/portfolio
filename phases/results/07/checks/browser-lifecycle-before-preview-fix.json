@@ -1,0 +1,41 @@
+{
+  "environment": "Chrome clean context; actual Flutter editor, Firebase/Drive isolated test site",
+  "checks": [
+    {
+      "name": "P07-T11 manager sign-in opens actual overview",
+      "ok": true
+    },
+    {
+      "name": "P07-T03 partial draft confirms real server save",
+      "ok": true
+    },
+    {
+      "name": "P07-T03 publishing incomplete data points to missing fields",
+      "ok": true
+    },
+    {
+      "name": "P07-T01 real editor upload صورة-أفقية.png",
+      "ok": true
+    },
+    {
+      "name": "P07-T01 real editor upload صورة-رأسية.jpg",
+      "ok": true
+    },
+    {
+      "name": "P07-T01 real editor upload صورة-ويب.webp",
+      "ok": true
+    },
+    {
+      "name": "P07-T01 real editor upload video-source.mp4",
+      "ok": true
+    },
+    {
+      "name": "P07-T02 same rich project template used by private preview",
+      "ok": false
+    }
+  ],
+  "errors": [
+    "preview: P07-T02 same rich project template used by private preview"
+  ],
+  "projectId": "phase07-browser-1791653583463"
+}

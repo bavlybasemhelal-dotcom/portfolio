@@ -1,0 +1,101 @@
+{
+  "checkedDate": "2026-10-11",
+  "projects": [
+    {
+      "sourceId": "P001",
+      "url": "https://dr-sales-activation.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://dr-sales-activation.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P002",
+      "url": "https://nexera-2ba1d.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://nexera-2ba1d.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P003",
+      "url": "https://uuwagdy.github.io/School",
+      "httpStatus": 200,
+      "finalUrl": "https://uuwagdy.github.io/School/",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P004",
+      "url": "https://quality-dental-lab.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://quality-dental-lab.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P005",
+      "url": "https://me-and-law.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://me-and-law.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P006",
+      "url": "https://test-8e5e2.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://test-8e5e2.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P007",
+      "url": "https://portofolio-youssab.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://portofolio-youssab.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P008",
+      "url": null,
+      "result": "Missing or truncated source; not reconstructed"
+    },
+    {
+      "sourceId": "P009",
+      "url": null,
+      "result": "Missing or truncated source; not reconstructed"
+    },
+    {
+      "sourceId": "P010",
+      "url": "https://games-platform-church.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://games-platform-church.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P011",
+      "url": "https://mar-markos-anba-beshoy.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://mar-markos-anba-beshoy.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P012",
+      "url": "https://tomy-barber-shop-main.web.app",
+      "httpStatus": 200,
+      "finalUrl": "https://tomy-barber-shop-main.web.app",
+      "scope": "HTTP reachability only; not project functionality or publication permission"
+    },
+    {
+      "sourceId": "P013",
+      "url": null,
+      "result": "Missing or truncated source; not reconstructed"
+    },
+    {
+      "sourceId": "P014",
+      "url": null,
+      "result": "Missing or truncated source; not reconstructed"
+    },
+    {
+      "sourceId": "P015",
+      "url": null,
+      "result": "Missing or truncated source; not reconstructed"
+    }
+  ],
+  "notVerified": "Authentication-protected functions and right to show client work"
+}

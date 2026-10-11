@@ -1,0 +1,200 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (109.0.0 available)
+  analyzer 10.0.1 (14.5.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  go_router 17.5.0 (18.0.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  image 4.10.1 (4.10.2 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.18 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  objective_c 9.5.0 (9.6.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  shared_preferences_android 2.4.23 (2.4.28 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.29.0 (1.33.0 available)
+  test_api 0.7.9 (0.7.15 available)
+  test_core 0.6.15 (0.6.21 available)
+  url_launcher_android 6.3.30 (6.3.33 available)
+  vector_math 2.2.0 (2.4.3 available)
+  video_player 2.11.1 (2.14.1 available)
+  video_player_android 2.9.5 (2.12.2 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+29 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading D:/Projects/Portfolio/test/account_auth_test.dart
+00:00 +0: D:/Projects/Portfolio/test/account_auth_test.dart: Login alias is normalized and never sends mail to the entered Gmail address
+00:00 +1: D:/Projects/Portfolio/test/account_auth_test.dart: Desktop session persists refresh only; independent signup never replaces manager
+00:00 +2: D:/Projects/Portfolio/test/account_auth_test.dart: Restart restores via refresh and concurrent expiration calls share one refresh
+00:00 +3: D:/Projects/Portfolio/test/account_auth_test.dart: A refresh completing after logout cannot restore or persist the old session
+00:00 +4: D:/Projects/Portfolio/test/account_auth_test.dart: Invalid refresh clears the stored session; untrusted endpoints refused
+00:00 +5: loading D:/Projects/Portfolio/test/admin_access_widget_test.dart
+00:02 +5: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:07 +6: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (en)
+00:09 +7: loading D:/Projects/Portfolio/test/company_contract_test.dart
+00:10 +7: D:/Projects/Portfolio/test/company_contract_test.dart: Deferred contact details remain empty; valid international contacts normalize
+00:10 +8: D:/Projects/Portfolio/test/company_contract_test.dart: Invalid contacts and impersonated website are rejected
+00:10 +9: loading D:/Projects/Portfolio/test/drive_bridge_test.dart
+00:12 +9: D:/Projects/Portfolio/test/drive_bridge_test.dart: Base64 request retains Arabic name and authenticated identity in POST body
+00:12 +10: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject unsafe endpoint before sending any request
+00:12 +11: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject oversized, empty and unsupported file locally
+00:12 +12: D:/Projects/Portfolio/test/drive_bridge_test.dart: ContentService redirect uses only Google GET and does not forward token
+00:12 +13: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject redirect to unrelated host
+00:12 +14: D:/Projects/Portfolio/test/drive_bridge_test.dart: Timeout is surfaced; no automatic duplicate upload
+00:12 +15: D:/Projects/Portfolio/test/drive_bridge_test.dart: Anonymous image request has no Firebase token
+00:12 +16: D:/Projects/Portfolio/test/drive_bridge_test.dart: HTML error and malformed upload response do not become success
+00:12 +17: loading D:/Projects/Portfolio/test/firebase_config_test.dart
+00:14 +17: D:/Projects/Portfolio/test/firebase_config_test.dart: Correct project and compatible platform are mandatory
+00:14 +18: D:/Projects/Portfolio/test/firebase_config_test.dart: Public definitions map into the correct Firebase options
+00:14 +19: loading D:/Projects/Portfolio/test/foundation_widget_test.dart
+00:15 +19: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:18 +20: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(360.0, 640.0)
+00:18 +21: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(768.0, 900.0)
+00:19 +22: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(1366.0, 657.0)
+00:19 +23: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:20 +24: loading D:/Projects/Portfolio/test/media_limits_test.dart
+00:21 +24: D:/Projects/Portfolio/test/media_limits_test.dart: Reject 20/50/100 MiB before reading or allocating file bytes
+00:21 +25: loading D:/Projects/Portfolio/test/media_repository_test.dart
+00:22 +25: D:/Projects/Portfolio/test/media_repository_test.dart: Manager tests and atomically saves private settings and public route; editor refuses before ping
+00:22 +26: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T03 guards file size, signature, type and bilingual alt before any operation
+00:23 +27: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T05 registration failure preserves request and recovers same Drive file without resend
+00:23 +28: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T06 timeout after server commit is reconciled before retry; changed file cannot send
+00:23 +29: D:/Projects/Portfolio/test/media_repository_test.dart: Roleless or revoked member cannot prepare or query upload status
+00:23 +30: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T07/T10/T11 shared file survives unlink, ordering, archive and restore; revision conflicts fail
+00:23 +31: D:/Projects/Portfolio/test/media_repository_test.dart: Cache coalesces, evicts by bytes, retries failures and ignores late completion after clear
+00:23 +32: loading D:/Projects/Portfolio/test/media_thumbnail_test.dart
+00:24 +32: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-أفقية.png produces bounded PNG without distortion
+00:24 +33: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-رأسية.jpg produces bounded PNG without distortion
+00:25 +34: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-ويب.webp produces bounded PNG without distortion
+00:25 +35: D:/Projects/Portfolio/test/media_thumbnail_test.dart: small original is not enlarged
+00:25 +36: D:/Projects/Portfolio/test/media_thumbnail_test.dart: truncated input is rejected before upload
+00:25 +37: D:/Projects/Portfolio/test/media_thumbnail_test.dart: oversized image axis is rejected
+00:25 +38: loading D:/Projects/Portfolio/test/media_widgets_test.dart
+00:26 +38: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:30 +39: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/768.0
+00:31 +40: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/1440.0
+00:31 +41: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/360.0
+00:32 +42: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/768.0
+00:33 +43: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/1440.0
+00:33 +44: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/360.0
+00:34 +45: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/768.0
+00:35 +46: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/1440.0
+00:35 +47: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/360.0
+00:36 +48: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/768.0
+00:37 +49: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/1440.0
+00:37 +50: D:/Projects/Portfolio/test/media_widgets_test.dart: Failed Drive image has local placeholder and retries its request
+00:38 +51: loading D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart
+00:41 +51: D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart: Prepare isolated cloud fixtures
+00:41 +51 ~1: loading D:/Projects/Portfolio/test/phase04_rest_integration_test.dart
+00:43 +51 ~1: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (setUpAll)
+00:43 +51 ~1: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore
+00:43 +51 ~2: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: All three cloud editors publish; visitors and roleless users cannot access private data or promote themselves
+00:43 +51 ~3: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Real Auth REST signup does not change manager session; restart and role revocation work
+00:43 +51 ~4: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (tearDownAll)
+00:43 +51 ~4: loading D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart
+00:46 +51 ~4: D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart: Actual isolated Firebase/Drive upload, recovery, reuse and publication
+00:46 +51 ~5: loading D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart
+00:48 +51 ~5: D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart: Actual published catalogue, cursor growth, private isolation and live company change
+00:48 +51 ~6: loading D:/Projects/Portfolio/test/phase07_admin_layout_test.dart
+00:51 +51 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T05 expired access retains unsaved form for same-account recovery
+01:00 +52 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar light
+01:08 +53 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 ar dark
+01:14 +54 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en light
+01:19 +55 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 360.0 en dark
+01:24 +56 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar light
+01:29 +57 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 ar dark
+01:33 +58 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en light
+01:37 +59 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 768.0 en dark
+01:42 +60 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 ar light
+01:46 +61 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 ar dark
+01:51 +62 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 en light
+01:56 +63 ~6: D:/Projects/Portfolio/test/phase07_admin_layout_test.dart: P07-T12 administrative screens/editor tabs 1440.0 en dark
+02:00 +64 ~6: loading D:/Projects/Portfolio/test/phase07_cloud_integration_test.dart
+02:02 +64 ~6: D:/Projects/Portfolio/test/phase07_cloud_integration_test.dart: Phase 7 actual Firebase management lifecycle in isolated site
+02:02 +64 ~7: loading D:/Projects/Portfolio/test/phase07_editor_test.dart
+02:05 +64 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T03 partial optional content persists and points to missing publication fields
+02:05 +65 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T04 offline save never confirms; account-scoped recovery reopens then saves
+02:05 +66 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T05 editor changes arriving during server save retain recovery and require another save
+02:05 +67 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T05 recovery keeps its old revision and refuses overwriting a newer session
+02:05 +68 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T08 duplicate clears stable slug and reuses ordered asset IDs without any transport
+02:06 +69 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T13 partial profile remains hidden; four complete profiles order/show/hide without auth changes
+02:06 +70 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T14 empty contacts publish; valid edits/removal require acknowledged publication
+02:06 +71 ~7: D:/Projects/Portfolio/test/phase07_editor_test.dart: P07-T02 shared renderer shows headings lists bold safe links and inert markup at phone width
+02:07 +72 ~7: loading D:/Projects/Portfolio/test/phase08_cloud_integration_test.dart
+02:09 +72 ~7: D:/Projects/Portfolio/test/phase08_cloud_integration_test.dart: Phase 8 actual private request receipt, retry and manager inbox
+02:09 +72 ~8: D:/Projects/Portfolio/test/phase08_cloud_integration_test.dart: Phase 8 prepare 15 user-supplied titles as private YOGEN drafts
+02:09 +72 ~9: loading D:/Projects/Portfolio/test/phase08_contact_test.dart
+02:10 +72 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T04 strict contact address and bounded brief
+02:10 +73 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T04 acknowledge only after private input and receipt commit
+02:10 +74 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T05 rapid double press performs one write
+02:10 +75 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T05 offline unknown outcome freezes payload and persists same ID
+02:10 +76 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T05 committed request with lost response is confirmed on retry without a new write
+02:10 +77 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T05 recovery separates site scopes and clear leaves unresolved submission intact
+02:10 +78 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T06 immutable project ID, both names and original language survive recovery
+02:10 +79 ~9: D:/Projects/Portfolio/test/phase08_contact_test.dart: P08-T07 staff status changes preserve submitted input and audit actor
+02:10 +80 ~9: loading D:/Projects/Portfolio/test/phase08_contact_widget_test.dart
+02:12 +80 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar light retains responsive fields
+02:15 +81 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar dark retains responsive fields
+02:16 +82 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en light retains responsive fields
+02:16 +83 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en dark retains responsive fields
+02:16 +84 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar light retains responsive fields
+02:17 +85 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar dark retains responsive fields
+02:17 +86 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en light retains responsive fields
+02:17 +87 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en dark retains responsive fields
+02:18 +88 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar light retains responsive fields
+02:18 +89 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar dark retains responsive fields
+02:18 +90 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en light retains responsive fields
+02:19 +91 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en dark retains responsive fields
+02:19 +92 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 invalid submission retains fields and provides linked error summary
+02:21 +93 ~9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T06 supplied query cannot spoof published title; submission saves canonical context
+02:22 +94 ~9: loading D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart
+02:23 +94 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 ar light with long request
+02:27 +95 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 ar dark with long request
+02:27 +96 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 en light with long request
+02:28 +97 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 en dark with long request
+02:28 +98 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 ar light with long request
+02:28 +99 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 ar dark with long request
+02:29 +100 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 en light with long request
+02:29 +101 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 en dark with long request
+02:29 +102 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 ar light with long request
+02:30 +103 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 ar dark with long request
+02:30 +104 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 en light with long request
+02:30 +105 ~9: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 en dark with long request
+02:31 +106 ~9: loading D:/Projects/Portfolio/test/preferences_test.dart
+02:32 +106 ~9: D:/Projects/Portfolio/test/preferences_test.dart: First theme switch from a dark system follows the visible theme
+02:32 +107 ~9: loading D:/Projects/Portfolio/test/project_contract_test.dart
+02:34 +107 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: Optional case study bounded lines round trip and reject partial/mismatched bilingual lists
+02:34 +108 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: Incomplete drafts save without fabricated translations; publishing refuses them
+02:34 +109 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: A complete project publishes without demo links, team names or results
+02:34 +110 ~9: D:/Projects/Portfolio/test/project_contract_test.dart: Unsafe links, duplicate assets and oversized public snapshots fail
+02:34 +111 ~9: loading D:/Projects/Portfolio/test/public_website_test.dart
+02:35 +111 ~9: D:/Projects/Portfolio/test/public_website_test.dart: Story geometry makes a full turn and advances/exits for arbitrary project counts
+02:35 +112 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+02:41 +113 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 empty/error/retry and unpublished direct link reveal no draft
+02:41 +114 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 first-load failure is visible and Retry recovers
+02:42 +115 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T06/T10 image next/Escape returns focus to opener
+02:42 +116 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes
+02:44 +117 ~9: D:/Projects/Portfolio/test/public_website_test.dart: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+02:45 +118 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar light
+02:46 +119 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+02:47 +120 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en light
+02:48 +121 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en dark
+02:49 +122 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar light
+02:51 +123 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar dark
+02:52 +124 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en light
+02:53 +125 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en dark
+02:53 +126 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar light
+02:54 +127 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar dark
+02:55 +128 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en light
+02:56 +129 ~9: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en dark
+02:57 +130 ~9: All tests passed!

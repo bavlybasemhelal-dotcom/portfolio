@@ -1,0 +1,31 @@
+{
+  "completedClientDate": "2026-10-11",
+  "scope": "Phase 7 only; phase 8 not started",
+  "flutterTests": 96,
+  "rulesChecks": 15,
+  "cloudChecks": 17,
+  "browserFunctionalChecks": 38,
+  "visualStates": 108,
+  "keyboardMotionChecks": 3,
+  "releaseReadChecks": 4,
+  "nativeDeviceTested": false,
+  "windowsDeferred": true,
+  "artifacts": {
+    "web": {
+      "path": "D:\\Projects\\Portfolio\\build\\web\\main.dart.js",
+      "bytes": 4065097,
+      "sha256": "742c439af4396bf976adb2f9410b37d17208a4a1ecef440bfb02b77a9a10857c"
+    },
+    "previewWeb": {
+      "path": "D:\\Projects\\Portfolio\\.runtime\\phase07-release-web\\main.dart.js",
+      "bytes": 4065097,
+      "sha256": "742c439af4396bf976adb2f9410b37d17208a4a1ecef440bfb02b77a9a10857c"
+    },
+    "androidDebug": {
+      "path": "D:\\Projects\\Portfolio\\build\\app\\outputs\\flutter-apk\\app-debug.apk",
+      "bytes": 232583325,
+      "sha256": "f18404c88d7608b0c6f7f5515980f8c903a5d118b09017e4990ab2e6bd1dd1d9"
+    }
+  },
+  "previewMatchesBuiltWeb": true
+}

@@ -1,0 +1,42 @@
+{
+    "name": "YOGEN",
+    "short_name": "YOGEN",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#081120",
+    "theme_color": "#081120",
+    "description": "YOGEN — Custom software applications. Ideas for a brighter tomorrow.",
+    "orientation": "any",
+    "scope": ".",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icons/yogen-mark.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "icons/Icon-192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icons/Icon-maskable-192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable"
+        },
+        {
+            "src": "icons/Icon-maskable-512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}

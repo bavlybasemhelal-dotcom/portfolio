@@ -1,0 +1,41 @@
+00:00 +0: loading D:/Projects/Portfolio/test/public_website_test.dart
+00:00 +0: Story geometry makes a full turn and advances/exits for arbitrary project counts
+00:00 +1: P06-T03/T04 filters and detail context survive locale switching and browser back
+
+Warning: A call to tap() with finder "Found 1 widget with type "ProjectCard" (ignoring all but first): [
+  ProjectCard(dependencies: [Directionality, InheritedCupertinoTheme, MediaQuery, _InheritedTheme, _LocalizationsScope-[GlobalKey#27146], _ScrollableScope, _UncontrolledProviderScope], state: _ProjectCardState#f9f74),
+]" derived an Offset (Offset(301.3, 345.0)) that would not hit test on the specified widget.
+Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+The finder corresponds to this RenderBox: RenderTransform#cb17f relayoutBoundary=up8
+The hit test result at that offset is: HitTestResult(RenderImage#5eefc@Offset(196.3, 209.0), RenderSemanticsAnnotations#2b396@Offset(196.3, 209.0), _RenderColoredBox#3b1dc@Offset(196.3, 209.0), RenderClipRRect#26284@Offset(196.3, 209.0), RenderFlex#b69d5@Offset(196.3, 209.0), RenderPointerListener#fd56c@Offset(196.3, 209.0), RenderSemanticsAnnotations#d3874@Offset(196.3, 209.0), RenderMouseRegion#0ea6e@Offset(196.3, 209.0), RenderSemanticsAnnotations#9a09d@Offset(196.3, 209.0), _RenderInkFeatures#f6cef@Offset(196.3, 209.0), RenderPhysicalModel#6615d@Offset(196.3, 209.0), RenderPadding#672e1@Offset(197.3, 210.0), RenderDecoratedBox#a7c9e@Offset(197.3, 210.0), RenderFlex#03390@Offset(197.3, 210.0), RenderPadding#68d83@Offset(221.3, 222.0), RenderConstrainedBox#a56a8@Offset(221.3, 222.0), RenderPositionedBox#45c5b@Offset(301.3, 222.0), RenderRepaintBoundary#baec0@Offset(301.3, 222.0), RenderIndexedSemantics#0ffbc@Offset(301.3, 222.0), RenderSliverList@(mainAxis: 222.0, crossAxis: 301.33333333333337), RenderViewport#69e17@Offset(301.3, 259.0), RenderIgnorePointer#b70bf@Offset(301.3, 259.0), RenderSemanticsAnnotations#fe346@Offset(301.3, 259.0), RenderPointerListener#42962@Offset(301.3, 259.0), RenderSemanticsGestureHandler#efb8f@Offset(301.3, 259.0), RenderPointerListener#a3082@Offset(301.3, 259.0), _RenderScrollSemantics#4a987@Offset(301.3, 259.0), RenderClipRect#7fc4a@Offset(301.3, 259.0), RenderSemanticsAnnotations#dbe42@Offset(301.3, 259.0), RenderSemanticsAnnotations#f2b26@Offset(301.3, 259.0), RenderRepaintBoundary#556cf@Offset(301.3, 259.0), RenderIgnorePointer#23f6e@Offset(301.3, 259.0), RenderAnimatedOpacity#e3030@Offset(301.3, 259.0), RenderAnimatedOpacity#29342@Offset(301.3, 259.0), _RenderColoredBox#4f856@Offset(301.3, 259.0), RenderAnimatedOpacity#5e775@Offset(301.3, 259.0), RenderIgnorePointer#78886@Offset(301.3, 259.0), RenderAnimatedOpacity#65251@Offset(301.3, 259.0), RenderRepaintBoundary#bb58b@Offset(301.3, 259.0), RenderSemanticsAnnotations#48ffc@Offset(301.3, 259.0), RenderOffstage#6bc0a@Offset(301.3, 259.0), RenderSemanticsAnnotations#a2ccf@Offset(301.3, 259.0), _RenderTheater#833fe@Offset(301.3, 259.0), RenderAbsorbPointer#aa406@Offset(301.3, 259.0), RenderPointerListener#76a57@Offset(301.3, 259.0), RenderFlex#0f5e2@Offset(301.3, 345.0), RenderPadding#501fa@Offset(301.3, 345.0), RenderDecoratedBox#89a9b@Offset(301.3, 345.0), RenderCustomMultiChildLayoutBox#b758c@Offset(301.3, 345.0), _RenderInkFeatures#9a719@Offset(301.3, 345.0), RenderPhysicalModel#5ed5e@Offset(301.3, 345.0), RenderSemanticsAnnotations#9974e@Offset(301.3, 345.0), RenderRepaintBoundary#c8168@Offset(301.3, 345.0), RenderIgnorePointer#d796b@Offset(301.3, 345.0), RenderAnimatedOpacity#7056d@Offset(301.3, 345.0), RenderAnimatedOpacity#c70d7@Offset(301.3, 345.0), _RenderColoredBox#18d78@Offset(301.3, 345.0), RenderAnimatedOpacity#54ba8@Offset(301.3, 345.0), RenderIgnorePointer#429b6@Offset(301.3, 345.0), RenderAnimatedOpacity#805f0@Offset(301.3, 345.0), RenderRepaintBoundary#43fab@Offset(301.3, 345.0), RenderSemanticsAnnotations#cd0ab@Offset(301.3, 345.0), RenderOffstage#5d64b@Offset(301.3, 345.0), RenderSemanticsAnnotations#3c81b@Offset(301.3, 345.0), _RenderTheater#092cb@Offset(301.3, 345.0), RenderAbsorbPointer#13e77@Offset(301.3, 345.0), RenderPointerListener#38f16@Offset(301.3, 345.0), RenderSemanticsAnnotations#d1764@Offset(301.3, 345.0), RenderSemanticsAnnotations#071f4@Offset(301.3, 345.0), RenderSemanticsAnnotations#deb26@Offset(301.3, 345.0), RenderTapRegionSurface#eda62@Offset(301.3, 345.0), RenderSemanticsAnnotations#4015c@Offset(301.3, 345.0), RenderSemanticsAnnotations#fa91c@Offset(301.3, 345.0), HitTestEntry<HitTestTarget>#8d833(_ReusableRenderView#fe95f), HitTestEntry<HitTestTarget>#1f245(<AutomatedTestWidgetsFlutterBinding>))
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2144:25)
+#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1928:12)
+#2      WidgetController.tap (package:flutter_test/src/controller.dart:1061:7)
+#3      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/public_website_test.dart:87:15)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+#6      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+To silence this warning, pass "warnIfMissed: false" to "tap()".
+To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+
+00:03 +2: P06-T05 empty/error/retry and unpublished direct link reveal no draft
+00:04 +3: P06-T06/T10 image next/Escape returns focus to opener
+00:04 +4: P06-T08 contact project and entered fields survive locale changes
+00:05 +5: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+00:06 +6: P06-T09 all routes Size(360.0, 850.0) ar light
+00:06 +7: P06-T09 all routes Size(360.0, 850.0) ar dark
+00:07 +8: P06-T09 all routes Size(360.0, 850.0) en light
+00:08 +9: P06-T09 all routes Size(360.0, 850.0) en dark
+00:08 +10: P06-T09 all routes Size(768.0, 900.0) ar light
+00:09 +11: P06-T09 all routes Size(768.0, 900.0) ar dark
+00:10 +12: P06-T09 all routes Size(768.0, 900.0) en light
+00:10 +13: P06-T09 all routes Size(768.0, 900.0) en dark
+00:11 +14: P06-T09 all routes Size(1440.0, 900.0) ar light
+00:11 +15: P06-T09 all routes Size(1440.0, 900.0) ar dark
+00:12 +16: P06-T09 all routes Size(1440.0, 900.0) en light
+00:12 +17: P06-T09 all routes Size(1440.0, 900.0) en dark
+00:13 +18: All tests passed!

@@ -1,0 +1,19 @@
+{
+  "environment": "Live Firebase/anonymous browser; phase04-test only",
+  "checks": [
+    {
+      "name": "P06-T11 missing profiles/channels hidden initially",
+      "ok": true
+    },
+    {
+      "name": "P06-T11 real published profile/contact appear in open pages without reload",
+      "ok": true
+    },
+    {
+      "name": "P06-T11 unpublished profile/contact disappear without rebuild",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

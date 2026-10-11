@@ -1,0 +1,23 @@
+YOGEN
+Technical verification · Phase 05
+العربية
+Theme
+Pause motion
+Storage and media
+Team workspace
+PNG/JPEG/WebP images, MP4/WebM video and PDF. Current limit: 5 MiB per file. Unlinking or archiving keeps the Drive file.
+Test and save connection
+Organize under Project
+Choose and upload file
+Media library
+Refresh library
+Preview and usages
+Preview and usages
+Preview and usages
+Preview and usages
+Preview and usages
+Preview and usages
+Preview and usages
+Preview and usages
+Preview and usages
+Load project links

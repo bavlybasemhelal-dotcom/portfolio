@@ -1,0 +1,336 @@
+{
+  "home": [
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/story-v3/home-final-ar-light-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/story-v3/home-final-ar-dark-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/story-v3/home-final-en-light-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/story-v3/home-final-en-dark-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/story-v3/home-final-ar-light-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/story-v3/home-final-ar-dark-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/story-v3/home-final-en-light-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/story-v3/home-final-en-dark-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/story-v3/home-final-ar-light-1440.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/story-v3/home-final-ar-dark-1440.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/story-v3/home-final-en-light-1440.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/story-v3/home-final-en-dark-1440.png"
+    }
+  ],
+  "layout": [
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "scroll": 360,
+      "viewport": 360,
+      "selected": "P008",
+      "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+      "frameCopyGap": 43.808837890625
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "scroll": 360,
+      "viewport": 360,
+      "selected": "P008",
+      "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+      "frameCopyGap": 43.808837890625
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "scroll": 360,
+      "viewport": 360,
+      "selected": "P008",
+      "title": "Sunday School / Deacon School Application",
+      "frameCopyGap": 41.15087890625
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "scroll": 360,
+      "viewport": 360,
+      "selected": "P008",
+      "title": "Sunday School / Deacon School Application",
+      "frameCopyGap": 41.15087890625
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "scroll": 768,
+      "viewport": 768,
+      "selected": "P008",
+      "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+      "frameCopyGap": 44.238525390625
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "scroll": 768,
+      "viewport": 768,
+      "selected": "P008",
+      "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+      "frameCopyGap": 44.238525390625
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "scroll": 768,
+      "viewport": 768,
+      "selected": "P008",
+      "title": "Sunday School / Deacon School Application",
+      "frameCopyGap": 44.14459228515625
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "scroll": 768,
+      "viewport": 768,
+      "selected": "P008",
+      "title": "Sunday School / Deacon School Application",
+      "frameCopyGap": 44.14459228515625
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "scroll": 1440,
+      "viewport": 1440,
+      "selected": "P008",
+      "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+      "frameCopyGap": -460.9703369140625
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "scroll": 1440,
+      "viewport": 1440,
+      "selected": "P008",
+      "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+      "frameCopyGap": -460.9703369140625
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "scroll": 1440,
+      "viewport": 1440,
+      "selected": "P008",
+      "title": "Sunday School / Deacon School Application",
+      "frameCopyGap": -502.80926513671875
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "scroll": 1440,
+      "viewport": 1440,
+      "selected": "P008",
+      "title": "Sunday School / Deacon School Application",
+      "frameCopyGap": -502.80926513671875
+    }
+  ],
+  "landscape": {
+    "scroll": 812,
+    "viewport": 812,
+    "chapter": "relative"
+  },
+  "errors": []
+}

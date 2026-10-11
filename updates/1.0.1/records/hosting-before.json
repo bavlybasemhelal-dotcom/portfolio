@@ -1,0 +1,13 @@
+{
+  "projectId": "portfolio-14d15",
+  "site": "portfolio-14d15",
+  "url": "https://portfolio-14d15.web.app",
+  "releaseId": null,
+  "candidateReleaseId": "yogen-1.0.1+11",
+  "hostingVersion": "projects/portfolio-14d15/sites/portfolio-14d15/versions/0de2c168584b6c66",
+  "hostingRelease": "projects/portfolio-14d15/sites/portfolio-14d15/channels/live/releases/1791758980624000",
+  "deployedAt": "2026-10-11T22:49:40.624Z",
+  "scope": "public-live",
+  "runtimeTestsExecuted": false,
+  "apiReceiptOnly": true
+}

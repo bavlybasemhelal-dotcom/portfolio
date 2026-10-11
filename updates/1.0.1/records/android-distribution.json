@@ -1,0 +1,15 @@
+{
+  "releaseId": "yogen-1.0.1+11",
+  "fileId": "1rKAARrlUxfEUzmgNpYlk59ZY9hfr4xsV",
+  "fileName": "yogen-1.0.1.apk",
+  "bytes": 62169041,
+  "url": "https://drive.google.com/file/d/1rKAARrlUxfEUzmgNpYlk59ZY9hfr4xsV/view?usp=drivesdk",
+  "parentIds": [
+    "1y8MEzCMLvqdsOvHpqTuNFG1f5aFV2u_J"
+  ],
+  "publicReadLink": true,
+  "sharingPreserved": true,
+  "modifiedAt": "2026-10-11T23:42:56.257Z",
+  "source": "Drive connector update and metadata readback",
+  "downloadInstallTestsExecuted": false
+}

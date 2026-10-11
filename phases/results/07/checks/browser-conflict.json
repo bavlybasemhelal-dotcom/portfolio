@@ -1,0 +1,17 @@
+{
+  "environment": "Actual Flutter editor and independent Firestore write, isolated phase04-test site",
+  "checks": [
+    {
+      "name": "P07-T04/05 conflict preserves local form and newer server version",
+      "ok": true
+    },
+    {
+      "name": "P07-T05 conflict copy keeps edits and requires a new public URL",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "projectId": "phase07-conflict-1791653454166",
+  "copyId": "p1791653468033000",
+  "complete": true
+}

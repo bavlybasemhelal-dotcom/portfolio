@@ -1,0 +1,27 @@
+{
+  "site": "yogen",
+  "environment": "Final release Web, Chrome, actual SDK manager; no test account creation",
+  "checks": [
+    {
+      "name": "Final anonymous guard",
+      "ok": true
+    },
+    {
+      "name": "Final yogen site manager login",
+      "ok": true
+    },
+    {
+      "name": "No real team identities invented",
+      "ok": true
+    },
+    {
+      "name": "Final manager logout",
+      "ok": true
+    },
+    {
+      "name": "No browser exceptions",
+      "ok": true
+    }
+  ],
+  "errors": []
+}

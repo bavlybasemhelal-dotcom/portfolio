@@ -1,0 +1,63 @@
+{
+  "mode": "initial",
+  "environment": "Real Firebase, anonymous published-only REST, isolated phase04-test; no writes to yogen",
+  "checks": [
+    {
+      "name": "Server cursor covers more than 24 publications without duplicate IDs",
+      "ok": true
+    },
+    {
+      "name": "Stable sort by order/document ID across cursor boundary",
+      "ok": true
+    },
+    {
+      "name": "Multi-tag first project has six ready assets and optional case study",
+      "ok": true
+    },
+    {
+      "name": "Anonymous private draft access rejected",
+      "ok": true
+    },
+    {
+      "name": "Real YOGEN space retains no technical projects/profile/contact",
+      "ok": true
+    },
+    {
+      "name": "Missing team/contact remain hidden in published data",
+      "ok": true
+    }
+  ],
+  "projectId": "phase06-01",
+  "count": 29,
+  "fixtureIds": [
+    "phase06-01",
+    "phase06-02",
+    "phase06-03",
+    "phase06-04",
+    "phase06-05",
+    "phase06-06",
+    "phase06-07",
+    "phase06-08",
+    "phase06-09",
+    "phase06-10",
+    "phase06-11",
+    "phase06-12",
+    "phase06-13",
+    "phase06-14",
+    "phase06-15",
+    "phase06-16",
+    "phase06-17",
+    "phase06-18",
+    "phase06-19",
+    "phase06-20",
+    "phase06-21",
+    "phase06-22",
+    "phase06-23",
+    "phase06-24",
+    "phase06-25",
+    "phase06-26",
+    "phase06-27",
+    "phase06-28"
+  ],
+  "complete": true
+}

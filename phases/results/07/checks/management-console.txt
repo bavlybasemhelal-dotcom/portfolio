@@ -1,0 +1,13 @@
+{"verified":"P07-T10 UI creates bilingual enabled category with stable ID"}
+{"verified":"P07-T10 category filter applies to project list"}
+{"verified":"P07-T13 partial profile is persisted and hidden"}
+{"verified":"P07-T13 complete bilingual profile becomes visible in server order"}
+{"verified":"P07-T13 public About reads new profile without rebuild"}
+{"verified":"P07-T14 validated email and WhatsApp are saved from UI"}
+{"verified":"P07-T14 public contact reads manager changes without rebuild"}
+{"verified":"P07-T14 invalid channel rejected beside field without changing server"}
+{"verified":"P07-T14 blank channels removed from public snapshot"}
+{"verified":"P07-T11 UI creation preserves manager session and clears password"}
+{"verified":"P07-T11 new account has enabled editor role"}
+{"verified":"P07-T07 direct manager page is guarded for editor"}
+{"verified":"P07-T07 editor library hides storage connection settings"}

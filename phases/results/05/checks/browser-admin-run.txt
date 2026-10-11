@@ -1,0 +1,3 @@
+{"verified":"P05-T01 manager saved settings restore in browser"}
+{"verified":"Editor media library omits private connection settings"}
+{"checks":2,"failed":0,"errors":1}

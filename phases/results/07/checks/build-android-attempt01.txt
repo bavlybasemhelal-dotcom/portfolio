@@ -1,0 +1,35 @@
+
+┌─────────────────────────────────────────────────────────┐
+│ A new version of Flutter is available!                  │
+│                                                         │
+│ To update to the latest version, run "flutter upgrade". │
+└─────────────────────────────────────────────────────────┘
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -XX:ActiveProcessorCount=2
+
+FAILURE: Build failed with an exception.
+
+* Where:
+Build file 'D:\Projects\Portfolio\android\build.gradle.kts' line: 19
+
+* What went wrong:
+A problem occurred configuring project ':app'.
+> [CXX1101] NDK at C:\Users\Dell\AppData\Local\Android\sdk\ndk\28.2.13676358 did not have a source.properties file
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 7m 56s
+Running Gradle task 'assembleDebug'...                            478.4s
+
+┌─ Flutter Fix ───────────────────────────────────────────────────────────────┐
+│     [!] This is likely due to a malformed download of the NDK.              │
+│     This can be fixed by deleting the local NDK copy at:                    │
+│     C:\Users\Dell\AppData\Local\Android\sdk\ndk\28.2.13676358               │
+│     and allowing the Android Gradle Plugin to automatically re-download it. │
+│                                                                             │
+└─────────────────────────────────────────────────────────────────────────────┘
+Gradle task assembleDebug failed with exit code 1

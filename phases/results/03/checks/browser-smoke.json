@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-09T20:34:16.927Z",
+  "checks": [
+    {
+      "name": "Flutter shell rendered",
+      "ok": true
+    },
+    {
+      "name": "English switch",
+      "ok": true
+    },
+    {
+      "name": "Deep link survives refresh",
+      "ok": true
+    },
+    {
+      "name": "Auth HTTP response",
+      "ok": true,
+      "httpStatus": 200
+    },
+    {
+      "name": "Auth HTTP response",
+      "ok": true,
+      "httpStatus": 200
+    },
+    {
+      "name": "Real Flutter Firebase SDK sign in",
+      "ok": true
+    },
+    {
+      "name": "Real Flutter Firestore server round trip",
+      "ok": true
+    },
+    {
+      "name": "Real Flutter Firebase SDK sign out",
+      "ok": true
+    },
+    {
+      "name": "Native scene pause control",
+      "ok": true
+    },
+    {
+      "name": "No uncaught browser errors",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "environment": "Fresh headless Chromium, local Flutter release build. No Google cookies.",
+  "lastUiLabels": []
+}

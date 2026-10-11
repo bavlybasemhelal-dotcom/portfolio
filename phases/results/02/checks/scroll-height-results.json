@@ -1,0 +1,1655 @@
+{
+  "revision": "scroll-v4-height-fix",
+  "checks": [
+    {
+      "name": "Direct-file wheel and layout ar light 1366x657",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1366,
+        657
+      ],
+      "lang": "ar",
+      "theme": "light",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 244.7208251953125,
+          "right": 648.4800415039062
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 3695,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 244.7208251953125,
+          "right": 648.4800415039062
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 5375,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-ar-light-1366x657.png"
+    },
+    {
+      "name": "Direct-file wheel and layout ar dark 1366x657",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1366,
+        657
+      ],
+      "lang": "ar",
+      "theme": "dark",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 244.7208251953125,
+          "right": 648.4800415039062
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 3695,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 244.7208251953125,
+          "right": 648.4800415039062
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 5375,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-ar-dark-1366x657.png"
+    },
+    {
+      "name": "Direct-file wheel and layout en light 1366x657",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1366,
+        657
+      ],
+      "lang": "en",
+      "theme": "light",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 724.0958251953125,
+          "right": 1127.85498046875
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 3696,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 724.0958251953125,
+          "right": 1127.85498046875
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 5376,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "Last project — keep scrolling to continue",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-en-light-1366x657.png"
+    },
+    {
+      "name": "Direct-file wheel and layout en dark 1366x657",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1366,
+        657
+      ],
+      "lang": "en",
+      "theme": "dark",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 724.0958251953125,
+          "right": 1127.85498046875
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 3696,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 642,
+          "left": 75,
+          "right": 1291
+        },
+        "frame": {
+          "top": 200.8201904296875,
+          "bottom": 497.8958435058594,
+          "left": 724.0958251953125,
+          "right": 1127.85498046875
+        },
+        "index": {
+          "top": 571,
+          "bottom": 628,
+          "left": 75,
+          "right": 1291
+        },
+        "header": 97,
+        "scrollY": 5376,
+        "width": 1366,
+        "height": 657,
+        "scrollWidth": 1366,
+        "hint": "Last project — keep scrolling to continue",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-en-dark-1366x657.png"
+    },
+    {
+      "name": "Direct-file wheel and layout ar light 1530x628",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1530,
+        628
+      ],
+      "lang": "ar",
+      "theme": "light",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 341.29766845703125,
+          "right": 714.5875244140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3695,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 341.29766845703125,
+          "right": 714.5875244140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 5375,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-ar-light-1530x628.png"
+    },
+    {
+      "name": "Direct-file wheel and layout ar dark 1530x628",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1530,
+        628
+      ],
+      "lang": "ar",
+      "theme": "dark",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 341.29766845703125,
+          "right": 714.5875244140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3695,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 341.29766845703125,
+          "right": 714.5875244140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 5375,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-ar-dark-1530x628.png"
+    },
+    {
+      "name": "Direct-file wheel and layout en light 1530x628",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1530,
+        628
+      ],
+      "lang": "en",
+      "theme": "light",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 820.6882934570312,
+          "right": 1193.9781494140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3696,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 820.6882934570312,
+          "right": 1193.9781494140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 5376,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Last project — keep scrolling to continue",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-en-light-1530x628.png"
+    },
+    {
+      "name": "Direct-file wheel and layout en dark 1530x628",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1530,
+        628
+      ],
+      "lang": "en",
+      "theme": "dark",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 820.6882934570312,
+          "right": 1193.9781494140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3696,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 820.6882934570312,
+          "right": 1193.9781494140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 5376,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Last project — keep scrolling to continue",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-en-dark-1530x628.png"
+    },
+    {
+      "name": "Direct-file wheel and layout ar light 1280x600",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1280,
+        600
+      ],
+      "lang": "ar",
+      "theme": "light",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2013,
+        "end": 5373,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 230.44154357910156,
+          "right": 574.3573760986328
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 3693,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2013,
+        "end": 5373,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 230.44154357910156,
+          "right": 574.3573760986328
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 5373,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-ar-light-1280x600.png"
+    },
+    {
+      "name": "Direct-file wheel and layout ar dark 1280x600",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1280,
+        600
+      ],
+      "lang": "ar",
+      "theme": "dark",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2013,
+        "end": 5373,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 230.44154357910156,
+          "right": 574.3573760986328
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 3693,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2013,
+        "end": 5373,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 230.44154357910156,
+          "right": 574.3573760986328
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 5373,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-ar-dark-1280x600.png"
+    },
+    {
+      "name": "Direct-file wheel and layout en light 1280x600",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1280,
+        600
+      ],
+      "lang": "en",
+      "theme": "light",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2014,
+        "end": 5374,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 709.8165283203125,
+          "right": 1053.732421875
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 3694,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2014,
+        "end": 5374,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 709.8165283203125,
+          "right": 1053.732421875
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 5374,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "Last project — keep scrolling to continue",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-en-light-1280x600.png"
+    },
+    {
+      "name": "Direct-file wheel and layout en dark 1280x600",
+      "ok": true,
+      "source": "file",
+      "size": [
+        1280,
+        600
+      ],
+      "lang": "en",
+      "theme": "dark",
+      "first": "P001",
+      "forward": "P002",
+      "back": "P001",
+      "longTitle": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2014,
+        "end": 5374,
+        "step": 240,
+        "active": "P008",
+        "href": "#project/P008",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 709.8165283203125,
+          "right": 1053.732421875
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 3694,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "last": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2014,
+        "end": 5374,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": 109,
+          "bottom": 585,
+          "left": 32,
+          "right": 1248
+        },
+        "frame": {
+          "top": 202.7871551513672,
+          "bottom": 466.33555603027344,
+          "left": 709.8165283203125,
+          "right": 1053.732421875
+        },
+        "index": {
+          "top": 514,
+          "bottom": 571,
+          "left": 32,
+          "right": 1248
+        },
+        "header": 97,
+        "scrollY": 5374,
+        "width": 1280,
+        "height": 600,
+        "scrollWidth": 1280,
+        "hint": "Last project — keep scrolling to continue",
+        "selectVisible": true
+      },
+      "screenshot": "screenshots/scroll-height-fix/file-en-dark-1280x600.png"
+    },
+    {
+      "name": "All projects and natural exit file",
+      "ok": true,
+      "source": "file",
+      "projects": [
+        {
+          "active": "P001",
+          "href": "#project/P001",
+          "ok": true
+        },
+        {
+          "active": "P002",
+          "href": "#project/P002",
+          "ok": true
+        },
+        {
+          "active": "P003",
+          "href": "#project/P003",
+          "ok": true
+        },
+        {
+          "active": "P004",
+          "href": "#project/P004",
+          "ok": true
+        },
+        {
+          "active": "P005",
+          "href": "#project/P005",
+          "ok": true
+        },
+        {
+          "active": "P006",
+          "href": "#project/P006",
+          "ok": true
+        },
+        {
+          "active": "P007",
+          "href": "#project/P007",
+          "ok": true
+        },
+        {
+          "active": "P008",
+          "href": "#project/P008",
+          "ok": true
+        },
+        {
+          "active": "P009",
+          "href": "#project/P009",
+          "ok": true
+        },
+        {
+          "active": "P010",
+          "href": "#project/P010",
+          "ok": true
+        },
+        {
+          "active": "P011",
+          "href": "#project/P011",
+          "ok": true
+        },
+        {
+          "active": "P012",
+          "href": "#project/P012",
+          "ok": true
+        },
+        {
+          "active": "P013",
+          "href": "#project/P013",
+          "ok": true
+        },
+        {
+          "active": "P014",
+          "href": "#project/P014",
+          "ok": true
+        },
+        {
+          "active": "P015",
+          "href": "#project/P015",
+          "ok": true
+        }
+      ],
+      "after": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": -290.625,
+          "bottom": 213.375,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": -197.78282165527344,
+          "bottom": 82.21040344238281,
+          "left": 341.29766845703125,
+          "right": 714.5875244140625
+        },
+        "index": {
+          "top": 142.375,
+          "bottom": 199.375,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 5775,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "processVisible": true
+    },
+    {
+      "name": "All projects and natural exit http",
+      "ok": true,
+      "source": "http",
+      "projects": [
+        {
+          "active": "P001",
+          "href": "#project/P001",
+          "ok": true
+        },
+        {
+          "active": "P002",
+          "href": "#project/P002",
+          "ok": true
+        },
+        {
+          "active": "P003",
+          "href": "#project/P003",
+          "ok": true
+        },
+        {
+          "active": "P004",
+          "href": "#project/P004",
+          "ok": true
+        },
+        {
+          "active": "P005",
+          "href": "#project/P005",
+          "ok": true
+        },
+        {
+          "active": "P006",
+          "href": "#project/P006",
+          "ok": true
+        },
+        {
+          "active": "P007",
+          "href": "#project/P007",
+          "ok": true
+        },
+        {
+          "active": "P008",
+          "href": "#project/P008",
+          "ok": true
+        },
+        {
+          "active": "P009",
+          "href": "#project/P009",
+          "ok": true
+        },
+        {
+          "active": "P010",
+          "href": "#project/P010",
+          "ok": true
+        },
+        {
+          "active": "P011",
+          "href": "#project/P011",
+          "ok": true
+        },
+        {
+          "active": "P012",
+          "href": "#project/P012",
+          "ok": true
+        },
+        {
+          "active": "P013",
+          "href": "#project/P013",
+          "ok": true
+        },
+        {
+          "active": "P014",
+          "href": "#project/P014",
+          "ok": true
+        },
+        {
+          "active": "P015",
+          "href": "#project/P015",
+          "ok": true
+        }
+      ],
+      "after": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015,
+        "end": 5375,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": -290.625,
+          "bottom": 213.375,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": -197.78282165527344,
+          "bottom": 82.21040344238281,
+          "left": 341.29766845703125,
+          "right": 714.5875244140625
+        },
+        "index": {
+          "top": 142.375,
+          "bottom": 199.375,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 5775,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "آخر مشروع — كمّل التمرير لباقي الصفحة",
+        "selectVisible": true
+      },
+      "processVisible": true
+    },
+    {
+      "name": "Direct-file compact selection survives language and theme",
+      "ok": true,
+      "language": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P006",
+        "href": "#project/P006",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 820.6882934570312,
+          "right": 1193.9781494140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3216,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "theme": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P006",
+        "href": "#project/P006",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 820.6882934570312,
+          "right": 1193.9781494140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3216,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      }
+    },
+    {
+      "name": "Compact controls and keyboard focus",
+      "ok": true,
+      "keyboard": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P007",
+        "href": "#project/P007",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 224.1059112548828,
+          "bottom": 510.3650665283203,
+          "left": 831.8500366210938,
+          "right": 1189.2406005859375
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3456,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      },
+      "focusedSelect": true,
+      "manual": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P009",
+        "href": "#project/P009",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 224.1059112548828,
+          "bottom": 510.3650665283203,
+          "left": 831.8500366210938,
+          "right": 1189.2406005859375
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3936,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      }
+    },
+    {
+      "name": "Resize keeps project and switches density",
+      "ok": true,
+      "large": {
+        "mode": "pinned",
+        "density": "comfortable",
+        "start": 2716,
+        "end": 6076,
+        "step": 240,
+        "active": "P009",
+        "href": "#project/P009",
+        "gallery": {
+          "top": 109,
+          "bottom": 778,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 226.433837890625,
+          "bottom": 673.6478271484375,
+          "left": 693.737060546875,
+          "right": 1336.9486083984375
+        },
+        "index": {
+          "top": 703,
+          "bottom": 764,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 4636,
+        "width": 1530,
+        "height": 1000,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": false
+      },
+      "small": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2016,
+        "end": 5376,
+        "step": 240,
+        "active": "P009",
+        "href": "#project/P009",
+        "gallery": {
+          "top": 109,
+          "bottom": 613,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 201.84217834472656,
+          "bottom": 481.8354034423828,
+          "left": 820.6882934570312,
+          "right": 1193.9781494140625
+        },
+        "index": {
+          "top": 542,
+          "bottom": 599,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 3936,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "Scroll down for the next project",
+        "selectVisible": true
+      }
+    },
+    {
+      "name": "Compact skip reaches next section",
+      "ok": true,
+      "top": 113.375,
+      "header": 97,
+      "focused": true
+    },
+    {
+      "name": "Reduced motion keeps natural flow and all projects",
+      "ok": true,
+      "reduced": {
+        "mode": "flow",
+        "density": "comfortable",
+        "start": 1010,
+        "end": 4370,
+        "step": 240,
+        "active": "P001",
+        "href": "#project/P001",
+        "gallery": {
+          "top": 1118.734375,
+          "bottom": 1783.734375,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": 1260.734375,
+          "bottom": 1680.359375,
+          "left": 208.5625,
+          "right": 834.671875
+        },
+        "index": {
+          "top": 1710.734375,
+          "bottom": 1783.734375,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 142,
+        "scrollY": 0,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "اختَر مشروعًا بالسابق والتالي أو الفهرس",
+        "selectVisible": false
+      },
+      "reducedLast": {
+        "mode": "flow",
+        "density": "comfortable",
+        "start": 1010,
+        "end": 4370,
+        "step": 240,
+        "active": "P015",
+        "href": "#project/P015",
+        "gallery": {
+          "top": -239.265625,
+          "bottom": 425.734375,
+          "left": 157,
+          "right": 1373
+        },
+        "frame": {
+          "top": -97.265625,
+          "bottom": 322.359375,
+          "left": 208.5625,
+          "right": 834.671875
+        },
+        "index": {
+          "top": 352.734375,
+          "bottom": 425.734375,
+          "left": 157,
+          "right": 1373
+        },
+        "header": 97,
+        "scrollY": 1358,
+        "width": 1530,
+        "height": 628,
+        "scrollWidth": 1530,
+        "hint": "اختَر مشروعًا بالسابق والتالي أو الفهرس",
+        "selectVisible": false
+      }
+    },
+    {
+      "name": "150-percent-equivalent desktop viewport keeps scroll",
+      "ok": true,
+      "mode": "pinned",
+      "density": "compact",
+      "start": 2013,
+      "end": 5373,
+      "step": 240,
+      "active": "P008",
+      "href": "#project/P008",
+      "gallery": {
+        "top": 109,
+        "bottom": 508,
+        "left": 32,
+        "right": 1243
+      },
+      "frame": {
+        "top": 205.17459106445312,
+        "bottom": 423.69012451171875,
+        "left": 267.8843078613281,
+        "right": 531.256591796875
+      },
+      "index": {
+        "top": 437,
+        "bottom": 494,
+        "left": 32,
+        "right": 1243
+      },
+      "header": 97,
+      "scrollY": 3693,
+      "width": 1275,
+      "height": 523,
+      "scrollWidth": 1275,
+      "hint": "مرّر لأسفل لعرض المشروع التالي",
+      "selectVisible": true
+    },
+    {
+      "name": "Browser display scale 1.25",
+      "ok": true,
+      "scale": 1.25,
+      "after": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2015.2,
+        "end": 5375.2,
+        "step": 240,
+        "active": "P002",
+        "href": "#project/P002",
+        "gallery": {
+          "top": 108.80000305175781,
+          "bottom": 653.5999908447266,
+          "left": 340,
+          "right": 1556
+        },
+        "frame": {
+          "top": 203.00474548339844,
+          "bottom": 516.2708587646484,
+          "left": 488.9208984375,
+          "right": 931.5486450195312
+        },
+        "index": {
+          "top": 582.7999877929688,
+          "bottom": 639.5999870300293,
+          "left": 340,
+          "right": 1556
+        },
+        "header": 96.80000305175781,
+        "scrollY": 2255.199951171875,
+        "width": 1896,
+        "height": 690,
+        "scrollWidth": 1896,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      }
+    },
+    {
+      "name": "Browser display scale 1.5",
+      "ok": true,
+      "scale": 1.5,
+      "after": {
+        "mode": "pinned",
+        "density": "compact",
+        "start": 2013.33,
+        "end": 5373.33,
+        "step": 240,
+        "active": "P002",
+        "href": "#project/P002",
+        "gallery": {
+          "top": 108.66667175292969,
+          "bottom": 653.3333587646484,
+          "left": 339,
+          "right": 1555
+        },
+        "frame": {
+          "top": 202.888671875,
+          "bottom": 515.500732421875,
+          "left": 488.349609375,
+          "right": 930.07763671875
+        },
+        "index": {
+          "top": 582.6666870117188,
+          "bottom": 639.3333549499512,
+          "left": 339,
+          "right": 1555
+        },
+        "header": 96.66667175292969,
+        "scrollY": 2253.333251953125,
+        "width": 1894,
+        "height": 689,
+        "scrollWidth": 1894,
+        "hint": "مرّر لأسفل لعرض المشروع التالي",
+        "selectVisible": true
+      }
+    }
+  ],
+  "errors": [],
+  "limitations": [
+    "Desktop Chrome; viewport and browser display scaling simulated. No physical-phone or Flutter test."
+  ],
+  "summary": {
+    "checks": 22,
+    "passed": 22,
+    "failed": 0,
+    "scriptErrors": 0
+  }
+}

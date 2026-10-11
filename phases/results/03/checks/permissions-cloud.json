@@ -1,0 +1,20 @@
+{
+  "projectId": "portfolio-14d15",
+  "checks": [
+    {
+      "name": "Valid Firebase account outside server allowlist rejected despite client admin role",
+      "ok": true,
+      "response": {
+        "success": false,
+        "error": "upload_not_allowed",
+        "stage": "request"
+      }
+    },
+    {
+      "name": "Non-allowlisted Firestore account rejected",
+      "ok": true,
+      "httpStatus": 403
+    }
+  ],
+  "temporaryAccountDeleted": true
+}

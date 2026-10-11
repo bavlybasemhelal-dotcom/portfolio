@@ -1,0 +1,45 @@
+{
+  "environment": "New Drive-backed image through actual private preview",
+  "checks": [
+    {
+      "name": "P07-T01 Drive image loads as full cover in same preview used by public template",
+      "ok": true
+    }
+  ],
+  "responses": [
+    {
+      "host": "script.google.com",
+      "status": 302
+    },
+    {
+      "host": "script.google.com",
+      "status": 302
+    },
+    {
+      "host": "script.google.com",
+      "status": 302
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "status": 200
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "status": 200
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "status": 200
+    },
+    {
+      "host": "script.google.com",
+      "status": 302
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "status": 200
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

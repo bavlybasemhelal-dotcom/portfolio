@@ -1,0 +1,7 @@
+{
+  "url": "https://dl.google.com/android/repository/android-ndk-r28c-windows.zip",
+  "size": 748118221,
+  "sha1": "086bba43ff2f5eb0e387b15c8278bb4e0d89ba1d",
+  "matchesOfficialChecksum": true,
+  "sourceProperties": "Pkg.Desc = Android NDK\nPkg.Revision = 28.2.13676358\nPkg.BaseRevision = 28.2.13676358\nPkg.ReleaseName = r28c\n"
+}

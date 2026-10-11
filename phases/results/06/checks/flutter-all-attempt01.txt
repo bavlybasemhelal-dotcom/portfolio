@@ -1,0 +1,794 @@
+00:00 +0: loading D:/Projects/Portfolio/test/account_auth_test.dart
+00:00 +0: D:/Projects/Portfolio/test/account_auth_test.dart: Login alias is normalized and never sends mail to the entered Gmail address
+00:00 +1: D:/Projects/Portfolio/test/account_auth_test.dart: Desktop session persists refresh only; independent signup never replaces manager
+00:00 +2: D:/Projects/Portfolio/test/account_auth_test.dart: Restart restores via refresh and concurrent expiration calls share one refresh
+00:00 +3: D:/Projects/Portfolio/test/account_auth_test.dart: A refresh completing after logout cannot restore or persist the old session
+00:00 +4: D:/Projects/Portfolio/test/account_auth_test.dart: Invalid refresh clears the stored session; untrusted endpoints refused
+00:00 +5: loading D:/Projects/Portfolio/test/admin_access_widget_test.dart
+00:01 +5: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 17 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///D:/Projects/Portfolio/lib/features/public/public_shell.dart:172:24
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#11fc3 relayoutBoundary=up7 OVERFLOWING:
+  creator: Row ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← MediaQuery ← Padding ←
+    SafeArea ← DecoratedBox ← KeyedSubtree-[GlobalKey#b91e0] ← _BodyBuilder ← ⋯
+  parentData: offset=Offset(12.0, 0.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=336.0, h=75.0)
+  size: Size(336.0, 75.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: rtl
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/admin_access_widget_test.dart:86:9)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:12 +5 -1: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar) [E]
+  Test failed. See exception logs above.
+  The test description was: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+  
+Warning: At least one test in this suite creates an HttpClient. When running a test suite that uses
+TestWidgetsFlutterBinding, all HTTP requests will return status code 400, and no network request
+will actually be made. Any test expecting a real network connection and status code will fail.
+To test code that needs an HttpClient, provide your own HttpClient implementation to the code under
+test, so that your test can consistently provide a testable response to the code under test.
+00:12 +5 -1: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (en)
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 16 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///D:/Projects/Portfolio/lib/features/public/public_shell.dart:172:24
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#4e18c relayoutBoundary=up7 OVERFLOWING:
+  creator: Row ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← MediaQuery ← Padding ←
+    SafeArea ← DecoratedBox ← KeyedSubtree-[GlobalKey#c194a] ← _BodyBuilder ← ⋯
+  parentData: offset=Offset(12.0, 0.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=336.0, h=75.0)
+  size: Size(336.0, 75.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/admin_access_widget_test.dart:86:9)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Protected route, login error, editor view, password dialog and revoke at 360px (en)
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:21 +5 -2: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (en) [E]
+  Test failed. See exception logs above.
+  The test description was: Protected route, login error, editor view, password dialog and revoke at 360px (en)
+  
+00:21 +5 -2: loading D:/Projects/Portfolio/test/company_contract_test.dart
+00:22 +5 -2: D:/Projects/Portfolio/test/company_contract_test.dart: Deferred contact details remain empty; valid international contacts normalize
+00:22 +6 -2: D:/Projects/Portfolio/test/company_contract_test.dart: Invalid contacts and impersonated website are rejected
+00:22 +7 -2: loading D:/Projects/Portfolio/test/drive_bridge_test.dart
+00:23 +7 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: Base64 request retains Arabic name and authenticated identity in POST body
+00:23 +8 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject unsafe endpoint before sending any request
+00:23 +9 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject oversized, empty and unsupported file locally
+00:23 +10 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: ContentService redirect uses only Google GET and does not forward token
+00:23 +11 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject redirect to unrelated host
+00:23 +12 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: Timeout is surfaced; no automatic duplicate upload
+00:23 +13 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: Anonymous image request has no Firebase token
+00:23 +14 -2: D:/Projects/Portfolio/test/drive_bridge_test.dart: HTML error and malformed upload response do not become success
+00:23 +15 -2: loading D:/Projects/Portfolio/test/firebase_config_test.dart
+00:24 +15 -2: D:/Projects/Portfolio/test/firebase_config_test.dart: Correct project and compatible platform are mandatory
+00:24 +16 -2: D:/Projects/Portfolio/test/firebase_config_test.dart: Public definitions map into the correct Firebase options
+00:24 +17 -2: loading D:/Projects/Portfolio/test/foundation_widget_test.dart
+00:25 +17 -2: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:27 +18 -2: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(360.0, 640.0)
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual: FlutterError:<A RenderFlex overflowed by 17 pixels on the right.>
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/foundation_widget_test.dart:62:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/foundation_widget_test.dart line 62
+The test description was:
+  Layout stays usable at Size(360.0, 640.0)
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:28 +18 -3: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(360.0, 640.0) [E]
+  Test failed. See exception logs above.
+  The test description was: Layout stays usable at Size(360.0, 640.0)
+  
+00:28 +18 -3: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(768.0, 900.0)
+00:28 +19 -3: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(1366.0, 657.0)
+00:28 +20 -3: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:29 +21 -3: loading D:/Projects/Portfolio/test/media_limits_test.dart
+00:30 +21 -3: D:/Projects/Portfolio/test/media_limits_test.dart: Reject 20/50/100 MiB before reading or allocating file bytes
+00:30 +22 -3: loading D:/Projects/Portfolio/test/media_repository_test.dart
+00:31 +22 -3: D:/Projects/Portfolio/test/media_repository_test.dart: Manager tests and atomically saves private settings and public route; editor refuses before ping
+00:31 +23 -3: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T03 guards file size, signature, type and bilingual alt before any operation
+00:31 +24 -3: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T05 registration failure preserves request and recovers same Drive file without resend
+00:31 +25 -3: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T06 timeout after server commit is reconciled before retry; changed file cannot send
+00:31 +26 -3: D:/Projects/Portfolio/test/media_repository_test.dart: Roleless or revoked member cannot prepare or query upload status
+00:31 +27 -3: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T07/T10/T11 shared file survives unlink, ordering, archive and restore; revision conflicts fail
+00:31 +28 -3: D:/Projects/Portfolio/test/media_repository_test.dart: Cache coalesces, evicts by bytes, retries failures and ignores late completion after clear
+00:31 +29 -3: loading D:/Projects/Portfolio/test/media_thumbnail_test.dart
+00:32 +29 -3: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-أفقية.png produces bounded PNG without distortion
+00:32 +30 -3: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-رأسية.jpg produces bounded PNG without distortion
+00:32 +31 -3: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-ويب.webp produces bounded PNG without distortion
+00:32 +32 -3: D:/Projects/Portfolio/test/media_thumbnail_test.dart: small original is not enlarged
+00:32 +33 -3: D:/Projects/Portfolio/test/media_thumbnail_test.dart: truncated input is rejected before upload
+00:32 +34 -3: D:/Projects/Portfolio/test/media_thumbnail_test.dart: oversized image axis is rejected
+00:32 +35 -3: loading D:/Projects/Portfolio/test/media_widgets_test.dart
+00:33 +35 -3: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 17 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///D:/Projects/Portfolio/lib/features/public/public_shell.dart:172:24
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#a65ed relayoutBoundary=up7 OVERFLOWING:
+  creator: Row ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← MediaQuery ← Padding ←
+    SafeArea ← DecoratedBox ← KeyedSubtree-[GlobalKey#c3b4d] ← _BodyBuilder ← ⋯
+  parentData: offset=Offset(12.0, 0.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=336.0, h=75.0)
+  size: Size(336.0, 75.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: rtl
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout ar/light/360.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:44 +35 -4: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout ar/light/360.0
+  
+Warning: At least one test in this suite creates an HttpClient. When running a test suite that uses
+TestWidgetsFlutterBinding, all HTTP requests will return status code 400, and no network request
+will actually be made. Any test expecting a real network connection and status code will fail.
+To test code that needs an HttpClient, provide your own HttpClient implementation to the code under
+test, so that your test can consistently provide a testable response to the code under test.
+00:44 +35 -4: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/768.0
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout ar/light/768.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:52 +35 -5: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/768.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout ar/light/768.0
+  
+00:52 +35 -5: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/1440.0
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout ar/light/1440.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:59 +35 -6: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/1440.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout ar/light/1440.0
+  
+00:59 +35 -6: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/360.0
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 17 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///D:/Projects/Portfolio/lib/features/public/public_shell.dart:172:24
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#7d513 relayoutBoundary=up7 OVERFLOWING:
+  creator: Row ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← MediaQuery ← Padding ←
+    SafeArea ← DecoratedBox ← KeyedSubtree-[GlobalKey#1ea5e] ← _BodyBuilder ← ⋯
+  parentData: offset=Offset(12.0, 0.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=336.0, h=75.0)
+  size: Size(336.0, 75.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: rtl
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout ar/dark/360.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:06 +35 -7: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/360.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout ar/dark/360.0
+  
+01:06 +35 -7: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/768.0
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout ar/dark/768.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:13 +35 -8: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/768.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout ar/dark/768.0
+  
+01:13 +35 -8: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/1440.0
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout ar/dark/1440.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:20 +35 -9: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/1440.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout ar/dark/1440.0
+  
+01:20 +35 -9: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/360.0
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 16 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///D:/Projects/Portfolio/lib/features/public/public_shell.dart:172:24
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#f0002 relayoutBoundary=up7 OVERFLOWING:
+  creator: Row ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← MediaQuery ← Padding ←
+    SafeArea ← DecoratedBox ← KeyedSubtree-[GlobalKey#eab73] ← _BodyBuilder ← ⋯
+  parentData: offset=Offset(12.0, 0.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=336.0, h=75.0)
+  size: Size(336.0, 75.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout en/light/360.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:26 +35 -10: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/360.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout en/light/360.0
+  
+01:26 +35 -10: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/768.0
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout en/light/768.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:33 +35 -11: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/768.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout en/light/768.0
+  
+01:33 +35 -11: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/1440.0
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 221 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column Column:file:///D:/Projects/Portfolio/lib/features/public/home_page.dart:289:23
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#7c80e relayoutBoundary=up5 OVERFLOWING:
+  needs compositing
+  creator: Column ← Expanded ← Row ← LayoutBuilder ← Padding ← ConstrainedBox ← Center ← PublicFrame ←
+    HeroChapter ← SizedBox ← Positioned ← Stack ← ⋯
+  parentData: offset=Offset(0.0, 0.0); flex=1; fit=FlexFit.tight (can use size)
+  constraints: BoxConstraints(w=600.0, 0.0<=h<=700.0)
+  size: Size(600.0, 700.0)
+  direction: vertical
+  mainAxisAlignment: start
+  mainAxisSize: min
+  crossAxisAlignment: start
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout en/light/1440.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:39 +35 -12: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/1440.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout en/light/1440.0
+  
+01:39 +35 -12: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/360.0
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 16 pixels on the right.
+
+The relevant error-causing widget was:
+  Row Row:file:///D:/Projects/Portfolio/lib/features/public/public_shell.dart:172:24
+
+The overflowing RenderFlex has an orientation of Axis.horizontal.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#cabdc relayoutBoundary=up7 OVERFLOWING:
+  creator: Row ← Padding ← DecoratedBox ← ConstrainedBox ← Container ← Column ← MediaQuery ← Padding ←
+    SafeArea ← DecoratedBox ← KeyedSubtree-[GlobalKey#6abe0] ← _BodyBuilder ← ⋯
+  parentData: offset=Offset(12.0, 0.0) (can use size)
+  constraints: BoxConstraints(0.0<=w<=336.0, h=75.0)
+  size: Size(336.0, 75.0)
+  direction: horizontal
+  mainAxisAlignment: start
+  mainAxisSize: max
+  crossAxisAlignment: center
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout en/dark/360.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:45 +35 -13: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/360.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout en/dark/360.0
+  
+01:45 +35 -13: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/768.0
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout en/dark/768.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:52 +35 -14: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/768.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout en/dark/768.0
+  
+01:52 +35 -14: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/1440.0
+══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+The following assertion was thrown during layout:
+A RenderFlex overflowed by 221 pixels on the bottom.
+
+The relevant error-causing widget was:
+  Column Column:file:///D:/Projects/Portfolio/lib/features/public/home_page.dart:289:23
+
+The overflowing RenderFlex has an orientation of Axis.vertical.
+The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+RenderFlex to fit within the available space instead of being sized to their natural size.
+This is considered an error condition because it indicates that there is content that cannot be
+seen. If the content is legitimately bigger than the available space, consider clipping it with a
+ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+like a ListView.
+The specific RenderFlex in question is: RenderFlex#b506a relayoutBoundary=up5 OVERFLOWING:
+  needs compositing
+  creator: Column ← Expanded ← Row ← LayoutBuilder ← Padding ← ConstrainedBox ← Center ← PublicFrame ←
+    HeroChapter ← SizedBox ← Positioned ← Stack ← ⋯
+  parentData: offset=Offset(0.0, 0.0); flex=1; fit=FlexFit.tight (can use size)
+  constraints: BoxConstraints(w=600.0, 0.0<=h<=700.0)
+  size: Size(600.0, 700.0)
+  direction: vertical
+  mainAxisAlignment: start
+  mainAxisSize: min
+  crossAxisAlignment: start
+  textDirection: ltr
+  verticalDirection: down
+  spacing: 0.0
+◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+pumpAndSettle timed out
+
+When the exception was thrown, this was the stack:
+#0      WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:717:11)
+<asynchronous suspension>
+#1      TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#2      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/media_widgets_test.dart:78:13)
+<asynchronous suspension>
+#3      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#4      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+The test description was:
+  Media manager settings restore and layout en/dark/1440.0
+════════════════════════════════════════════════════════════════════════════════════════════════════
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following message was thrown:
+Multiple exceptions (2) were detected during the running of the current test, and at least one was
+unexpected.
+════════════════════════════════════════════════════════════════════════════════════════════════════
+01:58 +35 -15: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/1440.0 [E]
+  Test failed. See exception logs above.
+  The test description was: Media manager settings restore and layout en/dark/1440.0
+  
+01:58 +35 -15: D:/Projects/Portfolio/test/media_widgets_test.dart: Failed Drive image has local placeholder and retries its request
+01:58 +36 -15: loading D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart
+01:59 +36 -15: D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart: Prepare isolated cloud fixtures
+01:59 +36 ~1 -15: loading D:/Projects/Portfolio/test/phase04_rest_integration_test.dart
+02:00 +36 ~1 -15: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (setUpAll)
+02:00 +36 ~1 -15: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore
+02:00 +36 ~2 -15: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: All three cloud editors publish; visitors and roleless users cannot access private data or promote themselves
+02:00 +36 ~3 -15: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Real Auth REST signup does not change manager session; restart and role revocation work
+02:00 +36 ~4 -15: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (tearDownAll)
+02:00 +36 ~4 -15: loading D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart
+02:01 +36 ~4 -15: D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart: Actual isolated Firebase/Drive upload, recovery, reuse and publication
+02:01 +36 ~5 -15: loading D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart
+02:02 +36 ~5 -15: D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart: Actual published catalogue, cursor growth, private isolation and live company change
+02:02 +36 ~6 -15: loading D:/Projects/Portfolio/test/preferences_test.dart
+02:03 +36 ~6 -15: D:/Projects/Portfolio/test/preferences_test.dart: First theme switch from a dark system follows the visible theme
+02:03 +37 ~6 -15: loading D:/Projects/Portfolio/test/project_contract_test.dart
+02:05 +37 ~6 -15: D:/Projects/Portfolio/test/project_contract_test.dart: Incomplete drafts save without fabricated translations; publishing refuses them
+02:05 +38 ~6 -15: D:/Projects/Portfolio/test/project_contract_test.dart: A complete project publishes without demo links, team names or results
+02:05 +39 ~6 -15: D:/Projects/Portfolio/test/project_contract_test.dart: Unsafe links, duplicate assets and oversized public snapshots fail
+02:05 +40 ~6 -15: loading D:/Projects/Portfolio/test/public_website_test.dart
+02:06 +40 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: Story geometry makes a full turn and advances/exits for arbitrary project counts
+02:06 +41 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+
+Warning: A call to tap() with finder "Found 1 widget with type "ProjectCard" (ignoring all but first): [
+  ProjectCard(dependencies: [Directionality, InheritedCupertinoTheme, MediaQuery, _InheritedTheme, _LocalizationsScope-[GlobalKey#240b8], _ScrollableScope, _UncontrolledProviderScope], state: _ProjectCardState#9e50b),
+]" derived an Offset (Offset(301.3, 345.0)) that would not hit test on the specified widget.
+Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+The finder corresponds to this RenderBox: RenderTransform#bd5ee relayoutBoundary=up8
+The hit test result at that offset is: HitTestResult(RenderImage#47ec9@Offset(196.3, 209.0), RenderSemanticsAnnotations#df894@Offset(196.3, 209.0), _RenderColoredBox#9a2ac@Offset(196.3, 209.0), RenderClipRRect#efce9@Offset(196.3, 209.0), RenderFlex#cdcf7@Offset(196.3, 209.0), RenderPointerListener#1f173@Offset(196.3, 209.0), RenderSemanticsAnnotations#23021@Offset(196.3, 209.0), RenderMouseRegion#12ec5@Offset(196.3, 209.0), RenderSemanticsAnnotations#3a9f5@Offset(196.3, 209.0), _RenderInkFeatures#a3391@Offset(196.3, 209.0), RenderPhysicalModel#98b8d@Offset(196.3, 209.0), RenderPadding#101c6@Offset(197.3, 210.0), RenderDecoratedBox#7cd5a@Offset(197.3, 210.0), RenderFlex#a59e1@Offset(197.3, 210.0), RenderPadding#c6311@Offset(221.3, 222.0), RenderConstrainedBox#7465a@Offset(221.3, 222.0), RenderPositionedBox#c95bf@Offset(301.3, 222.0), RenderRepaintBoundary#18fae@Offset(301.3, 222.0), RenderIndexedSemantics#01b63@Offset(301.3, 222.0), RenderSliverList@(mainAxis: 222.0, crossAxis: 301.33333333333337), RenderViewport#b34c2@Offset(301.3, 259.0), RenderIgnorePointer#a36dc@Offset(301.3, 259.0), RenderSemanticsAnnotations#5463b@Offset(301.3, 259.0), RenderPointerListener#cfe0d@Offset(301.3, 259.0), RenderSemanticsGestureHandler#b987b@Offset(301.3, 259.0), RenderPointerListener#f6fd1@Offset(301.3, 259.0), _RenderScrollSemantics#397a0@Offset(301.3, 259.0), RenderClipRect#bcc96@Offset(301.3, 259.0), RenderSemanticsAnnotations#991e0@Offset(301.3, 259.0), RenderSemanticsAnnotations#4b557@Offset(301.3, 259.0), RenderRepaintBoundary#74e9b@Offset(301.3, 259.0), RenderIgnorePointer#e5ae4@Offset(301.3, 259.0), RenderAnimatedOpacity#32490@Offset(301.3, 259.0), RenderAnimatedOpacity#32161@Offset(301.3, 259.0), _RenderColoredBox#9cabe@Offset(301.3, 259.0), RenderAnimatedOpacity#c9b6a@Offset(301.3, 259.0), RenderIgnorePointer#bf323@Offset(301.3, 259.0), RenderAnimatedOpacity#e2f2b@Offset(301.3, 259.0), RenderRepaintBoundary#9b676@Offset(301.3, 259.0), RenderSemanticsAnnotations#475a2@Offset(301.3, 259.0), RenderOffstage#42d51@Offset(301.3, 259.0), RenderSemanticsAnnotations#ef3e9@Offset(301.3, 259.0), _RenderTheater#f84f5@Offset(301.3, 259.0), RenderAbsorbPointer#924f8@Offset(301.3, 259.0), RenderPointerListener#9a6e3@Offset(301.3, 259.0), RenderFlex#b8aa4@Offset(301.3, 345.0), RenderPadding#4ccfc@Offset(301.3, 345.0), RenderDecoratedBox#bf3ce@Offset(301.3, 345.0), RenderCustomMultiChildLayoutBox#fb92f@Offset(301.3, 345.0), _RenderInkFeatures#cdb52@Offset(301.3, 345.0), RenderPhysicalModel#099f7@Offset(301.3, 345.0), RenderSemanticsAnnotations#9950e@Offset(301.3, 345.0), RenderRepaintBoundary#c715d@Offset(301.3, 345.0), RenderIgnorePointer#3b3d7@Offset(301.3, 345.0), RenderAnimatedOpacity#28621@Offset(301.3, 345.0), RenderAnimatedOpacity#9b422@Offset(301.3, 345.0), _RenderColoredBox#193e2@Offset(301.3, 345.0), RenderAnimatedOpacity#9a2c2@Offset(301.3, 345.0), RenderIgnorePointer#90c31@Offset(301.3, 345.0), RenderAnimatedOpacity#6c79f@Offset(301.3, 345.0), RenderRepaintBoundary#fddfa@Offset(301.3, 345.0), RenderSemanticsAnnotations#909db@Offset(301.3, 345.0), RenderOffstage#60a6b@Offset(301.3, 345.0), RenderSemanticsAnnotations#711b4@Offset(301.3, 345.0), _RenderTheater#2eddf@Offset(301.3, 345.0), RenderAbsorbPointer#402b4@Offset(301.3, 345.0), RenderPointerListener#13209@Offset(301.3, 345.0), RenderSemanticsAnnotations#a9b78@Offset(301.3, 345.0), RenderSemanticsAnnotations#23122@Offset(301.3, 345.0), RenderSemanticsAnnotations#4148a@Offset(301.3, 345.0), RenderTapRegionSurface#175b9@Offset(301.3, 345.0), RenderSemanticsAnnotations#8168c@Offset(301.3, 345.0), RenderSemanticsAnnotations#9235f@Offset(301.3, 345.0), HitTestEntry<HitTestTarget>#e5e09(_ReusableRenderView#1c1ac), HitTestEntry<HitTestTarget>#54b65(<AutomatedTestWidgetsFlutterBinding>))
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2144:25)
+#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1928:12)
+#2      WidgetController.tap (package:flutter_test/src/controller.dart:1061:7)
+#3      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/public_website_test.dart:92:15)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+#6      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+To silence this warning, pass "warnIfMissed: false" to "tap()".
+To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+
+02:10 +42 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 empty/error/retry and unpublished direct link reveal no draft
+02:10 +43 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T06/T10 image next/Escape returns focus to opener
+02:11 +44 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes
+02:11 +45 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+02:12 +46 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar light
+02:13 +47 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+02:13 +48 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en light
+02:14 +49 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en dark
+02:15 +50 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar light
+02:15 +51 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar dark
+02:16 +52 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en light
+02:16 +53 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en dark
+02:17 +54 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar light
+02:18 +55 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar dark
+02:18 +56 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en light
+02:19 +57 ~6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en dark
+02:19 +58 ~6 -15: Some tests failed.

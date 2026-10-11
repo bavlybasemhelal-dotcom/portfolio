@@ -1,0 +1,16 @@
+{
+  "environment": "Real Firebase; phase04-test only, no company/client data or writes to yogen",
+  "checks": [
+    {
+      "name": "Temporary accounts disabled and all identified phase 7 projects archived",
+      "ok": true
+    },
+    {
+      "name": "Phase 7 public test profiles hidden and company contacts restored",
+      "ok": true
+    }
+  ],
+  "archivedProjects": 17,
+  "disabledAccounts": 6,
+  "hiddenProfiles": 7
+}

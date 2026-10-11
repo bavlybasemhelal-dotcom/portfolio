@@ -1,0 +1,11 @@
+Default root is the Arabic public website
+P06-T02 manual theme and language survive reload
+P06-T05 real YOGEN catalogue is honestly empty
+P06-T11 no invented member profiles
+P06-T11 no fabricated public email/phone
+Deferred submission is disabled and honest
+Public Firestore reads never use an administrator token
+Anonymous administrative route still requires login
+Existing independent manager still signs in
+Logged-in manager also sees published-only public reads
+No uncaught browser errors

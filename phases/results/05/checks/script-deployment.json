@@ -1,0 +1,24 @@
+{
+  "scriptId": "1lHvWFz6bmDMusHkTQa0UXJT83p_pM_f-nKt7JGJcq9QQuIG-wW3b28VV",
+  "deploymentId": "AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A",
+  "versionNumber": 8,
+  "entryPoints": [
+    {
+      "entryPointType": "WEB_APP",
+      "webApp": {
+        "url": "https://script.google.com/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+        "entryPointConfig": {
+          "access": "ANYONE_ANONYMOUS",
+          "executeAs": "USER_DEPLOYING"
+        }
+      }
+    }
+  ],
+  "previousDeploymentPreserved": "AKfycbwXEJ6WPVz2TM9emP4nBXzPz446HhcjzMobktEYfZdULceFrmUa-XTclubj3TBMBkX0Vg",
+  "scopes": [
+    "https://www.googleapis.com/auth/drive",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/datastore"
+  ],
+  "versionSourceReadbackVerified": true
+}

@@ -1,0 +1,778 @@
+{
+  "environment": "Chrome, actual Flutter administration, 360/768/1440 px × ar/en × light/dark",
+  "states": [
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/edit",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/media",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/categories",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/team",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/company",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/accounts",
+      "ok": true
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/admin/projects/phase07-1791650848432/preview",
+      "ok": true
+    }
+  ],
+  "checks": [
+    {
+      "name": "P07-T12 sidebar is exposed to semantics and keyboard navigation",
+      "ok": true
+    },
+    {
+      "name": "P07-T12 3D/background scene visibly animates",
+      "ok": false
+    },
+    {
+      "name": "P07-T12 global motion pause can be restored",
+      "ok": true
+    }
+  ],
+  "errors": [
+    "Matrix/browser checks failed"
+  ]
+}

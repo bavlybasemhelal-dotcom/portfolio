@@ -1,0 +1,14 @@
+00:00 +0: loading D:/Projects/Portfolio/test/phase07_admin_layout_test.dart
+00:00 +0: P07-T12 administrative screens/editor tabs 360.0 ar light
+00:10 +1: P07-T12 administrative screens/editor tabs 360.0 ar dark
+00:16 +2: P07-T12 administrative screens/editor tabs 360.0 en light
+00:20 +3: P07-T12 administrative screens/editor tabs 360.0 en dark
+00:23 +4: P07-T12 administrative screens/editor tabs 768.0 ar light
+00:25 +5: P07-T12 administrative screens/editor tabs 768.0 ar dark
+00:28 +6: P07-T12 administrative screens/editor tabs 768.0 en light
+00:36 +7: P07-T12 administrative screens/editor tabs 768.0 en dark
+00:42 +8: P07-T12 administrative screens/editor tabs 1440.0 ar light
+00:47 +9: P07-T12 administrative screens/editor tabs 1440.0 ar dark
+00:52 +10: P07-T12 administrative screens/editor tabs 1440.0 en light
+00:59 +11: P07-T12 administrative screens/editor tabs 1440.0 en dark
+01:03 +12: All tests passed!

@@ -1,0 +1,34 @@
+{
+  "deploymentId": "AKfycbwXEJ6WPVz2TM9emP4nBXzPz446HhcjzMobktEYfZdULceFrmUa-XTclubj3TBMBkX0Vg",
+  "config": {
+    "scriptId": "1lHvWFz6bmDMusHkTQa0UXJT83p_pM_f-nKt7JGJcq9QQuIG-wW3b28VV",
+    "versionNumber": 4,
+    "manifestFileName": "appsscript",
+    "description": "Phase03 bounded anonymous MP4 playback fallback"
+  },
+  "entryPoints": [
+    {
+      "entryPointType": "WEB_APP",
+      "webApp": {
+        "url": "https://script.google.com/macros/s/AKfycbwXEJ6WPVz2TM9emP4nBXzPz446HhcjzMobktEYfZdULceFrmUa-XTclubj3TBMBkX0Vg/exec",
+        "entryPointConfig": {
+          "access": "ANYONE_ANONYMOUS",
+          "executeAs": "USER_DEPLOYING"
+        }
+      }
+    }
+  ],
+  "manifest": {
+    "timeZone": "Africa/Cairo",
+    "exceptionLogging": "NONE",
+    "runtimeVersion": "V8",
+    "oauthScopes": [
+      "https://www.googleapis.com/auth/drive",
+      "https://www.googleapis.com/auth/script.external_request"
+    ],
+    "webapp": {
+      "executeAs": "USER_DEPLOYING",
+      "access": "ANYONE_ANONYMOUS"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+00:00 +0: loading D:/Projects/Portfolio/test/media_repository_test.dart
+00:00 +0: Manager tests and atomically saves private settings and public route; editor refuses before ping
+00:00 +1: P05-T03 guards file size, signature, type and bilingual alt before any operation
+00:00 +2: P05-T05 registration failure preserves request and recovers same Drive file without resend
+00:00 +3: P05-T06 timeout after server commit is reconciled before retry; changed file cannot send
+00:00 +4: Roleless or revoked member cannot prepare or query upload status
+00:00 +5: P05-T07/T10/T11 shared file survives unlink, ordering, archive and restore; revision conflicts fail
+00:00 +6: Cache coalesces, evicts by bytes, retries failures and ignores late completion after clear
+00:00 +7: All tests passed!

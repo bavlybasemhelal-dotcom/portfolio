@@ -1,0 +1,11 @@
+{
+  "mode": "on",
+  "environment": "Real Firebase, anonymous published-only REST, isolated phase04-test; no writes to yogen",
+  "checks": [
+    {
+      "name": "Published profile/contact visible to anonymous client without rebuild",
+      "ok": true
+    }
+  ],
+  "complete": true
+}

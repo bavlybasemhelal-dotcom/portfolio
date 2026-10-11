@@ -1,0 +1,4 @@
+00:00 +0: loading D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart
+00:00 +0: Prepare isolated cloud fixtures
+Shell: Isolated cloud fixtures prepared: manager, three test editors and roleless account. No real team or public site content created.
+00:09 +1: All tests passed!

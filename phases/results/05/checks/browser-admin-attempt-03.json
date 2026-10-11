@@ -1,0 +1,45 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [
+    {
+      "name": "P05-T01 manager saved settings restore in browser",
+      "ok": true
+    },
+    {
+      "name": "Editor media library omits private connection settings",
+      "ok": true
+    }
+  ],
+  "errors": [
+    "browser file picker: locator.waitFor: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Uploaded and registered in the library. Link it to a project before publishing.', { exact: true }).or(getByLabel('Uploaded and registered in the library. Link it to a project before publishing.')).first() to be visible\u001b[22m\n"
+  ],
+  "videos": [],
+  "networkFailures": [
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    }
+  ],
+  "imageEvents": []
+}

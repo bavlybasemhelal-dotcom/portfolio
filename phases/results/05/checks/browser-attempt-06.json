@@ -1,0 +1,25 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [],
+  "errors": [
+    "chrome gallery: image_response_timeout"
+  ],
+  "videos": [],
+  "imageEvents": [
+    {
+      "bodyError": "response.json: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "fileId": "1HWbf6MvBF1ElUza8_lRSgO97G43YOhh6",
+      "mime": "image/png",
+      "size": 3927,
+      "matches": true
+    },
+    {
+      "fileId": "1BIbJD9o_ttxH7ci5cDyC3DEXSoCfHZXy",
+      "mime": "image/jpeg",
+      "size": 13879,
+      "matches": true
+    }
+  ]
+}

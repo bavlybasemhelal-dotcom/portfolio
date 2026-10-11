@@ -1,0 +1,302 @@
+[
+  {
+    "theme": "light",
+    "fg": "ink",
+    "bg": "bg",
+    "foreground": "#101e36",
+    "background": "#f7f9fd",
+    "ratio": 15.8,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "ink",
+    "bg": "surface",
+    "foreground": "#101e36",
+    "background": "#fff",
+    "ratio": 16.65,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "muted",
+    "bg": "bg",
+    "foreground": "#485a75",
+    "background": "#f7f9fd",
+    "ratio": 6.65,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "muted",
+    "bg": "surface",
+    "foreground": "#485a75",
+    "background": "#fff",
+    "ratio": 7.01,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "muted",
+    "bg": "raised",
+    "foreground": "#485a75",
+    "background": "#edf3fc",
+    "ratio": 6.29,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "primary",
+    "bg": "bg",
+    "foreground": "#125bc4",
+    "background": "#f7f9fd",
+    "ratio": 6,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "accent",
+    "bg": "bg",
+    "foreground": "#146a8a",
+    "background": "#f7f9fd",
+    "ratio": 5.76,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "on-primary",
+    "bg": "primary",
+    "foreground": "#fff",
+    "background": "#125bc4",
+    "ratio": 6.33,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "danger",
+    "bg": "danger-bg",
+    "foreground": "#ad2336",
+    "background": "#fff0f2",
+    "ratio": 6.19,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "success",
+    "bg": "success-bg",
+    "foreground": "#126744",
+    "background": "#e6f6ee",
+    "ratio": 6.16,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "warning",
+    "bg": "warning-bg",
+    "foreground": "#7a4909",
+    "background": "#fff3d8",
+    "ratio": 6.85,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "control",
+    "bg": "surface",
+    "foreground": "#7788a3",
+    "background": "#fff",
+    "ratio": 3.6,
+    "minimum": 3,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "control",
+    "bg": "bg",
+    "foreground": "#7788a3",
+    "background": "#f7f9fd",
+    "ratio": 3.41,
+    "minimum": 3,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "focus",
+    "bg": "surface",
+    "foreground": "#125bc4",
+    "background": "#fff",
+    "ratio": 6.33,
+    "minimum": 3,
+    "ok": true
+  },
+  {
+    "theme": "light",
+    "fg": "focus",
+    "bg": "bg",
+    "foreground": "#125bc4",
+    "background": "#f7f9fd",
+    "ratio": 6,
+    "minimum": 3,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "ink",
+    "bg": "bg",
+    "foreground": "#f3f6fc",
+    "background": "#081120",
+    "ratio": 17.46,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "ink",
+    "bg": "surface",
+    "foreground": "#f3f6fc",
+    "background": "#101d32",
+    "ratio": 15.6,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "muted",
+    "bg": "bg",
+    "foreground": "#b5c4db",
+    "background": "#081120",
+    "ratio": 10.69,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "muted",
+    "bg": "surface",
+    "foreground": "#b5c4db",
+    "background": "#101d32",
+    "ratio": 9.55,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "muted",
+    "bg": "raised",
+    "foreground": "#b5c4db",
+    "background": "#172843",
+    "ratio": 8.36,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "primary",
+    "bg": "bg",
+    "foreground": "#91bcff",
+    "background": "#081120",
+    "ratio": 9.75,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "accent",
+    "bg": "bg",
+    "foreground": "#6ddcf1",
+    "background": "#081120",
+    "ratio": 11.84,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "on-primary",
+    "bg": "primary",
+    "foreground": "#09234c",
+    "background": "#91bcff",
+    "ratio": 7.99,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "danger",
+    "bg": "danger-bg",
+    "foreground": "#ffafb7",
+    "background": "#361e2d",
+    "ratio": 8.74,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "success",
+    "bg": "success-bg",
+    "foreground": "#83e0b7",
+    "background": "#12352d",
+    "ratio": 8.46,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "warning",
+    "bg": "warning-bg",
+    "foreground": "#f7cf83",
+    "background": "#352c1d",
+    "ratio": 9.29,
+    "minimum": 4.5,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "control",
+    "bg": "surface",
+    "foreground": "#7188a8",
+    "background": "#101d32",
+    "ratio": 4.65,
+    "minimum": 3,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "control",
+    "bg": "bg",
+    "foreground": "#7188a8",
+    "background": "#081120",
+    "ratio": 5.21,
+    "minimum": 3,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "focus",
+    "bg": "surface",
+    "foreground": "#6ddcf1",
+    "background": "#101d32",
+    "ratio": 10.58,
+    "minimum": 3,
+    "ok": true
+  },
+  {
+    "theme": "dark",
+    "fg": "focus",
+    "bg": "bg",
+    "foreground": "#6ddcf1",
+    "background": "#081120",
+    "ratio": 11.84,
+    "minimum": 3,
+    "ok": true
+  }
+]

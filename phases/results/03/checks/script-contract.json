@@ -1,0 +1,41 @@
+{
+  "mocked": true,
+  "checks": [
+    {
+      "name": "Unauthenticated request creates no files",
+      "ok": true
+    },
+    {
+      "name": "Forged token rejected by Auth lookup",
+      "ok": true
+    },
+    {
+      "name": "MIME and signature mismatch rejected",
+      "ok": true
+    },
+    {
+      "name": "Malformed Base64 rejected",
+      "ok": true
+    },
+    {
+      "name": "Arabic upload and idempotent retry",
+      "ok": true
+    },
+    {
+      "name": "Conflicting retry rejected",
+      "ok": true
+    },
+    {
+      "name": "Public image and private read guard",
+      "ok": true
+    },
+    {
+      "name": "5 MiB linear Base64 validation avoids stack overflow",
+      "ok": true
+    },
+    {
+      "name": "Oversized body refused before decode or Drive write",
+      "ok": true
+    }
+  ]
+}

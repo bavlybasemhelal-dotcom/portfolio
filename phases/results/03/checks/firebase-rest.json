@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-09T20:31:47.546934+00:00",
+  "projectId": "portfolio-14d15",
+  "transport": "Google official REST APIs, not yet Flutter SDK evidence",
+  "checks": [
+    {
+      "name": "email_password_auth",
+      "httpStatus": 200,
+      "ok": true,
+      "elapsedMs": 1906,
+      "error": null
+    },
+    {
+      "name": "firestore_write",
+      "httpStatus": 200,
+      "ok": true,
+      "error": null
+    },
+    {
+      "name": "firestore_server_read",
+      "httpStatus": 200,
+      "ok": true,
+      "path": "phase03_checks/QUUM6tS8dGbRd9rpwxOdEw5oLPS2/runs/1791577909464909100"
+    }
+  ]
+}

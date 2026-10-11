@@ -1,0 +1,4 @@
+{
+  "status": "error",
+  "error": "Task index 0 failed: retries exhausted after 4 attempts, with error: Request to https://firebasehosting.googleapis.com/v1beta1/projects/953084519018/sites/portfolio-14d15/versions/789b83a2bed9115b:populateFiles had HTTP Error: 400, Executable files are forbidden on the Spark billing plan. For more details, see https://firebase.google.com/support/faq#hosting-exe-restrictions"
+}

@@ -1,0 +1,178 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [
+    {
+      "name": "Actual decoded and rendered image 0",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 1",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 2",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 three original images and zoom render inside the site",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 chrome private anonymous images render without Google login",
+      "ok": true
+    },
+    {
+      "name": "chrome no Drive embed/login frames",
+      "ok": true
+    },
+    {
+      "name": "chrome in-app image zoom dialog",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 0",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 1",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 2",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 three original images and zoom render inside the site",
+      "ok": true
+    },
+    {
+      "name": "chrome anonymous media survives reload",
+      "ok": true
+    },
+    {
+      "name": "P05-T09 cover before load; no video element or autoplay",
+      "ok": true
+    },
+    {
+      "name": "Video 0 loads valid dimensions and remains paused",
+      "ok": true
+    },
+    {
+      "name": "P05-T09 actual MP4 5 MiB playback",
+      "ok": true
+    },
+    {
+      "name": "Video 1 loads valid dimensions and remains paused",
+      "ok": true
+    },
+    {
+      "name": "P05-T09 actual WebM playback",
+      "ok": true
+    },
+    {
+      "name": "P05-T09 PDF download has original Arabic name and byte-identical content",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 0",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 1",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 2",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 three original images and zoom render inside the site",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 msedge private anonymous images render without Google login",
+      "ok": true
+    },
+    {
+      "name": "msedge no Drive embed/login frames",
+      "ok": true
+    },
+    {
+      "name": "msedge in-app image zoom dialog",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 0",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 1",
+      "ok": true
+    },
+    {
+      "name": "Actual decoded and rendered image 2",
+      "ok": true
+    },
+    {
+      "name": "P05-T08 three original images and zoom render inside the site",
+      "ok": true
+    },
+    {
+      "name": "msedge anonymous media survives reload",
+      "ok": true
+    },
+    {
+      "name": "P05-T11 injected image failure has local placeholder",
+      "ok": true
+    }
+  ],
+  "errors": [
+    "image failure/retry: locator.waitFor: Timeout 90000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Image unavailable', { exact: true }).or(getByLabel('Image unavailable')).first() to be hidden\u001b[22m\n\u001b[2m    9 × locator resolved to visible <flt-semantics role=\"group\" id=\"flt-semantic-node-14\" aria-label=\"Technical media fixture — not company work↵Image unavailable\">…</flt-semantics>\u001b[22m\n\u001b[2m    171 × locator resolved to visible <flt-semantics role=\"group\" id=\"flt-semantic-node-20\" aria-label=\"Technical media fixture — not company work↵Image unavailable\">…</flt-semantics>\u001b[22m\n"
+  ],
+  "videos": [
+    {
+      "duration": 4.036667,
+      "currentTime": 0.361205,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "duration": 1.93589,
+      "currentTime": 0.395585,
+      "width": 320,
+      "height": 180
+    }
+  ],
+  "imageEvents": [
+    {
+      "fileId": "1HWbf6MvBF1ElUza8_lRSgO97G43YOhh6",
+      "mime": "image/png",
+      "size": 3927,
+      "matches": true
+    },
+    {
+      "bodyError": "response.json: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "fileId": "1BIbJD9o_ttxH7ci5cDyC3DEXSoCfHZXy",
+      "mime": "image/jpeg",
+      "size": 13879,
+      "matches": true
+    },
+    {
+      "fileId": "16kVuTEr5Rir-QV4arRiKTnhbiNROCBbP",
+      "mime": "image/webp",
+      "size": 2516,
+      "matches": true
+    },
+    {
+      "bodyError": "response.json: Protocol error (Network.getResponseBody): No data found for resource with given identifier\nResponse body is not available for a response that was navigated away from. Read response.body() before triggering any navigation."
+    },
+    {
+      "fileId": "1HWbf6MvBF1ElUza8_lRSgO97G43YOhh6",
+      "mime": "image/png",
+      "size": 3927,
+      "matches": true
+    }
+  ]
+}

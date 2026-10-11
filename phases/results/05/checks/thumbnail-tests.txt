@@ -1,0 +1,8 @@
+00:00 +0: loading D:/Projects/Portfolio/test/media_thumbnail_test.dart
+00:00 +0: actual صورة-أفقية.png produces bounded PNG without distortion
+00:00 +1: actual صورة-رأسية.jpg produces bounded PNG without distortion
+00:00 +2: actual صورة-ويب.webp produces bounded PNG without distortion
+00:00 +3: small original is not enlarged
+00:00 +4: truncated input is rejected before upload
+00:00 +5: oversized image axis is rejected
+00:00 +6: All tests passed!

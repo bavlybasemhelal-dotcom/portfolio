@@ -1,0 +1,8 @@
+{"verified":"P07-T11 manager sign-in opens actual overview"}
+{"verified":"P07-T03 partial draft confirms real server save"}
+{"verified":"P07-T03 publishing incomplete data points to missing fields"}
+{"verified":"P07-T01 real editor upload صورة-أفقية.png"}
+{"verified":"P07-T01 real editor upload صورة-رأسية.jpg"}
+{"verified":"P07-T01 real editor upload صورة-ويب.webp"}
+{"verified":"P07-T01 real editor upload video-source.mp4"}
+preview: P07-T02 same rich project template used by private preview

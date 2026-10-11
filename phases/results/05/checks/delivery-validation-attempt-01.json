@@ -1,0 +1,74 @@
+{
+  "ok": false,
+  "localLinksChecked": 137,
+  "brokenLinks": [],
+  "publicTextFilesScanned": 400,
+  "credentialPatternPaths": [],
+  "evidence": {
+    "script-contract": {
+      "checks": 8,
+      "expected": 8,
+      "ok": true
+    },
+    "rules-emulator": {
+      "checks": 10,
+      "expected": 10,
+      "ok": true
+    },
+    "dart-rest-cloud": {
+      "checks": 14,
+      "expected": 14,
+      "ok": true
+    },
+    "browser-public": {
+      "checks": 32,
+      "expected": 32,
+      "ok": true
+    },
+    "browser-admin": {
+      "checks": 7,
+      "expected": 7,
+      "ok": true
+    },
+    "browser-upload-readback": {
+      "checks": 3,
+      "expected": 3,
+      "ok": true
+    },
+    "final-browser": {
+      "checks": 4,
+      "expected": 4,
+      "ok": true
+    }
+  },
+  "deliveryChecks": {
+    "cloudComplete": true,
+    "scriptVersionSourceReadbackVerified": true,
+    "oldDeploymentPreserved": true,
+    "strictRulesDeployed": false,
+    "ownerConnectionSavedWithoutInventedEmail": true,
+    "directAnonymousAndRolelessUploadsRejected": true,
+    "testIdentitiesCleanedOwnerPreserved": true,
+    "flutter55Passed5IntentionalSkipped": true,
+    "thumbnail6Passed": true,
+    "analysisClean": true,
+    "finalBrowserUsesYogen": true,
+    "phase6NotStarted": true,
+    "webBuildCompleted": true,
+    "androidBuildCompleted": true
+  },
+  "buildArtifacts": [
+    {
+      "path": "build/web/main.dart.js",
+      "bytes": 3516273,
+      "sha256": "a9892f7427f1a4588ca6e5158968e6f7c365f91bfb74b5918995fa8f8ca2b199"
+    },
+    {
+      "path": "build/app/outputs/flutter-apk/app-debug.apk",
+      "bytes": 232323201,
+      "sha256": "6c46116dae25912f531feddc1ea440d282701d7b7289c5a14e81f952c50c9f06"
+    }
+  ],
+  "windows": "Deferred by explicit user request; excluded",
+  "physicalDevices": "Not exercised; Android build and independent sessions only"
+}

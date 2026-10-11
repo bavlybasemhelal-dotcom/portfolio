@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-09T21:09:01.279Z",
+  "checks": [
+    {
+      "name": "chrome real anonymous image card and gallery",
+      "ok": true
+    },
+    {
+      "name": "chrome image after refresh and theme change",
+      "ok": true
+    },
+    {
+      "name": "Real Flutter file picker → Apps Script → Drive → Firestore",
+      "ok": true
+    },
+    {
+      "name": "msedge real anonymous image card and gallery",
+      "ok": true
+    },
+    {
+      "name": "msedge image after refresh and theme change",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "environment": "Fresh Chrome and Edge, no Google session; actual Flutter release build."
+}

@@ -1,0 +1,644 @@
+{
+  "revision": "story-v3",
+  "date": "2026-10-09",
+  "checks": [
+    {
+      "id": "S01",
+      "name": "Background geometry moves with actual 3D CSS transforms",
+      "ok": true,
+      "cubeChanged": true,
+      "orbitChanged": true
+    },
+    {
+      "id": "S02",
+      "name": "One pause control freezes background and sculpture",
+      "ok": true,
+      "framesBefore": 16,
+      "framesAfter": 16,
+      "cubeFrozen": true,
+      "sceneFrozen": true
+    },
+    {
+      "id": "S03",
+      "name": "Natural scroll changes the identity pose and reveals work previews",
+      "ok": true,
+      "before": {
+        "progress": "0.0000",
+        "pose": "-0.3136",
+        "previewOpacity": "0",
+        "copy": "matrix(1, 0, 0, 1, 0, 0)"
+      },
+      "after": {
+        "progress": "0.5487",
+        "pose": "0.1583",
+        "previewOpacity": "0.49383",
+        "copy": "matrix(1, 0, 0, 1, 0, -24.1428)"
+      }
+    },
+    {
+      "id": "S04",
+      "name": "Reverse scroll restores the opening without scroll interception",
+      "ok": true,
+      "progress": "0.0000",
+      "overflow": 1440,
+      "viewport": 1440
+    },
+    {
+      "id": "S05",
+      "name": "Resume restarts background and sculpture",
+      "ok": true,
+      "cubeResumed": true,
+      "sceneResumed": true
+    },
+    {
+      "id": "S06",
+      "name": "Scroll action reveals a layered project exhibition",
+      "ok": true,
+      "entry": "0.8423",
+      "front": "matrix3d(0.984808, -0.0181512, 0.172697, 0, 0, 0.994522, 0.104528, 0, -0.173648, -0.10294, 0.979413, 0, 0, 20.3943, 28, 1)",
+      "layers": 3,
+      "hash": "#home"
+    },
+    {
+      "id": "S07",
+      "name": "All 15 projects have correct names, links and one active selection",
+      "ok": true,
+      "visited": [
+        {
+          "id": "P001",
+          "href": "#project/P001",
+          "title": "برنامج مبيعات",
+          "count": "01 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P002",
+          "href": "#project/P002",
+          "title": "عيادة طبيب - موقع حجز ومتابعة حالات",
+          "count": "02 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P003",
+          "href": "#project/P003",
+          "title": "برنامج إدارة مدرسة",
+          "count": "03 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P004",
+          "href": "#project/P004",
+          "title": "معمل أسنان - موقع حجز",
+          "count": "04 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P005",
+          "href": "#project/P005",
+          "title": "مكتب محامي - موقع حجز",
+          "count": "05 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P006",
+          "href": "#project/P006",
+          "title": "متجر إلكتروني بسيط",
+          "count": "06 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P007",
+          "href": "#project/P007",
+          "title": "Portfolio",
+          "count": "07 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P008",
+          "href": "#project/P008",
+          "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+          "count": "08 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P009",
+          "href": "#project/P009",
+          "title": "برنامج العضوية الكنسية",
+          "count": "09 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P010",
+          "href": "#project/P010",
+          "title": "برنامج ألعاب كنسي",
+          "count": "10 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P011",
+          "href": "#project/P011",
+          "title": "موقع لكنيسة",
+          "count": "11 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P012",
+          "href": "#project/P012",
+          "title": "صالون حلاقة - موقع حجز",
+          "count": "12 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P013",
+          "href": "#project/P013",
+          "title": "لعبة المرتبطين",
+          "count": "13 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P014",
+          "href": "#project/P014",
+          "title": "برنامج حساب مرتبات لشركة بالإمارات",
+          "count": "14 / 15",
+          "selected": 1
+        },
+        {
+          "id": "P015",
+          "href": "#project/P015",
+          "title": "برنامج لخدمة الرجاء للمرضى بالمطرانية",
+          "count": "15 / 15",
+          "selected": 1
+        }
+      ]
+    },
+    {
+      "id": "S08",
+      "name": "Next/previous wrap through the whole collection",
+      "ok": true,
+      "wrappedNext": "P001",
+      "wrappedPrevious": "P015"
+    },
+    {
+      "id": "S09",
+      "name": "RTL keyboard navigation, Home and End select projects",
+      "ok": true,
+      "arrow": "P001",
+      "end": "P015",
+      "home": "P001"
+    },
+    {
+      "id": "S10",
+      "name": "Selected project survives theme and language changes",
+      "ok": true,
+      "sameTheme": "P006",
+      "sameLanguage": "P006"
+    },
+    {
+      "id": "S11",
+      "name": "The exhibition opens its selected project with image continuity",
+      "ok": true,
+      "route": "project/P006"
+    },
+    {
+      "id": "S12",
+      "name": "Gradient endpoints preserve readable functional text",
+      "ok": true,
+      "pairs": 24,
+      "lowest": 5.11
+    },
+    {
+      "id": "S13",
+      "name": "System reduced motion freezes backgrounds and removes the pinned chapter",
+      "ok": true,
+      "animations": 0,
+      "sticky": "relative",
+      "progress": "0.0000",
+      "projects": 15,
+      "disabled": true
+    },
+    {
+      "id": "S14",
+      "name": "The complete exhibition works with reduced motion",
+      "ok": true,
+      "active": "P008"
+    },
+    {
+      "id": "S15",
+      "name": "Touch reaches the last project and opens it",
+      "ok": true,
+      "touchActive": "P015",
+      "touchRoute": true,
+      "touch": "Emulated"
+    },
+    {
+      "id": "S16",
+      "name": "Long project titles fit all 12 language/theme/width combinations with clear stacked copy",
+      "ok": true,
+      "layout": [
+        {
+          "width": 360,
+          "lang": "ar",
+          "theme": "light",
+          "scroll": 360,
+          "viewport": 360,
+          "selected": "P008",
+          "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+          "frameCopyGap": 43.808837890625
+        },
+        {
+          "width": 360,
+          "lang": "ar",
+          "theme": "dark",
+          "scroll": 360,
+          "viewport": 360,
+          "selected": "P008",
+          "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+          "frameCopyGap": 43.808837890625
+        },
+        {
+          "width": 360,
+          "lang": "en",
+          "theme": "light",
+          "scroll": 360,
+          "viewport": 360,
+          "selected": "P008",
+          "title": "Sunday School / Deacon School Application",
+          "frameCopyGap": 41.15087890625
+        },
+        {
+          "width": 360,
+          "lang": "en",
+          "theme": "dark",
+          "scroll": 360,
+          "viewport": 360,
+          "selected": "P008",
+          "title": "Sunday School / Deacon School Application",
+          "frameCopyGap": 41.15087890625
+        },
+        {
+          "width": 768,
+          "lang": "ar",
+          "theme": "light",
+          "scroll": 768,
+          "viewport": 768,
+          "selected": "P008",
+          "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+          "frameCopyGap": 44.238525390625
+        },
+        {
+          "width": 768,
+          "lang": "ar",
+          "theme": "dark",
+          "scroll": 768,
+          "viewport": 768,
+          "selected": "P008",
+          "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+          "frameCopyGap": 44.238525390625
+        },
+        {
+          "width": 768,
+          "lang": "en",
+          "theme": "light",
+          "scroll": 768,
+          "viewport": 768,
+          "selected": "P008",
+          "title": "Sunday School / Deacon School Application",
+          "frameCopyGap": 44.14459228515625
+        },
+        {
+          "width": 768,
+          "lang": "en",
+          "theme": "dark",
+          "scroll": 768,
+          "viewport": 768,
+          "selected": "P008",
+          "title": "Sunday School / Deacon School Application",
+          "frameCopyGap": 44.14459228515625
+        },
+        {
+          "width": 1440,
+          "lang": "ar",
+          "theme": "light",
+          "scroll": 1440,
+          "viewport": 1440,
+          "selected": "P008",
+          "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+          "frameCopyGap": -460.9703369140625
+        },
+        {
+          "width": 1440,
+          "lang": "ar",
+          "theme": "dark",
+          "scroll": 1440,
+          "viewport": 1440,
+          "selected": "P008",
+          "title": "برنامج مدارس الأحد / مدرسة الشمامسة",
+          "frameCopyGap": -460.9703369140625
+        },
+        {
+          "width": 1440,
+          "lang": "en",
+          "theme": "light",
+          "scroll": 1440,
+          "viewport": 1440,
+          "selected": "P008",
+          "title": "Sunday School / Deacon School Application",
+          "frameCopyGap": -502.80926513671875
+        },
+        {
+          "width": 1440,
+          "lang": "en",
+          "theme": "dark",
+          "scroll": 1440,
+          "viewport": 1440,
+          "selected": "P008",
+          "title": "Sunday School / Deacon School Application",
+          "frameCopyGap": -502.80926513671875
+        }
+      ],
+      "recheck": "Narrowed the decorative perspective orbit and reserved tablet height for its projected frame; no root clipping workaround."
+    },
+    {
+      "id": "S17",
+      "name": "Phone landscape uses natural flow without horizontal overflow",
+      "ok": true,
+      "scroll": 812,
+      "viewport": 812,
+      "chapter": "relative"
+    },
+    {
+      "id": "S18",
+      "name": "Edge displays the new background, 3D scene and project exhibition",
+      "ok": true,
+      "active": "P005",
+      "renderer": "webgl",
+      "cube": "matrix3d(0.910757, -0.275482, 0.307623, 0, 0.105125, 0.875083, 0.472418, 0, -0.399338, -0.397919, 0.825947, 0, 0, -7.53784, 0, 1)",
+      "scroll": 1440
+    }
+  ],
+  "contrast": [
+    {
+      "theme": "light",
+      "fg": "ink",
+      "bg": "gradient-top",
+      "foreground": "#101e36",
+      "background": "#e5f2ff",
+      "ratio": 14.65,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "muted",
+      "bg": "gradient-top",
+      "foreground": "#485a75",
+      "background": "#e5f2ff",
+      "ratio": 6.17,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "primary",
+      "bg": "gradient-top",
+      "foreground": "#125bc4",
+      "background": "#e5f2ff",
+      "ratio": 5.57,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "accent",
+      "bg": "gradient-top",
+      "foreground": "#146a8a",
+      "background": "#e5f2ff",
+      "ratio": 5.34,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "ink",
+      "bg": "gradient-bottom",
+      "foreground": "#101e36",
+      "background": "#efe8ff",
+      "ratio": 14,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "muted",
+      "bg": "gradient-bottom",
+      "foreground": "#485a75",
+      "background": "#efe8ff",
+      "ratio": 5.9,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "primary",
+      "bg": "gradient-bottom",
+      "foreground": "#125bc4",
+      "background": "#efe8ff",
+      "ratio": 5.32,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "accent",
+      "bg": "gradient-bottom",
+      "foreground": "#146a8a",
+      "background": "#efe8ff",
+      "ratio": 5.11,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "ink",
+      "bg": "gradient-glow",
+      "foreground": "#101e36",
+      "background": "#def9f5",
+      "ratio": 15.05,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "muted",
+      "bg": "gradient-glow",
+      "foreground": "#485a75",
+      "background": "#def9f5",
+      "ratio": 6.34,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "primary",
+      "bg": "gradient-glow",
+      "foreground": "#125bc4",
+      "background": "#def9f5",
+      "ratio": 5.72,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "accent",
+      "bg": "gradient-glow",
+      "foreground": "#146a8a",
+      "background": "#def9f5",
+      "ratio": 5.49,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "ink",
+      "bg": "gradient-top",
+      "foreground": "#f3f6fc",
+      "background": "#11264b",
+      "ratio": 13.83,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "muted",
+      "bg": "gradient-top",
+      "foreground": "#b5c4db",
+      "background": "#11264b",
+      "ratio": 8.47,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "primary",
+      "bg": "gradient-top",
+      "foreground": "#91bcff",
+      "background": "#11264b",
+      "ratio": 7.73,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "accent",
+      "bg": "gradient-top",
+      "foreground": "#6ddcf1",
+      "background": "#11264b",
+      "ratio": 9.38,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "ink",
+      "bg": "gradient-bottom",
+      "foreground": "#f3f6fc",
+      "background": "#241b42",
+      "ratio": 14.8,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "muted",
+      "bg": "gradient-bottom",
+      "foreground": "#b5c4db",
+      "background": "#241b42",
+      "ratio": 9.07,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "primary",
+      "bg": "gradient-bottom",
+      "foreground": "#91bcff",
+      "background": "#241b42",
+      "ratio": 8.27,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "accent",
+      "bg": "gradient-bottom",
+      "foreground": "#6ddcf1",
+      "background": "#241b42",
+      "ratio": 10.04,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "ink",
+      "bg": "gradient-glow",
+      "foreground": "#f3f6fc",
+      "background": "#0a303a",
+      "ratio": 12.96,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "muted",
+      "bg": "gradient-glow",
+      "foreground": "#b5c4db",
+      "background": "#0a303a",
+      "ratio": 7.94,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "primary",
+      "bg": "gradient-glow",
+      "foreground": "#91bcff",
+      "background": "#0a303a",
+      "ratio": 7.24,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "accent",
+      "bg": "gradient-glow",
+      "foreground": "#6ddcf1",
+      "background": "#0a303a",
+      "ratio": 8.79,
+      "minimum": 4.5,
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "browsers": [
+    {
+      "name": "Chrome",
+      "version": "154.0.8037.98",
+      "renderer": "ANGLE SwiftShader for graphics checks"
+    },
+    {
+      "name": "Edge",
+      "version": "154.0.4258.62",
+      "renderer": "Default headless rendering"
+    }
+  ],
+  "limitations": [
+    "Desktop headless rendering; touch is emulated. Flutter and physical-phone performance remain untested."
+  ],
+  "summary": {
+    "checks": 18,
+    "passed": 18,
+    "failed": 0,
+    "gradientContrast": 24,
+    "scriptErrors": 0
+  }
+}

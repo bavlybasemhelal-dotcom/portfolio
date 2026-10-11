@@ -1,0 +1,63 @@
+{
+  "clientDate": "2026-10-11",
+  "scope": "Phase 8 only; Phase 9 not started",
+  "phaseComplete": false,
+  "technicalIntegrationReady": true,
+  "remaining": [
+    "Real content and media for 15 required works",
+    "Actual team-content project publication cycle",
+    "Full bilingual content and links review"
+  ],
+  "flutterTestsPassed": 130,
+  "optionalCloudTestsSkippedInGeneralSuite": 9,
+  "newFlutterTests": 34,
+  "rulesChecksPassed": 30,
+  "separateCloudContactChecksPassed": 6,
+  "deployedRulesMatchSource": true,
+  "cloudContentPrivateDraftCount": 15,
+  "publishedProjectsAfterPreparation": 0,
+  "responsiveWidgetStates": 24,
+  "nativeDeviceTested": false,
+  "windowsDeferred": true,
+  "previewMatchesBuiltWeb": true,
+  "previewUrl": "http://127.0.0.1:8777/#/contact?lang=ar",
+  "artifacts": {
+    "web": {
+      "path": "D:\\Projects\\Portfolio\\build\\web\\main.dart.js",
+      "bytes": 4094906,
+      "sha256": "27978218e8163fc9abce08184c9ec2ec0606c2e8108c8e9fdab25ae24b64b4e2"
+    },
+    "previewWeb": {
+      "path": "D:\\Projects\\Portfolio\\.runtime\\phase08-release-web\\main.dart.js",
+      "bytes": 4094906,
+      "sha256": "27978218e8163fc9abce08184c9ec2ec0606c2e8108c8e9fdab25ae24b64b4e2"
+    },
+    "androidDebug": {
+      "path": "D:\\Projects\\Portfolio\\build\\app\\outputs\\flutter-apk\\app-debug.apk",
+      "bytes": 232612242,
+      "sha256": "58f46dfe2f59373afeabbae2e6e282bb0895ceb045ae25b2b50eb76bc8d664fd"
+    },
+    "screenshots": [
+      {
+        "path": "D:\\Projects\\Portfolio\\phases\\results\\08\\screenshots\\admin-inbox-ar-light.jpg",
+        "bytes": 40101,
+        "sha256": "e0561eafbec0300878f9a35e191a13ba17e62ceda144784ece18bfac7a7f8805"
+      },
+      {
+        "path": "D:\\Projects\\Portfolio\\phases\\results\\08\\screenshots\\admin-projects-ar-light.jpg",
+        "bytes": 52469,
+        "sha256": "8fc70b72ee756341dc803de3db23655e0deeab99c317ef7e304c48c235d77874"
+      },
+      {
+        "path": "D:\\Projects\\Portfolio\\phases\\results\\08\\screenshots\\contact-ar-light.jpg",
+        "bytes": 41318,
+        "sha256": "831e9c6b72e65c175a3041b9933faaa499c7956e34a73b489889c97ad0849b90"
+      },
+      {
+        "path": "D:\\Projects\\Portfolio\\phases\\results\\08\\screenshots\\contact-validation-en-dark.jpg",
+        "bytes": 50353,
+        "sha256": "8b42ea90047420732a20761779741bbfd9ffb6593a203d0524e499c15dc2e102"
+      }
+    ]
+  }
+}

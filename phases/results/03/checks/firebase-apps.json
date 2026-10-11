@@ -1,0 +1,17 @@
+[
+  {
+    "platform": "web",
+    "appId": "1:953084519018:web:81a6759542c57e75d0a013",
+    "projectId": "portfolio-14d15"
+  },
+  {
+    "platform": "android",
+    "appId": "1:953084519018:android:298aa3ef5a7a6072d0a013",
+    "projectId": "portfolio-14d15"
+  },
+  {
+    "platform": "apple",
+    "appId": "1:953084519018:ios:ef165a331315b5b5d0a013",
+    "projectId": "portfolio-14d15"
+  }
+]

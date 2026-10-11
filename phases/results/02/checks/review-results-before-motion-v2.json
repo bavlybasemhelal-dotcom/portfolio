@@ -1,0 +1,1598 @@
+{
+  "matrix": [
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/home-ar-light-360.png"
+    },
+    {
+      "screen": "work",
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "أعمالنا، بتفاصيلها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/work-ar-light-360.png"
+    },
+    {
+      "screen": "detail",
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "برنامج مدارس الأحد / مدرسة الشمامسة"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/detail-ar-light-360.png"
+    },
+    {
+      "screen": "list",
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "مشاريع YOGEN"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/list-ar-light-360.png"
+    },
+    {
+      "screen": "editor",
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "تحرير المشروع"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/editor-ar-light-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/home-ar-dark-360.png"
+    },
+    {
+      "screen": "work",
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "أعمالنا، بتفاصيلها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/work-ar-dark-360.png"
+    },
+    {
+      "screen": "detail",
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "برنامج مدارس الأحد / مدرسة الشمامسة"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/detail-ar-dark-360.png"
+    },
+    {
+      "screen": "list",
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "مشاريع YOGEN"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/list-ar-dark-360.png"
+    },
+    {
+      "screen": "editor",
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "rtl",
+      "headings": [
+        "تحرير المشروع"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/editor-ar-dark-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/home-en-light-360.png"
+    },
+    {
+      "screen": "work",
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Our work, in detail."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/work-en-light-360.png"
+    },
+    {
+      "screen": "detail",
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Sunday School / Deacon School Application"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/detail-en-light-360.png"
+    },
+    {
+      "screen": "list",
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "YOGEN projects"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/list-en-light-360.png"
+    },
+    {
+      "screen": "editor",
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Project editor"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/editor-en-light-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/home-en-dark-360.png"
+    },
+    {
+      "screen": "work",
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Our work, in detail."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/work-en-dark-360.png"
+    },
+    {
+      "screen": "detail",
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Sunday School / Deacon School Application"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/detail-en-dark-360.png"
+    },
+    {
+      "screen": "list",
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "YOGEN projects"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/list-en-dark-360.png"
+    },
+    {
+      "screen": "editor",
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 360,
+      "scroll": 360,
+      "dir": "ltr",
+      "headings": [
+        "Project editor"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/editor-en-dark-360.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/home-ar-light-768.png"
+    },
+    {
+      "screen": "work",
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "أعمالنا، بتفاصيلها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/work-ar-light-768.png"
+    },
+    {
+      "screen": "detail",
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "برنامج مدارس الأحد / مدرسة الشمامسة"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/detail-ar-light-768.png"
+    },
+    {
+      "screen": "list",
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "مشاريع YOGEN"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/list-ar-light-768.png"
+    },
+    {
+      "screen": "editor",
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "تحرير المشروع"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/editor-ar-light-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/home-ar-dark-768.png"
+    },
+    {
+      "screen": "work",
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "أعمالنا، بتفاصيلها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/work-ar-dark-768.png"
+    },
+    {
+      "screen": "detail",
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "برنامج مدارس الأحد / مدرسة الشمامسة"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/detail-ar-dark-768.png"
+    },
+    {
+      "screen": "list",
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "مشاريع YOGEN"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/list-ar-dark-768.png"
+    },
+    {
+      "screen": "editor",
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "rtl",
+      "headings": [
+        "تحرير المشروع"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/editor-ar-dark-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/home-en-light-768.png"
+    },
+    {
+      "screen": "work",
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Our work, in detail."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/work-en-light-768.png"
+    },
+    {
+      "screen": "detail",
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Sunday School / Deacon School Application"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/detail-en-light-768.png"
+    },
+    {
+      "screen": "list",
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "YOGEN projects"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/list-en-light-768.png"
+    },
+    {
+      "screen": "editor",
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Project editor"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/editor-en-light-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/home-en-dark-768.png"
+    },
+    {
+      "screen": "work",
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Our work, in detail."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/work-en-dark-768.png"
+    },
+    {
+      "screen": "detail",
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Sunday School / Deacon School Application"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/detail-en-dark-768.png"
+    },
+    {
+      "screen": "list",
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "YOGEN projects"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/list-en-dark-768.png"
+    },
+    {
+      "screen": "editor",
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 768,
+      "scroll": 768,
+      "dir": "ltr",
+      "headings": [
+        "Project editor"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/editor-en-dark-768.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/home-ar-light-1440.png"
+    },
+    {
+      "screen": "work",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "أعمالنا، بتفاصيلها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/work-ar-light-1440.png"
+    },
+    {
+      "screen": "detail",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "برنامج مدارس الأحد / مدرسة الشمامسة"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/detail-ar-light-1440.png"
+    },
+    {
+      "screen": "list",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "مشاريع YOGEN"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/list-ar-light-1440.png"
+    },
+    {
+      "screen": "editor",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "تحرير المشروع"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/editor-ar-light-1440.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "أفكارك تستحقتطبيقًا يليق بها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/home-ar-dark-1440.png"
+    },
+    {
+      "screen": "work",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "أعمالنا، بتفاصيلها."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/work-ar-dark-1440.png"
+    },
+    {
+      "screen": "detail",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "برنامج مدارس الأحد / مدرسة الشمامسة"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/detail-ar-dark-1440.png"
+    },
+    {
+      "screen": "list",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "مشاريع YOGEN"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/list-ar-dark-1440.png"
+    },
+    {
+      "screen": "editor",
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "rtl",
+      "headings": [
+        "تحرير المشروع"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": false,
+      "screenshot": "screenshots/editor-ar-dark-1440.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/home-en-light-1440.png"
+    },
+    {
+      "screen": "work",
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Our work, in detail."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/work-en-light-1440.png"
+    },
+    {
+      "screen": "detail",
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Sunday School / Deacon School Application"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/detail-en-light-1440.png"
+    },
+    {
+      "screen": "list",
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "YOGEN projects"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/list-en-light-1440.png"
+    },
+    {
+      "screen": "editor",
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Project editor"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/editor-en-light-1440.png"
+    },
+    {
+      "screen": "home",
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Your ideas deserveexceptional software."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/home-en-dark-1440.png"
+    },
+    {
+      "screen": "work",
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Our work, in detail."
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/work-en-dark-1440.png"
+    },
+    {
+      "screen": "detail",
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Sunday School / Deacon School Application"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/detail-en-dark-1440.png"
+    },
+    {
+      "screen": "list",
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "YOGEN projects"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/list-en-dark-1440.png"
+    },
+    {
+      "screen": "editor",
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "ok": true,
+      "viewport": 1440,
+      "scroll": 1440,
+      "dir": "ltr",
+      "headings": [
+        "Project editor"
+      ],
+      "brokenImages": 0,
+      "fontArabic": true,
+      "fontEnglish": true,
+      "screenshot": "screenshots/editor-en-dark-1440.png"
+    }
+  ],
+  "extraScreens": [
+    {
+      "screen": "services",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/services-ar-dark-1440.png"
+    },
+    {
+      "screen": "services",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/services-en-light-360.png"
+    },
+    {
+      "screen": "about",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/about-ar-dark-1440.png"
+    },
+    {
+      "screen": "about",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/about-en-light-360.png"
+    },
+    {
+      "screen": "contact",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/contact-ar-dark-1440.png"
+    },
+    {
+      "screen": "contact",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/contact-en-light-360.png"
+    },
+    {
+      "screen": "login",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/login-ar-dark-1440.png"
+    },
+    {
+      "screen": "login",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/login-en-light-360.png"
+    },
+    {
+      "screen": "admin",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/admin-ar-dark-1440.png"
+    },
+    {
+      "screen": "admin",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/admin-en-light-360.png"
+    },
+    {
+      "screen": "admin/media",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/admin-media-ar-dark-1440.png"
+    },
+    {
+      "screen": "admin/media",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/admin-media-en-light-360.png"
+    },
+    {
+      "screen": "admin/categories",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/admin-categories-ar-dark-1440.png"
+    },
+    {
+      "screen": "admin/categories",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/admin-categories-en-light-360.png"
+    },
+    {
+      "screen": "admin/team",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/admin-team-ar-dark-1440.png"
+    },
+    {
+      "screen": "admin/team",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/admin-team-en-light-360.png"
+    },
+    {
+      "screen": "admin/company",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/admin-company-ar-dark-1440.png"
+    },
+    {
+      "screen": "admin/company",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/admin-company-en-light-360.png"
+    },
+    {
+      "screen": "admin/accounts",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/admin-accounts-ar-dark-1440.png"
+    },
+    {
+      "screen": "admin/accounts",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/admin-accounts-en-light-360.png"
+    },
+    {
+      "screen": "admin/storage",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/admin-storage-ar-dark-1440.png"
+    },
+    {
+      "screen": "admin/storage",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/admin-storage-en-light-360.png"
+    },
+    {
+      "screen": "states",
+      "lang": "ar",
+      "theme": "dark",
+      "width": 1440,
+      "viewport": 1440,
+      "scroll": 1440,
+      "screenshot": "screenshots/states-ar-dark-1440.png"
+    },
+    {
+      "screen": "states",
+      "lang": "en",
+      "theme": "light",
+      "width": 360,
+      "viewport": 360,
+      "scroll": 360,
+      "screenshot": "screenshots/states-en-light-360.png"
+    }
+  ],
+  "flows": [
+    {
+      "name": "Public: home → work → P008 → similar request",
+      "ok": true
+    },
+    {
+      "name": "Admin: login → draft → save → preview → incomplete warning → design sample → mock publish",
+      "ok": true,
+      "previewOk": true,
+      "incompleteRejected": true,
+      "publishedMock": true
+    },
+    {
+      "name": "Gallery: open → next → Escape → trigger focus",
+      "ok": true,
+      "dialogOk": true,
+      "closeOk": true,
+      "focusReturned": true
+    },
+    {
+      "name": "Keyboard focus indicator",
+      "ok": true,
+      "tag": "A",
+      "outline": "solid",
+      "width": "3px"
+    },
+    {
+      "name": "OS reduced motion: ribbon animation disabled",
+      "ok": true
+    },
+    {
+      "name": "Theme & language controls",
+      "ok": true
+    },
+    {
+      "name": "Mobile navigation disclosure",
+      "ok": true
+    },
+    {
+      "name": "Phone landscape layout",
+      "ok": true
+    }
+  ],
+  "contrast": [
+    {
+      "theme": "light",
+      "fg": "ink",
+      "bg": "bg",
+      "foreground": "#101e36",
+      "background": "#f7f9fd",
+      "ratio": 15.8,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "ink",
+      "bg": "surface",
+      "foreground": "#101e36",
+      "background": "#fff",
+      "ratio": 16.65,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "muted",
+      "bg": "bg",
+      "foreground": "#485a75",
+      "background": "#f7f9fd",
+      "ratio": 6.65,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "muted",
+      "bg": "surface",
+      "foreground": "#485a75",
+      "background": "#fff",
+      "ratio": 7.01,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "muted",
+      "bg": "raised",
+      "foreground": "#485a75",
+      "background": "#edf3fc",
+      "ratio": 6.29,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "primary",
+      "bg": "bg",
+      "foreground": "#125bc4",
+      "background": "#f7f9fd",
+      "ratio": 6,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "accent",
+      "bg": "bg",
+      "foreground": "#146a8a",
+      "background": "#f7f9fd",
+      "ratio": 5.76,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "on-primary",
+      "bg": "primary",
+      "foreground": "#fff",
+      "background": "#125bc4",
+      "ratio": 6.33,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "danger",
+      "bg": "danger-bg",
+      "foreground": "#ad2336",
+      "background": "#fff0f2",
+      "ratio": 6.19,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "success",
+      "bg": "success-bg",
+      "foreground": "#126744",
+      "background": "#e6f6ee",
+      "ratio": 6.16,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "warning",
+      "bg": "warning-bg",
+      "foreground": "#7a4909",
+      "background": "#fff3d8",
+      "ratio": 6.85,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "control",
+      "bg": "surface",
+      "foreground": "#7788a3",
+      "background": "#fff",
+      "ratio": 3.6,
+      "minimum": 3,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "control",
+      "bg": "bg",
+      "foreground": "#7788a3",
+      "background": "#f7f9fd",
+      "ratio": 3.41,
+      "minimum": 3,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "focus",
+      "bg": "surface",
+      "foreground": "#125bc4",
+      "background": "#fff",
+      "ratio": 6.33,
+      "minimum": 3,
+      "ok": true
+    },
+    {
+      "theme": "light",
+      "fg": "focus",
+      "bg": "bg",
+      "foreground": "#125bc4",
+      "background": "#f7f9fd",
+      "ratio": 6,
+      "minimum": 3,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "ink",
+      "bg": "bg",
+      "foreground": "#f3f6fc",
+      "background": "#081120",
+      "ratio": 17.46,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "ink",
+      "bg": "surface",
+      "foreground": "#f3f6fc",
+      "background": "#101d32",
+      "ratio": 15.6,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "muted",
+      "bg": "bg",
+      "foreground": "#b5c4db",
+      "background": "#081120",
+      "ratio": 10.69,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "muted",
+      "bg": "surface",
+      "foreground": "#b5c4db",
+      "background": "#101d32",
+      "ratio": 9.55,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "muted",
+      "bg": "raised",
+      "foreground": "#b5c4db",
+      "background": "#172843",
+      "ratio": 8.36,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "primary",
+      "bg": "bg",
+      "foreground": "#91bcff",
+      "background": "#081120",
+      "ratio": 9.75,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "accent",
+      "bg": "bg",
+      "foreground": "#6ddcf1",
+      "background": "#081120",
+      "ratio": 11.84,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "on-primary",
+      "bg": "primary",
+      "foreground": "#09234c",
+      "background": "#91bcff",
+      "ratio": 7.99,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "danger",
+      "bg": "danger-bg",
+      "foreground": "#ffafb7",
+      "background": "#361e2d",
+      "ratio": 8.74,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "success",
+      "bg": "success-bg",
+      "foreground": "#83e0b7",
+      "background": "#12352d",
+      "ratio": 8.46,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "warning",
+      "bg": "warning-bg",
+      "foreground": "#f7cf83",
+      "background": "#352c1d",
+      "ratio": 9.29,
+      "minimum": 4.5,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "control",
+      "bg": "surface",
+      "foreground": "#7188a8",
+      "background": "#101d32",
+      "ratio": 4.65,
+      "minimum": 3,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "control",
+      "bg": "bg",
+      "foreground": "#7188a8",
+      "background": "#081120",
+      "ratio": 5.21,
+      "minimum": 3,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "focus",
+      "bg": "surface",
+      "foreground": "#6ddcf1",
+      "background": "#101d32",
+      "ratio": 10.58,
+      "minimum": 3,
+      "ok": true
+    },
+    {
+      "theme": "dark",
+      "fg": "focus",
+      "bg": "bg",
+      "foreground": "#6ddcf1",
+      "background": "#081120",
+      "ratio": 11.84,
+      "minimum": 3,
+      "ok": true
+    }
+  ],
+  "issues": [],
+  "browser": "Installed Chrome, headless",
+  "kind": "Design-prototype review only",
+  "browserVersion": "154.0.8037.98",
+  "summary": {
+    "coreScreens": 60,
+    "extraScreens": 24,
+    "contrastPairs": 30,
+    "flowChecks": 8,
+    "issues": 0
+  }
+}

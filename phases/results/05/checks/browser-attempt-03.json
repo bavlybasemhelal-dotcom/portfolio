@@ -1,0 +1,8 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [],
+  "errors": [
+    "chrome gallery: locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'English', exact: true }).or(getByRole('button', { name: 'العربية', exact: true })).first() to be visible\u001b[22m\n"
+  ],
+  "videos": []
+}

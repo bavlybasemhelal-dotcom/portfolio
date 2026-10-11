@@ -1,0 +1,14 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [
+    {
+      "name": "P05-T01 manager saved settings restore in browser",
+      "ok": false
+    }
+  ],
+  "errors": [
+    "admin: P05-T01 manager saved settings restore in browser"
+  ],
+  "videos": [],
+  "imageEvents": []
+}

@@ -1,0 +1,4 @@
+Running Gradle task 'assembleDebug'...                          
+Picked up JAVA_TOOL_OPTIONS: -XX:ActiveProcessorCount=2
+Running Gradle task 'assembleDebug'...                             38.4s
+Gradle task assembleDebug failed with exit code 1

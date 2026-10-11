@@ -1,0 +1,14 @@
+{
+  "checks": [
+    {
+      "name": "P06-T10 Tab reaches the native project card action",
+      "ok": true
+    },
+    {
+      "name": "P06-T10 Enter opens the selected project",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

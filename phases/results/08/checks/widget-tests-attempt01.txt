@@ -1,0 +1,1385 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (109.0.0 available)
+  analyzer 10.0.1 (14.5.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  go_router 17.5.0 (18.0.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  image 4.10.1 (4.10.2 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.18 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  objective_c 9.5.0 (9.6.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  shared_preferences_android 2.4.23 (2.4.28 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.29.0 (1.33.0 available)
+  test_api 0.7.9 (0.7.15 available)
+  test_core 0.6.15 (0.6.21 available)
+  url_launcher_android 6.3.30 (6.3.33 available)
+  vector_math 2.2.0 (2.4.3 available)
+  video_player 2.11.1 (2.14.1 available)
+  video_player_android 2.9.5 (2.12.2 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+29 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading D:/Projects/Portfolio/test/phase08_contact_widget_test.dart
+00:00 +0: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar light retains responsive fields
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual: FlutterError:<A RenderFlex overflowed by 17 pixels on the right.>
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:68:13)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart line 68
+The test description was:
+  P08-T04 contact form 360.0 ar light retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:03 +0 -1: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar light retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 360.0 ar light retains responsive fields
+  
+Warning: At least one test in this suite creates an HttpClient. When running a test suite that uses
+TestWidgetsFlutterBinding, all HTTP requests will return status code 400, and no network request
+will actually be made. Any test expecting a real network connection and status code will fail.
+To test code that needs an HttpClient, provide your own HttpClient implementation to the code under
+test, so that your test can consistently provide a testable response to the code under test.
+00:03 +0 -1: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar dark retains responsive fields
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual: FlutterError:<A RenderFlex overflowed by 17 pixels on the right.>
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:68:13)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart line 68
+The test description was:
+  P08-T04 contact form 360.0 ar dark retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:05 +0 -2: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar dark retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 360.0 ar dark retains responsive fields
+  
+00:05 +0 -2: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en light retains responsive fields
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual: FlutterError:<A RenderFlex overflowed by 16 pixels on the right.>
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:68:13)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart line 68
+The test description was:
+  P08-T04 contact form 360.0 en light retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:05 +0 -3: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en light retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 360.0 en light retains responsive fields
+  
+00:05 +0 -3: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en dark retains responsive fields
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: null
+  Actual: FlutterError:<A RenderFlex overflowed by 16 pixels on the right.>
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:68:13)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart line 68
+The test description was:
+  P08-T04 contact form 360.0 en dark retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:06 +0 -4: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en dark retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 360.0 en dark retains responsive fields
+  
+00:06 +0 -4: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar light retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 768.0 ar light retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:06 +0 -5: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar light retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 768.0 ar light retains responsive fields
+  
+00:06 +0 -5: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar dark retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 768.0 ar dark retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:07 +0 -6: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar dark retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 768.0 ar dark retains responsive fields
+  
+00:07 +0 -6: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en light retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 768.0 en light retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:07 +0 -7: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en light retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 768.0 en light retains responsive fields
+  
+00:07 +0 -7: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en dark retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 768.0 en dark retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:07 +0 -8: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en dark retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 768.0 en dark retains responsive fields
+  
+00:07 +0 -8: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar light retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 1440.0 ar light retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:08 +0 -9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar light retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 1440.0 ar light retains responsive fields
+  
+00:08 +0 -9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar dark retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 1440.0 ar dark retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:08 +0 -10: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar dark retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 1440.0 ar dark retains responsive fields
+  
+00:08 +0 -10: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en light retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 1440.0 en light retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:08 +0 -11: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en light retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 1440.0 en light retains responsive fields
+  
+00:08 +0 -11: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en dark retains responsive fields
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:00.400000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:3)
+<asynchronous suspension>
+#35     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:60:13)
+<asynchronous suspension>
+#36     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#37     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T04 contact form 1440.0 en dark retains responsive fields
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:08 +0 -12: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en dark retains responsive fields [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 contact form 1440.0 en dark retains responsive fields
+  
+00:08 +0 -12: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 invalid submission retains fields and provides linked error summary
+
+Warning: A call to tap() with finder "Found 1 widget with text "Send request": [
+  Text("Send request", dependencies: [DefaultSelectionStyle, DefaultTextStyle, MediaQuery, _ScrollableScope]),
+]" derived an Offset (Offset(474.6, 1076.0)) that would not hit test on the specified widget.
+Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+Indeed, Offset(474.6, 1076.0) is outside the bounds of the root of the render tree, Size(1440.0, 900.0).
+The finder corresponds to this RenderBox: RenderParagraph#7f825 relayoutBoundary=up26
+The hit test result at that offset is: HitTestResult(HitTestEntry<HitTestTarget>#f2d54(_ReusableRenderView#50834), HitTestEntry<HitTestTarget>#50622(<AutomatedTestWidgetsFlutterBinding>))
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2144:25)
+#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1928:12)
+#2      WidgetController.tap (package:flutter_test/src/controller.dart:1061:7)
+#3      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:90:15)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+#6      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+To silence this warning, pass "warnIfMissed: false" to "tap()".
+To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextWidgetFinder:<Found 0 widgets with text "Review these fields; your input has been
+kept.": []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:92:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart line 92
+The test description was:
+  P08-T04 invalid submission retains fields and provides linked error summary
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:10 +0 -13: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 invalid submission retains fields and provides linked error summary [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 invalid submission retains fields and provides linked error summary
+  
+00:10 +0 -13: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T06 supplied query cannot spoof published title; submission saves canonical context
+Pending timers:
+Timer (duration: 0:00:30.000000, periodic: true), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:187:15)
+#5      PublicContentNotifier.build (package:yogen_portfolio/data/public_content_repository.dart:187:25)
+#6      ElementWithFuture.handleFuture.<anonymous closure> (package:riverpod/src/core/element.dart:218:30)
+#7      ElementWithFuture._handleAsync (package:riverpod/src/core/element.dart:282:35)
+#8      ElementWithFuture.handleFuture (package:riverpod/src/core/element.dart:212:12)
+#9      $AsyncNotifierProviderElement.handleCreate (package:riverpod/src/providers/async_notifier.dart:89:12)
+#10     AsyncNotifier.runBuild (package:riverpod/src/providers/async_notifier/orphan.dart:37:47)
+#11     $ClassProviderElement.create (package:riverpod/src/core/provider/notifier_provider.dart:569:43)
+#12     ProviderElement.buildState (package:riverpod/src/core/element.dart:743:28)
+#13     ProviderElement.mount (package:riverpod/src/core/element.dart:587:7)
+#14     ProviderElement.flush (package:riverpod/src/core/element.dart:699:7)
+#15     $ProviderBaseImpl._addListener (package:riverpod/src/core/provider/provider.dart:119:24)
+#16     ProviderContainer.listen (package:riverpod/src/core/provider_container.dart:1102:26)
+#17     ConsumerStatefulElement.watch.<anonymous closure> (package:flutter_riverpod/src/core/consumer.dart:490:37)
+#18     _LinkedHashMapMixin.putIfAbsent (dart:_compact_hash:675:23)
+#19     ConsumerStatefulElement.watch (package:flutter_riverpod/src/core/consumer.dart:483:14)
+#20     _PublicShellState.build (package:yogen_portfolio/features/public/public_shell.dart:96:22)
+#21     StatefulElement.build (package:flutter/src/widgets/framework.dart:5931:27)
+#22     ConsumerStatefulElement.build (package:flutter_riverpod/src/core/consumer.dart:460:20)
+#23     ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5817:15)
+#24     StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#25     Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#26     ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5799:5)
+#27     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5973:11)
+#28     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5793:5)
+#29     ConsumerStatefulElement.mount (package:flutter_riverpod/src/core/consumer.dart:389:11)
+...     Normal element mounting (266 frames)
+#295    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#296    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7264:36)
+#297    MultiChildRenderObjectElement.mount (package:flutter/src/widgets/framework.dart:7279:32)
+...     Normal element mounting (103 frames)
+#400    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4587:20)
+#401    Element.updateChild (package:flutter/src/widgets/framework.dart:4053:20)
+#402    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#403    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#404    StatelessElement.update (package:flutter/src/widgets/framework.dart:5895:5)
+#405    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#406    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#407    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#408    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#409    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#410    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#411    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#412    ProxyElement.update (package:flutter/src/widgets/framework.dart:6149:5)
+#413    Element.updateChild (package:flutter/src/widgets/framework.dart:4037:15)
+#414    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5841:16)
+#415    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5982:11)
+#416    Element.rebuild (package:flutter/src/widgets/framework.dart:5529:7)
+#417    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2750:15)
+#418    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2807:11)
+#419    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3111:18)
+#420    AutomatedTestWidgetsFlutterBinding.drawFrame (package:flutter_test/src/binding.dart:2131:19)
+#421    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#422    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1430:15)
+#423    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1345:9)
+#424    AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1960:9)
+#427    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#428    AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#429    WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+#432    TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#433    WidgetTester.pumpAndSettle (package:flutter_test/src/widget_tester.dart:712:27)
+#434    contactBoot (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:49:11)
+<asynchronous suspension>
+#435    main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:110:17)
+<asynchronous suspension>
+#436    testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#437    TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 7 frames from dart:async and package:stack_trace)
+
+Timer (duration: 0:00:01.600000, periodic: false), created:
+#0      new FakeTimer._ (package:fake_async/fake_async.dart:342:62)
+#1      FakeAsync._createTimer (package:fake_async/fake_async.dart:260:29)
+#2      FakeAsync.run.<anonymous closure> (package:fake_async/fake_async.dart:185:15)
+#5      ProviderElement.triggerRetry.<anonymous closure> (package:riverpod/src/core/element.dart:773:30)
+#6      InternalProviderContainer.runGuarded (package:riverpod/src/core/provider_container.dart:741:9)
+#7      ProviderElement.triggerRetry (package:riverpod/src/core/element.dart:768:17)
+#8      ElementWithFuture._handleAsync.callOnError (package:riverpod/src/core/element.dart:275:15)
+#9      ElementWithFuture.handleFuture.<anonymous closure>.<anonymous closure> (package:riverpod/src/core/element.dart:246:18)
+#23     FakeAsync.run.<anonymous closure>.<anonymous closure> (package:fake_async/fake_async.dart:189:18)
+#24     FakeAsync.flushMicrotasks (package:fake_async/fake_async.dart:200:32)
+#25     FakeAsync._fireTimersWhile (package:fake_async/fake_async.dart:248:7)
+#26     FakeAsync.elapse (package:fake_async/fake_async.dart:141:5)
+#27     AutomatedTestWidgetsFlutterBinding.pump.<anonymous closure> (package:flutter_test/src/binding.dart:1953:28)
+#30     TestAsyncUtils.guard (package:flutter_test/src/test_async_utils.dart:74:41)
+#31     AutomatedTestWidgetsFlutterBinding.pump (package:flutter_test/src/binding.dart:1949:27)
+#32     WidgetTester.pumpAndSettle.<anonymous closure> (package:flutter_test/src/widget_tester.dart:719:23)
+<asynchronous suspension>
+#33     TestAsyncUtils.guard.<anonymous closure> (package:flutter_test/src/test_async_utils.dart:130:27)
+<asynchronous suspension>
+#34     main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:129:7)
+<asynchronous suspension>
+#35     testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#36     TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 18 frames from dart:async and package:stack_trace)
+
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following assertion was thrown running a test:
+A Timer is still pending even after the widget tree was disposed.
+'package:flutter_test/src/binding.dart':
+Failed assertion: line 2242 pos 12: '!timersPending'
+
+When the exception was thrown, this was the stack:
+#2      AutomatedTestWidgetsFlutterBinding._verifyInvariants (package:flutter_test/src/binding.dart:2242:12)
+#3      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1703:7)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided 3 frames from class _AssertionError and package:stack_trace)
+
+The test description was:
+  P08-T06 supplied query cannot spoof published title; submission saves canonical context
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:11 +0 -14: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T06 supplied query cannot spoof published title; submission saves canonical context [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T06 supplied query cannot spoof published title; submission saves canonical context
+  
+00:11 +0 -14: loading D:/Projects/Portfolio/test/public_website_test.dart
+00:13 +0 -14: D:/Projects/Portfolio/test/public_website_test.dart: Story geometry makes a full turn and advances/exits for arbitrary project counts
+00:13 +1 -14: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+00:18 +2 -14: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 empty/error/retry and unpublished direct link reveal no draft
+00:19 +3 -14: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 first-load failure is visible and Retry recovers
+00:19 +4 -14: D:/Projects/Portfolio/test/public_website_test.dart: P06-T06/T10 image next/Escape returns focus to opener
+00:20 +5 -14: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: exactly one matching candidate
+  Actual: _TextContainingWidgetFinder:<Found 0 widgets with text containing تجربة: []>
+   Which: means none were found but one was expected
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/public_website_test.dart:190:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/public_website_test.dart line 190
+The test description was:
+  P06-T08 contact project and entered fields survive locale changes
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:22 +5 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes [E]
+  Test failed. See exception logs above.
+  The test description was: P06-T08 contact project and entered fields survive locale changes
+  
+00:22 +5 -15: D:/Projects/Portfolio/test/public_website_test.dart: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+00:24 +6 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar light
+00:25 +7 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+00:27 +8 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en light
+00:28 +9 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en dark
+00:29 +10 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar light
+00:30 +11 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar dark
+00:31 +12 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en light
+00:32 +13 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en dark
+00:33 +14 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar light
+00:34 +15 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar dark
+00:35 +16 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en light
+00:36 +17 -15: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en dark
+00:37 +18 -15: Some tests failed.

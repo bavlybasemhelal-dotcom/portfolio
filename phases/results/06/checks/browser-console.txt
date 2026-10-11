@@ -1,0 +1,26 @@
+{"verified":"P06-T06 images zoom/next inside YOGEN, no Google/Drive iframe"}
+{"verified":"P06-T10 keyboard Escape closes gallery"}
+{"verified":"chrome public project direct link/reload"}
+{"verified":"chrome detail ID survives reload"}
+{"verified":"P06-T01 accessible card opens and route is reflected in URL"}
+{"verified":"P06-T03 project identity survives locale"}
+{"verified":"P06-T04 browser back restores search and multi-tag filters"}
+{"verified":"P06-T08 similar solution carries project ID/name"}
+{"verified":"P06-T08 project reference and fields survive locale"}
+{"verified":"P06-T07 work never requests video bytes"}
+{"verified":"P06-T07 detail has no automatic video"}
+{"verified":"Video loaded only on request and starts paused"}
+{"verified":"P06-T07 actual playback progresses"}
+{"verified":"P06-T07 PDF preserves name/content"}
+{"verified":"Scroll selects next project"}
+{"verified":"Reverse scroll selects previous"}
+{"verified":"Compact resize retains selected project"}
+{"verified":"Showcase skip exits naturally"}
+{"verified":"P06-T05 private/unpublished link reveals no draft"}
+{"verified":"P06-T05 read error and Retry recover"}
+{"verified":"P06-T06 images zoom/next inside YOGEN, no Google/Drive iframe"}
+{"verified":"P06-T10 keyboard Escape closes gallery"}
+{"verified":"msedge public project direct link/reload"}
+{"verified":"msedge detail ID survives reload"}
+{"verified":"P06-T02 first visit uses dark system appearance"}
+{"verified":"P06-T02 manual appearance persisted"}

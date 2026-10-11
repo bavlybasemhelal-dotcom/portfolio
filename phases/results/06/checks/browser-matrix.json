@@ -1,0 +1,621 @@
+{
+  "environment": "Chrome release; live anonymous test-site data; 12 fresh preference contexts",
+  "matrix": [
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 360,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 768,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "light",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "ar",
+      "theme": "dark",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "light",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/work",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/projects/phase06-01",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/services",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/about",
+      "ok": true,
+      "horizontalOverflow": false
+    },
+    {
+      "width": 1440,
+      "lang": "en",
+      "theme": "dark",
+      "route": "/contact",
+      "ok": true,
+      "horizontalOverflow": false
+    }
+  ],
+  "routes": [
+    {
+      "route": "/",
+      "lang": "ar",
+      "refreshed": true,
+      "ok": true
+    },
+    {
+      "route": "/work",
+      "lang": "ar",
+      "refreshed": true,
+      "ok": true
+    },
+    {
+      "route": "/projects/phase06-01",
+      "lang": "ar",
+      "refreshed": true,
+      "ok": true
+    },
+    {
+      "route": "/services",
+      "lang": "ar",
+      "refreshed": true,
+      "ok": true
+    },
+    {
+      "route": "/about",
+      "lang": "ar",
+      "refreshed": true,
+      "ok": true
+    },
+    {
+      "route": "/contact",
+      "lang": "ar",
+      "refreshed": true,
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "complete": true
+}

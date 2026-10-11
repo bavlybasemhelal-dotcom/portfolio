@@ -1,0 +1,11 @@
+{
+  "mode": "off",
+  "environment": "Real Firebase, anonymous published-only REST, isolated phase04-test; no writes to yogen",
+  "checks": [
+    {
+      "name": "Missing team/contact remain hidden in published data",
+      "ok": true
+    }
+  ],
+  "complete": true
+}

@@ -1,0 +1,26 @@
+00:00 +0: loading D:/Projects/Portfolio/test/phase04_rest_integration_test.dart
+00:00 +0: (setUpAll)
+00:01 +0: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+00:21 +1: All three cloud editors publish; visitors and roleless users cannot access private data or promote themselves
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/settings/media PERMISSION_DENIED
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/rest-editor-1791589383162 PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/rest-editor-1791589383162 PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/rest-editor2-1791589383162 PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/rest-editor2-1791589383162 PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/rest-editor3-1791589383162 PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/rest-editor3-1791589383162 PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+Shell: REST failure: POST /v1/projects/portfolio-14d15/databases/(default)/documents:commit PERMISSION_DENIED
+00:44 +2: Real Auth REST signup does not change manager session; restart and role revocation work
+Shell: REST failure: GET /v1/projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/projectDrafts/new-member-1791589383162 PERMISSION_DENIED
+00:52 +3: (tearDownAll)
+00:52 +3: All tests passed!

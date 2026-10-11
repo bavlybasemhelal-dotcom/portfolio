@@ -1,0 +1,120 @@
+00:00 +0: loading D:/Projects/Portfolio/test/account_auth_test.dart
+00:00 +0: D:/Projects/Portfolio/test/account_auth_test.dart: Login alias is normalized and never sends mail to the entered Gmail address
+00:00 +1: D:/Projects/Portfolio/test/account_auth_test.dart: Desktop session persists refresh only; independent signup never replaces manager
+00:00 +2: D:/Projects/Portfolio/test/account_auth_test.dart: Restart restores via refresh and concurrent expiration calls share one refresh
+00:00 +3: D:/Projects/Portfolio/test/account_auth_test.dart: A refresh completing after logout cannot restore or persist the old session
+00:00 +4: D:/Projects/Portfolio/test/account_auth_test.dart: Invalid refresh clears the stored session; untrusted endpoints refused
+00:00 +5: loading D:/Projects/Portfolio/test/admin_access_widget_test.dart
+00:01 +5: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (ar)
+00:04 +6: D:/Projects/Portfolio/test/admin_access_widget_test.dart: Protected route, login error, editor view, password dialog and revoke at 360px (en)
+00:04 +7: loading D:/Projects/Portfolio/test/company_contract_test.dart
+00:05 +7: D:/Projects/Portfolio/test/company_contract_test.dart: Deferred contact details remain empty; valid international contacts normalize
+00:05 +8: D:/Projects/Portfolio/test/company_contract_test.dart: Invalid contacts and impersonated website are rejected
+00:05 +9: loading D:/Projects/Portfolio/test/drive_bridge_test.dart
+00:06 +9: D:/Projects/Portfolio/test/drive_bridge_test.dart: Base64 request retains Arabic name and authenticated identity in POST body
+00:06 +10: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject unsafe endpoint before sending any request
+00:06 +11: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject oversized, empty and unsupported file locally
+00:06 +12: D:/Projects/Portfolio/test/drive_bridge_test.dart: ContentService redirect uses only Google GET and does not forward token
+00:06 +13: D:/Projects/Portfolio/test/drive_bridge_test.dart: Reject redirect to unrelated host
+00:06 +14: D:/Projects/Portfolio/test/drive_bridge_test.dart: Timeout is surfaced; no automatic duplicate upload
+00:06 +15: D:/Projects/Portfolio/test/drive_bridge_test.dart: Anonymous image request has no Firebase token
+00:06 +16: D:/Projects/Portfolio/test/drive_bridge_test.dart: HTML error and malformed upload response do not become success
+00:06 +17: loading D:/Projects/Portfolio/test/firebase_config_test.dart
+00:07 +17: D:/Projects/Portfolio/test/firebase_config_test.dart: Correct project and compatible platform are mandatory
+00:07 +18: D:/Projects/Portfolio/test/firebase_config_test.dart: Public definitions map into the correct Firebase options
+00:07 +19: loading D:/Projects/Portfolio/test/foundation_widget_test.dart
+00:08 +19: D:/Projects/Portfolio/test/foundation_widget_test.dart: Arabic/English, theme and persistent settings
+00:10 +20: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(360.0, 640.0)
+00:10 +21: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(768.0, 900.0)
+00:11 +22: D:/Projects/Portfolio/test/foundation_widget_test.dart: Layout stays usable at Size(1366.0, 657.0)
+00:11 +23: D:/Projects/Portfolio/test/foundation_widget_test.dart: Native scene supports full rotation, pause, reduced motion and static fallback
+00:11 +24: loading D:/Projects/Portfolio/test/media_limits_test.dart
+00:12 +24: D:/Projects/Portfolio/test/media_limits_test.dart: Reject 20/50/100 MiB before reading or allocating file bytes
+00:12 +25: loading D:/Projects/Portfolio/test/media_repository_test.dart
+00:13 +25: D:/Projects/Portfolio/test/media_repository_test.dart: Manager tests and atomically saves private settings and public route; editor refuses before ping
+00:13 +26: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T03 guards file size, signature, type and bilingual alt before any operation
+00:13 +27: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T05 registration failure preserves request and recovers same Drive file without resend
+00:13 +28: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T06 timeout after server commit is reconciled before retry; changed file cannot send
+00:13 +29: D:/Projects/Portfolio/test/media_repository_test.dart: Roleless or revoked member cannot prepare or query upload status
+00:13 +30: D:/Projects/Portfolio/test/media_repository_test.dart: P05-T07/T10/T11 shared file survives unlink, ordering, archive and restore; revision conflicts fail
+00:13 +31: D:/Projects/Portfolio/test/media_repository_test.dart: Cache coalesces, evicts by bytes, retries failures and ignores late completion after clear
+00:13 +32: loading D:/Projects/Portfolio/test/media_thumbnail_test.dart
+00:14 +32: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-أفقية.png produces bounded PNG without distortion
+00:15 +33: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-رأسية.jpg produces bounded PNG without distortion
+00:15 +34: D:/Projects/Portfolio/test/media_thumbnail_test.dart: actual صورة-ويب.webp produces bounded PNG without distortion
+00:15 +35: D:/Projects/Portfolio/test/media_thumbnail_test.dart: small original is not enlarged
+00:15 +36: D:/Projects/Portfolio/test/media_thumbnail_test.dart: truncated input is rejected before upload
+00:15 +37: D:/Projects/Portfolio/test/media_thumbnail_test.dart: oversized image axis is rejected
+00:15 +38: loading D:/Projects/Portfolio/test/media_widgets_test.dart
+00:16 +38: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/360.0
+00:18 +39: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/768.0
+00:18 +40: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/light/1440.0
+00:19 +41: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/360.0
+00:19 +42: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/768.0
+00:19 +43: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout ar/dark/1440.0
+00:19 +44: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/360.0
+00:20 +45: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/768.0
+00:20 +46: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/light/1440.0
+00:20 +47: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/360.0
+00:20 +48: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/768.0
+00:21 +49: D:/Projects/Portfolio/test/media_widgets_test.dart: Media manager settings restore and layout en/dark/1440.0
+00:21 +50: D:/Projects/Portfolio/test/media_widgets_test.dart: Failed Drive image has local placeholder and retries its request
+00:21 +51: loading D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart
+00:22 +51: D:/Projects/Portfolio/test/phase04_cloud_prepare_test.dart: Prepare isolated cloud fixtures
+00:22 +51 ~1: loading D:/Projects/Portfolio/test/phase04_rest_integration_test.dart
+00:23 +51 ~1: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (setUpAll)
+00:23 +51 ~1: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Dart REST preserves old publication, rejects conflict, atomically handles failure and restore
+00:23 +51 ~2: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: All three cloud editors publish; visitors and roleless users cannot access private data or promote themselves
+00:23 +51 ~3: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: Real Auth REST signup does not change manager session; restart and role revocation work
+00:23 +51 ~4: D:/Projects/Portfolio/test/phase04_rest_integration_test.dart: (tearDownAll)
+00:23 +51 ~4: loading D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart
+00:24 +51 ~4: D:/Projects/Portfolio/test/phase05_cloud_integration_test.dart: Actual isolated Firebase/Drive upload, recovery, reuse and publication
+00:24 +51 ~5: loading D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart
+00:25 +51 ~5: D:/Projects/Portfolio/test/phase06_cloud_integration_test.dart: Actual published catalogue, cursor growth, private isolation and live company change
+00:25 +51 ~6: loading D:/Projects/Portfolio/test/preferences_test.dart
+00:26 +51 ~6: D:/Projects/Portfolio/test/preferences_test.dart: First theme switch from a dark system follows the visible theme
+00:26 +52 ~6: loading D:/Projects/Portfolio/test/project_contract_test.dart
+00:27 +52 ~6: D:/Projects/Portfolio/test/project_contract_test.dart: Incomplete drafts save without fabricated translations; publishing refuses them
+00:27 +53 ~6: D:/Projects/Portfolio/test/project_contract_test.dart: A complete project publishes without demo links, team names or results
+00:27 +54 ~6: D:/Projects/Portfolio/test/project_contract_test.dart: Unsafe links, duplicate assets and oversized public snapshots fail
+00:27 +55 ~6: loading D:/Projects/Portfolio/test/public_website_test.dart
+00:28 +55 ~6: D:/Projects/Portfolio/test/public_website_test.dart: Story geometry makes a full turn and advances/exits for arbitrary project counts
+00:28 +56 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T03/T04 filters and detail context survive locale switching and browser back
+
+Warning: A call to tap() with finder "Found 1 widget with type "ProjectCard" (ignoring all but first): [
+  ProjectCard(dependencies: [Directionality, InheritedCupertinoTheme, MediaQuery, _InheritedTheme, _LocalizationsScope-[GlobalKey#69635], _ScrollableScope, _UncontrolledProviderScope], state: _ProjectCardState#e9b17),
+]" derived an Offset (Offset(301.3, 345.0)) that would not hit test on the specified widget.
+Maybe the widget is actually off-screen, or another widget is obscuring it, or the widget cannot receive pointer events.
+The finder corresponds to this RenderBox: RenderTransform#bf7b5 relayoutBoundary=up8
+The hit test result at that offset is: HitTestResult(RenderImage#288aa@Offset(196.3, 209.0), RenderSemanticsAnnotations#8776e@Offset(196.3, 209.0), _RenderColoredBox#d62ae@Offset(196.3, 209.0), RenderClipRRect#5041f@Offset(196.3, 209.0), RenderFlex#7424f@Offset(196.3, 209.0), RenderPointerListener#d5768@Offset(196.3, 209.0), RenderSemanticsAnnotations#bd758@Offset(196.3, 209.0), RenderMouseRegion#2dc74@Offset(196.3, 209.0), RenderSemanticsAnnotations#36bac@Offset(196.3, 209.0), _RenderInkFeatures#803dd@Offset(196.3, 209.0), RenderPhysicalModel#9796f@Offset(196.3, 209.0), RenderPadding#86d8d@Offset(197.3, 210.0), RenderDecoratedBox#7ff79@Offset(197.3, 210.0), RenderFlex#439fa@Offset(197.3, 210.0), RenderPadding#6bf06@Offset(221.3, 222.0), RenderConstrainedBox#7a05e@Offset(221.3, 222.0), RenderPositionedBox#c6941@Offset(301.3, 222.0), RenderRepaintBoundary#bbfbe@Offset(301.3, 222.0), RenderIndexedSemantics#8fa5e@Offset(301.3, 222.0), RenderSliverList@(mainAxis: 222.0, crossAxis: 301.33333333333337), RenderViewport#9d40e@Offset(301.3, 259.0), RenderIgnorePointer#ae318@Offset(301.3, 259.0), RenderSemanticsAnnotations#44f75@Offset(301.3, 259.0), RenderPointerListener#19c50@Offset(301.3, 259.0), RenderSemanticsGestureHandler#c9b80@Offset(301.3, 259.0), RenderPointerListener#366c4@Offset(301.3, 259.0), _RenderScrollSemantics#85232@Offset(301.3, 259.0), RenderClipRect#5700a@Offset(301.3, 259.0), RenderSemanticsAnnotations#da8a6@Offset(301.3, 259.0), RenderSemanticsAnnotations#142a6@Offset(301.3, 259.0), RenderRepaintBoundary#b01e0@Offset(301.3, 259.0), RenderIgnorePointer#59495@Offset(301.3, 259.0), RenderAnimatedOpacity#4164d@Offset(301.3, 259.0), RenderAnimatedOpacity#44449@Offset(301.3, 259.0), _RenderColoredBox#a2148@Offset(301.3, 259.0), RenderAnimatedOpacity#dc348@Offset(301.3, 259.0), RenderIgnorePointer#b5fd2@Offset(301.3, 259.0), RenderAnimatedOpacity#e6627@Offset(301.3, 259.0), RenderRepaintBoundary#02273@Offset(301.3, 259.0), RenderSemanticsAnnotations#b35ed@Offset(301.3, 259.0), RenderOffstage#e5c27@Offset(301.3, 259.0), RenderSemanticsAnnotations#e4762@Offset(301.3, 259.0), _RenderTheater#ebaab@Offset(301.3, 259.0), RenderAbsorbPointer#d8137@Offset(301.3, 259.0), RenderPointerListener#e6672@Offset(301.3, 259.0), RenderFlex#d5172@Offset(301.3, 345.0), RenderPadding#350a7@Offset(301.3, 345.0), RenderDecoratedBox#3edb0@Offset(301.3, 345.0), RenderCustomMultiChildLayoutBox#5fb26@Offset(301.3, 345.0), _RenderInkFeatures#fb45c@Offset(301.3, 345.0), RenderPhysicalModel#39310@Offset(301.3, 345.0), RenderSemanticsAnnotations#ad160@Offset(301.3, 345.0), RenderRepaintBoundary#5fd7f@Offset(301.3, 345.0), RenderIgnorePointer#7b49a@Offset(301.3, 345.0), RenderAnimatedOpacity#6d9ff@Offset(301.3, 345.0), RenderAnimatedOpacity#84470@Offset(301.3, 345.0), _RenderColoredBox#27dfd@Offset(301.3, 345.0), RenderAnimatedOpacity#c5ecb@Offset(301.3, 345.0), RenderIgnorePointer#5cbfc@Offset(301.3, 345.0), RenderAnimatedOpacity#7aa1d@Offset(301.3, 345.0), RenderRepaintBoundary#d5275@Offset(301.3, 345.0), RenderSemanticsAnnotations#4a6d2@Offset(301.3, 345.0), RenderOffstage#d4bc3@Offset(301.3, 345.0), RenderSemanticsAnnotations#f5c5c@Offset(301.3, 345.0), _RenderTheater#997f8@Offset(301.3, 345.0), RenderAbsorbPointer#318f1@Offset(301.3, 345.0), RenderPointerListener#22dd4@Offset(301.3, 345.0), RenderSemanticsAnnotations#8dc84@Offset(301.3, 345.0), RenderSemanticsAnnotations#22117@Offset(301.3, 345.0), RenderSemanticsAnnotations#df566@Offset(301.3, 345.0), RenderTapRegionSurface#edcd7@Offset(301.3, 345.0), RenderSemanticsAnnotations#79673@Offset(301.3, 345.0), RenderSemanticsAnnotations#9b3e7@Offset(301.3, 345.0), HitTestEntry<HitTestTarget>#0676f(_ReusableRenderView#84525), HitTestEntry<HitTestTarget>#666fa(<AutomatedTestWidgetsFlutterBinding>))
+#0      WidgetController._getElementPoint (package:flutter_test/src/controller.dart:2144:25)
+#1      WidgetController.getCenter (package:flutter_test/src/controller.dart:1928:12)
+#2      WidgetController.tap (package:flutter_test/src/controller.dart:1061:7)
+#3      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/public_website_test.dart:93:15)
+<asynchronous suspension>
+#4      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#5      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+#6      StackZoneSpecification._registerCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:114:42)
+<asynchronous suspension>
+To silence this warning, pass "warnIfMissed: false" to "tap()".
+To make this warning fatal, set WidgetController.hitTestWarningShouldBeFatal to true.
+
+00:32 +57 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T05 empty/error/retry and unpublished direct link reveal no draft
+00:32 +58 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T06/T10 image next/Escape returns focus to opener
+00:33 +59 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T08 contact project and entered fields survive locale changes
+00:33 +60 ~6: D:/Projects/Portfolio/test/public_website_test.dart: Compact sticky showcase follows page scroll in both directions and resize preserves selection
+00:34 +61 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar light
+00:35 +62 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) ar dark
+00:36 +63 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en light
+00:37 +64 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(360.0, 850.0) en dark
+00:37 +65 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar light
+00:38 +66 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) ar dark
+00:39 +67 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en light
+00:39 +68 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(768.0, 900.0) en dark
+00:40 +69 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar light
+00:40 +70 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) ar dark
+00:41 +71 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en light
+00:42 +72 ~6: D:/Projects/Portfolio/test/public_website_test.dart: P06-T09 all routes Size(1440.0, 900.0) en dark
+00:42 +73 ~6: All tests passed!

@@ -1,0 +1,126 @@
+{
+  "environment": "Clean Chrome and Edge contexts, no Google login; actual Flutter release test site and live Firebase/Drive",
+  "checks": [
+    {
+      "name": "P05-T01 manager saved settings restore in browser",
+      "ok": true
+    },
+    {
+      "name": "Editor media library omits private connection settings",
+      "ok": true
+    },
+    {
+      "name": "Actual Flutter browser picker, generated PNG thumbnail and live registration: صورة-أفقية.png",
+      "ok": true
+    },
+    {
+      "name": "Actual Flutter browser picker, generated PNG thumbnail and live registration: صورة-رأسية.jpg",
+      "ok": true
+    },
+    {
+      "name": "Actual Flutter browser picker, generated PNG thumbnail and live registration: صورة-ويب.webp",
+      "ok": true
+    },
+    {
+      "name": "Library bilingual search and media preview with usage metadata",
+      "ok": true
+    },
+    {
+      "name": "No uncaught browser exceptions",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "videos": [],
+  "networkFailures": [
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.google.com",
+      "path": "/macros/s/AKfycbyr6gkoMVwP2muJ7etv2rTqVzhXPZJCSi9wxraJ8cqLXQajwkUuFhPJACtIwZHbisKI6A/exec",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 403
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/mediaOperations/m_344649ec3ed252cc4eb78305bc932af959515ee85b7d48def6962ecf8be49b98\" not found."
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/media/m_344649ec3ed252cc4eb78305bc932af959515ee85b7d48def6962ecf8be49b98\" not found."
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/mediaOperations/m_ab23dbbe504a8bd94d05de4f8d67e4c8d4b8729cfb0f6491d4580b49c8b5101d\" not found."
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/media/m_ab23dbbe504a8bd94d05de4f8d67e4c8d4b8729cfb0f6491d4580b49c8b5101d\" not found."
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/mediaOperations/m_b7217f6f820a6309c5b0fb1d8ec545b3a48ebb6016080be0cbf38321a268f84d\" not found."
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "script.googleusercontent.com",
+      "path": "/macros/echo",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "firestore.googleapis.com",
+      "status": 404,
+      "code": "Document \"projects/portfolio-14d15/databases/(default)/documents/sites/phase04-test/media/m_b7217f6f820a6309c5b0fb1d8ec545b3a48ebb6016080be0cbf38321a268f84d\" not found."
+    }
+  ]
+}

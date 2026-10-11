@@ -1,0 +1,72 @@
+{
+  "environment": "Chrome/Edge clean anonymous contexts; live Firebase/Drive; local Flutter release test site",
+  "checks": [
+    {
+      "name": "P06-T06 images zoom/next inside YOGEN, no Google/Drive iframe",
+      "ok": true
+    },
+    {
+      "name": "P06-T10 keyboard Escape closes gallery",
+      "ok": true
+    },
+    {
+      "name": "chrome public project direct link/reload",
+      "ok": true
+    },
+    {
+      "name": "chrome detail ID survives reload",
+      "ok": true
+    }
+  ],
+  "errors": [
+    "filter/back: locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Technical project 01', { exact: true }).first()\u001b[22m\n"
+  ],
+  "matrix": [],
+  "requests": [
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": false
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": false
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_9358678bf09db30dcf831174d0a7320376435094e4ab1d4702263f191f619d14",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_51c4e4eea5513dcef16026ee4d89e78cf3512243fd25a95e7bcb31c3412f9ecd",
+      "thumbnail": true
+    },
+    {
+      "stage": "chrome routes",
+      "assetId": "m_44e70f61fed067f3d6013f0c54d39fa3ad76cfdfba627be3032fe45a4ccc10e2",
+      "thumbnail": true
+    }
+  ]
+}

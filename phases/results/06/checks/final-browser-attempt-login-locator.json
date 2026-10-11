@@ -1,0 +1,36 @@
+{
+  "environment": "Default yogen release, clean Chrome, real Firebase",
+  "checks": [
+    {
+      "name": "Default root is the Arabic public website",
+      "ok": true
+    },
+    {
+      "name": "P06-T02 manual theme and language survive reload",
+      "ok": true
+    },
+    {
+      "name": "P06-T05 real YOGEN catalogue is honestly empty",
+      "ok": true
+    },
+    {
+      "name": "P06-T11 no invented member profiles",
+      "ok": true
+    },
+    {
+      "name": "P06-T11 no fabricated public email/phone",
+      "ok": true
+    },
+    {
+      "name": "Deferred submission is disabled and honest",
+      "ok": true
+    },
+    {
+      "name": "Public Firestore reads never use an administrator token",
+      "ok": true
+    }
+  ],
+  "errors": [
+    "locator.waitFor: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByText('Welcome to YOGEN', { exact: true }) to be visible\u001b[22m\n"
+  ]
+}

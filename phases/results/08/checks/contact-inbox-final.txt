@@ -1,0 +1,87 @@
+Resolving dependencies...
+Downloading packages...
+  _fe_analyzer_shared 93.0.0 (109.0.0 available)
+  analyzer 10.0.1 (14.5.0 available)
+  clock 1.1.2 (1.1.3 available)
+  code_assets 1.2.1 (2.1.0 available)
+  cross_file 0.3.5+5 (0.4.0 available)
+  flutter_riverpod 3.3.2 (3.4.3 available)
+  go_router 17.5.0 (18.0.2 available)
+  hooks 2.0.2 (2.2.0 available)
+  image 4.10.1 (4.10.2 available)
+  intl 0.20.2 (0.20.3 available)
+  matcher 0.12.18 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  objective_c 9.5.0 (9.6.2 available)
+  package_config 2.2.0 (3.0.0 available)
+  petitparser 7.0.2 (7.1.0 available)
+  platform 3.1.6 (3.2.0 available)
+  record_use 0.6.0 (1.1.1 available)
+  riverpod 3.3.2 (3.4.3 available)
+  shared_preferences_android 2.4.23 (2.4.28 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test 1.29.0 (1.33.0 available)
+  test_api 0.7.9 (0.7.15 available)
+  test_core 0.6.15 (0.6.21 available)
+  url_launcher_android 6.3.30 (6.3.33 available)
+  vector_math 2.2.0 (2.4.3 available)
+  video_player 2.11.1 (2.14.1 available)
+  video_player_android 2.9.5 (2.12.2 available)
+  xml 7.0.1 (7.1.0 available)
+Got dependencies!
+29 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+00:00 +0: loading D:/Projects/Portfolio/test/phase08_contact_widget_test.dart
+00:00 +0: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar light retains responsive fields
+00:04 +1: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 ar dark retains responsive fields
+00:04 +2: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en light retains responsive fields
+00:05 +3: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 360.0 en dark retains responsive fields
+00:05 +4: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar light retains responsive fields
+00:06 +5: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 ar dark retains responsive fields
+00:06 +6: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en light retains responsive fields
+00:07 +7: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 768.0 en dark retains responsive fields
+00:07 +8: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar light retains responsive fields
+00:08 +9: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 ar dark retains responsive fields
+00:08 +10: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en light retains responsive fields
+00:09 +11: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 contact form 1440.0 en dark retains responsive fields
+00:09 +12: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 invalid submission retains fields and provides linked error summary
+══╡ EXCEPTION CAUGHT BY FLUTTER TEST FRAMEWORK ╞════════════════════════════════════════════════════
+The following TestFailure was thrown running a test:
+Expected: empty
+  Actual: {'name': 'QA name', 'contact': 'bad', 'details': ''}
+
+When the exception was thrown, this was the stack:
+#4      main.<anonymous closure> (file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart:126:7)
+<asynchronous suspension>
+#5      testWidgets.<anonymous closure>.<anonymous closure> (package:flutter_test/src/widget_tester.dart:192:15)
+<asynchronous suspension>
+#6      TestWidgetsFlutterBinding._runTestBody (package:flutter_test/src/binding.dart:1682:5)
+<asynchronous suspension>
+<asynchronous suspension>
+(elided one frame from package:stack_trace)
+
+This was caught by the test expectation on the following line:
+  file:///D:/Projects/Portfolio/test/phase08_contact_widget_test.dart line 126
+The test description was:
+  P08-T04 invalid submission retains fields and provides linked error summary
+════════════════════════════════════════════════════════════════════════════════════════════════════
+00:13 +12 -1: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T04 invalid submission retains fields and provides linked error summary [E]
+  Test failed. See exception logs above.
+  The test description was: P08-T04 invalid submission retains fields and provides linked error summary
+  
+00:13 +12 -1: D:/Projects/Portfolio/test/phase08_contact_widget_test.dart: P08-T06 supplied query cannot spoof published title; submission saves canonical context
+00:14 +13 -1: loading D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart
+00:17 +13 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 ar light with long request
+00:21 +14 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 ar dark with long request
+00:22 +15 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 en light with long request
+00:22 +16 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 360.0 en dark with long request
+00:23 +17 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 ar light with long request
+00:23 +18 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 ar dark with long request
+00:24 +19 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 en light with long request
+00:24 +20 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 768.0 en dark with long request
+00:25 +21 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 ar light with long request
+00:25 +22 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 ar dark with long request
+00:26 +23 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 en light with long request
+00:27 +24 -1: D:/Projects/Portfolio/test/phase08_inbox_widget_test.dart: P08-T07 private inbox 1440.0 en dark with long request
+00:27 +25 -1: Some tests failed.

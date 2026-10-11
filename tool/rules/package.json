@@ -1,0 +1,7 @@
+{
+  "name": "yogen-phase04-rules-checks",
+  "private": true,
+  "type": "module",
+  "scripts": {"test": "node phase04.test.mjs"},
+  "devDependencies": {"@firebase/rules-unit-testing": "^5.0.0", "firebase": "^12.0.0"}
+}

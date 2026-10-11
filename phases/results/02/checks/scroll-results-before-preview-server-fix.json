@@ -1,0 +1,12 @@
+{
+  "revision": "scroll-v4",
+  "date": "2026-10-09",
+  "checks": [],
+  "layouts": [],
+  "errors": [
+    "page.evaluate: TypeError: Cannot read properties of null (reading 'dataset')\n    at eval (eval at evaluate (:311:30), <anonymous>:1:263)\n    at UtilityScript.evaluate (<anonymous>:313:16)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)\n    at snapshot (D:\\Projects\\Portfolio\\phases\\results\\02\\checks\\scroll-review.cjs:7:27)\n    at D:\\Projects\\Portfolio\\phases\\results\\02\\checks\\scroll-review.cjs:12:35"
+  ],
+  "limitations": [
+    "Desktop headless Chrome/Edge; mobile touch emulated. No Flutter, Firebase or physical-phone performance test."
+  ]
+}
