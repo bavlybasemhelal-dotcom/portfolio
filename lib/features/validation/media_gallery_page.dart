@@ -121,6 +121,7 @@ class _MediaGalleryPageState extends State<MediaGalleryPage> {
                                       endpoint: endpoint,
                                       site: site,
                                       assetId: asset['id'] as String,
+                                      publicUrl: publicImageUrl(asset),
                                       alt:
                                           asset['alt'][Localizations.localeOf(
                                                 dialog,

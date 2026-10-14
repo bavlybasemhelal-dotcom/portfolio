@@ -6,13 +6,17 @@ import 'media_transport.dart';
 import 'video_preview.dart';
 import 'download.dart';
 
+// Imported Hosting images have a public URL and no Drive file. Genuine Drive
+// uploads keep using the verified receipt bridge, including their thumbnails.
+String publicImageUrl(Map<String, dynamic> asset) =>
+    (asset['driveFileId'] as String? ?? '').isEmpty
+    ? asset['publicUrl'] as String? ?? ''
+    : '';
+
 class DriveImage extends StatefulWidget {
   final MediaByteCache cache;
   final String endpoint, site, assetId, alt;
-
-  /// Only supplied for files already published with public Drive sharing.
-  final String? publicFileId;
-  final String? publicUrl;
+  final String publicUrl;
   final bool thumbnail;
   final double height;
   final BoxFit fit;
@@ -24,9 +28,8 @@ class DriveImage extends StatefulWidget {
     required this.site,
     required this.assetId,
     required this.alt,
-    this.publicFileId,
-    this.publicUrl,
     this.thumbnail = false,
+    this.publicUrl = '',
     this.height = 180,
     this.fit = BoxFit.contain,
     this.alignment = Alignment.center,
@@ -49,78 +52,13 @@ class _DriveImageState extends State<DriveImage> {
   }
 
   void load({bool retry = false}) {
-    if (publicImageUrl != null) return;
     future = widget.cache.read(
       widget.endpoint,
       widget.site,
       widget.assetId,
       thumbnail: widget.thumbnail,
       retry: retry,
-    );
-  }
-
-  String? get publicImageUrl {
-    final hosted = Uri.tryParse(widget.publicUrl ?? '');
-    if (hosted != null &&
-        hosted.scheme == 'https' &&
-        hosted.host == 'portfolio-14d15.web.app' &&
-        hosted.userInfo.isEmpty &&
-        !hosted.hasQuery &&
-        !hosted.hasFragment &&
-        RegExp(r'^/project-media/[a-f0-9]{64}\.jpg$').hasMatch(hosted.path)) {
-      return hosted.toString();
-    }
-    final id = widget.publicFileId;
-    if (id == null || !RegExp(r'^[\w-]{10,}$').hasMatch(id)) return null;
-    return 'https://lh3.googleusercontent.com/d/$id';
-  }
-
-  Widget publicImage(BuildContext c) {
-    if (!visible) {
-      return SizedBox(height: widget.height, width: double.infinity);
-    }
-    return Image.network(
-      publicImageUrl!,
-      key: ValueKey('$publicImageUrl:$networkRevision'),
-      height: widget.height,
-      width: double.infinity,
-      fit: widget.fit,
-      alignment: widget.alignment,
-      semanticLabel: widget.alt,
-      cacheWidth: widget.thumbnail ? 600 : 1600,
-      loadingBuilder: (c, child, progress) => progress == null
-          ? child
-          : SizedBox(
-              height: widget.height,
-              width: double.infinity,
-              child: const Center(
-                child: SizedBox.square(
-                  dimension: 24,
-                  child: CircularProgressIndicator(strokeWidth: 2),
-                ),
-              ),
-            ),
-      // Retain verified receipt reads and their retry UI if the public image
-      // service is unavailable; do not expose arbitrary URLs or private files.
-      errorBuilder: (c, _, _) => (widget.publicFileId ?? '').isEmpty
-          ? failure(
-              c,
-              onRetry: () async {
-                await NetworkImage(publicImageUrl!).evict();
-                if (mounted) setState(() => networkRevision++);
-              },
-            )
-          : DriveImage(
-              cache: widget.cache,
-              endpoint: widget.endpoint,
-              site: widget.site,
-              assetId: widget.assetId,
-              alt: widget.alt,
-              thumbnail: widget.thumbnail,
-              height: widget.height,
-              fit: widget.fit,
-              alignment: widget.alignment,
-            ),
+      publicUrl: widget.publicUrl,
     );
   }
 
@@ -130,15 +68,14 @@ class _DriveImageState extends State<DriveImage> {
     if (old.assetId != widget.assetId ||
         old.endpoint != widget.endpoint ||
         old.site != widget.site ||
-        old.thumbnail != widget.thumbnail ||
-        old.publicFileId != widget.publicFileId ||
-        old.publicUrl != widget.publicUrl) {
+        old.publicUrl != widget.publicUrl ||
+        old.thumbnail != widget.thumbnail) {
       future = null;
       if (visible) load();
     }
   }
 
-  Widget failure(BuildContext c, {VoidCallback? onRetry}) => SizedBox(
+  Widget failure(BuildContext c) => SizedBox(
     height: widget.height,
     width: double.infinity,
     child: Center(
@@ -148,7 +85,7 @@ class _DriveImageState extends State<DriveImage> {
           const Icon(Icons.broken_image_outlined),
           Text(tr(c, 'تعذر تحميل الصورة', 'Image unavailable')),
           TextButton(
-            onPressed: onRetry ?? () => setState(() => load(retry: true)),
+            onPressed: () => setState(() => load(retry: true)),
             child: Text(tr(c, 'إعادة المحاولة', 'Retry')),
           ),
         ],
@@ -160,44 +97,39 @@ class _DriveImageState extends State<DriveImage> {
     onChanged: visibilityChanged,
     child: TickerMode(
       enabled: visible,
-      child: publicImageUrl != null
-          ? publicImage(c)
-          : FutureBuilder<Uint8List>(
-              key: ValueKey(
-                '${widget.endpoint}:${widget.site}:${widget.assetId}:${widget.thumbnail}',
-              ),
-              future: future,
-              builder: (c, result) {
-                if (result.hasError) return failure(c);
-                if (future == null) {
-                  return SizedBox(
-                    height: widget.height,
-                    width: double.infinity,
-                  );
-                }
-                if (!result.hasData) {
-                  return SizedBox(
-                    height: widget.height,
-                    width: double.infinity,
-                    child: const Center(child: CircularProgressIndicator()),
-                  );
-                }
-                return Semantics(
-                  image: true,
-                  label: widget.alt,
-                  child: Image.memory(
-                    result.data!,
-                    height: widget.height,
-                    width: double.infinity,
-                    fit: widget.fit,
-                    alignment: widget.alignment,
-                    cacheWidth: widget.thumbnail ? 320 : 1600,
-                    excludeFromSemantics: true,
-                    errorBuilder: (c, _, _) => failure(c),
-                  ),
-                );
-              },
+      child: FutureBuilder<Uint8List>(
+        key: ValueKey(
+          '${widget.endpoint}:${widget.site}:${widget.assetId}:${widget.thumbnail}:${widget.publicUrl}',
+        ),
+        future: future,
+        builder: (c, result) {
+          if (result.hasError) return failure(c);
+          if (future == null) {
+            return SizedBox(height: widget.height, width: double.infinity);
+          }
+          if (!result.hasData) {
+            return SizedBox(
+              height: widget.height,
+              width: double.infinity,
+              child: const Center(child: CircularProgressIndicator()),
+            );
+          }
+          return Semantics(
+            image: true,
+            label: widget.alt,
+            child: Image.memory(
+              result.data!,
+              height: widget.height,
+              width: double.infinity,
+              fit: widget.fit,
+              alignment: widget.alignment,
+              cacheWidth: widget.thumbnail ? 320 : 1600,
+              excludeFromSemantics: true,
+              errorBuilder: (c, _, _) => failure(c),
             ),
+          );
+        },
+      ),
     ),
   );
 }
@@ -276,9 +208,8 @@ class _MediaViewerState extends State<MediaViewer> {
         endpoint: widget.endpoint,
         site: widget.site,
         assetId: id,
+        publicUrl: publicImageUrl(widget.asset),
         alt: alt(c, widget.asset),
-        publicFileId: widget.asset['driveFileId'] as String?,
-        publicUrl: widget.asset['publicUrl'] as String?,
         height: 380,
       );
     }
@@ -292,6 +223,7 @@ class _MediaViewerState extends State<MediaViewer> {
                 endpoint: widget.endpoint,
                 site: widget.site,
                 assetId: widget.cover!['id'] as String,
+                publicUrl: publicImageUrl(widget.cover!),
                 alt: alt(c, widget.cover!),
               ),
             FilledButton.icon(

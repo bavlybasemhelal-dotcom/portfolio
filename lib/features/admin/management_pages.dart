@@ -388,8 +388,9 @@ class _AdminTeamPageState extends ConsumerState<AdminTeamPage> {
                 }
               }
               final bytes = buffer.takeBytes();
-              if (bytes.length != size)
+              if (bytes.length != size) {
                 throw const DriveFailure('file_read_failed');
+              }
               final mime = MediaPolicy.mime(file.name);
               if (!mime.startsWith('image/')) {
                 throw const ContentFailure('cover_must_be_image');
@@ -575,7 +576,7 @@ class _AdminTeamPageState extends ConsumerState<AdminTeamPage> {
                                                 site: activeSite,
                                                 assetId: photo,
                                                 publicUrl:
-                                                    media
+                                                    (media
                                                             .where(
                                                               (entry) =>
                                                                   entry.id ==
@@ -583,7 +584,7 @@ class _AdminTeamPageState extends ConsumerState<AdminTeamPage> {
                                                             )
                                                             .firstOrNull
                                                             ?.public['publicUrl']
-                                                        as String?,
+                                                        as String?) ?? '',
                                                 alt: 'Photo',
                                                 thumbnail: true,
                                               ),

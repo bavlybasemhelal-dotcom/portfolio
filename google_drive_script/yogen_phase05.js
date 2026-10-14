@@ -224,6 +224,7 @@ function p5Read(r, p) {
   if (typeof r.assetId !== 'string' || !/^m_[a-f0-9]{64}$/.test(r.assetId)) p5Fail('invalid_asset_id');
   const receipt = p5Database('sites/' + r.site + '/mediaReceipts/' + r.assetId, null, null);
   if (!receipt || receipt.site !== r.site || receipt.public !== true) p5Fail('not_public_media');
+  if (receipt.storage === 'hosting') return p5ReadHostedImage(receipt);
   let file = p5VerifyFile(receipt, p);
   if (r.thumbnail === true && receipt.thumbnailFileId) {
     file = DriveApp.getFileById(receipt.thumbnailFileId);
@@ -237,4 +238,22 @@ function p5Read(r, p) {
   if (file.getSize() > P5_LIMIT) p5Fail('file_too_large');
   return { success: true, fileId: file.getId(), mimeType: file.getMimeType(),
     fileSize: file.getSize(), fileData: Utilities.base64Encode(file.getBlob().getBytes()) };
+}
+
+// Existing imported covers are already public Hosting files. Their server
+// receipt, rather than a caller-supplied URL, selects the immutable image.
+function p5ReadHostedImage(receipt) {
+  if (receipt.site !== 'yogen' || receipt.kind !== 'Images'
+      || !['image/png', 'image/jpeg', 'image/webp'].includes(receipt.mimeType)
+      || !/^[a-f0-9]{64}$/.test(receipt.sha256 || '')
+      || !Number.isInteger(receipt.fileSize) || receipt.fileSize <= 0 || receipt.fileSize > P5_LIMIT) p5Fail('not_public_media');
+  const match = /^https:\/\/portfolio-14d15\.web\.app\/project-media\/([a-f0-9]{64})\.(jpg|jpeg|png|webp)$/.exec(receipt.publicUrl || '');
+  if (!match || match[1] !== receipt.sha256) p5Fail('not_public_media');
+  const response = UrlFetchApp.fetch(receipt.publicUrl, { muteHttpExceptions: true, followRedirects: false });
+  if (response.getResponseCode() !== 200) p5Fail('not_public_media');
+  const bytes = response.getBlob().getBytes();
+  if (bytes.length !== receipt.fileSize || !p5Signature(bytes, receipt.mimeType)
+      || p5Hash(bytes) !== receipt.sha256) p5Fail('not_public_media');
+  return { success: true, fileId: '', mimeType: receipt.mimeType,
+    fileSize: bytes.length, fileData: Utilities.base64Encode(bytes) };
 }

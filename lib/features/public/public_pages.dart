@@ -747,9 +747,11 @@ class AboutPage extends StatelessWidget {
                                           site: activeSite,
                                           assetId:
                                               member['photo']['id'] as String,
-                                          publicUrl:
-                                              member['photo']['publicUrl']
-                                                  as String?,
+                                          publicUrl: publicImageUrl(
+                                            Map<String, dynamic>.from(
+                                              member['photo'] as Map,
+                                            ),
+                                          ),
                                           alt: member['photo']['alt'] is Map
                                               ? (member['photo']['alt'][code] as String? ?? '')
                                               : (member['photo']['alt'] as String? ?? ''),

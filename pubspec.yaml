@@ -1,7 +1,7 @@
 name: yogen_portfolio
 description: "YOGEN multiplatform foundation, content services and role-based access."
 publish_to: 'none'
-version: 1.0.1+11
+version: 1.0.2+12
 
 environment:
   sdk: ^3.11.0

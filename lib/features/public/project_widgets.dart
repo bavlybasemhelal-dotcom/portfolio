@@ -135,13 +135,8 @@ class ProjectCover extends ConsumerWidget {
         endpoint: endpoint,
         site: activeSite,
         assetId: asset['id'] as String,
+        publicUrl: publicImageUrl(asset),
         alt: asset['alt'][Localizations.localeOf(c).languageCode] as String,
-        publicUrl: asset['publicUrl'] as String?,
-        publicFileId:
-            thumbnail &&
-                (asset['thumbnailDriveFileId'] as String? ?? '').isNotEmpty
-            ? asset['thumbnailDriveFileId'] as String
-            : asset['driveFileId'] as String?,
         thumbnail:
             thumbnail &&
             (asset['thumbnailDriveFileId'] as String? ?? '').isNotEmpty,
@@ -356,7 +351,7 @@ class _ProjectGalleryState extends ConsumerState<ProjectGallery> {
                     endpoint: widget.endpoint,
                     site: activeSite,
                     assetId: asset['id'] as String,
-                    publicUrl: asset['publicUrl'] as String?,
+                    publicUrl: publicImageUrl(asset),
                     alt:
                         asset['alt'][Localizations.localeOf(c).languageCode]
                             as String,
@@ -458,7 +453,7 @@ class _GalleryDialogState extends ConsumerState<GalleryDialog> {
                         endpoint: widget.endpoint,
                         site: activeSite,
                         assetId: asset['id'] as String,
-                        publicUrl: asset['publicUrl'] as String?,
+                        publicUrl: publicImageUrl(asset),
                         alt: alt,
                         height: height,
                       ),

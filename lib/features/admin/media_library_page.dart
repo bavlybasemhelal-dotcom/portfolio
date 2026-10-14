@@ -662,7 +662,7 @@ class _MediaLibraryPageState extends ConsumerState<MediaLibraryPage> {
                                 endpoint: endpoint.text,
                                 site: activeSite,
                                 assetId: entry.id,
-                                publicUrl: entry.public['publicUrl'] as String?,
+                                publicUrl: publicImageUrl(entry.public),
                                 alt:
                                     Localizations.localeOf(c).languageCode ==
                                         'ar'

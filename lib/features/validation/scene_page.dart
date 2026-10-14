@@ -238,8 +238,9 @@ class IdentityPainter extends CustomPainter {
         }).toList();
         final path = Path()..addPolygon(points, true);
         if (path.contains(position) ||
-            path.getBounds().inflate(12).contains(position))
+            path.getBounds().inflate(12).contains(position)) {
           return true;
+        }
       }
     }
     return false;

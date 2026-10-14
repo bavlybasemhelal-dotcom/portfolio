@@ -1,0 +1,197 @@
+{
+  "date": "2026-10-14",
+  "diagnostic": "read-only requests for existing published project images",
+  "images": 31,
+  "loaded": 31,
+  "failed": 0,
+  "fullTestSuiteRun": false,
+  "dataWrites": 0,
+  "results": [
+    {
+      "id": "m_2638caa9d7a35cda01bcd14d19edc7bea1100abc129256f11dcc1cdfd6b921eb",
+      "loaded": true,
+      "bytes": 86638,
+      "seconds": 2.3
+    },
+    {
+      "id": "m_be49dec0eff4b5ae8f6207a65df4b9768e73e401e05e6a0e5e8853ec05c37b7d",
+      "loaded": true,
+      "bytes": 118254,
+      "seconds": 2.75
+    },
+    {
+      "id": "m_96d59ae71f308596c7ca174e6ab87e1e9ac114e7969e1534913aa1da94e5a214",
+      "loaded": true,
+      "bytes": 142403,
+      "seconds": 3.27
+    },
+    {
+      "id": "m_2b5471c80ca7db5d1895d8bf68d0ab748c2de947b9cea75684c59bc4f9453794",
+      "loaded": true,
+      "bytes": 73893,
+      "seconds": 2.17
+    },
+    {
+      "id": "m_24312cd1afe3498b937e32845f8e2ae8896a634ef9d17722755ae015f0744854",
+      "loaded": true,
+      "bytes": 111760,
+      "seconds": 2.39
+    },
+    {
+      "id": "m_4c78f23f42152573b16e9fbcbb3c8e08a5b4b1ebe36f37425988ae011e081279",
+      "loaded": true,
+      "bytes": 86686,
+      "seconds": 2.4
+    },
+    {
+      "id": "m_5215af1803455a231a4e5c85dd33e6249c361a5cf7328de7cd685fc3d24d092d",
+      "loaded": true,
+      "bytes": 96232,
+      "seconds": 2.12
+    },
+    {
+      "id": "m_a6091cd1b3a9d56f09292615d2a98d9095a8db766455e97bf181308cc25c500f",
+      "loaded": true,
+      "bytes": 117351,
+      "seconds": 2.02
+    },
+    {
+      "id": "m_63639c21b02be93bd0bb8f999f858009b988b067aa4fa3c5e5bb9d5b985f48a4",
+      "loaded": true,
+      "bytes": 140304,
+      "seconds": 2.55
+    },
+    {
+      "id": "m_3ed958bfcd92a8f911f28371025d34387480f44bcc3ff0d077b10736ff52a219",
+      "loaded": true,
+      "bytes": 95017,
+      "seconds": 1.88
+    },
+    {
+      "id": "m_9d9b675d4e3ed0ffddf0221735ba13e189703dbcb784b2dbce057ca7fe5114d9",
+      "loaded": true,
+      "bytes": 163494,
+      "seconds": 2.29
+    },
+    {
+      "id": "m_c1a2d797b867638d632f559e74191be16cd96f20dac8d86c2ed30b5ed080b074",
+      "loaded": true,
+      "bytes": 126014,
+      "seconds": 2.31
+    },
+    {
+      "id": "m_9e013f5278948eb180e094104fe24aba6aa8a3cbfc3c2ef7a1cbdddb63bc51d2",
+      "loaded": true,
+      "bytes": 151144,
+      "seconds": 2.21
+    },
+    {
+      "id": "m_cd87ed7fca8cea60bcbcd87ccfda8ca7c214099f202aa06903b60b26a4a0b7cc",
+      "loaded": true,
+      "bytes": 135392,
+      "seconds": 1.86
+    },
+    {
+      "id": "m_1f046f10eeaa95793be024dbcaa0e7caddc1220b399b93bf5ec55dc663c8e011",
+      "loaded": true,
+      "bytes": 87444,
+      "seconds": 2.0
+    },
+    {
+      "id": "m_86f272bfefb44203c47b69c766c06ba8f92b8dd20caa33ee8c8c6547a3bff9b7",
+      "loaded": true,
+      "bytes": 105738,
+      "seconds": 2.77
+    },
+    {
+      "id": "m_a7063c89b12b8d531d0e3c8d95bb0d2e5caf9b43ee4d6633f6287f4df9b8e060",
+      "loaded": true,
+      "bytes": 70877,
+      "seconds": 1.54
+    },
+    {
+      "id": "m_f815ead9a33d7b26c8b535ef14ce447235351f974a9f11ab837f7bef8db8ee98",
+      "loaded": true,
+      "bytes": 62064,
+      "seconds": 1.94
+    },
+    {
+      "id": "m_4485358ec65fd1169e730cd49f47c79fb043a827840b99eabb95a03e81be72a7",
+      "loaded": true,
+      "bytes": 87283,
+      "seconds": 2.18
+    },
+    {
+      "id": "m_1b3e455d3356a783ebb1f5f4b72fac15a0e65fe5ffaedee23db665308fddc0f0",
+      "loaded": true,
+      "bytes": 121153,
+      "seconds": 3.45
+    },
+    {
+      "id": "m_d79fec9b5ccd19a5af9f0c84cc5e9ebff3429b8696cf4d4bca68b26fc9c7a98b",
+      "loaded": true,
+      "bytes": 152551,
+      "seconds": 2.31
+    },
+    {
+      "id": "m_a1a0d9a048c31d9afad0f76b5847fe2d3cca8b24acf0939d45d2525780984c70",
+      "loaded": true,
+      "bytes": 173110,
+      "seconds": 2.14
+    },
+    {
+      "id": "m_f27a28dc2541e4786f0c758988255dab8d7df018867bbf2d0f100ecf166e66e7",
+      "loaded": true,
+      "bytes": 119958,
+      "seconds": 2.37
+    },
+    {
+      "id": "m_76a16b2e74aa180b8301acc641927b0eaec7e202f35e0fd1e61deb3a49cabd1a",
+      "loaded": true,
+      "bytes": 67169,
+      "seconds": 2.01
+    },
+    {
+      "id": "m_28e823733bdcd371819015fd660b807f860fb546688344848a9c872b5bd24b28",
+      "loaded": true,
+      "bytes": 51021,
+      "seconds": 2.03
+    },
+    {
+      "id": "m_13ef0bb9ad07510c73eeedba21170ee7c0abc1685a87c3aed866d3bfa1ab48f3",
+      "loaded": true,
+      "bytes": 40695,
+      "seconds": 1.8
+    },
+    {
+      "id": "m_a8bc521a61e0ac7aa97a974d64b7b19625a2471042fe5c60fe5e5a5a5936f7ab",
+      "loaded": true,
+      "bytes": 61356,
+      "seconds": 1.75
+    },
+    {
+      "id": "m_69d9d9ed05c0bfc96840e9484b4d93836ac1dc4834c99748cf65b1d6fa46fe60",
+      "loaded": true,
+      "bytes": 50746,
+      "seconds": 2.08
+    },
+    {
+      "id": "m_6c3df537869a7fbc57676824dbc5e7c89cab95d2e3af8e619fdf0d27f5125057",
+      "loaded": true,
+      "bytes": 72365,
+      "seconds": 1.73
+    },
+    {
+      "id": "m_95d564d86f72e8c1c902e2d20c09fabd9236fdbe28bc673da73c3254235e55e4",
+      "loaded": true,
+      "bytes": 100806,
+      "seconds": 2.12
+    },
+    {
+      "id": "m_09da0d9fde587ec4fd47cf33564bc4f2cd9e43d0f08c6e2cf3acc9b99f77ccf8",
+      "loaded": true,
+      "bytes": 104537,
+      "seconds": 2.09
+    }
+  ]
+}

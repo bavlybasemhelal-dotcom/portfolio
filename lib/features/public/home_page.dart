@@ -617,8 +617,9 @@ class _HeroProjectOrbitState extends ConsumerState<HeroProjectOrbit>
       running = false;
       clock.stop();
     }
-    if (mounted)
+    if (mounted) {
       setState(() => foreground = state == AppLifecycleState.resumed);
+    }
   }
 
   @override
