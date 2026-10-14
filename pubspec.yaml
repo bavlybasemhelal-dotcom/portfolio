@@ -36,6 +36,8 @@ flutter:
   uses-material-design: true
   assets:
     - planning-assets/yogen-logo-horizontal.png
+    - assets/images/team/
+    - assets/images/projects/
   fonts:
     - family: PlexArabic
       fonts:

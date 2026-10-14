@@ -557,32 +557,36 @@ class _AdminTeamPageState extends ConsumerState<AdminTeamPage> {
                                             fit: BoxFit.cover,
                                           )
                                         : photo.isNotEmpty
-                                        ? Consumer(
-                                            builder: (c, ref, _) => DriveImage(
-                                              cache: ref.watch(
-                                                publicMediaCacheProvider,
+                                        ? Image.asset(
+                                            'assets/images/team/$id.jpg',
+                                            fit: BoxFit.cover,
+                                            errorBuilder: (_, _, _) => Consumer(
+                                              builder: (c, ref, _) => DriveImage(
+                                                cache: ref.watch(
+                                                  publicMediaCacheProvider,
+                                                ),
+                                                endpoint:
+                                                    ref
+                                                        .watch(
+                                                          adminEndpointProvider,
+                                                        )
+                                                        .value ??
+                                                    '',
+                                                site: activeSite,
+                                                assetId: photo,
+                                                publicUrl:
+                                                    media
+                                                            .where(
+                                                              (entry) =>
+                                                                  entry.id ==
+                                                                  photo,
+                                                            )
+                                                            .firstOrNull
+                                                            ?.public['publicUrl']
+                                                        as String?,
+                                                alt: 'Photo',
+                                                thumbnail: true,
                                               ),
-                                              endpoint:
-                                                  ref
-                                                      .watch(
-                                                        adminEndpointProvider,
-                                                      )
-                                                      .value ??
-                                                  '',
-                                              site: activeSite,
-                                              assetId: photo,
-                                              publicUrl:
-                                                  media
-                                                          .where(
-                                                            (entry) =>
-                                                                entry.id ==
-                                                                photo,
-                                                          )
-                                                          .firstOrNull
-                                                          ?.public['publicUrl']
-                                                      as String?,
-                                              alt: 'Photo',
-                                              thumbnail: true,
                                             ),
                                           )
                                         : Container(

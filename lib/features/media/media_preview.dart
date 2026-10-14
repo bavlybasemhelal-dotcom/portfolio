@@ -87,6 +87,7 @@ class _DriveImageState extends State<DriveImage> {
       fit: widget.fit,
       alignment: widget.alignment,
       semanticLabel: widget.alt,
+      cacheWidth: widget.thumbnail ? 600 : 1600,
       loadingBuilder: (c, child, progress) => progress == null
           ? child
           : SizedBox(

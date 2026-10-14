@@ -532,10 +532,13 @@ class _Atmospheric3DPainter extends CustomPainter {
     final sparkY = math.sin(sparkAngle) * ringRadius * 0.275;
     canvas.drawCircle(
       Offset(sparkX, sparkY),
-      3.0,
-      Paint()
-        ..color = const Color(0xff12c6eb).withValues(alpha: 0.9)
-        ..maskFilter = const MaskFilter.blur(BlurStyle.solid, 4),
+      6.0,
+      Paint()..color = const Color(0xff12c6eb).withValues(alpha: 0.25),
+    );
+    canvas.drawCircle(
+      Offset(sparkX, sparkY),
+      2.5,
+      Paint()..color = const Color(0xff12c6eb).withValues(alpha: 0.95),
     );
 
     canvas.restore();

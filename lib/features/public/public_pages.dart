@@ -729,27 +729,35 @@ class AboutPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 if (member['photo'] != null)
-                                  Consumer(
-                                    builder: (c, ref, _) => ClipRRect(
-                                      borderRadius: BorderRadius.circular(20),
-                                      child: DriveImage(
-                                        cache: ref.watch(
-                                          publicMediaCacheProvider,
+                                  ClipRRect(
+                                    borderRadius: BorderRadius.circular(20),
+                                    child: Image.asset(
+                                      'assets/images/team/${member['id']}.jpg',
+                                      height: 300,
+                                      width: double.infinity,
+                                      fit: BoxFit.cover,
+                                      alignment: Alignment.topCenter,
+                                      cacheWidth: 600,
+                                      errorBuilder: (c, _, _) => Consumer(
+                                        builder: (c, ref, _) => DriveImage(
+                                          cache: ref.watch(
+                                            publicMediaCacheProvider,
+                                          ),
+                                          endpoint: data.endpoint,
+                                          site: activeSite,
+                                          assetId:
+                                              member['photo']['id'] as String,
+                                          publicUrl:
+                                              member['photo']['publicUrl']
+                                                  as String?,
+                                          alt: member['photo']['alt'] is Map
+                                              ? (member['photo']['alt'][code] as String? ?? '')
+                                              : (member['photo']['alt'] as String? ?? ''),
+                                          thumbnail: true,
+                                          height: 300,
+                                          fit: BoxFit.cover,
+                                          alignment: Alignment.topCenter,
                                         ),
-                                        endpoint: data.endpoint,
-                                        site: activeSite,
-                                        assetId:
-                                            member['photo']['id'] as String,
-                                        publicUrl:
-                                            member['photo']['publicUrl']
-                                                as String?,
-                                        alt:
-                                            member['photo']['alt'][code]
-                                                as String,
-                                        thumbnail: true,
-                                        height: 300,
-                                        fit: BoxFit.cover,
-                                        alignment: Alignment.topCenter,
                                       ),
                                     ),
                                   ),

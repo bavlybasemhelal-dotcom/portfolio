@@ -1319,6 +1319,108 @@
         "technologyNote": "No stack or execution year is inferred.",
         "imageSelection": "Original source screens selected without private individual records."
       }
+    },
+    {
+      "sourceId": "P016",
+      "projectId": "yogen-p016",
+      "sourceUrl": "https://alban-elra3y.web.app/",
+      "content": {
+        "title": {
+          "ar": "الراعي — المنيو والكتالوج الإلكتروني الذكي",
+          "en": "El-Ra3y — Smart Digital Menu & Catalog"
+        },
+        "summary": {
+          "ar": "كتالوج إلكتروني متكامل وقائمة أسعار مباشرة للألبان والمجمدات والمواد الغذائية مع لوحة تحكم سحابية لإدارة المنتجات والتسعير والعروض ومشاركتها عبر واتساب وفيسبوك.",
+          "en": "An integrated digital catalog and live price menu for dairy and frozen foods with a cloud management dashboard for products, multi-unit pricing, offers, and social sharing."
+        },
+        "body": {
+          "ar": "المنيو والكتالوج الإلكتروني لمنتجات ألبان ومجمدات الراعي يقدم تجربة رقمية عصرية ومرنة تتيح للعملاء تصفح كافة منتجات المحل وأقسامه بأسعارها المحدثة لحظيًا. يدعم النظام تصنيفات المنتجات المتنوعة (الألبان، الأجبان، المجمدات، الصوصات، التوابل وغيرها)، والبحث الفوري، وعرض تفاصيل تسعير القطعة والعلبة والكرتونة والباركود، مع أزرار تواصل وطلب مباشر عبر واتساب وفيسبوك.\n\nيتضمن المشروع لوحة تحكم وإدارة سحابية متكاملة تتيح لصاحب العمل إضافة وتعديل المنتجات، والتحكم في الأسعار والعروض الترويجية، وإدارة الأقسام والتوفر، واستيراد وتصدير بيانات الكتالوج بكل سهولة وأمان.\n\n## الوظائف الأساسية\n- تصفح الكتالوج الإلكتروني وقوائم الأسعار المحدثة لحظيًا\n- فلاتر متقدمة للأقسام، المنتجات المخفضة، والبحث الذكي الفوري\n- عرض تفصيلي لأسعار القطعة والعلبة والكرتونة وتفاصيل العبوة\n- لوحة تحكم سحابية لإدارة المنتجات، الأقسام، وحالة النشر\n- واجهة مستجيبة بالكامل (PWA) مع دعم الوضع الداكن والتنقل السريع\n- مشاركة سريعة للمنتجات عبر واتساب وشبكات التواصل\n\n[زيارة موقع المشروع](https://alban-elra3y.web.app/)",
+          "en": "The digital menu and smart catalog for El-Ra3y Dairy & Frozen Goods delivers a modern browsing experience for up-to-date products and real-time prices. It enables customers to explore diverse departments (dairy, cheese, frozen foods, sauces, spices), perform instant keyword searches, view multi-tier pricing (per piece, pack, carton) with barcode details, and order directly via WhatsApp and Facebook.\n\nThe project includes an intuitive cloud admin dashboard that empowers the merchant to create and edit products, configure prices and discounts, manage categories, track publication status, and import/export catalog data effortlessly.\n\n## Key features\n- Real-time digital catalog and updated product price lists\n- Advanced category filtering, discounted items view, and instant search\n- Multi-unit pricing (piece, pack, carton) and barcode display\n- Comprehensive cloud management dashboard for items and categories\n- Responsive modern UI (PWA) with dark mode and fast navigation\n- Quick product sharing via WhatsApp and social channels\n\n[Visit project website](https://alban-elra3y.web.app/)"
+        },
+        "contribution": {
+          "ar": "تصميم وتطوير الكتالوج الإلكتروني الذكي، وواجهات تصفح المنتجات والأقسام، ولوحة إدارة المنتجات والتسعير السحابية.",
+          "en": "Design and development of the smart digital catalog, product and department browsing interfaces, and cloud management dashboard."
+        },
+        "categoryId": "commerce",
+        "slug": "alban-elra3y",
+        "usage": "real",
+        "attribution": "company",
+        "mediaIds": [
+          "m_f88a9038632c5824d408c796eaea326414ce16903a9ddabd1c67ade7629dfa3f",
+          "m_072d3032237c8d52564bf5a4786f1f9917c98225fd0adadeec9b0bc5a05dd6e6",
+          "m_6b9f9b6081d2cf90d11e038a8127e09d321adadb9b7302a5632f8b61f4d43140"
+        ],
+        "links": [],
+        "order": 15,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/alban-elra3y/cover.jpg",
+          "alt": {
+            "ar": "الواجهة الرئيسية لكتالوج ومنيو الراعي للألبان والمجمدات",
+            "en": "Main catalog and menu interface of Alban & Mogamadat El-Ra3y"
+          },
+          "sourceUrl": "https://alban-elra3y.web.app/",
+          "sha256": "f88a9038632c5824d408c796eaea326414ce16903a9ddabd1c67ade7629dfa3f",
+          "bytes": 75870,
+          "publishedAssetId": "m_f88a9038632c5824d408c796eaea326414ce16903a9ddabd1c67ade7629dfa3f",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/f88a9038632c5824d408c796eaea326414ce16903a9ddabd1c67ade7629dfa3f.jpg"
+        },
+        {
+          "file": "images/alban-elra3y/gallery-01.jpg",
+          "alt": {
+            "ar": "تفاصيل المنتج وأسعار القطعة والكرتونة ومشاركة الرابط",
+            "en": "Product details page with multi-tier pricing and sharing options"
+          },
+          "sourceUrl": "https://alban-elra3y.web.app/",
+          "sha256": "072d3032237c8d52564bf5a4786f1f9917c98225fd0adadeec9b0bc5a05dd6e6",
+          "bytes": 37228,
+          "publishedAssetId": "m_072d3032237c8d52564bf5a4786f1f9917c98225fd0adadeec9b0bc5a05dd6e6",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/072d3032237c8d52564bf5a4786f1f9917c98225fd0adadeec9b0bc5a05dd6e6.jpg"
+        },
+        {
+          "file": "images/alban-elra3y/gallery-02.jpg",
+          "alt": {
+            "ar": "لوحة تحكم وإدارة المنتجات والأقسام والعروض",
+            "en": "Admin dashboard for managing catalog products, categories and offers"
+          },
+          "sourceUrl": "https://alban-elra3y.web.app/",
+          "sha256": "6b9f9b6081d2cf90d11e038a8127e09d321adadb9b7302a5632f8b61f4d43140",
+          "bytes": 47510,
+          "publishedAssetId": "m_6b9f9b6081d2cf90d11e038a8127e09d321adadb9b7302a5632f8b61f4d43140",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/6b9f9b6081d2cf90d11e038a8127e09d321adadb9b7302a5632f8b61f4d43140.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://alban-elra3y.web.app/",
+        "features": [
+          {
+            "ar": "تصفح الكتالوج وقوائم الأسعار المحدثة مباشرة",
+            "en": "Live catalog and real-time price updates"
+          },
+          {
+            "ar": "فلاتر الأقسام والبحث الفوري والمنتجات المخفضة",
+            "en": "Category filters, instant search and discounted products"
+          },
+          {
+            "ar": "تسعير متعدد الوحدات (قطعة، علبة، كرتونة) والباركود",
+            "en": "Multi-tier pricing (piece, pack, carton) and barcode lookup"
+          },
+          {
+            "ar": "لوحة تحكم وإدارة شاملة للمنتجات والأقسام",
+            "en": "Full cloud management dashboard for products and sections"
+          },
+          {
+            "ar": "مشاركة المنتجات والطلب عبر واتساب وفيسبوك",
+            "en": "Product sharing and direct ordering via WhatsApp and Facebook"
+          }
+        ],
+        "usageNote": "Active client digital catalog and store management system.",
+        "attributionEvidence": "Developed by company.",
+        "technologyNote": "Web, Firebase, PWA, Cloud Architecture.",
+        "imageSelection": "Official catalog interface, product details view, and admin dashboard screenshots."
+      }
     }
   ]
 }

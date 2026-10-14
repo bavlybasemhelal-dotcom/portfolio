@@ -210,14 +210,14 @@ class _PublicShellState extends ConsumerState<PublicShell> {
                 Expanded(child: widget.child),
                 ClipRect(
                   child: BackdropFilter(
-                    filter: ImageFilter.blur(sigmaX: 18, sigmaY: 18),
+                    filter: ImageFilter.blur(sigmaX: 8, sigmaY: 8),
                     child: Container(
                       height: wide ? 86 : 76,
                       padding: EdgeInsets.symmetric(horizontal: wide ? 32 : 12),
                       decoration: BoxDecoration(
                         color: Color(
                           dark ? 0xff081120 : 0xfff7f9fd,
-                        ).withValues(alpha: dark ? 0.78 : 0.82),
+                        ).withValues(alpha: dark ? 0.88 : 0.90),
                         border: Border(
                           bottom: BorderSide(
                             color: (dark

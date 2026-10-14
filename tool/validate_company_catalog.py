@@ -7,9 +7,9 @@ from PIL import Image
 ROOT=Path(__file__).resolve().parent.parent
 OUT=ROOT/'content/company-projects'
 catalog=json.loads((OUT/'projects.json').read_text(encoding='utf-8'))
-assert catalog['site']=='yogen' and len(catalog['projects'])==15
-assert len({p['projectId'] for p in catalog['projects']})==15
-assert len({p['content']['slug'] for p in catalog['projects']})==15
+assert catalog['site']=='yogen' and len(catalog['projects'])>=15
+assert len({p['projectId'] for p in catalog['projects']})==len(catalog['projects'])
+assert len({p['content']['slug'] for p in catalog['projects']})==len(catalog['projects'])
 categories={c['id'] for c in catalog['categories']}
 files=[]
 for p in catalog['projects']:
@@ -37,7 +37,7 @@ for p in catalog['projects']:
             assert img.format=='JPEG' and max(img.size)<=1600
             img.verify()
         files.append(file)
-summary={'projects':15,'categories':len(categories),'images':len(files),'totalImageBytes':sum(f.stat().st_size for f in files),'bilingualContentValid':True,'mediaHashesValid':True,'credentialsIncluded':False}
+summary={'projects':len(catalog['projects']),'categories':len(categories),'images':len(files),'totalImageBytes':sum(f.stat().st_size for f in files),'bilingualContentValid':True,'mediaHashesValid':True,'credentialsIncluded':False}
 (OUT/'validation.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8')
 with zipfile.ZipFile(OUT/'yogen-company-projects.zip','w',compression=zipfile.ZIP_DEFLATED) as archive:
     extra=[OUT/'publication-verification.json'] if (OUT/'publication-verification.json').exists() else []
