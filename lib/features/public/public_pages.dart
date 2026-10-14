@@ -740,6 +740,11 @@ class AboutPage extends StatelessWidget {
                                         site: activeSite,
                                         assetId:
                                             member['photo']['id'] as String,
+                                        publicUrl: publicImageUrl(
+                                          Map<String, dynamic>.from(
+                                            member['photo'] as Map,
+                                          ),
+                                        ),
                                         alt:
                                             member['photo']['alt'][code]
                                                 as String,

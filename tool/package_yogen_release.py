@@ -11,6 +11,11 @@ root = pathlib.Path(__file__).resolve().parents[1]
 version, build_number = re.search(r'^version:\s*(\d+\.\d+\.\d+)\+(\d+)\s*$', (root / 'pubspec.yaml').read_text(), re.M).groups()
 release = root / 'releases' / version
 web = release / 'web'
+for source in (root / 'web/project-media').glob('*'):
+    if source.is_file():
+        target = web / 'project-media' / source.name
+        if not target.exists() or target.read_bytes() != source.read_bytes():
+            raise RuntimeError('A published image is missing or different in the web build.')
 android = release / 'android'
 android.mkdir(parents=True, exist_ok=True)
 apk = root / 'build/app/outputs/flutter-apk/app-release.apk'
@@ -49,6 +54,9 @@ source_files = [
     'lib/features/validation/scene_page.dart', 'lib/features/admin/access_pages.dart',
     'lib/features/admin/admin_shell.dart', 'lib/auth/account_auth.dart',
     'lib/core/viewport_visibility.dart', 'lib/features/media/media_preview.dart',
+    'lib/features/media/media_transport.dart', 'lib/features/public/project_widgets.dart',
+    'lib/features/public/public_pages.dart', 'lib/features/admin/project_editor_page.dart',
+    'lib/features/admin/media_library_page.dart', 'lib/features/admin/projects_pages.dart',
     'pubspec.yaml', 'pubspec.lock', 'firebase.json', 'web/manifest.json',
     'web/flutter_bootstrap.js', 'android/app/build.gradle.kts',
     'android/app/src/main/res/drawable/yogen_launcher.xml', 'web/icons/yogen-mark.svg',

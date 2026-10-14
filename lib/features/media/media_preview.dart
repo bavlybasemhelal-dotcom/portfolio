@@ -6,9 +6,17 @@ import 'media_transport.dart';
 import 'video_preview.dart';
 import 'download.dart';
 
+// Imported Hosting images have a public URL and no Drive file. Genuine Drive
+// uploads keep using the verified receipt bridge, including their thumbnails.
+String publicImageUrl(Map<String, dynamic> asset) =>
+    (asset['driveFileId'] as String? ?? '').isEmpty
+    ? asset['publicUrl'] as String? ?? ''
+    : '';
+
 class DriveImage extends StatefulWidget {
   final MediaByteCache cache;
   final String endpoint, site, assetId, alt;
+  final String publicUrl;
   final bool thumbnail;
   final double height;
   const DriveImage({
@@ -19,6 +27,7 @@ class DriveImage extends StatefulWidget {
     required this.assetId,
     required this.alt,
     this.thumbnail = false,
+    this.publicUrl = '',
     this.height = 180,
   });
   @override
@@ -44,6 +53,7 @@ class _DriveImageState extends State<DriveImage> {
       widget.assetId,
       thumbnail: widget.thumbnail,
       retry: retry,
+      publicUrl: widget.publicUrl,
     );
   }
 
@@ -53,6 +63,7 @@ class _DriveImageState extends State<DriveImage> {
     if (old.assetId != widget.assetId ||
         old.endpoint != widget.endpoint ||
         old.site != widget.site ||
+        old.publicUrl != widget.publicUrl ||
         old.thumbnail != widget.thumbnail) {
       future = null;
       if (visible) load();
@@ -83,7 +94,7 @@ class _DriveImageState extends State<DriveImage> {
       enabled: visible,
       child: FutureBuilder<Uint8List>(
         key: ValueKey(
-          '${widget.endpoint}:${widget.site}:${widget.assetId}:${widget.thumbnail}',
+          '${widget.endpoint}:${widget.site}:${widget.assetId}:${widget.thumbnail}:${widget.publicUrl}',
         ),
         future: future,
         builder: (c, result) {
@@ -191,6 +202,7 @@ class _MediaViewerState extends State<MediaViewer> {
         endpoint: widget.endpoint,
         site: widget.site,
         assetId: id,
+        publicUrl: publicImageUrl(widget.asset),
         alt: alt(c, widget.asset),
         height: 380,
       );
@@ -205,6 +217,7 @@ class _MediaViewerState extends State<MediaViewer> {
                 endpoint: widget.endpoint,
                 site: widget.site,
                 assetId: widget.cover!['id'] as String,
+                publicUrl: publicImageUrl(widget.cover!),
                 alt: alt(c, widget.cover!),
               ),
             FilledButton.icon(

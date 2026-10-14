@@ -1,6 +1,8 @@
 import 'dart:async';
 import 'dart:convert';
 import 'dart:typed_data';
+import 'package:crypto/crypto.dart';
+import 'package:http/http.dart' as http;
 import '../../domain/media.dart';
 import 'drive_bridge.dart';
 
@@ -101,6 +103,7 @@ class MediaByteCache {
   final Map<String, Completer<void>> _abort = {};
   int bytesHeld = 0;
   int _generation = 0;
+  http.Client? _publicClient;
   MediaByteCache(this.transport, {this.maxBytes = 12 * 1024 * 1024});
   Future<Uint8List> read(
     String url,
@@ -108,8 +111,9 @@ class MediaByteCache {
     String id, {
     bool thumbnail = false,
     bool retry = false,
+    String publicUrl = '',
   }) {
-    final key = '$url|$site|$id|$thumbnail';
+    final key = '$url|$site|$id|$thumbnail|$publicUrl';
     if (retry) {
       final old = _cache.remove(key);
       if (old != null) bytesHeld -= old.length;
@@ -123,8 +127,16 @@ class MediaByteCache {
     final epoch = _generation;
     final abort = Completer<void>();
     _abort[key] = abort;
-    final future = transport
-        .read(url, site, id, thumbnail: thumbnail, abortTrigger: abort.future)
+    final request = publicUrl.isEmpty
+        ? transport.read(
+            url,
+            site,
+            id,
+            thumbnail: thumbnail,
+            abortTrigger: abort.future,
+          )
+        : _readPublicImage(publicUrl, abort.future);
+    final future = request
         .then((bytes) {
           if (epoch == _generation && bytes.length <= maxBytes) {
             while (_cache.isNotEmpty && bytesHeld + bytes.length > maxBytes) {
@@ -145,6 +157,53 @@ class MediaByteCache {
     return future;
   }
 
+  Future<Uint8List> _readPublicImage(String value, Future<void> abort) async {
+    final uri = Uri.tryParse(value);
+    if (uri == null ||
+        uri.scheme != 'https' ||
+        uri.userInfo.isNotEmpty ||
+        ![
+          'portfolio-14d15.web.app',
+          'portfolio-14d15.firebaseapp.com',
+        ].contains(uri.host) ||
+        !RegExp(
+          r'^/project-media/[a-f0-9]{64}\.(jpg|jpeg|png|webp)$',
+        ).hasMatch(uri.path) ||
+        uri.hasQuery ||
+        uri.hasFragment) {
+      throw const DriveFailure('invalid_public_image_url');
+    }
+    final client = _publicClient ??= http.Client();
+    final response = await client
+        .send(http.AbortableRequest('GET', uri, abortTrigger: abort))
+        .timeout(const Duration(seconds: 45));
+    if (response.statusCode != 200)
+      throw DriveFailure('image_http_${response.statusCode}');
+    final mime = (response.headers['content-type'] ?? '')
+        .split(';')
+        .first
+        .toLowerCase();
+    if (!['image/jpeg', 'image/png', 'image/webp'].contains(mime)) {
+      throw const DriveFailure('invalid_public_image_response');
+    }
+    final data = BytesBuilder(copy: false);
+    await for (final part in response.stream.timeout(
+      const Duration(seconds: 45),
+    )) {
+      if (data.length + part.length > MediaPolicy.maxTestBytes) {
+        throw const DriveFailure('unverified_size');
+      }
+      data.add(part);
+    }
+    final bytes = data.takeBytes();
+    MediaPolicy.validate(bytes, mime);
+    if (sha256.convert(bytes).toString() !=
+        uri.pathSegments.last.split('.').first) {
+      throw const DriveFailure('invalid_public_image_response');
+    }
+    return bytes;
+  }
+
   void clear() {
     _generation++;
     for (final abort in _abort.values) {
@@ -153,6 +212,8 @@ class MediaByteCache {
     _abort.clear();
     _cache.clear();
     _pending.clear();
+    _publicClient?.close();
+    _publicClient = null;
     bytesHeld = 0;
   }
 }

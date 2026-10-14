@@ -115,6 +115,7 @@ class ProjectCover extends ConsumerWidget {
         endpoint: endpoint,
         site: activeSite,
         assetId: asset['id'] as String,
+        publicUrl: publicImageUrl(asset),
         alt: asset['alt'][Localizations.localeOf(c).languageCode] as String,
         thumbnail:
             thumbnail &&
@@ -317,6 +318,7 @@ class _ProjectGalleryState extends ConsumerState<ProjectGallery> {
                     endpoint: widget.endpoint,
                     site: activeSite,
                     assetId: asset['id'] as String,
+                    publicUrl: publicImageUrl(asset),
                     alt:
                         asset['alt'][Localizations.localeOf(c).languageCode]
                             as String,
@@ -418,6 +420,7 @@ class _GalleryDialogState extends ConsumerState<GalleryDialog> {
                         endpoint: widget.endpoint,
                         site: activeSite,
                         assetId: asset['id'] as String,
+                        publicUrl: publicImageUrl(asset),
                         alt: alt,
                         height: height,
                       ),

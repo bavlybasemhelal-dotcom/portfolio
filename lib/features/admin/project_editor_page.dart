@@ -970,6 +970,7 @@ class _ProjectEditorPageState extends ConsumerState<ProjectEditorPage> {
                       endpoint: endpoint,
                       site: activeSite,
                       assetId: entry!.id,
+                      publicUrl: publicImageUrl(entry.public),
                       alt: entry.alt.ar,
                       thumbnail: true,
                       height: 140,
