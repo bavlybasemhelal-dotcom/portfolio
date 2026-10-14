@@ -1,0 +1,46 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "صالون حلاقة - موقع حجز" [disabled]:
+    - generic: صالون حلاقة - موقع حجز
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "صالون حلاقة - موقع حجز" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "tomy-barber-shop-main.web.app":
+        - link "tomy-barber-shop-main.web.app":
+          - /url: https://tomy-barber-shop-main.web.app/
+  - generic: موقع حديث لحجز مكانك في صالون الحلاقة
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "تومي باربر شوب | الفخامة في الحلاقة حيث تلتقي المهارة التقليدية مع التصميم الحديث. احصل على مظهرك المثالي اليوم. https://tomy-barber-shop-main.web.app":
+      - /url: https://tomy-barber-shop-main.web.app/
+      - generic: تومي باربر شوب | الفخامة في الحلاقة
+      - generic: حيث تلتقي المهارة التقليدية مع التصميم الحديث. احصل على مظهرك المثالي اليوم.
+      - generic: https://tomy-barber-shop-main.web.app
+  - blockquote:
+    - generic: صور من داخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

@@ -1,0 +1,204 @@
+- banner:
+  - img "YOGEN"
+- button "Change theme"
+- button "العربية"
+- button "Account settings"
+- button "Overview"
+- button "Projects"
+- button "Client requests"
+- button "My account"
+- button "Storage and media"
+- button "Categories"
+- button "Public team profiles"
+- button "Company and contact"
+- button "Access accounts"
+- button "Visit website"
+- generic: YOGEN / Team workspace
+- generic: Projects
+- generic: Draft changes are separate from the version visitors see.
+- button "Add project"
+- button "Refresh" [active]
+- textbox "Search projects"
+- checkbox "All" [checked]
+- checkbox "Draft"
+- checkbox "Published"
+- checkbox "Archived"
+- button "Category All categories"
+- generic: 16 projects
+- generic: p1791762492309000
+- checkbox "Draft"
+- generic: p1791762492309000
+- generic: "Order: 0"
+- generic: 2026-10-12 02:49:13.588
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Dr. Sales — Sales & Business Management
+- checkbox "Draft"
+- generic: yogen-p001
+- checkbox "Business systems"
+- generic: "Order: 0"
+- generic: 2026-10-13 12:27:51.139
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Nexara — Clinic Management & Booking
+- checkbox "Draft"
+- generic: yogen-p002
+- checkbox "Healthcare"
+- generic: "Order: 1"
+- generic: 2026-10-13 12:32:16.048
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: James American School — School Management
+- checkbox "Draft"
+- generic: yogen-p003
+- checkbox "Education"
+- generic: "Order: 2"
+- generic: 2026-10-13 12:37:10.774
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Quality Dental Lab — Dental Lab Platform
+- checkbox "Draft"
+- generic: yogen-p004
+- checkbox "Healthcare"
+- generic: "Order: 3"
+- generic: 2026-10-13 12:38:30.506
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Me & Law — Legal Services Website
+- checkbox "Draft"
+- generic: yogen-p005
+- checkbox "Brand websites"
+- generic: "Order: 4"
+- generic: 2026-10-13 12:39:43.446
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: X FRAME — Frames & Gifts Store
+- checkbox "Draft"
+- generic: yogen-p006
+- checkbox "E-commerce"
+- generic: "Order: 5"
+- generic: 2026-10-13 12:40:53.129
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Youssab Wagdy — Personal Portfolio
+- checkbox "Draft"
+- generic: yogen-p007
+- checkbox "Brand websites"
+- generic: "Order: 6"
+- generic: 2026-10-13 12:42:01.832
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Sunday School & Deacon School Management
+- checkbox "Draft"
+- generic: yogen-p008
+- checkbox "Education"
+- generic: "Order: 7"
+- generic: 2026-10-13 12:43:16.377
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Church Membership — Families & Services
+- checkbox "Draft"
+- generic: yogen-p009
+- checkbox "Community services"
+- generic: "Order: 8"
+- generic: 2026-10-13 12:47:12.764
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Games Platform — Community Games
+- checkbox "Draft"
+- generic: yogen-p010
+- checkbox "Interactive games"
+- generic: "Order: 9"
+- generic: 2026-10-13 12:48:27.554
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: St. Mark & Anba Bishoy Church Website
+- checkbox "Draft"
+- generic: yogen-p011
+- checkbox "Community services"
+- generic: "Order: 10"
+- generic: 2026-10-13 12:50:18.126
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Tomy Barber Shop — Service Booking
+- checkbox "Draft"
+- generic: yogen-p012
+- checkbox "Brand websites"
+- generic: "Order: 11"
+- generic: 2026-10-13 12:52:00.087
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Labyrinth of Love — Couples Conversation Game
+- checkbox "Draft"
+- generic: yogen-p013
+- checkbox "Interactive games"
+- generic: "Order: 12"
+- generic: 2026-10-13 12:53:16.417
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: Workforce & Payroll — UAE Company
+- checkbox "Draft"
+- generic: yogen-p014
+- checkbox "Business systems"
+- generic: "Order: 13"
+- generic: 2026-10-13 12:54:31.600
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- generic: El Rajaa — Patient Service Management
+- checkbox "Draft"
+- generic: yogen-p015
+- checkbox "Healthcare"
+- generic: "Order: 14"
+- generic: 2026-10-13 12:56:36.041
+- button "Edit"
+- button "Private preview"
+- button "Duplicate as draft"
+- button "Reorder"
+- button "Archive"
+- button "Pause motion"
+- checkbox "Reduce motion"

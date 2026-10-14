@@ -1,0 +1,130 @@
+{
+  "checkedAt": "2026-10-13T14:36:30.391470+00:00",
+  "expectedProjects": 15,
+  "publishedProjects": 15,
+  "publishedImages": 31,
+  "allPublishedContentMatches": true,
+  "complete": true,
+  "projects": [
+    {
+      "projectId": "yogen-p001",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 19
+    },
+    {
+      "projectId": "yogen-p002",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 17
+    },
+    {
+      "projectId": "yogen-p003",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 17
+    },
+    {
+      "projectId": "yogen-p004",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 16
+    },
+    {
+      "projectId": "yogen-p005",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p006",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p007",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p008",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p009",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 1,
+      "revision": 23
+    },
+    {
+      "projectId": "yogen-p010",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 3,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p011",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p012",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 3,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p013",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 1,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p014",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 2,
+      "revision": 14
+    },
+    {
+      "projectId": "yogen-p015",
+      "published": true,
+      "contentAndMediaMatch": true,
+      "mismatches": [],
+      "imageCount": 3,
+      "revision": 16
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+- generic: "Last confirmed save: 2026-10-13 15:06:25.363"
+- banner:
+  - img "YOGEN"
+- button "Change theme"
+- button "العربية"
+- button "Account settings"
+- button "Overview"
+- button "Projects"
+- button "Client requests"
+- button "My account"
+- button "Storage and media"
+- button "Categories"
+- button "Public team profiles"
+- button "Company and contact"
+- button "Access accounts"
+- button "Visit website"
+- generic: YOGEN / Team workspace
+- generic: Project editor
+- generic: yogen-p003
+- button "All projects"
+- generic: "Last confirmed save: 2026-10-13 15:06:25.363"
+- generic: The published version stays unchanged until you publish your edits.
+- checkbox "AR · 4 / 4 basics"
+- checkbox "EN · 4 / 4 basics"
+- button "Save draft"
+- button "Preview"
+- button "Publish" [active]
+- checkbox "Basics"
+- checkbox "Details"
+- checkbox "Media" [checked]
+- checkbox "Team and technology"
+- checkbox "Links"
+- checkbox "Publication"
+- generic: The first file is the main project cover. Up to 6 files per project, 5 MiB each.
+- generic: Upload project images directly from device
+- generic: Upload cover and screenshots directly from your device (PNG, JPG, WebP, Video, PDF up to 5MB)
+- button "Upload file from device now"
+- button "Or choose from library"
+- button "Refresh"
+- img "cover.jpg لوحة إدارة المدرسة"
+- checkbox "Cover"
+- button "Move up" [disabled]
+- button "Move down"
+- button "Edit description"
+- button "Unlink"
+- group "Drag to reorder gallery-01.jpg":
+  - button "Move up"
+  - button "Move down" [disabled]
+  - button "Set as cover"
+  - button "Edit description"
+  - button "Unlink"
+- button "Save draft"
+- button "Preview"
+- button "Publish"
+- button "Pause motion"
+- checkbox "Reduce motion"
+- generic: The server confirmed the new published version.

@@ -1,0 +1,1324 @@
+{
+  "version": 1,
+  "site": "yogen",
+  "source": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca",
+  "categories": [
+    {
+      "id": "business",
+      "name": {
+        "ar": "أنظمة الأعمال",
+        "en": "Business systems"
+      },
+      "order": 0,
+      "enabled": true
+    },
+    {
+      "id": "healthcare",
+      "name": {
+        "ar": "الرعاية الصحية",
+        "en": "Healthcare"
+      },
+      "order": 1,
+      "enabled": true
+    },
+    {
+      "id": "education",
+      "name": {
+        "ar": "التعليم",
+        "en": "Education"
+      },
+      "order": 2,
+      "enabled": true
+    },
+    {
+      "id": "commerce",
+      "name": {
+        "ar": "التجارة الإلكترونية",
+        "en": "E-commerce"
+      },
+      "order": 3,
+      "enabled": true
+    },
+    {
+      "id": "websites",
+      "name": {
+        "ar": "المواقع التعريفية",
+        "en": "Brand websites"
+      },
+      "order": 4,
+      "enabled": true
+    },
+    {
+      "id": "community",
+      "name": {
+        "ar": "إدارة الخدمات",
+        "en": "Community services"
+      },
+      "order": 5,
+      "enabled": true
+    },
+    {
+      "id": "games",
+      "name": {
+        "ar": "الألعاب التفاعلية",
+        "en": "Interactive games"
+      },
+      "order": 6,
+      "enabled": true
+    }
+  ],
+  "projects": [
+    {
+      "sourceId": "P001",
+      "projectId": "yogen-p001",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18024b330dc5f3083c82d",
+      "content": {
+        "title": {
+          "ar": "Dr. Sales — إدارة المبيعات والأعمال",
+          "en": "Dr. Sales — Sales & Business Management"
+        },
+        "summary": {
+          "ar": "المبيعات والمخزون والحسابات والموظفون في نظام واحد على أندرويد وويندوز، مع العمل دون إنترنت والمزامنة عند عودة الاتصال.",
+          "en": "Sales, inventory, accounts and staff in one Android and Windows system, with offline operation and synchronization when connectivity returns."
+        },
+        "body": {
+          "ar": "Dr. Sales يجمع دورة العمل اليومية للنشاط التجاري: المبيعات والمشتريات والمرتجعات، إدارة المخازن والجرد، حسابات العملاء والموردين، ومتابعة الإيرادات والمصروفات. يدعم البيع النقدي والآجل والتقسيط، ويربط متابعة الموظفين والمندوبين والفنيين بالرواتب والعمولات.\n\nيمتد النظام إلى حجوزات المناسبات وإدارة جلسات السايبر والبلايستيشن وحساب وقتها وإضافة المنتجات إليها. ويتيح قراءة الباركود بكاميرا الهاتف وطباعة الفواتير بالبلوتوث، مع صلاحيات منفصلة وتقارير تساعد على متابعة النشاط.\n\n## الوظائف الأساسية\n- إدارة المبيعات والمشتريات والمرتجعات\n- المخزون والجرد وحسابات العملاء والموردين\n- أندرويد وويندوز والعمل دون إنترنت\n- المزامنة بين الأجهزة عند الاتصال\n- الباركود وطباعة فواتير البلوتوث\n- حجوزات وموظفون وتقارير وصلاحيات\n\n[زيارة موقع المشروع](https://dr-sales-activation.web.app/)",
+          "en": "Dr. Sales brings together daily business operations: sales, purchases, returns, stocktaking, customer and supplier accounts, and income and expense tracking. It supports cash, credit and installment sales, with staff, representative and technician workflows linked to payroll and commissions.\n\nThe system also covers event bookings and timed gaming sessions with additional products. Phone-camera barcode scanning, Bluetooth invoice printing, separate user permissions and business reports support day-to-day operations.\n\n## Key features\n- Sales, purchases and returns\n- Inventory, stocktaking and customer/supplier accounts\n- Android, Windows and offline operation\n- Synchronization across connected devices\n- Barcode scanning and Bluetooth invoicing\n- Bookings, staff, reports and permissions\n\n[Visit project website](https://dr-sales-activation.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير نظام متكامل للمبيعات والحسابات والمخزون، وتجربة العمل على أندرويد وويندوز، وواجهات المتابعة والتقارير.",
+          "en": "Development of an integrated sales, accounting and inventory system, Android and Windows workflows, and monitoring and reporting interfaces."
+        },
+        "categoryId": "business",
+        "slug": "dr-sales",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_2638caa9d7a35cda01bcd14d19edc7bea1100abc129256f11dcc1cdfd6b921eb",
+          "m_be49dec0eff4b5ae8f6207a65df4b9768e73e401e05e6a0e5e8853ec05c37b7d"
+        ],
+        "links": [],
+        "order": 0,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/dr-sales/cover.jpg",
+          "alt": {
+            "ar": "لوحة التحكم الرئيسية",
+            "en": "Main dashboard"
+          },
+          "sourceUrl": "https://dr-sales-activation.web.app/images/dashboard.png",
+          "sha256": "7f65c8de3acc7dc2fcfca6970c9af4dd7e5dbbb2db234e8ac1148c848bac1e8d",
+          "bytes": 86638,
+          "publishedAssetId": "m_2638caa9d7a35cda01bcd14d19edc7bea1100abc129256f11dcc1cdfd6b921eb",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/7f65c8de3acc7dc2fcfca6970c9af4dd7e5dbbb2db234e8ac1148c848bac1e8d.jpg"
+        },
+        {
+          "file": "images/dr-sales/gallery-01.jpg",
+          "alt": {
+            "ar": "واجهة نقطة البيع والكاشير",
+            "en": "Point of sale and cashier interface"
+          },
+          "sourceUrl": "https://dr-sales-activation.web.app/images/cashier.png",
+          "sha256": "9fd3554dd08e2dfcede14c2ba1ae9199866d1e04a3ebf16fec0f6d38e6233a8b",
+          "bytes": 118254,
+          "publishedAssetId": "m_be49dec0eff4b5ae8f6207a65df4b9768e73e401e05e6a0e5e8853ec05c37b7d",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/9fd3554dd08e2dfcede14c2ba1ae9199866d1e04a3ebf16fec0f6d38e6233a8b.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://dr-sales-activation.web.app/",
+        "features": [
+          {
+            "ar": "إدارة المبيعات والمشتريات والمرتجعات",
+            "en": "Sales, purchases and returns"
+          },
+          {
+            "ar": "المخزون والجرد وحسابات العملاء والموردين",
+            "en": "Inventory, stocktaking and customer/supplier accounts"
+          },
+          {
+            "ar": "أندرويد وويندوز والعمل دون إنترنت",
+            "en": "Android, Windows and offline operation"
+          },
+          {
+            "ar": "المزامنة بين الأجهزة عند الاتصال",
+            "en": "Synchronization across connected devices"
+          },
+          {
+            "ar": "الباركود وطباعة فواتير البلوتوث",
+            "en": "Barcode scanning and Bluetooth invoicing"
+          },
+          {
+            "ar": "حجوزات وموظفون وتقارير وصلاحيات",
+            "en": "Bookings, staff, reports and permissions"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P002",
+      "projectId": "yogen-p002",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f180fd9a50c8f3a231c342",
+      "content": {
+        "title": {
+          "ar": "Nexara — إدارة العيادة وحجز المواعيد",
+          "en": "Nexara — Clinic Management & Booking"
+        },
+        "summary": {
+          "ar": "موقع للعيادة وتجربة حجز للمريض، مع واجهات للطبيب والسكرتارية لمتابعة المواعيد والعمل اليومي.",
+          "en": "A clinic website and patient booking journey, with doctor and reception interfaces for appointments and daily operations."
+        },
+        "body": {
+          "ar": "منصة تجمع الواجهة التعريفية للعيادة مع إدارة الحجز والمتابعة. تعرض معلومات الطبيب وخدمات العيادة وموقعها، وتتيح للمريض اختيار موعد متاح.\n\nتتوزع التجربة بين واجهة المريض، ولوحة الطبيب لمتابعة العمل والكشوفات، ولوحة السكرتارية لتنظيم الحجوزات. تظهر في صور المصدر أيضًا أدوات تحليل النشاط ومتابعة الكشوفات والملاحظات.\n\n## الوظائف الأساسية\n- عرض العيادة والطبيب والخدمات\n- اختيار اليوم والموعد المتاح\n- واجهة مستقلة للمريض\n- لوحة للطبيب والسكرتارية\n\n[زيارة موقع المشروع](https://nexera-2ba1d.web.app/)",
+          "en": "A platform combining a clinic website with booking and follow-up workflows. It presents the doctor, clinic services and location, and lets patients select an available appointment.\n\nThe experience includes a patient interface, a doctor workspace for visits and practice activity, and a reception workspace for organizing bookings. Source screens also show activity analysis and visit notes.\n\n## Key features\n- Clinic, doctor and service presentation\n- Available day and time selection\n- Patient workspace\n- Doctor and reception workspaces\n\n[Visit project website](https://nexera-2ba1d.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير الموقع التعريفي للعيادة ومسار الحجز وواجهات المريض والطبيب والسكرتارية.",
+          "en": "Development of the clinic website, appointment journey, and patient, doctor and reception interfaces."
+        },
+        "categoryId": "healthcare",
+        "slug": "nexara-clinic",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_96d59ae71f308596c7ca174e6ab87e1e9ac114e7969e1534913aa1da94e5a214",
+          "m_2b5471c80ca7db5d1895d8bf68d0ab748c2de947b9cea75684c59bc4f9453794"
+        ],
+        "links": [],
+        "order": 1,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/nexara-clinic/cover.jpg",
+          "alt": {
+            "ar": "الصفحة الرئيسية لعيادة الطبيب",
+            "en": "Clinic website homepage"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Ad742c8a5-0110-4269-bd96-e7805c8df060%3AScreenshot_160.png?table=block&id=3dcc5f5b-a7f1-80fd-9a50-c8f3a231c342&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "e38cb75452a887258254a9b12c30a4fb0801c97b892bc3aac4191c46f1c1905c",
+          "bytes": 142403,
+          "publishedAssetId": "m_96d59ae71f308596c7ca174e6ab87e1e9ac114e7969e1534913aa1da94e5a214",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e38cb75452a887258254a9b12c30a4fb0801c97b892bc3aac4191c46f1c1905c.jpg"
+        },
+        {
+          "file": "images/nexara-clinic/gallery-01.jpg",
+          "alt": {
+            "ar": "اختيار موعد حجز متاح",
+            "en": "Available appointment selection"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A1c4383c0-2b0c-442b-9818-e2e2148558c0%3AScreenshot_169.png?table=block&id=3dcc5f5b-a7f1-80e9-b550-e69d111fad8e&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1250&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "ebb30b9a7bd2dd3abbd8e361c20f1e67a96755a572e60a461e45e23f404295e3",
+          "bytes": 73893,
+          "publishedAssetId": "m_2b5471c80ca7db5d1895d8bf68d0ab748c2de947b9cea75684c59bc4f9453794",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/ebb30b9a7bd2dd3abbd8e361c20f1e67a96755a572e60a461e45e23f404295e3.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://nexera-2ba1d.web.app/",
+        "features": [
+          {
+            "ar": "عرض العيادة والطبيب والخدمات",
+            "en": "Clinic, doctor and service presentation"
+          },
+          {
+            "ar": "اختيار اليوم والموعد المتاح",
+            "en": "Available day and time selection"
+          },
+          {
+            "ar": "واجهة مستقلة للمريض",
+            "en": "Patient workspace"
+          },
+          {
+            "ar": "لوحة للطبيب والسكرتارية",
+            "en": "Doctor and reception workspaces"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P003",
+      "projectId": "yogen-p003",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f180a183d1f4b9fe90efec",
+      "content": {
+        "title": {
+          "ar": "James American School — إدارة المدرسة",
+          "en": "James American School — School Management"
+        },
+        "summary": {
+          "ar": "نظام مكتبي لإدارة الحضور والانصراف والنقل المدرسي، وطباعة كارنيهات الطلاب وتذاكر الانصراف.",
+          "en": "A desktop system for attendance, dismissal and school transport, with student cards and dismissal ticket printing."
+        },
+        "body": {
+          "ar": "نظام يجمع متابعة الحضور والانصراف مع تنظيم النقل المدرسي في واجهة عربية على ويندوز. يدير الطلاب والفصول والأتوبيسات، ويوفر لوحة عامة لمؤشرات اليوم.\n\nتدعم أدوات الطباعة تصميم الكارنيهات والباركود وإصدار تذاكر انصراف حرارية. يوضح المصدر أن النظام يعمل دون إنترنت، بما يلائم إجراءات المدرسة اليومية.\n\n## الوظائف الأساسية\n- الحضور والانصراف اليومي\n- إدارة الطلاب والفصول والنقل\n- كارنيهات وباركود وتذاكر حرارية\n- تطبيق ويندوز يعمل دون إنترنت\n\n[زيارة موقع المشروع](https://uuwagdy.github.io/School)",
+          "en": "A Windows system with an Arabic interface that connects attendance and dismissal with school transport. It manages students, classes and buses and provides a dashboard for daily activity.\n\nPrinting tools support card and barcode layouts and thermal dismissal tickets. The source describes offline operation for everyday school workflows.\n\n## Key features\n- Daily attendance and dismissal\n- Students, classes and transport\n- Cards, barcodes and thermal tickets\n- Offline Windows application\n\n[Visit project website](https://uuwagdy.github.io/School)"
+        },
+        "contribution": {
+          "ar": "تطوير برنامج الإدارة المدرسية وواجهات الحضور والانصراف والنقل والطباعة.",
+          "en": "Development of the school management application and attendance, dismissal, transport and printing interfaces."
+        },
+        "categoryId": "education",
+        "slug": "james-school-system",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_24312cd1afe3498b937e32845f8e2ae8896a634ef9d17722755ae015f0744854",
+          "m_4c78f23f42152573b16e9fbcbb3c8e08a5b4b1ebe36f37425988ae011e081279"
+        ],
+        "links": [],
+        "order": 2,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/james-school-system/cover.jpg",
+          "alt": {
+            "ar": "لوحة إدارة المدرسة",
+            "en": "School management dashboard"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A1036630d-7271-48cd-8369-d2f116578f30%3AScreenshot_171.png?table=block&id=3dcc5f5b-a7f1-80a1-83d1-f4b9fe90efec&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "6ce397af16406628893d72aefd947c3c956d82f0ef9c06edbcfd857560d1cf07",
+          "bytes": 111760,
+          "publishedAssetId": "m_24312cd1afe3498b937e32845f8e2ae8896a634ef9d17722755ae015f0744854",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/6ce397af16406628893d72aefd947c3c956d82f0ef9c06edbcfd857560d1cf07.jpg"
+        },
+        {
+          "file": "images/james-school-system/gallery-01.jpg",
+          "alt": {
+            "ar": "واجهة بدء تشغيل النظام المدرسي",
+            "en": "School application start screen"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Aafcc0cdd-8a8b-41fa-8acc-111fa016fa7f%3AScreenshot_170.png?table=block&id=3dcc5f5b-a7f1-80fe-90e9-cd227a119750&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1250&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "e45e41186c7163e37b9384eb91d225230036d3a80c75c631c6ce37439679c7be",
+          "bytes": 86686,
+          "publishedAssetId": "m_4c78f23f42152573b16e9fbcbb3c8e08a5b4b1ebe36f37425988ae011e081279",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e45e41186c7163e37b9384eb91d225230036d3a80c75c631c6ce37439679c7be.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://uuwagdy.github.io/School",
+        "features": [
+          {
+            "ar": "الحضور والانصراف اليومي",
+            "en": "Daily attendance and dismissal"
+          },
+          {
+            "ar": "إدارة الطلاب والفصول والنقل",
+            "en": "Students, classes and transport"
+          },
+          {
+            "ar": "كارنيهات وباركود وتذاكر حرارية",
+            "en": "Cards, barcodes and thermal tickets"
+          },
+          {
+            "ar": "تطبيق ويندوز يعمل دون إنترنت",
+            "en": "Offline Windows application"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P004",
+      "projectId": "yogen-p004",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f180b48300eb9d8b1dd76e",
+      "content": {
+        "title": {
+          "ar": "Quality Dental Lab — منصة معمل الأسنان",
+          "en": "Quality Dental Lab — Dental Lab Platform"
+        },
+        "summary": {
+          "ar": "موقع يربط طبيب الأسنان بالمعمل، ويعرض المنتجات والخدمات ويوفر مسارًا لطلب التركيبات.",
+          "en": "A website connecting dentists with the laboratory, presenting products and services and supporting restoration requests."
+        },
+        "body": {
+          "ar": "واجهة رقمية لمعمل الأسنان تجمع التعريف بالمعمل والخدمات مع نقطة واضحة لبدء الطلب. يعرض الموقع أنواع التركيبات والمنتجات، مثل الزركون والواقيات والتركيبات المرتبطة بالزرعات.\n\nتوضح صفحات الخدمات والتعريف والأسئلة الشائعة ما يقدمه المعمل، لتسهيل وصول الطبيب إلى الخدمة المطلوبة وبدء التواصل حول الحالة.\n\n## الوظائف الأساسية\n- عرض منتجات وتركيبات المعمل\n- مسار طلب من الطبيب إلى المعمل\n- تعريف بالمعمل وأسئلة شائعة\n\n[زيارة موقع المشروع](https://quality-dental-lab.web.app/)",
+          "en": "A dental laboratory website combining laboratory information and services with a clear order entry point. It presents restoration and product categories such as zirconia, night guards and implant-supported work.\n\nService, about and FAQ pages help dentists understand the laboratory offering and start a request.\n\n## Key features\n- Laboratory products and restorations\n- Dentist-to-laboratory requests\n- Laboratory information and FAQs\n\n[Visit project website](https://quality-dental-lab.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير واجهات المعمل وعرض الخدمات والمنتجات ومسار طلب التركيبات.",
+          "en": "Development of the laboratory website, service and product presentation, and restoration request journey."
+        },
+        "categoryId": "healthcare",
+        "slug": "quality-dental-lab",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_5215af1803455a231a4e5c85dd33e6249c361a5cf7328de7cd685fc3d24d092d",
+          "m_a6091cd1b3a9d56f09292615d2a98d9095a8db766455e97bf181308cc25c500f"
+        ],
+        "links": [],
+        "order": 3,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/quality-dental-lab/cover.jpg",
+          "alt": {
+            "ar": "الصفحة الرئيسية لمعمل الأسنان",
+            "en": "Dental laboratory homepage"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Affa5d18f-8564-4c6e-ad72-81e3660721f2%3AScreenshot_179.png?table=block&id=3dcc5f5b-a7f1-80b4-8300-eb9d8b1dd76e&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "0d419d9bf631bc5c923790c6182d28397335da23d6bdc39c0ac0ef764d3a2c2a",
+          "bytes": 96232,
+          "publishedAssetId": "m_5215af1803455a231a4e5c85dd33e6249c361a5cf7328de7cd685fc3d24d092d",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/0d419d9bf631bc5c923790c6182d28397335da23d6bdc39c0ac0ef764d3a2c2a.jpg"
+        },
+        {
+          "file": "images/quality-dental-lab/gallery-01.jpg",
+          "alt": {
+            "ar": "قائمة المنتجات والخدمات",
+            "en": "Products and services catalogue"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Afff56fa6-68bd-4c95-964e-38372d70bbad%3AScreenshot_180.png?table=block&id=3dcc5f5b-a7f1-8001-81c8-c5d8c66dcdc7&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "cccd470961cc6ee55b27d2149d68b1b198be16afc16a76fe05645f075139349a",
+          "bytes": 117351,
+          "publishedAssetId": "m_a6091cd1b3a9d56f09292615d2a98d9095a8db766455e97bf181308cc25c500f",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/cccd470961cc6ee55b27d2149d68b1b198be16afc16a76fe05645f075139349a.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://quality-dental-lab.web.app/",
+        "features": [
+          {
+            "ar": "عرض منتجات وتركيبات المعمل",
+            "en": "Laboratory products and restorations"
+          },
+          {
+            "ar": "مسار طلب من الطبيب إلى المعمل",
+            "en": "Dentist-to-laboratory requests"
+          },
+          {
+            "ar": "تعريف بالمعمل وأسئلة شائعة",
+            "en": "Laboratory information and FAQs"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P005",
+      "projectId": "yogen-p005",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18082aaf0fd4e2ff320ea",
+      "content": {
+        "title": {
+          "ar": "أنا والقانون وثغراته — منصة خدمات قانونية",
+          "en": "Me & Law — Legal Services Website"
+        },
+        "summary": {
+          "ar": "موقع لمكتب محاماة يعرض الخدمات القانونية ويتيح للموكل اختيار الخدمة وطلب الاستشارة.",
+          "en": "A law firm website presenting legal services and letting clients select a service and request a consultation."
+        },
+        "body": {
+          "ar": "موقع يجمع الهوية التعريفية للمكتب مع رحلة طلب الخدمة القانونية. تعرض الواجهة الاستشارات وصياغة العقود والشكاوى والإنذارات ومذكرات الدفاع.\n\nيختار الموكل الخدمة ثم يستكمل نموذج الطلب وبيانات التواصل والسؤال القانوني من واجهة واحدة واضحة.\n\n## الوظائف الأساسية\n- عرض الخدمات القانونية\n- اختيار الخدمة وطلب الاستشارة\n- نموذج واضح لبيانات الطلب\n\n[زيارة موقع المشروع](https://me-and-law.web.app/)",
+          "en": "A website connecting the firm’s public identity with a legal service request journey. It presents consultations, contract drafting, complaints, notices and defense memoranda.\n\nClients select a service and complete a request form with contact details and their legal question.\n\n## Key features\n- Legal service presentation\n- Service selection and consultation requests\n- Structured request form\n\n[Visit project website](https://me-and-law.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير موقع المكتب وصفحات الخدمات ونموذج طلب الاستشارة.",
+          "en": "Development of the firm website, service pages and consultation request form."
+        },
+        "categoryId": "websites",
+        "slug": "me-and-law",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_63639c21b02be93bd0bb8f999f858009b988b067aa4fa3c5e5bb9d5b985f48a4",
+          "m_3ed958bfcd92a8f911f28371025d34387480f44bcc3ff0d077b10736ff52a219"
+        ],
+        "links": [],
+        "order": 4,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/me-and-law/cover.jpg",
+          "alt": {
+            "ar": "الواجهة الرئيسية للمكتب",
+            "en": "Law firm homepage"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Aff6fb57f-9077-4822-a92c-345cda545a5a%3AScreenshot_183.png?table=block&id=3dcc5f5b-a7f1-8082-aaf0-fd4e2ff320ea&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "f097971c7368084ba65ea0baec0998095f8a08a730e94b7691cd7df511181605",
+          "bytes": 140304,
+          "publishedAssetId": "m_63639c21b02be93bd0bb8f999f858009b988b067aa4fa3c5e5bb9d5b985f48a4",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/f097971c7368084ba65ea0baec0998095f8a08a730e94b7691cd7df511181605.jpg"
+        },
+        {
+          "file": "images/me-and-law/gallery-01.jpg",
+          "alt": {
+            "ar": "نموذج طلب الاستشارة القانونية",
+            "en": "Legal consultation request form"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Ae0247449-28d6-4f07-9124-10e31b9ad64d%3AScreenshot_185.png?table=block&id=3dcc5f5b-a7f1-8002-a7f5-d8666ef43d81&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1250&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "22b6342346fa67134ce193c098ea18706e8c450b1c3975ad1753b0e29875b913",
+          "bytes": 95017,
+          "publishedAssetId": "m_3ed958bfcd92a8f911f28371025d34387480f44bcc3ff0d077b10736ff52a219",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/22b6342346fa67134ce193c098ea18706e8c450b1c3975ad1753b0e29875b913.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://me-and-law.web.app/",
+        "features": [
+          {
+            "ar": "عرض الخدمات القانونية",
+            "en": "Legal service presentation"
+          },
+          {
+            "ar": "اختيار الخدمة وطلب الاستشارة",
+            "en": "Service selection and consultation requests"
+          },
+          {
+            "ar": "نموذج واضح لبيانات الطلب",
+            "en": "Structured request form"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P006",
+      "projectId": "yogen-p006",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18061baa6dd43913df1b5",
+      "content": {
+        "title": {
+          "ar": "X FRAME — متجر البراويز والهدايا",
+          "en": "X FRAME — Frames & Gifts Store"
+        },
+        "summary": {
+          "ar": "متجر يجمع كتالوج البراويز والهدايا مع خيارات تخصيص المنتج ومتابعة الطلب وإدارة المتجر.",
+          "en": "A frames and gifts store combining a product catalogue, customization options, order tracking and store administration."
+        },
+        "body": {
+          "ar": "متجر إلكتروني يربط العميل بالتاجر عبر عرض المنتجات وتفاصيلها وخيارات تخصيصها. يستطيع العميل تصفح الكتالوج واختيار المقاس أو الخيارات المتاحة وإضافة المنتج إلى الطلب.\n\nتظهر صور المصدر مسار متابعة مراحل تنفيذ الطلب، إلى جانب لوحة لإحصائيات المتجر وإدارة الطلبات. تجمع التجربة بين العرض البصري للمنتج ومتابعته بعد الشراء.\n\n## الوظائف الأساسية\n- كتالوج منتجات وتصنيفات\n- خيارات تخصيص المنتج\n- متابعة مراحل تنفيذ الطلب\n- لوحة إحصائيات وإدارة الطلبات\n\n[زيارة موقع المشروع](https://test-8e5e2.web.app/)",
+          "en": "An online store connecting customers and merchants through product presentation, details and customization. Customers browse the catalogue, choose available options and add products to an order.\n\nSource screens show order production stages, store statistics and order administration, connecting visual product discovery with post-purchase tracking.\n\n## Key features\n- Product catalogue and categories\n- Product customization options\n- Order production tracking\n- Statistics and order administration\n\n[Visit project website](https://test-8e5e2.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير واجهات المتجر والكتالوج وتفاصيل المنتجات ومسار الطلب ولوحة الإدارة.",
+          "en": "Development of storefront, catalogue, product detail, order journey and administration interfaces."
+        },
+        "categoryId": "commerce",
+        "slug": "x-frame-store",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_9d9b675d4e3ed0ffddf0221735ba13e189703dbcb784b2dbce057ca7fe5114d9",
+          "m_c1a2d797b867638d632f559e74191be16cd96f20dac8d86c2ed30b5ed080b074"
+        ],
+        "links": [],
+        "order": 5,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/x-frame-store/cover.jpg",
+          "alt": {
+            "ar": "الصفحة الرئيسية لمتجر X FRAME",
+            "en": "X FRAME store homepage"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A5e09ec07-0be8-41f2-882d-f058a6439a8a%3AScreenshot_187.png?table=block&id=3dcc5f5b-a7f1-8061-baa6-dd43913df1b5&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "f77492e2732a5aa9159041c001cb9d90298041437b32e15145fea8623b5eb524",
+          "bytes": 163494,
+          "publishedAssetId": "m_9d9b675d4e3ed0ffddf0221735ba13e189703dbcb784b2dbce057ca7fe5114d9",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/f77492e2732a5aa9159041c001cb9d90298041437b32e15145fea8623b5eb524.jpg"
+        },
+        {
+          "file": "images/x-frame-store/gallery-01.jpg",
+          "alt": {
+            "ar": "تفاصيل المنتج وخياراته",
+            "en": "Product detail and customization"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Aaada4761-13b3-4533-98f5-23bd0bd0d484%3AScreenshot_189.png?table=block&id=3dcc5f5b-a7f1-80c6-8db1-f9ebb4dce08c&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "e712811b1adb52d35d513130b907d74f05f0bdd8f07cd47044965a7a796bb22e",
+          "bytes": 126014,
+          "publishedAssetId": "m_c1a2d797b867638d632f559e74191be16cd96f20dac8d86c2ed30b5ed080b074",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e712811b1adb52d35d513130b907d74f05f0bdd8f07cd47044965a7a796bb22e.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://test-8e5e2.web.app/",
+        "features": [
+          {
+            "ar": "كتالوج منتجات وتصنيفات",
+            "en": "Product catalogue and categories"
+          },
+          {
+            "ar": "خيارات تخصيص المنتج",
+            "en": "Product customization options"
+          },
+          {
+            "ar": "متابعة مراحل تنفيذ الطلب",
+            "en": "Order production tracking"
+          },
+          {
+            "ar": "لوحة إحصائيات وإدارة الطلبات",
+            "en": "Statistics and order administration"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P007",
+      "projectId": "yogen-p007",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/Portofolio-3dcc5f5ba7f180d78a22df47956161a3",
+      "content": {
+        "title": {
+          "ar": "يوساب وجدي — بورتفوليو شخصي",
+          "en": "Youssab Wagdy — Personal Portfolio"
+        },
+        "summary": {
+          "ar": "موقع شخصي يعرض المهارات والمشاريع والخدمات وطرق التواصل بهوية بصرية موحدة.",
+          "en": "A personal website presenting skills, projects, services and contact channels through a consistent visual identity."
+        },
+        "body": {
+          "ar": "بورتفوليو احترافي يجمع التعريف بالمطور مع مهاراته وأعماله وخدماته. تستخدم الواجهة تدرجات داكنة ولمسات ذهبية، مع أقسام واضحة تساعد الزائر على الانتقال من التعرف على الخبرات إلى استعراض المشاريع والتواصل.\n\nتتضمن التجربة العربية والإنجليزية وخيارات المظهر، مع بطاقات للأعمال ونموذج تواصل.\n\n## الوظائف الأساسية\n- عرض المهارات والأعمال والخدمات\n- تجربة عربية وإنجليزية\n- خيارات المظهر وواجهة تواصل\n\n[زيارة موقع المشروع](https://portofolio-youssab.web.app/)",
+          "en": "A professional portfolio bringing together the developer’s profile, skills, work and services. Dark surfaces and gold accents connect clear sections that guide visitors from experience to projects and contact.\n\nThe experience includes Arabic and English, theme options, project cards and a contact form.\n\n## Key features\n- Skills, work and services\n- Arabic and English experience\n- Theme options and contact interface\n\n[Visit project website](https://portofolio-youssab.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير موقع البورتفوليو وأقسام التعريف والمهارات والأعمال والخدمات والتواصل.",
+          "en": "Development of the portfolio website and profile, skills, projects, services and contact sections."
+        },
+        "categoryId": "websites",
+        "slug": "youssab-wagdy-portfolio",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_9e013f5278948eb180e094104fe24aba6aa8a3cbfc3c2ef7a1cbdddb63bc51d2",
+          "m_cd87ed7fca8cea60bcbcd87ccfda8ca7c214099f202aa06903b60b26a4a0b7cc"
+        ],
+        "links": [],
+        "order": 6,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/youssab-wagdy-portfolio/cover.jpg",
+          "alt": {
+            "ar": "الواجهة الرئيسية للبورتفوليو",
+            "en": "Portfolio homepage"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A5b7bda0b-587d-45a1-99a6-4728e20b7814%3AScreenshot_196.png?table=block&id=3dcc5f5b-a7f1-80d7-8a22-df47956161a3&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "e3625effa44d73747cfb78a96552f427f94741112a704e1d381547d0030aefe2",
+          "bytes": 151144,
+          "publishedAssetId": "m_9e013f5278948eb180e094104fe24aba6aa8a3cbfc3c2ef7a1cbdddb63bc51d2",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e3625effa44d73747cfb78a96552f427f94741112a704e1d381547d0030aefe2.jpg"
+        },
+        {
+          "file": "images/youssab-wagdy-portfolio/gallery-01.jpg",
+          "alt": {
+            "ar": "معرض الأعمال في البورتفوليو",
+            "en": "Portfolio project gallery"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Abeae5df2-ab69-4200-a469-76fc2e2d4b50%3AScreenshot_198.png?table=block&id=3dcc5f5b-a7f1-805f-ac92-d89ddfc4ca93&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "9c6e07434f3ed54deb3fedfb0f899b99b34cd3424d5f933bbf49ccbf4f72c793",
+          "bytes": 135392,
+          "publishedAssetId": "m_cd87ed7fca8cea60bcbcd87ccfda8ca7c214099f202aa06903b60b26a4a0b7cc",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/9c6e07434f3ed54deb3fedfb0f899b99b34cd3424d5f933bbf49ccbf4f72c793.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://portofolio-youssab.web.app/",
+        "features": [
+          {
+            "ar": "عرض المهارات والأعمال والخدمات",
+            "en": "Skills, work and services"
+          },
+          {
+            "ar": "تجربة عربية وإنجليزية",
+            "en": "Arabic and English experience"
+          },
+          {
+            "ar": "خيارات المظهر وواجهة تواصل",
+            "en": "Theme options and contact interface"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P008",
+      "projectId": "yogen-p008",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f180a2b3a2e7a268f15799",
+      "content": {
+        "title": {
+          "ar": "مدارس الأحد ومدرسة الشمامسة — إدارة الخدمة",
+          "en": "Sunday School & Deacon School Management"
+        },
+        "summary": {
+          "ar": "نظام لتنظيم الخدمة والحضور والافتقاد، مع متابعة السلوك والتقييمات وتصميم الكارنيهات.",
+          "en": "A service management system for attendance and pastoral visits, with behavior tracking, assessments and card design."
+        },
+        "body": {
+          "ar": "برنامج ينظم العمل داخل مدارس الأحد ومدرسة الشمامسة، ويجمع الحضور والغياب والافتقاد في نظام واحد. تتضمن الواجهات تنظيم المخدومين وسجل الحضور والتقييمات وتقارير الخدمة.\n\nتظهر صور المصدر أدوات تصميم الكارنيهات، وتقييم الشمامسة، وتصنيف السلوك، ومتابعة الافتقاد بما يخدم التنظيم اليومي.\n\n## الوظائف الأساسية\n- الحضور والغياب وتقارير الخدمة\n- متابعة الافتقاد\n- تقييمات وسلوك وتصميم كارنيهات\n\n[زيارة موقع المشروع](https://uuwagdy.github.io/Sunday_School)",
+          "en": "A system organizing Sunday school and deacon school work, bringing attendance, absence and pastoral visits into one workspace. Interfaces cover participants, attendance records, assessments and service reports.\n\nSource screens include card design, deacon assessments, behavior categories and visit tracking for day-to-day organization.\n\n## Key features\n- Attendance, absence and service reports\n- Pastoral visit tracking\n- Assessments, behavior and card design\n\n[Visit project website](https://uuwagdy.github.io/Sunday_School)"
+        },
+        "contribution": {
+          "ar": "تطوير برنامج تنظيم الخدمة وواجهات الحضور والتقييم والافتقاد وتصميم الكارنيهات.",
+          "en": "Development of the service management system and attendance, assessment, pastoral visit and card design interfaces."
+        },
+        "categoryId": "education",
+        "slug": "sunday-school-management",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_1f046f10eeaa95793be024dbcaa0e7caddc1220b399b93bf5ec55dc663c8e011",
+          "m_86f272bfefb44203c47b69c766c06ba8f92b8dd20caa33ee8c8c6547a3bff9b7"
+        ],
+        "links": [],
+        "order": 7,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/sunday-school-management/cover.jpg",
+          "alt": {
+            "ar": "لوحة مؤشرات الحضور",
+            "en": "Attendance overview"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A29034efb-ef04-4b83-a0fd-56e5aa7ce452%3AScreenshot_172.png?table=block&id=3dcc5f5b-a7f1-80a2-b3a2-e7a268f15799&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "3eb69886f95cb4ded81582ff64db84dda1eaf53e38b820fdb58a7deaf165934f",
+          "bytes": 87444,
+          "publishedAssetId": "m_1f046f10eeaa95793be024dbcaa0e7caddc1220b399b93bf5ec55dc663c8e011",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/3eb69886f95cb4ded81582ff64db84dda1eaf53e38b820fdb58a7deaf165934f.jpg"
+        },
+        {
+          "file": "images/sunday-school-management/gallery-01.jpg",
+          "alt": {
+            "ar": "تصنيفات السلوك وتنظيمها",
+            "en": "Behavior categories and organization"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A3468bcfa-b8ac-47dc-9056-6f6957c85db6%3AScreenshot_202.png?table=block&id=3dcc5f5b-a7f1-80af-972a-f19405fb1d86&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "d9fdce471a03430dcddee2c44d9e5264664f7b8dc00bbac0b4541a6ed33f2b9a",
+          "bytes": 105738,
+          "publishedAssetId": "m_86f272bfefb44203c47b69c766c06ba8f92b8dd20caa33ee8c8c6547a3bff9b7",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/d9fdce471a03430dcddee2c44d9e5264664f7b8dc00bbac0b4541a6ed33f2b9a.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://uuwagdy.github.io/Sunday_School",
+        "features": [
+          {
+            "ar": "الحضور والغياب وتقارير الخدمة",
+            "en": "Attendance, absence and service reports"
+          },
+          {
+            "ar": "متابعة الافتقاد",
+            "en": "Pastoral visit tracking"
+          },
+          {
+            "ar": "تقييمات وسلوك وتصميم كارنيهات",
+            "en": "Assessments, behavior and card design"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P009",
+      "projectId": "yogen-p009",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f1804b9786fdbb75c21ab4",
+      "content": {
+        "title": {
+          "ar": "العضوية الكنسية — إدارة الأسر والخدمات",
+          "en": "Church Membership — Families & Services"
+        },
+        "summary": {
+          "ar": "برنامج لإدارة الأسر والمناطق والافتقاد والمساعدات، مع أدوات لتنظيم خدمات الكنيسة.",
+          "en": "A system for families, areas, pastoral visits and assistance, with tools for organizing church services."
+        },
+        "body": {
+          "ar": "برنامج يجمع إدارة الأسر والمناطق مع متابعة الافتقاد والخدمات والمساعدات. تعرض الواجهة الرئيسية وحدات واضحة للوصول إلى أقسام العمل بدل توزيع المتابعة بين سجلات منفصلة.\n\nيوضح المصدر توفر نسختي ويندوز وأندرويد، مع أدوات للبحث والتقارير وتنظيم المسؤوليات داخل الخدمة.\n\n## الوظائف الأساسية\n- إدارة الأسر والمناطق\n- تنظيم الافتقاد والمساعدات\n- نسختا ويندوز وأندرويد\n\n[زيارة موقع المشروع](https://uuwagdy.github.io/ChurchMermbership)",
+          "en": "A system connecting family and area records with pastoral visits, services and assistance. The home screen provides clear modules for accessing workflows within a shared application.\n\nThe source describes Windows and Android versions, with search, reports and service organization tools.\n\n## Key features\n- Family and area management\n- Pastoral visits and assistance\n- Windows and Android versions\n\n[Visit project website](https://uuwagdy.github.io/ChurchMermbership)"
+        },
+        "contribution": {
+          "ar": "تطوير برنامج العضوية وواجهات إدارة الأسر والمناطق والخدمات والمتابعة.",
+          "en": "Development of the membership system and family, area, service and follow-up interfaces."
+        },
+        "categoryId": "community",
+        "slug": "church-membership",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_a7063c89b12b8d531d0e3c8d95bb0d2e5caf9b43ee4d6633f6287f4df9b8e060"
+        ],
+        "links": [],
+        "order": 8,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/church-membership/cover.jpg",
+          "alt": {
+            "ar": "الواجهة الرئيسية ووحدات العضوية",
+            "en": "Membership home screen and modules"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Ae224bc41-0ca7-42b6-9c66-4f82f9b88b21%3AScreenshot_246.png?table=block&id=3dcc5f5b-a7f1-804b-9786-fdbb75c21ab4&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "6fbc53b8cec3c8024904667fa45e94fa9d4404c43e9c2aca81cf0d1f7aca5235",
+          "bytes": 70877,
+          "publishedAssetId": "m_a7063c89b12b8d531d0e3c8d95bb0d2e5caf9b43ee4d6633f6287f4df9b8e060",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/6fbc53b8cec3c8024904667fa45e94fa9d4404c43e9c2aca81cf0d1f7aca5235.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://uuwagdy.github.io/ChurchMermbership",
+        "features": [
+          {
+            "ar": "إدارة الأسر والمناطق",
+            "en": "Family and area management"
+          },
+          {
+            "ar": "تنظيم الافتقاد والمساعدات",
+            "en": "Pastoral visits and assistance"
+          },
+          {
+            "ar": "نسختا ويندوز وأندرويد",
+            "en": "Windows and Android versions"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P010",
+      "projectId": "yogen-p010",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18071a98bfc6b29a1a6e8",
+      "content": {
+        "title": {
+          "ar": "Games Platform — منصة ألعاب الخدمة",
+          "en": "Games Platform — Community Games"
+        },
+        "summary": {
+          "ar": "منصة ألعاب جماعية وأسئلة قابلة للتغيير، تجمع التحديات والنقاط وألعابًا مناسبة لأنشطة الخدمة.",
+          "en": "A group games platform with customizable questions, challenges, scores and games for community activities."
+        },
+        "body": {
+          "ar": "منصة تجمع مجموعة من الألعاب في مكان واحد لاستخدامها في أنشطة الخدمة والمسابقات الجماعية. تتضمن صور المصدر عجلة الحظ وبنك الحظ والتحديات والأسئلة، مع عرض النقاط وواجهات لإعداد اللعبة.\n\nإمكانية تغيير الأسئلة تمنح منظمي النشاط مساحة لتكييف المحتوى مع الفئة المشاركة وطبيعة المناسبة.\n\n## الوظائف الأساسية\n- عدة ألعاب داخل منصة واحدة\n- أسئلة قابلة للتغيير\n- تحديات جماعية ومتابعة النقاط\n\n[زيارة موقع المشروع](https://games-platform-church.web.app/)",
+          "en": "A platform bringing several games into one workspace for community activities and group competitions. Source screens show a wheel of fortune, a board game, challenges and questions, with scoring and game setup interfaces.\n\nEditable questions let organizers adapt content to participants and the occasion.\n\n## Key features\n- Multiple games in one platform\n- Customizable questions\n- Group challenges and scoring\n\n[Visit project website](https://games-platform-church.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير منصة الألعاب وواجهات الاختيار واللعب والنقاط وإعداد الأسئلة.",
+          "en": "Development of the games platform, selection and gameplay interfaces, scores and question settings."
+        },
+        "categoryId": "games",
+        "slug": "church-games-platform",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_f815ead9a33d7b26c8b535ef14ce447235351f974a9f11ab837f7bef8db8ee98",
+          "m_4485358ec65fd1169e730cd49f47c79fb043a827840b99eabb95a03e81be72a7",
+          "m_1b3e455d3356a783ebb1f5f4b72fac15a0e65fe5ffaedee23db665308fddc0f0"
+        ],
+        "links": [],
+        "order": 9,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/church-games-platform/cover.jpg",
+          "alt": {
+            "ar": "واجهة اختيار الألعاب",
+            "en": "Game selection screen"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Ae2efdf2e-6d41-4543-abc5-0fef07514468%3AScreenshot_214.png?table=block&id=3dcc5f5b-a7f1-8071-a98b-fc6b29a1a6e8&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "f7e75cd5604ab791e9d03356799fa761fb4f0bd965bca7de75b1ee91027174b3",
+          "bytes": 62064,
+          "publishedAssetId": "m_f815ead9a33d7b26c8b535ef14ce447235351f974a9f11ab837f7bef8db8ee98",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/f7e75cd5604ab791e9d03356799fa761fb4f0bd965bca7de75b1ee91027174b3.jpg"
+        },
+        {
+          "file": "images/church-games-platform/gallery-01.jpg",
+          "alt": {
+            "ar": "عجلة الحظ والنقاط",
+            "en": "Wheel of fortune and scores"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A50a7c4d4-8dc9-4d15-94fc-784d589e5cee%3AScreenshot_215.png?table=block&id=3dcc5f5b-a7f1-809b-892f-c67601d9585a&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "0c837fc09b1a1e3efd3cf2f9f0846e3cc1bcc2bfab2621694db0c46c9eb962f1",
+          "bytes": 87283,
+          "publishedAssetId": "m_4485358ec65fd1169e730cd49f47c79fb043a827840b99eabb95a03e81be72a7",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/0c837fc09b1a1e3efd3cf2f9f0846e3cc1bcc2bfab2621694db0c46c9eb962f1.jpg"
+        },
+        {
+          "file": "images/church-games-platform/gallery-02.jpg",
+          "alt": {
+            "ar": "لعبة بنك الحظ",
+            "en": "Board game interface"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A6470eaaf-a9a0-4f5a-8185-7944ca06c30a%3AScreenshot_219.png?table=block&id=3dcc5f5b-a7f1-807e-95de-fcee38936110&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "b32656aa31c288866a8d21ae6dd88ba3f746b31cd9975e0f8959a43347bff1aa",
+          "bytes": 121153,
+          "publishedAssetId": "m_1b3e455d3356a783ebb1f5f4b72fac15a0e65fe5ffaedee23db665308fddc0f0",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/b32656aa31c288866a8d21ae6dd88ba3f746b31cd9975e0f8959a43347bff1aa.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://games-platform-church.web.app/",
+        "features": [
+          {
+            "ar": "عدة ألعاب داخل منصة واحدة",
+            "en": "Multiple games in one platform"
+          },
+          {
+            "ar": "أسئلة قابلة للتغيير",
+            "en": "Customizable questions"
+          },
+          {
+            "ar": "تحديات جماعية ومتابعة النقاط",
+            "en": "Group challenges and scoring"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P011",
+      "projectId": "yogen-p011",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f1805eb2ecf307ba8c16fd",
+      "content": {
+        "title": {
+          "ar": "كنيسة مارمرقس والأنبا بيشوي — الموقع الرسمي",
+          "en": "St. Mark & Anba Bishoy Church Website"
+        },
+        "summary": {
+          "ar": "موقع يجمع أخبار الكنيسة ومواعيد القداسات والخدمات والعظات والألبومات في واجهة واحدة.",
+          "en": "A church website bringing news, liturgy schedules, services, sermons and albums into one interface."
+        },
+        "body": {
+          "ar": "موقع تعريفي وخدمي لكنيسة مارمرقس والأنبا بيشوي بمدينة ناصر. يعرض أنشطة الكنيسة وأخبارها وخدماتها، ويوفر تقويمًا يساعد الزائر على معرفة المواعيد.\n\nتتضمن الواجهة التعريف بالآباء الكهنة وأقسام العظات والألبومات، بهوية بصرية مستوحاة من طابع الكنيسة.\n\n## الوظائف الأساسية\n- أخبار الكنيسة وأنشطتها\n- تقويم ومواعيد القداسات\n- عظات وألبومات وخدمات\n\n[زيارة موقع المشروع](https://mar-markos-anba-beshoy.web.app/)",
+          "en": "An information and service website for St. Mark and Anba Bishoy Church in Nasser City. It presents church activities, news and services, with a calendar for discovering schedules.\n\nThe interface also introduces the clergy and includes sermons and albums, using a visual identity inspired by the church.\n\n## Key features\n- Church news and activities\n- Calendar and liturgy schedules\n- Sermons, albums and services\n\n[Visit project website](https://mar-markos-anba-beshoy.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير موقع الكنيسة وأقسام الأخبار والمواعيد والخدمات والمحتوى التعريفي.",
+          "en": "Development of the church website, news, schedules, services and information sections."
+        },
+        "categoryId": "community",
+        "slug": "mar-markos-anba-beshoy",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_d79fec9b5ccd19a5af9f0c84cc5e9ebff3429b8696cf4d4bca68b26fc9c7a98b",
+          "m_a1a0d9a048c31d9afad0f76b5847fe2d3cca8b24acf0939d45d2525780984c70"
+        ],
+        "links": [],
+        "order": 10,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/mar-markos-anba-beshoy/cover.jpg",
+          "alt": {
+            "ar": "الصفحة الرئيسية لموقع الكنيسة",
+            "en": "Church website homepage"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A77d3af4a-5390-4363-ace5-c23fd1a285c3%3AScreenshot_203.png?table=block&id=3dcc5f5b-a7f1-805e-b2ec-f307ba8c16fd&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "b05c784c1ff31629d73b38a9d85e8d927b023b032a6a5a674d6b63393754da7c",
+          "bytes": 152551,
+          "publishedAssetId": "m_d79fec9b5ccd19a5af9f0c84cc5e9ebff3429b8696cf4d4bca68b26fc9c7a98b",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/b05c784c1ff31629d73b38a9d85e8d927b023b032a6a5a674d6b63393754da7c.jpg"
+        },
+        {
+          "file": "images/mar-markos-anba-beshoy/gallery-01.jpg",
+          "alt": {
+            "ar": "تقويم المواعيد والفعاليات",
+            "en": "Schedule and events calendar"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A2968c358-8ddc-4f8d-957b-db4f6a32fb52%3AScreenshot_207.png?table=block&id=3dcc5f5b-a7f1-803d-9696-e41b7afca923&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "88671f47e19dda324d40d9e9691bf3cad01304c03d96ed68d0863e110436013d",
+          "bytes": 173110,
+          "publishedAssetId": "m_a1a0d9a048c31d9afad0f76b5847fe2d3cca8b24acf0939d45d2525780984c70",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/88671f47e19dda324d40d9e9691bf3cad01304c03d96ed68d0863e110436013d.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://mar-markos-anba-beshoy.web.app/",
+        "features": [
+          {
+            "ar": "أخبار الكنيسة وأنشطتها",
+            "en": "Church news and activities"
+          },
+          {
+            "ar": "تقويم ومواعيد القداسات",
+            "en": "Calendar and liturgy schedules"
+          },
+          {
+            "ar": "عظات وألبومات وخدمات",
+            "en": "Sermons, albums and services"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P012",
+      "projectId": "yogen-p012",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18040bf2cc6ebe7e3948b",
+      "content": {
+        "title": {
+          "ar": "Tomy Barber Shop — حجز خدمات الحلاقة",
+          "en": "Tomy Barber Shop — Service Booking"
+        },
+        "summary": {
+          "ar": "موقع للصالون يتيح اختيار خدمات الحلاقة واليوم والموعد المتاح في رحلة حجز واضحة.",
+          "en": "A salon website with a clear booking journey for selecting grooming services, a day and an available time."
+        },
+        "body": {
+          "ar": "موقع يجمع هوية الصالون وعرض خدماته مع تجربة حجز خطوة بخطوة. يبدأ الزائر باختيار الخدمات المطلوبة ومعرفة إجماليها، ثم يختار اليوم من التقويم والموعد المتاح.\n\nتعتمد الواجهة على ألوان داكنة ولمسات ذهبية تتماشى مع طابع الصالون، مع تقسيم واضح للخدمات وخطوات الحجز.\n\n## الوظائف الأساسية\n- اختيار الخدمات وحساب الإجمالي\n- تقويم لاختيار يوم الزيارة\n- عرض المواعيد المتاحة\n\n[زيارة موقع المشروع](https://tomy-barber-shop-main.web.app/)",
+          "en": "A website combining the salon identity and service presentation with step-by-step booking. Visitors choose services and see their total before selecting a calendar day and an available time.\n\nDark surfaces and gold accents reflect the salon brand, while clear service and booking sections guide the journey.\n\n## Key features\n- Service selection and total\n- Visit-day calendar\n- Available appointment times\n\n[Visit project website](https://tomy-barber-shop-main.web.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير موقع الصالون وقائمة الخدمات ومسار اختيار اليوم والموعد للحجز.",
+          "en": "Development of the salon website, service list and day/time booking journey."
+        },
+        "categoryId": "websites",
+        "slug": "tomy-barber-shop",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_f27a28dc2541e4786f0c758988255dab8d7df018867bbf2d0f100ecf166e66e7",
+          "m_76a16b2e74aa180b8301acc641927b0eaec7e202f35e0fd1e61deb3a49cabd1a",
+          "m_28e823733bdcd371819015fd660b807f860fb546688344848a9c872b5bd24b28"
+        ],
+        "links": [],
+        "order": 11,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/tomy-barber-shop/cover.jpg",
+          "alt": {
+            "ar": "الصفحة الرئيسية للصالون",
+            "en": "Salon homepage"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A5a358833-3372-4283-9e00-ec21a936f4c6%3AScreenshot_208.png?table=block&id=3dcc5f5b-a7f1-8040-bf2c-c6ebe7e3948b&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "65ccb7cfae7aa868bad7135a2552996ed684e099682839a70353675ca5667199",
+          "bytes": 119958,
+          "publishedAssetId": "m_f27a28dc2541e4786f0c758988255dab8d7df018867bbf2d0f100ecf166e66e7",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/65ccb7cfae7aa868bad7135a2552996ed684e099682839a70353675ca5667199.jpg"
+        },
+        {
+          "file": "images/tomy-barber-shop/gallery-01.jpg",
+          "alt": {
+            "ar": "اختيار خدمات الحلاقة",
+            "en": "Grooming service selection"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Abdf2a3d9-51d0-451f-94c1-8b0ee344fcd0%3AScreenshot_210.png?table=block&id=3dcc5f5b-a7f1-809c-b202-e761f9446410&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "45e6240758593ccce4c55a80de6e8c5eb0c6d067d1b11efeb4c387a680daed35",
+          "bytes": 67169,
+          "publishedAssetId": "m_76a16b2e74aa180b8301acc641927b0eaec7e202f35e0fd1e61deb3a49cabd1a",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/45e6240758593ccce4c55a80de6e8c5eb0c6d067d1b11efeb4c387a680daed35.jpg"
+        },
+        {
+          "file": "images/tomy-barber-shop/gallery-02.jpg",
+          "alt": {
+            "ar": "تقويم اختيار موعد الزيارة",
+            "en": "Booking calendar"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A923f976c-27d7-4ca5-a31c-9e5860a11996%3AScreenshot_211.png?table=block&id=3dcc5f5b-a7f1-80a6-8c65-ef61b4a1f20e&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "9dc594587a6648f1dc9576a3fc8c32cc1370845ef9d14c35e780632c94dec938",
+          "bytes": 51021,
+          "publishedAssetId": "m_28e823733bdcd371819015fd660b807f860fb546688344848a9c872b5bd24b28",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/9dc594587a6648f1dc9576a3fc8c32cc1370845ef9d14c35e780632c94dec938.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://tomy-barber-shop-main.web.app/",
+        "features": [
+          {
+            "ar": "اختيار الخدمات وحساب الإجمالي",
+            "en": "Service selection and total"
+          },
+          {
+            "ar": "تقويم لاختيار يوم الزيارة",
+            "en": "Visit-day calendar"
+          },
+          {
+            "ar": "عرض المواعيد المتاحة",
+            "en": "Available appointment times"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P013",
+      "projectId": "yogen-p013",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f180afb91aec22b4785ce9",
+      "content": {
+        "title": {
+          "ar": "متاهة الحب — لعبة حوار للمرتبطين",
+          "en": "Labyrinth of Love — Couples Conversation Game"
+        },
+        "summary": {
+          "ar": "تجربة لعب مشتركة للمرتبطين تستخدم أسئلة ومراحل تفاعلية لفتح الحوار حول العلاقة.",
+          "en": "A shared game for couples using questions and interactive stages to open conversations about their relationship."
+        },
+        "body": {
+          "ar": "لعبة ويب تقدم رحلة مشتركة داخل متاهة تفاعلية. تبدأ التجربة بإنشاء جلسة ودعوة الشريك، ثم الانتقال بين مراحل وأسئلة تتناول جوانب مختلفة من العلاقة.\n\nتظهر صور المصدر خريطة للمراحل وواجهات لطرح الأسئلة والرد عليها، بهوية داكنة ولمسات لونية تميز أطراف التجربة.\n\n## الوظائف الأساسية\n- جلسة مشتركة ودعوة الشريك\n- خريطة مراحل تفاعلية\n- أسئلة وردود لفتح الحوار\n\n[زيارة موقع المشروع](https://labyrinth-of-love-47987471064.us-west1.run.app/)",
+          "en": "A web game presenting a shared journey through an interactive labyrinth. The experience starts with a session and partner invitation, followed by stages and questions covering different aspects of the relationship.\n\nSource screens show a stage map and question/answer interfaces, with a dark visual identity and color accents.\n\n## Key features\n- Shared session and partner invitation\n- Interactive stage map\n- Questions and responses for conversation\n\n[Visit project website](https://labyrinth-of-love-47987471064.us-west1.run.app/)"
+        },
+        "contribution": {
+          "ar": "تطوير تجربة اللعبة المشتركة وواجهات الجلسة والدعوة وخريطة المراحل والأسئلة.",
+          "en": "Development of the shared game experience, session and invitation interfaces, stage map and questions."
+        },
+        "categoryId": "games",
+        "slug": "labyrinth-of-love",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_13ef0bb9ad07510c73eeedba21170ee7c0abc1685a87c3aed866d3bfa1ab48f3"
+        ],
+        "links": [],
+        "order": 12,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/labyrinth-of-love/cover.jpg",
+          "alt": {
+            "ar": "الواجهة الرئيسية لمتاهة الحب",
+            "en": "Labyrinth of Love landing screen"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A08f90511-f556-46d7-b99e-cf2a82c9a0da%3AScreenshot_223.png?table=block&id=3dcc5f5b-a7f1-80af-b91a-ec22b4785ce9&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "c11b7bc9c157cb98926cc8f665aa7e155876f18b6550927af16ccc5378af19d6",
+          "bytes": 40695,
+          "publishedAssetId": "m_13ef0bb9ad07510c73eeedba21170ee7c0abc1685a87c3aed866d3bfa1ab48f3",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/c11b7bc9c157cb98926cc8f665aa7e155876f18b6550927af16ccc5378af19d6.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": "https://labyrinth-of-love-47987471064.us-west1.run.app/",
+        "features": [
+          {
+            "ar": "جلسة مشتركة ودعوة الشريك",
+            "en": "Shared session and partner invitation"
+          },
+          {
+            "ar": "خريطة مراحل تفاعلية",
+            "en": "Interactive stage map"
+          },
+          {
+            "ar": "أسئلة وردود لفتح الحوار",
+            "en": "Questions and responses for conversation"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P014",
+      "projectId": "yogen-p014",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18062bdb2d8efad16d84f",
+      "content": {
+        "title": {
+          "ar": "إدارة العمال والرواتب — شركة بالإمارات",
+          "en": "Workforce & Payroll — UAE Company"
+        },
+        "summary": {
+          "ar": "برنامج محاسبي يجمع حضور العمال واليوميات والرواتب مع المصروفات والوارد والتقارير الشهرية.",
+          "en": "An accounting system combining worker attendance, daily rates and payroll with expenses, income and monthly reporting."
+        },
+        "body": {
+          "ar": "برنامج لإدارة العمال والحسابات في شركة بالإمارات، يربط متابعة الحضور اليومي بقيمة اليومية والراتب المستحق. تتوزع الواجهات بين العمال والوظائف والمواقع والمشاريع.\n\nيشمل النظام تسجيل المصروفات والوارد وعرض التقارير والرواتب، لتجميع متابعات الشهر داخل برنامج واحد.\n\n## الوظائف الأساسية\n- حضور العمال واليوميات والرواتب\n- إدارة الوظائف والمواقع والمشاريع\n- الوارد والمصروفات وتقارير الشهر",
+          "en": "A workforce and accounting application for a UAE company, linking daily attendance to daily rates and payroll. Interfaces cover workers, jobs, locations and projects.\n\nThe system records expenses and income and presents reports and payroll, bringing monthly follow-up into one application.\n\n## Key features\n- Worker attendance, daily rates and payroll\n- Jobs, locations and projects\n- Income, expenses and monthly reports"
+        },
+        "contribution": {
+          "ar": "تطوير برنامج إدارة العمال والحضور والرواتب والحسابات والتقارير.",
+          "en": "Development of workforce, attendance, payroll, accounting and reporting interfaces."
+        },
+        "categoryId": "business",
+        "slug": "uae-payroll-management",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_a8bc521a61e0ac7aa97a974d64b7b19625a2471042fe5c60fe5e5a5a5936f7ab",
+          "m_69d9d9ed05c0bfc96840e9484b4d93836ac1dc4834c99748cf65b1d6fa46fe60"
+        ],
+        "links": [],
+        "order": 13,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/uae-payroll-management/cover.jpg",
+          "alt": {
+            "ar": "الواجهة الرئيسية لإدارة العمال",
+            "en": "Workforce management home screen"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A7ade4650-43a6-4e38-b4fe-33e7c72fa3c5%3AScreenshot_234.png?table=block&id=3dcc5f5b-a7f1-8062-bdb2-d8efad16d84f&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "e3dcea515332fcf28415caf0ddc142d998f1fc00c9d76219d8b09fa6046ebfd7",
+          "bytes": 61356,
+          "publishedAssetId": "m_a8bc521a61e0ac7aa97a974d64b7b19625a2471042fe5c60fe5e5a5a5936f7ab",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e3dcea515332fcf28415caf0ddc142d998f1fc00c9d76219d8b09fa6046ebfd7.jpg"
+        },
+        {
+          "file": "images/uae-payroll-management/gallery-01.jpg",
+          "alt": {
+            "ar": "تصنيفات الوظائف",
+            "en": "Job categories"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A9741c253-dd6d-4a8e-b9f7-6d62a4d4e206%3AScreenshot_239.png?table=block&id=3dcc5f5b-a7f1-80b6-8788-e02f1ef254cc&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "14f4ef8287487b8417e7e0adec7bdbe82b0191ef1f51480b913e4aa80c556dd7",
+          "bytes": 50746,
+          "publishedAssetId": "m_69d9d9ed05c0bfc96840e9484b4d93836ac1dc4834c99748cf65b1d6fa46fe60",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/14f4ef8287487b8417e7e0adec7bdbe82b0191ef1f51480b913e4aa80c556dd7.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": null,
+        "features": [
+          {
+            "ar": "حضور العمال واليوميات والرواتب",
+            "en": "Worker attendance, daily rates and payroll"
+          },
+          {
+            "ar": "إدارة الوظائف والمواقع والمشاريع",
+            "en": "Jobs, locations and projects"
+          },
+          {
+            "ar": "الوارد والمصروفات وتقارير الشهر",
+            "en": "Income, expenses and monthly reports"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    },
+    {
+      "sourceId": "P015",
+      "projectId": "yogen-p015",
+      "sourceUrl": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f1802d9667e0783813a3ad",
+      "content": {
+        "title": {
+          "ar": "خدمة الرجاء — إدارة خدمات المرضى",
+          "en": "El Rajaa — Patient Service Management"
+        },
+        "summary": {
+          "ar": "نظام لإدارة مركز خدمة المرضى ومتابعة الحالات وبنك الدم والأجهزة الطبية والحسابات.",
+          "en": "A system for a patient service center, case follow-up, blood bank, medical equipment and accounting."
+        },
+        "body": {
+          "ar": "برنامج ينظم العمل داخل خدمة الرجاء للمرضى بالمطرانية، ويجمع متابعة الحالات مع الموارد والخدمات المرتبطة بها. تعرض الواجهات إدارة المرضى ومخزن الأجهزة الطبية وبنك الدم والحسابات.\n\nتوفر لوحة المؤشرات والتقارير صورة عامة عن نشاط الخدمة، مع أقسام للبيانات والتنظيم تساعد الفريق على متابعة العمل من مكان واحد.\n\n## الوظائف الأساسية\n- تنظيم خدمات المرضى ومتابعة الحالات\n- بنك دم ومخزن أجهزة طبية\n- حسابات ومؤشرات وتقارير",
+          "en": "An application organizing El Rajaa patient services at the diocese, connecting case follow-up with related resources and services. Interfaces cover patient management, medical equipment inventory, blood bank and accounting.\n\nDashboards and reports provide an overview of service activity, with organizational sections for the team’s daily work.\n\n## Key features\n- Patient services and case follow-up\n- Blood bank and equipment inventory\n- Accounting, dashboards and reports"
+        },
+        "contribution": {
+          "ar": "تطوير برنامج إدارة الخدمة وواجهات متابعة المرضى والموارد وبنك الدم والحسابات والتقارير.",
+          "en": "Development of service management interfaces for patient follow-up, resources, blood bank, accounting and reports."
+        },
+        "categoryId": "healthcare",
+        "slug": "el-rajaa-patient-services",
+        "usage": "demo",
+        "attribution": "company",
+        "mediaIds": [
+          "m_6c3df537869a7fbc57676824dbc5e7c89cab95d2e3af8e619fdf0d27f5125057",
+          "m_95d564d86f72e8c1c902e2d20c09fabd9236fdbe28bc673da73c3254235e55e4",
+          "m_09da0d9fde587ec4fd47cf33564bc4f2cd9e43d0f08c6e2cf3acc9b99f77ccf8"
+        ],
+        "links": [],
+        "order": 14,
+        "year": null
+      },
+      "media": [
+        {
+          "file": "images/el-rajaa-patient-services/cover.jpg",
+          "alt": {
+            "ar": "واجهة بدء تشغيل خدمة الرجاء",
+            "en": "El Rajaa application start screen"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A122c9939-bf08-4cf3-9cca-4ca7a86ba022%3AScreenshot_258.png?table=block&id=3dcc5f5b-a7f1-8084-90bc-fbaa71f00b82&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "c0aa740eb57ad4e729303e89bc2ee3cc892277041c458300f84b2ffbb177b28f",
+          "bytes": 72365,
+          "publishedAssetId": "m_6c3df537869a7fbc57676824dbc5e7c89cab95d2e3af8e619fdf0d27f5125057",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/c0aa740eb57ad4e729303e89bc2ee3cc892277041c458300f84b2ffbb177b28f.jpg"
+        },
+        {
+          "file": "images/el-rajaa-patient-services/gallery-01.jpg",
+          "alt": {
+            "ar": "لوحة مؤشرات الخدمة",
+            "en": "Service dashboard"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3A260b2551-5124-4cd0-a357-9796cebcfb26%3AScreenshot_260.png?table=block&id=3dcc5f5b-a7f1-802d-9667-e0783813a3ad&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "b14580a86c168de1c548b4da6243ef863b3b661cf395db9adff760edf26c1bd2",
+          "bytes": 100806,
+          "publishedAssetId": "m_95d564d86f72e8c1c902e2d20c09fabd9236fdbe28bc673da73c3254235e55e4",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/b14580a86c168de1c548b4da6243ef863b3b661cf395db9adff760edf26c1bd2.jpg"
+        },
+        {
+          "file": "images/el-rajaa-patient-services/gallery-02.jpg",
+          "alt": {
+            "ar": "واجهة الحسابات الخالية من بيانات المرضى",
+            "en": "Accounting interface without patient records"
+          },
+          "sourceUrl": "https://hail-bosworth-a45.notion.site/image/attachment%3Aedb899d7-5bb1-49da-9d6b-ae3bd084b3d9%3AScreenshot_263.png?table=block&id=3dcc5f5b-a7f1-80c3-94be-c4996e9489d7&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl",
+          "sha256": "1a74eaca3d502f22fb3327324df5cbb0fd2043aeeab4d458d45106a5a157188f",
+          "bytes": 104537,
+          "publishedAssetId": "m_09da0d9fde587ec4fd47cf33564bc4f2cd9e43d0f08c6e2cf3acc9b99f77ccf8",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/1a74eaca3d502f22fb3327324df5cbb0fd2043aeeab4d458d45106a5a157188f.jpg"
+        }
+      ],
+      "editorial": {
+        "externalUrl": null,
+        "features": [
+          {
+            "ar": "تنظيم خدمات المرضى ومتابعة الحالات",
+            "en": "Patient services and case follow-up"
+          },
+          {
+            "ar": "بنك دم ومخزن أجهزة طبية",
+            "en": "Blood bank and equipment inventory"
+          },
+          {
+            "ar": "حسابات ومؤشرات وتقارير",
+            "en": "Accounting, dashboards and reports"
+          }
+        ],
+        "usageNote": "The user confirmed a mix of real projects and demos; individual classification is pending, so unspecified cases remain demo.",
+        "attributionEvidence": "The user identified these as company projects.",
+        "technologyNote": "No stack or execution year is inferred.",
+        "imageSelection": "Original source screens selected without private individual records."
+      }
+    }
+  ]
+}

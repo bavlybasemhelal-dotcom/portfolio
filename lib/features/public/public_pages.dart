@@ -740,11 +740,16 @@ class AboutPage extends StatelessWidget {
                                         site: activeSite,
                                         assetId:
                                             member['photo']['id'] as String,
+                                        publicUrl:
+                                            member['photo']['publicUrl']
+                                                as String?,
                                         alt:
                                             member['photo']['alt'][code]
                                                 as String,
                                         thumbnail: true,
-                                        height: 220,
+                                        height: 300,
+                                        fit: BoxFit.cover,
+                                        alignment: Alignment.topCenter,
                                       ),
                                     ),
                                   ),

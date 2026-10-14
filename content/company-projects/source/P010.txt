@@ -1,0 +1,51 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "برنامج ألعاب كنسي" [disabled]:
+    - generic: برنامج ألعاب كنسي
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "برنامج ألعاب كنسي" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "games-platform-church.web.app":
+        - link "games-platform-church.web.app":
+          - /url: https://games-platform-church.web.app/
+  - generic: برنامج العاب كنسي مناسب للخدمات مع امكانية تغيير كامل الأسئلة وألعاب شيقة
+  - blockquote:
+    - generic: لزيارة الموقع
+  - figure:
+    - link "منصة الألعاب | المتعة بجيل جديد منصة واحدة تجمع لك 9 ألعاب مختلفة، من بنك الحظ إلى تحديات الذكاء. العب مع أصدقائك، اجمع النقاط، وسابق في لوحة الشرف. https://games-platform-church.web.app":
+      - /url: https://games-platform-church.web.app/
+      - generic: منصة الألعاب | المتعة بجيل جديد
+      - generic: منصة واحدة تجمع لك 9 ألعاب مختلفة، من بنك الحظ إلى تحديات الذكاء. العب مع أصدقائك، اجمع النقاط، وسابق في لوحة الشرف.
+      - generic: https://games-platform-church.web.app
+  - blockquote:
+    - generic: صور من داخل البرنامج
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

@@ -1,0 +1,114 @@
+{
+  "id": "P015",
+  "url": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f1802d9667e0783813a3ad",
+  "snapshot": "- link \"Skip to content\":\n  - /url: \"#main\"\n  - text: Skip to content\n- banner:\n  - link \"Examples\":\n    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18\n    - generic: Examples\n  - generic: /\n  - button \"برنامج لخدمة الرجاء للمرضى بالمطرانية\" [disabled]:\n    - generic: برنامج لخدمة الرجاء للمرضى بالمطرانية\n  - button \"Close panel\":\n  - button:\n  - button \"Share site to socials\":\n  - button:\n  - button \"More actions\":\n  - button \"Get Notion free\"\n- main:\n  - img \"Page icon\"\n  - heading \"برنامج لخدمة الرجاء للمرضى بالمطرانية\" [level=1]\n  - table \"Page properties\":\n    - row \"Link\":\n      - cell \"Link\":\n        - generic: Link\n      - cell \"Empty\":\n        - generic: Empty\n  - generic: برنامج لإدارة مركز خاص بالمرضى ومتابعة الحالات وبنك الدم والمحاسبة\n  - blockquote:\n    - generic: صور بداخل البرنامج\n  - figure\n  - figure\n  - figure\n  - figure\n  - figure\n  - figure\n  - figure\n  - figure\n  - figure\n  - figure\n  - figure\n- region\n- status\n- alert\n- iframe",
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/webp",
+        "id": "a43d0a4d7e60a8e9",
+        "kind": "image",
+        "name": "attachment%3A260b2551-5124-4cd0-a357-9796cebcfb26%3AScreenshot_260.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/a43d0a4d7e60a8e9.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A260b2551-5124-4cd0-a357-9796cebcfb26%3AScreenshot_260.png?table=block&id=3dcc5f5b-a7f1-802d-9667-e0783813a3ad&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "42c405df404964c9",
+        "kind": "image",
+        "name": "attachment%3A122c9939-bf08-4cf3-9cca-4ca7a86ba022%3AScreenshot_258.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/42c405df404964c9.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A122c9939-bf08-4cf3-9cca-4ca7a86ba022%3AScreenshot_258.png?table=block&id=3dcc5f5b-a7f1-8084-90bc-fbaa71f00b82&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "e2d69866c36fb0e0",
+        "kind": "image",
+        "name": "attachment%3Ace70941f-4742-44e1-b008-7fb1ce0279ed%3AScreenshot_259.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/e2d69866c36fb0e0.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Ace70941f-4742-44e1-b008-7fb1ce0279ed%3AScreenshot_259.png?table=block&id=3dcc5f5b-a7f1-8096-9091-e5db3574805c&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "a9aaeff618832ced",
+        "kind": "image",
+        "name": "attachment%3Aeaa936ac-b343-414f-93c4-8ca335f39bf0%3AScreenshot_260.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/a9aaeff618832ced.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Aeaa936ac-b343-414f-93c4-8ca335f39bf0%3AScreenshot_260.png?table=block&id=3dcc5f5b-a7f1-80d2-9b58-c2d0166207dd&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "43890423c42be0a4",
+        "kind": "image",
+        "name": "attachment%3A1451b8bc-83ea-45fb-9be3-f80c1c24483a%3AScreenshot_261.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/43890423c42be0a4.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A1451b8bc-83ea-45fb-9be3-f80c1c24483a%3AScreenshot_261.png?table=block&id=3dcc5f5b-a7f1-8098-83ad-cf099018c854&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "bbeafb239d8a73c8",
+        "kind": "image",
+        "name": "attachment%3A7835efb9-b205-4783-81cc-a90bd0c11f7e%3AScreenshot_262.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/bbeafb239d8a73c8.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A7835efb9-b205-4783-81cc-a90bd0c11f7e%3AScreenshot_262.png?table=block&id=3dcc5f5b-a7f1-802f-991e-e85f59ae8fd7&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "317ce1cd6069ba7b",
+        "kind": "image",
+        "name": "attachment%3Aedb899d7-5bb1-49da-9d6b-ae3bd084b3d9%3AScreenshot_263.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/317ce1cd6069ba7b.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Aedb899d7-5bb1-49da-9d6b-ae3bd084b3d9%3AScreenshot_263.png?table=block&id=3dcc5f5b-a7f1-80c3-94be-c4996e9489d7&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "8fe6f2cb0bb5f9d0",
+        "kind": "image",
+        "name": "attachment%3A67746891-44df-4cd9-aaa4-7ffeca26065e%3AScreenshot_264.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/8fe6f2cb0bb5f9d0.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A67746891-44df-4cd9-aaa4-7ffeca26065e%3AScreenshot_264.png?table=block&id=3dcc5f5b-a7f1-8023-9717-ce7540bd00f0&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "05a90765a1e46b9e",
+        "kind": "image",
+        "name": "attachment%3Ac0866c7f-b504-4ab4-9852-a549b7011454%3AScreenshot_265.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/05a90765a1e46b9e.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Ac0866c7f-b504-4ab4-9852-a549b7011454%3AScreenshot_265.png?table=block&id=3dcc5f5b-a7f1-8069-bbb7-eab467be1c16&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "32402bebc7f439ae",
+        "kind": "image",
+        "name": "attachment%3A80f9a900-eb58-42a6-98ff-c76d8ccd8223%3AScreenshot_266.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/32402bebc7f439ae.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A80f9a900-eb58-42a6-98ff-c76d8ccd8223%3AScreenshot_266.png?table=block&id=3dcc5f5b-a7f1-807e-bba4-fe649f0fb26d&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "873d4efc7fbed8b4",
+        "kind": "image",
+        "name": "attachment%3A7e8f3a4a-2483-4762-b189-098a851ca044%3AScreenshot_267.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/873d4efc7fbed8b4.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A7e8f3a4a-2483-4762-b189-098a851ca044%3AScreenshot_267.png?table=block&id=3dcc5f5b-a7f1-8074-b96e-fd57f61f3475&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "781f8c5716fa5e5f",
+        "kind": "image",
+        "name": "attachment%3A27e8e27c-3793-4718-85d8-3e9ccf5f4b77%3AScreenshot_268.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/781f8c5716fa5e5f.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A27e8e27c-3793-4718-85d8-3e9ccf5f4b77%3AScreenshot_268.png?table=block&id=3dcc5f5b-a7f1-805e-a91b-e141fb1b880a&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      }
+    ],
+    "directoryPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3",
+    "failures": [],
+    "manifestPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/b75947c1-3e15-4bc2-b204-bc4edb2a90b3/manifest.json",
+    "summary": {
+      "downloadedCount": 12,
+      "elapsedMs": 333.91970000002766,
+      "failedCount": 0,
+      "requestedCount": 12
+    }
+  }
+}

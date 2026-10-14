@@ -1,0 +1,50 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "لعبة للمرتبطين" [disabled]:
+    - generic: لعبة للمرتبطين
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "لعبة للمرتبطين" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "labyrinth-of-love-47987471064.us-west1.run.app":
+        - link "labyrinth-of-love-47987471064.us-west1.run.app":
+          - /url: https://labyrinth-of-love-47987471064.us-west1.run.app/
+  - generic: لعبة للمرتبطين فيها أسئة صريحة عن علاقتهم تتعلق بكل الجوانب الخاصة بهم
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "أسياد المتاهة - Lords of the Labyrinth https://labyrinth-of-love-47987471064.us-west1.run.app":
+      - /url: https://labyrinth-of-love-47987471064.us-west1.run.app/
+      - generic: أسياد المتاهة - Lords of the Labyrinth
+      - generic: https://labyrinth-of-love-47987471064.us-west1.run.app
+  - blockquote:
+    - generic: صور من داخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

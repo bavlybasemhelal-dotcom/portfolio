@@ -40,26 +40,377 @@
 </head>
 <body>
   <style>
-    html,body{margin:0;background:#f7f9fd;color:#101e36}
-    @media(prefers-color-scheme:dark){html,body{background:#081120;color:#f3f6fc}}
-    #yogen-loading{position:fixed;inset:0;display:grid;place-content:center;font:600 24px system-ui;text-align:center;letter-spacing:4px}
-    #yogen-loading small{font-size:13px;letter-spacing:0;margin-top:12px}
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #081120;
+      color: #f3f6fc;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "IBM Plex Sans Arabic", sans-serif;
+    }
+    #yogen-loading {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(circle at 50% 40%, #0d223a 0%, #081120 70%, #050b14 100%);
+      transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), filter 0.7s ease;
+      will-change: opacity, transform, filter;
+    }
+    #yogen-loading.loaded {
+      opacity: 0;
+      transform: scale(1.04);
+      filter: blur(8px);
+      pointer-events: none;
+    }
+    .splash-container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+    .canvas-wrapper {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      margin-bottom: 24px;
+    }
+    .glow-aura {
+      position: absolute;
+      inset: 15px;
+      border-radius: 50%;
+      background: radial-gradient(circle, rgba(18, 198, 235, 0.35) 0%, rgba(22, 120, 245, 0.15) 45%, transparent 70%);
+      filter: blur(28px);
+      animation: pulse-aura 3.5s ease-in-out infinite alternate;
+      pointer-events: none;
+    }
+    @keyframes pulse-aura {
+      0% { transform: scale(0.85); opacity: 0.6; }
+      100% { transform: scale(1.2); opacity: 1; }
+    }
+    #splash-3d-canvas {
+      position: relative;
+      width: 220px;
+      height: 220px;
+      z-index: 2;
+    }
+    .brand-title {
+      font-size: 32px;
+      font-weight: 700;
+      letter-spacing: 6px;
+      margin: 0 0 8px 0;
+      background: linear-gradient(135deg, #ffffff 30%, #91bcff 70%, #12c6eb 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-transform: uppercase;
+      filter: drop-shadow(0 2px 14px rgba(18, 198, 235, 0.3));
+    }
+    .brand-tagline {
+      font-size: 14px;
+      font-weight: 400;
+      color: #9cb3d3;
+      letter-spacing: 0.5px;
+      margin-bottom: 24px;
+    }
+    .brand-arabic {
+      display: block;
+      font-size: 13px;
+      color: #6482aa;
+      margin-top: 4px;
+    }
+    .loading-track {
+      width: 190px;
+      height: 4px;
+      background: rgba(255, 255, 255, 0.08);
+      border-radius: 999px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: inset 0 1px 2px rgba(0,0,0,0.4);
+    }
+    .loading-bar {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: -60%;
+      width: 60%;
+      background: linear-gradient(90deg, transparent, #12c6eb 50%, #1678f5 90%, #ffffff);
+      border-radius: 999px;
+      box-shadow: 0 0 12px #12c6eb;
+      animation: shimmer-load 1.7s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+    }
+    @keyframes shimmer-load {
+      0% { left: -60%; width: 40%; }
+      50% { width: 75%; }
+      100% { left: 120%; width: 30%; }
+    }
+    .loading-status {
+      margin-top: 14px;
+      font-size: 11px;
+      color: #557299;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
   </style>
-  <script>
-    try { const theme=JSON.parse(localStorage.getItem('flutter.theme'));
-      if(theme==='dark'||theme==='light') {const dark=theme==='dark';document.documentElement.style.background=dark?'#081120':'#f7f9fd';document.body.style.background=dark?'#081120':'#f7f9fd';document.body.style.color=dark?'#f3f6fc':'#101e36';}
-    } catch(_) {}
-    window.addEventListener('flutter-first-frame',()=>document.getElementById('yogen-loading')?.remove());
-  </script>
-  <div id="yogen-loading" aria-label="YOGEN loading">YOGEN<small>Ideas for a brighter tomorrow</small></div>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
+  <div id="yogen-loading" aria-label="YOGEN loading">
+    <div class="splash-container">
+      <div class="canvas-wrapper">
+        <div class="glow-aura"></div>
+        <canvas id="splash-3d-canvas" width="440" height="440"></canvas>
+      </div>
+      <div class="brand-title">YOGEN</div>
+      <div class="brand-tagline">
+        Custom Software Applications
+        <span class="brand-arabic">تطبيقات برمجية حسب الطلب · أفكار لغدٍ أكثر إشراقاً</span>
+      </div>
+      <div class="loading-track">
+        <div class="loading-bar"></div>
+      </div>
+      <div class="loading-status">INITIALIZING SYSTEM…</div>
+    </div>
+  </div>
+
+  <script>
+    (function() {
+      // Clean dismiss on flutter ready
+      let dismissed = false;
+      function dismissSplash() {
+        if (dismissed) return;
+        dismissed = true;
+        const el = document.getElementById('yogen-loading');
+        if (el) {
+          el.classList.add('loaded');
+          setTimeout(() => el.remove(), 700);
+        }
+      }
+      window.addEventListener('flutter-first-frame', dismissSplash);
+      // Fallback timer in case first frame event doesn't trigger
+      setTimeout(dismissSplash, 12000);
+
+      // 3D Canvas Renderer
+      const canvas = document.getElementById('splash-3d-canvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      if (!ctx) return;
+
+      const shapes = [
+        [
+          [-1.27, 1.05],
+          [-1.27, 1.76],
+          [-.10, .91],
+          [-.52, .49]
+        ],
+        [
+          [-.52, -.72],
+          [-.52, .35],
+          [-.37, .78],
+          [1.28, 1.77],
+          [1.28, 1.05],
+          [.21, .43],
+          [.02, .20],
+          [.02, -1.11]
+        ],
+        [
+          [-.52, -.73],
+          [.02, -1.11],
+          [1.23, -.43],
+          [1.23, .28],
+          [.87, .48],
+          [.35, .21],
+          [.35, .045],
+          [.78, -.13],
+          [.78, -.28],
+          [.13, -.66],
+          [.13, -.12],
+          [-.52, -.42]
+        ]
+      ];
+
+      const colors = ['#0fc4ee', '#146ff0', '#1641a5'];
+      const baseRgb = [
+        [15, 196, 238],
+        [20, 111, 240],
+        [22, 65, 165]
+      ];
+
+      // Star particles
+      const particles = [];
+      for (let i = 0; i < 26; i++) {
+        particles.push({
+          x: (Math.random() - 0.5) * 380,
+          y: (Math.random() - 0.5) * 380,
+          z: Math.random() * 200 - 100,
+          size: Math.random() * 2 + 1,
+          speed: Math.random() * 0.4 + 0.2,
+          alpha: Math.random() * 0.6 + 0.2
+        });
+      }
+
+      function rotate(v, yaw, pitch) {
+        const cosY = Math.cos(yaw), sinY = Math.sin(yaw);
+        const cosP = Math.cos(pitch), sinP = Math.sin(pitch);
+        const a = v[0] * cosY + v[2] * sinY;
+        const b = -v[0] * sinY + v[2] * cosY;
+        return [
+          a,
+          v[1] * cosP - b * sinP,
+          v[1] * sinP + b * cosP
+        ];
+      }
+
+      let startTime = performance.now();
+      let animId;
+
+      function render(now) {
+        if (dismissed) {
+          cancelAnimationFrame(animId);
+          return;
+        }
+
+        const t = (now - startTime) * 0.001;
+        const width = canvas.width;
+        const height = canvas.height;
+        ctx.clearRect(0, 0, width, height);
+
+        const centerX = width / 2;
+        const centerY = height / 2 + 12;
+        const scale = 88;
+
+        const yaw = t * 0.95 - 0.2;
+        const pitch = -0.15 + Math.sin(t * 0.7) * 0.06;
+        const orbit = t * 1.8;
+
+        // Render ambient floating dust particles
+        for (let i = 0; i < particles.length; i++) {
+          const p = particles[i];
+          p.y -= p.speed;
+          if (p.y < -190) p.y = 190;
+          const px = centerX + p.x;
+          const py = centerY + p.y;
+          const puls = 0.5 + 0.5 * Math.sin(t * 2 + i);
+          ctx.fillStyle = 'rgba(18, 198, 235, ' + (p.alpha * puls) + ')';
+          ctx.beginPath();
+          ctx.arc(px, py, p.size, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        // Draw soft floor shadow
+        ctx.save();
+        ctx.beginPath();
+        ctx.ellipse(centerX, centerY + 140, scale * 1.2, 16, 0, 0, Math.PI * 2);
+        const shadowGrad = ctx.createRadialGradient(centerX, centerY + 140, 5, centerX, centerY + 140, scale * 1.2);
+        shadowGrad.addColorStop(0, 'rgba(0, 0, 0, 0.6)');
+        shadowGrad.addColorStop(1, 'rgba(0, 0, 0, 0)');
+        ctx.fillStyle = shadowGrad;
+        ctx.fill();
+        ctx.restore();
+
+        // Build 3D faces
+        const faces = [];
+        const project = (v) => {
+          const p = 5 / (5 - v[2]);
+          return [
+            centerX + v[0] * scale * p,
+            centerY - (v[1] - 0.25) * scale * p
+          ];
+        };
+
+        for (let s = 0; s < shapes.length; s++) {
+          const poly = shapes[s];
+          const rgb = baseRgb[s];
+          const frontV = poly.map(p => rotate([p[0], p[1], 0.14], yaw, pitch));
+          const backV = poly.map(p => rotate([p[0], p[1], -0.14], yaw, pitch));
+
+          const depthAvg = (pts) => pts.reduce((acc, p) => acc + p[2], 0) / pts.length;
+
+          // Back face
+          const backShade = `rgb(${Math.round(rgb[0] * 0.45)}, ${Math.round(rgb[1] * 0.45)}, ${Math.round(rgb[2] * 0.45)})`;
+          faces.push({
+            points: backV,
+            depth: depthAvg(backV),
+            color: backShade,
+            edge: true
+          });
+
+          // Side bevel faces
+          for (let i = 0; i < poly.length; i++) {
+            const next = (i + 1) % poly.length;
+            const sidePts = [frontV[i], frontV[next], backV[next], backV[i]];
+            const factor = 0.42 + 0.22 * (i % 3);
+            const sideShade = `rgb(${Math.round(rgb[0] * factor)}, ${Math.round(rgb[1] * factor)}, ${Math.round(rgb[2] * factor)})`;
+            faces.push({
+              points: sidePts,
+              depth: depthAvg(sidePts),
+              color: sideShade,
+              edge: true
+            });
+          }
+
+          // Front face with illumination
+          const illum = Math.max(0.4, Math.min(1.0, 0.72 + 0.28 * Math.cos(yaw)));
+          const frontShade = `rgb(${Math.round(rgb[0] * illum)}, ${Math.round(rgb[1] * illum)}, ${Math.round(rgb[2] * illum)})`;
+          faces.push({
+            points: frontV,
+            depth: depthAvg(frontV),
+            color: frontShade,
+            edge: true
+          });
+        }
+
+        // Sort faces by Z depth (painter's algorithm)
+        faces.sort((a, b) => a.depth - b.depth);
+
+        // Draw sorted faces
+        for (let i = 0; i < faces.length; i++) {
+          const f = faces[i];
+          const proj = f.points.map(project);
+          ctx.beginPath();
+          ctx.moveTo(proj[0][0], proj[0][1]);
+          for (let j = 1; j < proj.length; j++) {
+            ctx.lineTo(proj[j][0], proj[j][1]);
+          }
+          ctx.closePath();
+          ctx.fillStyle = f.color;
+          ctx.fill();
+
+          ctx.strokeStyle = 'rgba(93, 183, 255, 0.45)';
+          ctx.lineWidth = 1.2;
+          ctx.stroke();
+        }
+
+        // Orbital Ring and glowing energy satellite
+        ctx.save();
+        ctx.beginPath();
+        ctx.ellipse(centerX, centerY, scale * 1.6, scale * 0.42, 0, 0, Math.PI * 2);
+        ctx.strokeStyle = 'rgba(37, 173, 229, 0.35)';
+        ctx.lineWidth = 1.6;
+        ctx.stroke();
+
+        const satX = centerX + Math.cos(orbit) * scale * 1.6;
+        const satY = centerY + Math.sin(orbit) * scale * 0.42;
+
+        ctx.shadowColor = '#28ccea';
+        ctx.shadowBlur = 12;
+        ctx.fillStyle = '#28ccea';
+        ctx.beginPath();
+        ctx.arc(satX, satY, 5, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+
+        animId = requestAnimationFrame(render);
+      }
+
+      animId = requestAnimationFrame(render);
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:ui' show ImageFilter;
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -7,6 +8,7 @@ import '../../auth/admin_session.dart' show activeSite;
 import '../../core/preferences.dart';
 import '../../core/page_metadata.dart';
 import '../../data/public_content_repository.dart';
+import 'atmospheric_3d_background.dart';
 import 'depth_scene.dart';
 
 String publicLocation(
@@ -174,62 +176,77 @@ class _PublicShellState extends ConsumerState<PublicShell> {
           ),
         ),
       ),
-      body: DecoratedBox(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: dark
-                ? const [
-                    Color(0xff0b2035),
-                    Color(0xff081120),
-                    Color(0xff211a36),
-                  ]
-                : const [
-                    Color(0xffe5f2ff),
-                    Color(0xfff7f9fd),
-                    Color(0xffefe8ff),
-                  ],
+      body: Stack(
+        fit: StackFit.expand,
+        children: [
+          DecoratedBox(
+            decoration: BoxDecoration(
+              gradient: LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: dark
+                    ? const [
+                        Color(0xff091a2c),
+                        Color(0xff081120),
+                        Color(0xff181329),
+                      ]
+                    : const [
+                        Color(0xffe5f2ff),
+                        Color(0xfff7f9fd),
+                        Color(0xffefe8ff),
+                      ],
+              ),
+            ),
           ),
-        ),
-        child: SafeArea(
-          child: Column(
-            verticalDirection: VerticalDirection.up,
-            children: [
-              Expanded(child: widget.child),
-              Container(
-                height: wide ? 86 : 76,
-                padding: EdgeInsets.symmetric(horizontal: wide ? 32 : 12),
-                decoration: BoxDecoration(
-                  color: Color(
-                    dark ? 0xff081120 : 0xfff7f9fd,
-                  ).withValues(alpha: .96),
-                  border: Border(
-                    bottom: BorderSide(
-                      color: Theme.of(c).colorScheme.outlineVariant,
-                    ),
-                  ),
-                ),
-                child: Row(
-                  children: [
-                    TextButton(
-                      onPressed: () => publicGo(c, '/'),
-                      child: Image.asset(
-                        'planning-assets/yogen-logo-horizontal.png',
-                        width: wide
-                            ? 156
-                            : MediaQuery.sizeOf(c).width < 400
-                            ? 90
-                            : 110,
-                        height: 42,
-                        fit: BoxFit.contain,
-                        semanticLabel: tr(
-                          c,
-                          'YOGEN — الرئيسية',
-                          'YOGEN — home',
+          const Positioned.fill(
+            child: IgnorePointer(
+              child: Atmospheric3DBackground(),
+            ),
+          ),
+          SafeArea(
+            child: Column(
+              verticalDirection: VerticalDirection.up,
+              children: [
+                Expanded(child: widget.child),
+                ClipRect(
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(sigmaX: 18, sigmaY: 18),
+                    child: Container(
+                      height: wide ? 86 : 76,
+                      padding: EdgeInsets.symmetric(horizontal: wide ? 32 : 12),
+                      decoration: BoxDecoration(
+                        color: Color(
+                          dark ? 0xff081120 : 0xfff7f9fd,
+                        ).withValues(alpha: dark ? 0.78 : 0.82),
+                        border: Border(
+                          bottom: BorderSide(
+                            color: (dark
+                                    ? const Color(0xff12c6eb)
+                                    : const Color(0xff1678f5))
+                                .withValues(alpha: dark ? 0.18 : 0.12),
+                          ),
                         ),
                       ),
-                    ),
+                      child: Row(
+                        children: [
+                          TextButton(
+                            onPressed: () => publicGo(c, '/'),
+                            child: Image.asset(
+                              'planning-assets/yogen-logo-horizontal.png',
+                              width: wide
+                                  ? 156
+                                  : MediaQuery.sizeOf(c).width < 400
+                                  ? 90
+                                  : 110,
+                              height: 42,
+                              fit: BoxFit.contain,
+                              semanticLabel: tr(
+                                c,
+                                'YOGEN — الرئيسية',
+                                'YOGEN — home',
+                              ),
+                            ),
+                          ),
                     const Spacer(),
                     if (wide) ...links.map((l) => nav(l.$1, l.$2)),
                     TextButton(
@@ -260,31 +277,34 @@ class _PublicShellState extends ConsumerState<PublicShell> {
                         icon: const Icon(Icons.menu),
                       ),
                   ],
+                  ),
                 ),
               ),
-              if (activeSite != 'yogen')
-                Container(
-                  width: double.infinity,
-                  color: Theme.of(c).colorScheme.surfaceContainerHighest,
-                  padding: const EdgeInsets.symmetric(
-                    horizontal: 16,
-                    vertical: 4,
-                  ),
-                  child: Text(
-                    tr(
-                      c,
-                      'بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN',
-                      'Isolated test environment — fixtures are not YOGEN client work',
-                    ),
-                    textAlign: TextAlign.center,
-                    style: const TextStyle(fontSize: 12),
-                  ),
+            ),
+            if (activeSite != 'yogen')
+              Container(
+                width: double.infinity,
+                color: Theme.of(c).colorScheme.surfaceContainerHighest,
+                padding: const EdgeInsets.symmetric(
+                  horizontal: 16,
+                  vertical: 4,
                 ),
-            ],
-          ),
+                child: Text(
+                  tr(
+                    c,
+                    'بيئة اختبار معزولة — البيانات التوضيحية ليست أعمال YOGEN',
+                    'Isolated test environment — fixtures are not YOGEN client work',
+                  ),
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(fontSize: 12),
+                ),
+              ),
+          ],
         ),
       ),
-    );
+    ],
+  ),
+);
   }
 }
 

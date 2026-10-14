@@ -1,3 +1,4 @@
+import 'dart:math' as math;
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:go_router/go_router.dart';
@@ -28,10 +29,13 @@ class _LogoAdminEntryState extends State<LogoAdminEntry> {
   bool dragging = false, selected = false, opening = false, focused = false;
 
   void select() => setState(() => selected = !selected);
-  void open() {
+  Future<void> open() async {
     if (opening) return;
     opening = true;
-    context.go('/admin/login');
+    HapticFeedback.mediumImpact();
+    if (mounted) {
+      context.go('/admin/login');
+    }
   }
 
   Widget draggable(Widget logo, double angle, double orbit, bool dark) {
@@ -49,12 +53,7 @@ class _LogoAdminEntryState extends State<LogoAdminEntry> {
       child: Semantics(
         button: true,
         selected: selected,
-        label: tr(context, 'شعار YOGEN القابل للسحب', 'Draggable YOGEN logo'),
-        hint: tr(
-          context,
-          'اسحبه إلى المربع لفتح تسجيل دخول الإدارة، أو حدده ثم اضغط المربع.',
-          'Drag to the square to open admin sign-in, or select it then activate the square.',
-        ),
+        label: tr(context, 'شعار YOGEN', 'YOGEN logo'),
         onTap: select,
         child: MouseRegion(
           cursor: dragging
@@ -66,22 +65,25 @@ class _LogoAdminEntryState extends State<LogoAdminEntry> {
             child: LongPressDraggable<_LogoKey>(
               key: const ValueKey('admin-logo-drag'),
               data: _LogoKey.yogen,
-              delay: const Duration(milliseconds: 220),
+              delay: const Duration(milliseconds: 100),
               maxSimultaneousDrags: 1,
               hitTestBehavior: HitTestBehavior.deferToChild,
               dragAnchorStrategy: pointerDragAnchorStrategy,
               rootOverlay: true,
-              feedback: Transform.translate(
-                offset: const Offset(-48, -48),
-                child: SizedBox(
-                  width: 96,
-                  height: 96,
-                  child: CustomPaint(
-                    painter: IdentityPainter(
-                      angle: angle,
-                      orbit: orbit,
-                      dark: dark,
-                      transparent: true,
+              feedback: Material(
+                type: MaterialType.transparency,
+                child: Transform.translate(
+                  offset: const Offset(-52, -52),
+                  child: SizedBox(
+                    width: 104,
+                    height: 104,
+                    child: CustomPaint(
+                      painter: IdentityPainter(
+                        angle: angle,
+                        orbit: orbit,
+                        dark: dark,
+                        transparent: true,
+                      ),
                     ),
                   ),
                 ),
@@ -93,7 +95,7 @@ class _LogoAdminEntryState extends State<LogoAdminEntry> {
               onDragEnd: (_) {
                 if (mounted) setState(() => dragging = false);
               },
-              childWhenDragging: Opacity(opacity: .22, child: logo),
+              childWhenDragging: Opacity(opacity: .18, child: logo),
               child: logo,
             ),
           ),
@@ -105,122 +107,117 @@ class _LogoAdminEntryState extends State<LogoAdminEntry> {
   @override
   Widget build(BuildContext c) {
     final colors = Theme.of(c).colorScheme;
-    return Stack(
-      fit: StackFit.expand,
-      children: [
-        DepthScene(
-          turn: widget.turn,
-          visible: widget.visible && !dragging,
-          identityBuilder: draggable,
-        ),
-        if (focused)
-          Positioned.fill(
-            child: IgnorePointer(
-              child: DecoratedBox(
-                decoration: BoxDecoration(
-                  border: Border.all(color: colors.primary, width: 2),
-                  borderRadius: BorderRadius.circular(20),
-                ),
-              ),
+    final dark = Theme.of(c).brightness == Brightness.dark;
+    return LayoutBuilder(
+      builder: (c, constraints) {
+        final w = constraints.maxWidth;
+        final h = constraints.maxHeight;
+        final radius = math.min(w, h) * .12;
+        final cubeCenter = Offset(w * .19, h * .2);
+        final targetSize = math.max(radius * 2.8, 92.0);
+
+        return Stack(
+          fit: StackFit.expand,
+          children: [
+            DepthScene(
+              turn: widget.turn,
+              visible: widget.visible && !dragging,
+              identityBuilder: draggable,
             ),
-          ),
-        if (widget.previews != null)
-          Positioned(
-            top: widget.small ? 8 : 32,
-            bottom: widget.small ? 80 : 112,
-            left: widget.small ? 8 : 12,
-            right: widget.small ? 8 : 12,
-            child: widget.previews!,
-          ),
-        PositionedDirectional(
-          bottom: 12,
-          end: 12,
-          child: DragTarget<_LogoKey>(
-            key: const ValueKey('admin-logo-target'),
-            onWillAcceptWithDetails: (d) =>
-                d.data == _LogoKey.yogen && !opening,
-            onAcceptWithDetails: (_) => open(),
-            builder: (c, candidates, _) {
-              final ready = candidates.isNotEmpty || selected;
-              return Semantics(
-                label: tr(c, 'مربع دخول الإدارة', 'Admin sign-in square'),
-                hint: tr(c, 'ضع الشعار هنا', 'Drop the logo here'),
-                child: Tooltip(
-                  message: tr(c, 'ضع الشعار هنا', 'Drop the logo here'),
-                  child: Material(
-                    color: Colors.transparent,
-                    child: InkWell(
-                      onTap: selected ? open : null,
-                      borderRadius: BorderRadius.circular(14),
-                      child: AnimatedContainer(
-                        duration: Duration(
-                          milliseconds:
-                              widget.reduced ||
-                                  MediaQuery.disableAnimationsOf(c)
-                              ? 0
-                              : 180,
-                        ),
-                        width: widget.small ? 56 : 68,
-                        height: widget.small ? 56 : 68,
-                        decoration: BoxDecoration(
-                          color: ready
-                              ? colors.primaryContainer
-                              : colors.surface.withValues(alpha: .72),
-                          borderRadius: BorderRadius.circular(14),
-                          border: Border.all(
-                            color: ready ? colors.primary : colors.outline,
-                            width: ready ? 2 : 1,
-                          ),
-                          boxShadow: ready
-                              ? [
-                                  BoxShadow(
-                                    color: colors.primary.withValues(alpha: .2),
-                                    blurRadius: 24,
-                                  ),
-                                ]
-                              : [],
-                        ),
-                        child: Icon(
-                          ready ? Icons.lock_open_outlined : Icons.crop_square,
-                          color: ready
-                              ? colors.onPrimaryContainer
-                              : colors.onSurfaceVariant,
-                        ),
-                      ),
+            if (focused)
+              Positioned.fill(
+                child: IgnorePointer(
+                  child: DecoratedBox(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: colors.primary, width: 2),
+                      borderRadius: BorderRadius.circular(20),
                     ),
                   ),
                 ),
-              );
-            },
-          ),
-        ),
-        PositionedDirectional(
-          bottom: 20,
-          start: 12,
-          end: widget.small ? 80 : 96,
-          child: IgnorePointer(
-            child: Text(
-              selected
-                  ? tr(
-                      c,
-                      'اضغط المربع لإكمال الدخول',
-                      'Activate the square to continue',
-                    )
-                  : tr(
-                      c,
-                      'اضغط قليلًا واسحب الشعار إلى المربع',
-                      'Hold briefly and drag the logo to the square',
+              ),
+            if (widget.previews != null)
+              Positioned(
+                top: widget.small ? 8 : 32,
+                bottom: widget.small ? 80 : 112,
+                left: widget.small ? 8 : 12,
+                right: widget.small ? 8 : 12,
+                child: widget.previews!,
+              ),
+            // Secret 3D wireframe cube portal target (no explanatory hints/text)
+            Positioned(
+              left: cubeCenter.dx - targetSize / 2,
+              top: cubeCenter.dy - targetSize / 2,
+              width: targetSize,
+              height: targetSize,
+              child: DragTarget<_LogoKey>(
+                key: const ValueKey('admin-logo-target'),
+                onWillAcceptWithDetails: (d) =>
+                    d.data == _LogoKey.yogen && !opening,
+                onAcceptWithDetails: (_) => open(),
+                builder: (c, candidates, _) {
+                  final ready = candidates.isNotEmpty || (selected && dragging);
+                  return Semantics(
+                    button: true,
+                    selected: selected,
+                    onTap: selected ? open : null,
+                    child: MouseRegion(
+                      cursor: ready || selected
+                          ? SystemMouseCursors.click
+                          : SystemMouseCursors.basic,
+                      child: GestureDetector(
+                        onTap: selected ? open : null,
+                        behavior: HitTestBehavior.translucent,
+                        child: AnimatedContainer(
+                          duration: const Duration(milliseconds: 200),
+                          curve: Curves.easeOutCubic,
+                          decoration: ready
+                              ? BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  gradient: RadialGradient(
+                                    colors: [
+                                      (dark
+                                              ? const Color(0xff0fc4ee)
+                                              : const Color(0xff146ff0))
+                                          .withValues(alpha: 0.38),
+                                      (dark
+                                              ? const Color(0xff146ff0)
+                                              : const Color(0xff1641a5))
+                                          .withValues(alpha: 0.16),
+                                      Colors.transparent,
+                                    ],
+                                    stops: const [0.0, 0.55, 1.0],
+                                  ),
+                                  border: Border.all(
+                                    color: (dark
+                                            ? const Color(0xff0fc4ee)
+                                            : const Color(0xff146ff0))
+                                        .withValues(alpha: 0.6),
+                                    width: 1.5,
+                                  ),
+                                  boxShadow: [
+                                    BoxShadow(
+                                      color: (dark
+                                              ? const Color(0xff0fc4ee)
+                                              : const Color(0xff146ff0))
+                                          .withValues(alpha: 0.35),
+                                      blurRadius: 28,
+                                      spreadRadius: 2,
+                                    ),
+                                  ],
+                                )
+                              : const BoxDecoration(
+                                  color: Colors.transparent,
+                                ),
+                        ),
+                      ),
                     ),
-              textAlign: TextAlign.center,
-              maxLines: 3,
-              style: TextStyle(
-                fontSize: widget.small ? 11 : 12,
-                color: colors.onSurfaceVariant,
+                  );
+                },
               ),
             ),
-          ),
-        ),
-      ],
+          ],
+        );
+      },
     );
   }
 }

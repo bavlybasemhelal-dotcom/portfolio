@@ -1,0 +1,58 @@
+{
+  "id": "P005",
+  "url": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f18082aaf0fd4e2ff320ea",
+  "snapshot": "- link \"Skip to content\":\n  - /url: \"#main\"\n  - text: Skip to content\n- banner:\n  - link \"Examples\":\n    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18\n    - generic: Examples\n  - generic: /\n  - button \"مكتب محامي - موقع حجز\" [disabled]:\n    - generic: مكتب محامي - موقع حجز\n  - button \"Close panel\":\n  - button:\n  - button \"Share site to socials\":\n  - button:\n  - button \"More actions\":\n  - button \"Get Notion free\"\n- main:\n  - img \"Page icon\"\n  - heading \"مكتب محامي - موقع حجز\" [level=1]\n  - table \"Page properties\":\n    - row \"Link\":\n      - cell \"Link\":\n        - generic: Link\n      - cell \"me-and-law.web.app\":\n        - link \"me-and-law.web.app\":\n          - /url: https://me-and-law.web.app/\n  - generic: موقع يجمع ما بين مكتب المحاماة والموكل\n  - blockquote:\n    - generic: لرؤية الموقع\n  - figure:\n    - link \"مكتب أنا والقانون وثغراته للمحاماة والاستشارات القانونية نخبه من المحامين المتخصصين فى جميع المجالات القانونية معاك فى اى وقت وفي كل مكان هنساعدك وهنقدملك الدعم والاستشارات والحلول اللي انت محتاجها في اسرع وقت https://me-and-law.web.app\":\n      - /url: https://me-and-law.web.app/\n      - generic: مكتب أنا والقانون وثغراته للمحاماة والاستشارات القانونية\n      - generic: نخبه من المحامين المتخصصين فى جميع المجالات القانونية معاك فى اى وقت وفي كل مكان هنساعدك وهنقدملك الدعم والاستشارات والحلول اللي انت محتاجها في اسرع وقت\n      - generic: https://me-and-law.web.app\n  - blockquote:\n    - generic: صور من داخل الموقع\n  - figure\n  - figure\n  - figure\n  - figure\n- region\n- status\n- alert\n- iframe",
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/webp",
+        "id": "18df7f1290e95fe3",
+        "kind": "image",
+        "name": "attachment%3Aff6fb57f-9077-4822-a92c-345cda545a5a%3AScreenshot_183.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/bc532055-e052-41cd-9e4c-a31c73fe9b32/18df7f1290e95fe3.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Aff6fb57f-9077-4822-a92c-345cda545a5a%3AScreenshot_183.png?table=block&id=3dcc5f5b-a7f1-8082-aaf0-fd4e2ff320ea&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "da1cd20942c52320",
+        "kind": "image",
+        "name": "attachment%3Ad2a8571d-7044-4b44-93f9-0a4b3132c87a%3AScreenshot_183.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/bc532055-e052-41cd-9e4c-a31c73fe9b32/da1cd20942c52320.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Ad2a8571d-7044-4b44-93f9-0a4b3132c87a%3AScreenshot_183.png?table=block&id=3dcc5f5b-a7f1-800a-a67c-d9fe16d12fce&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1250&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "a7610c4f476f3b24",
+        "kind": "image",
+        "name": "attachment%3A70b0f37e-2ab0-49c5-8779-56a90fd10ea6%3AScreenshot_186.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/bc532055-e052-41cd-9e4c-a31c73fe9b32/a7610c4f476f3b24.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A70b0f37e-2ab0-49c5-8779-56a90fd10ea6%3AScreenshot_186.png?table=block&id=3dcc5f5b-a7f1-80c5-9845-d2ea1e3ec246&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1250&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "80f61154c3a4835a",
+        "kind": "image",
+        "name": "attachment%3A10f45d20-865a-49af-8fc0-70cb70519063%3AScreenshot_184.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/bc532055-e052-41cd-9e4c-a31c73fe9b32/80f61154c3a4835a.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A10f45d20-865a-49af-8fc0-70cb70519063%3AScreenshot_184.png?table=block&id=3dcc5f5b-a7f1-80e1-88e6-fb6e57a156f8&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1250&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "953710f0e61b1476",
+        "kind": "image",
+        "name": "attachment%3Ae0247449-28d6-4f07-9124-10e31b9ad64d%3AScreenshot_185.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/bc532055-e052-41cd-9e4c-a31c73fe9b32/953710f0e61b1476.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Ae0247449-28d6-4f07-9124-10e31b9ad64d%3AScreenshot_185.png?table=block&id=3dcc5f5b-a7f1-8002-a7f5-d8666ef43d81&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1250&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      }
+    ],
+    "directoryPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/bc532055-e052-41cd-9e4c-a31c73fe9b32",
+    "failures": [],
+    "manifestPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/bc532055-e052-41cd-9e4c-a31c73fe9b32/manifest.json",
+    "summary": {
+      "downloadedCount": 5,
+      "elapsedMs": 962.8984000000056,
+      "failedCount": 0,
+      "requestedCount": 5
+    }
+  }
+}

@@ -1,0 +1,48 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "متجر الكتروني بسيط" [disabled]:
+    - generic: متجر الكتروني بسيط
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "متجر الكتروني بسيط" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "test-8e5e2.web.app":
+        - link "test-8e5e2.web.app":
+          - /url: https://test-8e5e2.web.app/
+  - generic: موقع يجمع ما بين العميل والتاجر في مكان واحد
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "X FRAME | SEE BEYOND. | براويز خشبية فاخرة وهدايا استثنائية https://test-8e5e2.web.app":
+      - /url: https://test-8e5e2.web.app/
+      - generic: X FRAME | SEE BEYOND. | براويز خشبية فاخرة وهدايا استثنائية
+      - generic: https://test-8e5e2.web.app
+  - blockquote:
+    - generic: صور من داخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

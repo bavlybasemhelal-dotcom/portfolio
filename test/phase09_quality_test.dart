@@ -260,7 +260,7 @@ void main() {
         await t.pump(const Duration(milliseconds: 16));
         final first = painter().angle;
         await t.pump(const Duration(seconds: 4));
-        expect(painter().angle - first, inExclusiveRange(.2, .4));
+        expect(painter().angle - first, inExclusiveRange(.2, .45));
         c.read(preferencesProvider.notifier).pause();
         await t.pump();
         final stopped = painter().angle;

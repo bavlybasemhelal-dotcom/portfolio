@@ -1,0 +1,53 @@
+{
+  "assets": [
+    {
+      "contentType": "image/png",
+      "id": "3f2ece44d8943c1e",
+      "kind": "image",
+      "name": "mockup.png",
+      "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/8533b5fc-6636-4447-9c5a-9e7446a4a95f/3f2ece44d8943c1e.png",
+      "url": "https://dr-sales-activation.web.app/images/mockup.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "cf5a479bfd9720dc",
+      "kind": "image",
+      "name": "mobile_mockup.png",
+      "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/8533b5fc-6636-4447-9c5a-9e7446a4a95f/cf5a479bfd9720dc.png",
+      "url": "https://dr-sales-activation.web.app/images/mobile_mockup.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "73af63ec720d8969",
+      "kind": "image",
+      "name": "login.png",
+      "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/8533b5fc-6636-4447-9c5a-9e7446a4a95f/73af63ec720d8969.png",
+      "url": "https://dr-sales-activation.web.app/images/login.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "917100d8c1c7d55b",
+      "kind": "image",
+      "name": "dashboard.png",
+      "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/8533b5fc-6636-4447-9c5a-9e7446a4a95f/917100d8c1c7d55b.png",
+      "url": "https://dr-sales-activation.web.app/images/dashboard.png"
+    },
+    {
+      "contentType": "image/png",
+      "id": "b1e4ebdbf2c2374f",
+      "kind": "image",
+      "name": "cashier.png",
+      "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/8533b5fc-6636-4447-9c5a-9e7446a4a95f/b1e4ebdbf2c2374f.png",
+      "url": "https://dr-sales-activation.web.app/images/cashier.png"
+    }
+  ],
+  "directoryPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/8533b5fc-6636-4447-9c5a-9e7446a4a95f",
+  "failures": [],
+  "manifestPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/8533b5fc-6636-4447-9c5a-9e7446a4a95f/manifest.json",
+  "summary": {
+    "downloadedCount": 5,
+    "elapsedMs": 425.2347999999766,
+    "failedCount": 0,
+    "requestedCount": 5
+  }
+}

@@ -1,0 +1,49 @@
+- banner:
+  - img "YOGEN"
+- button "Change theme"
+- button "العربية"
+- button "Account settings"
+- button "Overview"
+- button "Projects"
+- button "Client requests"
+- button "My account"
+- button "Storage and media"
+- button "Categories"
+- button "Public team profiles"
+- button "Company and contact"
+- button "Access accounts"
+- button "Visit website"
+- generic: YOGEN / Team workspace
+- generic: Project editor
+- generic: yogen-p002
+- button "All projects"
+- generic: "Last confirmed save: 2026-10-13 12:32:16.048"
+- checkbox "AR · 4 / 4 basics"
+- checkbox "EN · 4 / 4 basics"
+- button "Save draft"
+- button "Preview"
+- button "Publish"
+- checkbox "Basics" [checked]
+- checkbox "Details"
+- checkbox "Media"
+- checkbox "Team and technology"
+- checkbox "Links"
+- checkbox "Publication"
+- button "العربية"
+- button "English"
+- textbox "Project title · EN"
+- generic: 29,964 characters remaining
+- textbox "Short summary · EN"
+- generic: 29,879 characters remaining
+- textbox "Stable URL name"
+- generic: 67 characters remaining
+- button "Category Healthcare"
+- textbox "Year (optional)"
+- generic: 4 characters remaining
+- textbox "Display order"
+- generic: 6 characters remaining
+- button "Save draft"
+- button "Preview"
+- button "Publish"
+- button "Pause motion"
+- checkbox "Reduce motion"

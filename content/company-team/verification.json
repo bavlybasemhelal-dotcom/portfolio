@@ -1,0 +1,19 @@
+{
+  "membersVerified": 3,
+  "allBilingualProfilesAndContactsMatch": true,
+  "photosVerifiedBeforePublication": 3,
+  "checks": [
+    {
+      "id": "george-mounir",
+      "matches": true
+    },
+    {
+      "id": "youssab-wagdy",
+      "matches": true
+    },
+    {
+      "id": "bavly-basem",
+      "matches": true
+    }
+  ]
+}

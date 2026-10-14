@@ -1,0 +1,51 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "برنامج مدارس الأحد/ مدرسة الشمامسة" [disabled]:
+    - generic: برنامج مدارس الأحد/ مدرسة الشمامسة
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "برنامج مدارس الأحد/ مدرسة الشمامسة" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "uuwagdy.github.io/Sun…School":
+        - link "uuwagdy.github.io/Sun…School":
+          - /url: https://uuwagdy.github.io/Sunday_School
+  - generic: برنامج يقوم بتنظيم مدارس الأحد ومدرسة الشمامسة والافتقاد بكل ما فيهم
+  - blockquote:
+    - generic: لرؤية موقع البرنامج
+  - figure:
+    - link "برنامج مدارس الأحد | النظام المتكامل للخدمة الموقع الرسمي والتعريفي لبرنامج مدارس الأحد - النظام المتكامل لرصد الحضور، الغياب، السلوك، الطايو، وتصميم الكارنيهات. https://uuwagdy.github.io/Sunday_School":
+      - /url: https://uuwagdy.github.io/Sunday_School
+      - generic: برنامج مدارس الأحد | النظام المتكامل للخدمة
+      - generic: الموقع الرسمي والتعريفي لبرنامج مدارس الأحد - النظام المتكامل لرصد الحضور، الغياب، السلوك، الطايو، وتصميم الكارنيهات.
+      - generic: https://uuwagdy.github.io/Sunday_School
+  - blockquote:
+    - generic: صور من داخل البرنامج
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

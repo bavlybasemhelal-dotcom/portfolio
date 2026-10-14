@@ -1,0 +1,31 @@
+- link "تخطي إلى المحتوى":
+  - /url: "#main"
+  - text: تخطي إلى المحتوى
+- banner
+- main:
+  - img "أيقونة الصفحة"
+  - heading "معمل اسنان - موقع حجز" [level=1]
+  - table "خصائص الصفحة":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "quality-dental-lab.web.app":
+        - link "quality-dental-lab.web.app":
+          - /url: https://quality-dental-lab.web.app/
+  - generic: موقع يجمع ما بين طبيب الأسنان ومعمل الأسنان لطلب ما يحتاجه من تركيبات
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "Quality Dental Lab - Home Quality is a full-service lab. Everyone here at Quality is always happy to assist you in any case, and always happy to answer any questions. Here at Quality we build relationships with all clients and are just a call away. We take pride in what we do and that why we want you to join us. Take the opportunity to make your business grow, try Quality Lab. Doesn’t hurt to try! https://quality-dental-lab.web.app/":
+      - /url: https://quality-dental-lab.web.app/
+      - generic: Quality Dental Lab - Home
+      - generic: Quality is a full-service lab. Everyone here at Quality is always happy to assist you in any case, and always happy to answer any questions. Here at Quality we build relationships with all clients and are just a call away. We take pride in what we do and that why we want you to join us. Take the opportunity to make your business grow, try Quality Lab. Doesn’t hurt to try!
+      - generic: https://quality-dental-lab.web.app/
+  - blockquote:
+    - generic: صور بداخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+- status
+- alert

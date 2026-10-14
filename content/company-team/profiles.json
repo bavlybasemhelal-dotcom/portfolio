@@ -1,0 +1,116 @@
+{
+  "site": "yogen",
+  "members": [
+    {
+      "id": "george-mounir",
+      "source": "م. جورج منير.jpg",
+      "phone": "01276169360",
+      "name": {
+        "ar": "م. جورج منير",
+        "en": "Eng. George Mounir"
+      },
+      "role": {
+        "ar": "مهندس تطبيقات سطح المكتب — C# · WPF · .NET",
+        "en": "Desktop Software Engineer — C# · WPF · .NET"
+      },
+      "bio": {
+        "ar": "متخصص في تطوير تطبيقات سطح المكتب باستخدام C# وWPF ومنظومة .NET. يجمع دوره بين بناء واجهات الاستخدام وتطوير وظائف التطبيقات لخدمة احتياجات الأعمال.",
+        "en": "Specializes in desktop application development with C#, WPF and .NET. His work connects user interfaces with application functionality to support business needs."
+      },
+      "order": 0,
+      "links": [
+        {
+          "url": "https://wa.me/201276169360",
+          "labelAr": "واتساب: 01276169360",
+          "labelEn": "WhatsApp: 01276169360"
+        }
+      ],
+      "media": {
+        "file": "images/george-mounir.jpg",
+        "sha256": "cdc2b8d02e0709c580732d62ff02c8d6047cf87d4a8fb0b76773c3ae7c196850",
+        "bytes": 192569,
+        "sourceSha256": "71cf2d72e403226850d1d14d5aea7b6fa9186a88781f6285da1bd73f1d4e1bb1",
+        "alt": {
+          "ar": "صورة م. جورج منير",
+          "en": "Portrait of Eng. George Mounir"
+        },
+        "publishedAssetId": "m_f0595002cb95bda311696c8a3613150dc70e64c41cb69da3ed4c2cad5ebe3166",
+        "publicUrl": "https://portfolio-14d15.web.app/project-media/cdc2b8d02e0709c580732d62ff02c8d6047cf87d4a8fb0b76773c3ae7c196850.jpg"
+      }
+    },
+    {
+      "id": "youssab-wagdy",
+      "source": "م. يوساب وجدي.png",
+      "phone": "01036976446",
+      "name": {
+        "ar": "م. يوساب وجدي",
+        "en": "Eng. Youssab Wagdy"
+      },
+      "role": {
+        "ar": "مهندس تطبيقات وخدمات خلفية — Flutter · Node.js",
+        "en": "App & Backend Engineer — Flutter · Node.js"
+      },
+      "bio": {
+        "ar": "يطوّر تطبيقات متعددة المنصات باستخدام Flutter وخدمات خلفية باستخدام Node.js. يجمع دوره بين تجربة الاستخدام وربط التطبيقات بالبيانات والخدمات.",
+        "en": "Develops cross-platform applications with Flutter and backend services with Node.js. His work connects the user experience with application data and services."
+      },
+      "order": 1,
+      "links": [
+        {
+          "url": "https://wa.me/201036976446",
+          "labelAr": "واتساب: 01036976446",
+          "labelEn": "WhatsApp: 01036976446"
+        }
+      ],
+      "media": {
+        "file": "images/youssab-wagdy.jpg",
+        "sha256": "5db02ecb050da3972927402d588bce7dea13426b775b123ddbff25e3c7541136",
+        "bytes": 192224,
+        "sourceSha256": "1ba7be601f9b8139082bea6b3111d8abf744c5ebef251743bffedf58c136728b",
+        "alt": {
+          "ar": "صورة م. يوساب وجدي",
+          "en": "Portrait of Eng. Youssab Wagdy"
+        },
+        "publishedAssetId": "m_c5afd59f7b7282e75632b6d2925f6d6cccb3bfda77e6a913eafec96776278236",
+        "publicUrl": "https://portfolio-14d15.web.app/project-media/5db02ecb050da3972927402d588bce7dea13426b775b123ddbff25e3c7541136.jpg"
+      }
+    },
+    {
+      "id": "bavly-basem",
+      "source": "م. بافلي باسم.png",
+      "phone": "01227232991",
+      "name": {
+        "ar": "م. بافلي باسم",
+        "en": "Eng. Bavly Basem"
+      },
+      "role": {
+        "ar": "مهندس تطبيقات وخدمات خلفية — Flutter · Node.js",
+        "en": "App & Backend Engineer — Flutter · Node.js"
+      },
+      "bio": {
+        "ar": "يعمل على تطوير واجهات التطبيقات بـFlutter وخدمات النظام بـNode.js. يساهم في تحويل متطلبات الأعمال إلى وظائف واضحة وتكامل بين التطبيق والخادم.",
+        "en": "Builds application interfaces with Flutter and system services with Node.js. He helps translate business requirements into clear functionality and integrated app-to-server workflows."
+      },
+      "order": 2,
+      "links": [
+        {
+          "url": "https://wa.me/201227232991",
+          "labelAr": "واتساب: 01227232991",
+          "labelEn": "WhatsApp: 01227232991"
+        }
+      ],
+      "media": {
+        "file": "images/bavly-basem.jpg",
+        "sha256": "d775788f3eab77b901fff0673bdcc3226266fb00a9fc1a9373875f37ecb7245a",
+        "bytes": 196767,
+        "sourceSha256": "e9e32b6265ee6f2ae3eeccd86b623aed4c058dbbfb32e036fa906cb6d0d7354e",
+        "alt": {
+          "ar": "صورة م. بافلي باسم",
+          "en": "Portrait of Eng. Bavly Basem"
+        },
+        "publishedAssetId": "m_4895061eaf376f26a2412ccf0f534214b68cabbd3a2ae3662625bf6aacfcc8e3",
+        "publicUrl": "https://portfolio-14d15.web.app/project-media/d775788f3eab77b901fff0673bdcc3226266fb00a9fc1a9373875f37ecb7245a.jpg"
+      }
+    }
+  ]
+}

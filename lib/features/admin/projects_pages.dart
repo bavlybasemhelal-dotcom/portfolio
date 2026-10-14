@@ -514,6 +514,18 @@ class _AdminProjectsPageState extends ConsumerState<AdminProjectsPage> {
                                           endpoint: endpoint,
                                           site: activeSite,
                                           assetId: d.content.mediaIds.first,
+                                          publicUrl:
+                                              media
+                                                      .firstWhere(
+                                                        (m) =>
+                                                            m.id ==
+                                                            d
+                                                                .content
+                                                                .mediaIds
+                                                                .first,
+                                                      )
+                                                      .public['publicUrl']
+                                                  as String?,
                                           alt: localized(
                                             media
                                                 .firstWhere(

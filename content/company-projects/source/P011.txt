@@ -1,0 +1,45 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "موقع لكنيسة" [disabled]:
+    - generic: موقع لكنيسة
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "موقع لكنيسة" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "mar-markos-anba-beshoy.web.app":
+        - link "mar-markos-anba-beshoy.web.app":
+          - /url: https://mar-markos-anba-beshoy.web.app/
+  - generic: موقع يعرض جميع الأنشطة والقداسات والخدمات الخاصة بالكنيسة
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "كنيسة مارمرقس والأنبا بيشوي - مدينة ناصر الموقع الرسمي لكنيسة القديس مارمرقس الرسول والأنبا بيشوي بمدينة ناصر. تابع مواعيد القداسات، العظات الروحية، الألبومات، وخدمات الكنيسة المختلفة. https://mar-markos-anba-beshoy.web.app":
+      - /url: https://mar-markos-anba-beshoy.web.app/
+      - generic: كنيسة مارمرقس والأنبا بيشوي - مدينة ناصر
+      - generic: الموقع الرسمي لكنيسة القديس مارمرقس الرسول والأنبا بيشوي بمدينة ناصر. تابع مواعيد القداسات، العظات الروحية، الألبومات، وخدمات الكنيسة المختلفة.
+      - generic: https://mar-markos-anba-beshoy.web.app
+  - blockquote:
+    - generic: صور من داخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

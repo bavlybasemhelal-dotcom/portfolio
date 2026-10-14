@@ -56,26 +56,46 @@ class PublicMessage extends StatelessWidget {
     this.action,
   });
   @override
-  Widget build(BuildContext c) => Container(
-    width: double.infinity,
-    padding: const EdgeInsets.all(32),
-    decoration: BoxDecoration(
-      color: Theme.of(c).colorScheme.surface,
-      borderRadius: BorderRadius.circular(20),
-      border: Border.all(color: Theme.of(c).colorScheme.outlineVariant),
-    ),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Icon(icon, size: 32, color: Theme.of(c).colorScheme.primary),
-        const SizedBox(height: 20),
-        Text(title, style: Theme.of(c).textTheme.headlineSmall),
-        const SizedBox(height: 12),
-        Text(description),
-        if (action != null) ...[const SizedBox(height: 20), action!],
-      ],
-    ),
-  );
+  Widget build(BuildContext c) {
+    final dark = Theme.of(c).brightness == Brightness.dark;
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(32),
+      decoration: BoxDecoration(
+        color: Theme.of(
+          c,
+        ).colorScheme.surface.withValues(alpha: dark ? 0.75 : 0.88),
+        borderRadius: BorderRadius.circular(22),
+        border: Border.all(
+          color:
+              (dark
+                      ? const Color(0xff12c6eb)
+                      : Theme.of(c).colorScheme.outlineVariant)
+                  .withValues(alpha: dark ? 0.22 : 0.6),
+        ),
+        boxShadow: [
+          BoxShadow(
+            color: dark
+                ? Colors.black.withValues(alpha: 0.35)
+                : Colors.black.withValues(alpha: 0.05),
+            blurRadius: 24,
+            offset: const Offset(0, 8),
+          ),
+        ],
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Icon(icon, size: 32, color: Theme.of(c).colorScheme.primary),
+          const SizedBox(height: 20),
+          Text(title, style: Theme.of(c).textTheme.headlineSmall),
+          const SizedBox(height: 12),
+          Text(description),
+          if (action != null) ...[const SizedBox(height: 20), action!],
+        ],
+      ),
+    );
+  }
 }
 
 class ProjectCover extends ConsumerWidget {
@@ -116,6 +136,12 @@ class ProjectCover extends ConsumerWidget {
         site: activeSite,
         assetId: asset['id'] as String,
         alt: asset['alt'][Localizations.localeOf(c).languageCode] as String,
+        publicUrl: asset['publicUrl'] as String?,
+        publicFileId:
+            thumbnail &&
+                (asset['thumbnailDriveFileId'] as String? ?? '').isNotEmpty
+            ? asset['thumbnailDriveFileId'] as String
+            : asset['driveFileId'] as String?,
         thumbnail:
             thumbnail &&
             (asset['thumbnailDriveFileId'] as String? ?? '').isNotEmpty,
@@ -169,24 +195,37 @@ class _ProjectCardState extends ConsumerState<ProjectCard> {
               transform: matrix,
               transformAlignment: Alignment.center,
               decoration: BoxDecoration(
-                color: Theme.of(c).colorScheme.surface,
-                borderRadius: BorderRadius.circular(20),
+                color: Theme.of(c).colorScheme.surface.withValues(
+                  alpha: Theme.of(c).brightness == Brightness.dark
+                      ? 0.78
+                      : 0.90,
+                ),
+                borderRadius: BorderRadius.circular(22),
                 border: Border.all(
                   color: active
-                      ? Theme.of(c).colorScheme.primary
-                      : Theme.of(c).colorScheme.outlineVariant,
+                      ? (Theme.of(c).brightness == Brightness.dark
+                            ? const Color(0xff12c6eb)
+                            : Theme.of(c).colorScheme.primary)
+                      : (Theme.of(c).brightness == Brightness.dark
+                            ? const Color(0xff12c6eb).withValues(alpha: 0.16)
+                            : Theme.of(c).colorScheme.outlineVariant),
+                  width: active ? 1.8 : 1.0,
                 ),
-                boxShadow: active
-                    ? [
-                        BoxShadow(
-                          color: Theme.of(
-                            c,
-                          ).colorScheme.primary.withValues(alpha: .13),
-                          blurRadius: 32,
-                          offset: const Offset(0, 12),
-                        ),
-                      ]
-                    : [],
+                boxShadow: [
+                  BoxShadow(
+                    color: active
+                        ? (Theme.of(c).brightness == Brightness.dark
+                              ? const Color(0xff12c6eb).withValues(alpha: 0.22)
+                              : Theme.of(
+                                  c,
+                                ).colorScheme.primary.withValues(alpha: 0.20))
+                        : (Theme.of(c).brightness == Brightness.dark
+                              ? Colors.black.withValues(alpha: 0.35)
+                              : Colors.black.withValues(alpha: 0.05)),
+                    blurRadius: active ? 36 : 20,
+                    offset: Offset(0, active ? 14 : 6),
+                  ),
+                ],
               ),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
@@ -317,6 +356,7 @@ class _ProjectGalleryState extends ConsumerState<ProjectGallery> {
                     endpoint: widget.endpoint,
                     site: activeSite,
                     assetId: asset['id'] as String,
+                    publicUrl: asset['publicUrl'] as String?,
                     alt:
                         asset['alt'][Localizations.localeOf(c).languageCode]
                             as String,
@@ -418,6 +458,7 @@ class _GalleryDialogState extends ConsumerState<GalleryDialog> {
                         endpoint: widget.endpoint,
                         site: activeSite,
                         assetId: asset['id'] as String,
+                        publicUrl: asset['publicUrl'] as String?,
                         alt: alt,
                         height: height,
                       ),

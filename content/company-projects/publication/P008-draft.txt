@@ -1,0 +1,41 @@
+- banner:
+  - img "YOGEN"
+- button "Change theme"
+- button "العربية"
+- button "Account settings"
+- button "Overview"
+- button "Projects"
+- button "Client requests"
+- button "My account"
+- button "Storage and media"
+- button "Categories"
+- button "Public team profiles"
+- button "Company and contact"
+- button "Access accounts"
+- button "Visit website"
+- generic: YOGEN / Team workspace
+- generic: Project editor
+- generic: yogen-p008
+- button "All projects"
+- generic: "Last confirmed save: 2026-10-13 12:43:15.471"
+- checkbox "AR · 4 / 4 basics"
+- checkbox "EN · 4 / 4 basics"
+- button "Save draft"
+- button "Preview"
+- button "Publish"
+- checkbox "Basics"
+- checkbox "Details"
+- checkbox "Media"
+- checkbox "Team and technology"
+- checkbox "Links"
+- checkbox "Publication" [checked] [active]
+- button "Usage Demo"
+- button "Attribution YOGEN work"
+- textbox "Internal notes — hidden from visitors"
+- generic: 9,816 characters remaining
+- generic: The URL name is fixed after first publication. Sharing content uses the title, summary and cover.
+- button "Save draft"
+- button "Preview"
+- button "Publish"
+- button "Pause motion"
+- checkbox "Reduce motion"

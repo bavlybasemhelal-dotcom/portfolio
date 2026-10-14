@@ -1,0 +1,38 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner
+- main:
+  - img "Page icon"
+  - heading "برنامج إدارة مدرسة" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "uuwagdy.github.io/School":
+        - link "uuwagdy.github.io/School":
+          - /url: https://uuwagdy.github.io/School
+  - generic: برنامج متكامل لإدارة الحضور والانصراف وطباعة كروت انصراف للأولاد وكارنيهات لكل منهم
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "نظام جيمس الأمريكي لإدارة المدارس والحضور والانصراف | James American School System نظام Windows Desktop عربي متكامل لإدارة الحضور والانصراف، النقل المدرسي والأتوبيسات، وطباعة الكارنيهات والتذاكر الحرارية الذكية بدون إنترنت. https://uuwagdy.github.io/School":
+      - /url: https://uuwagdy.github.io/School
+      - generic: نظام جيمس الأمريكي لإدارة المدارس والحضور والانصراف | James American School System
+      - generic: نظام Windows Desktop عربي متكامل لإدارة الحضور والانصراف، النقل المدرسي والأتوبيسات، وطباعة الكارنيهات والتذاكر الحرارية الذكية بدون إنترنت.
+      - generic: https://uuwagdy.github.io/School
+  - blockquote:
+    - generic: صور من داخل البرنامج
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- status
+- alert
+- iframe

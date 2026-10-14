@@ -1,0 +1,493 @@
+{
+  "site": "yogen",
+  "status": "published",
+  "publishedProjectIds": [
+    "yogen-p001",
+    "yogen-p002",
+    "yogen-p003",
+    "yogen-p004",
+    "yogen-p005",
+    "yogen-p006",
+    "yogen-p007",
+    "yogen-p008",
+    "yogen-p009",
+    "yogen-p010",
+    "yogen-p011",
+    "yogen-p012",
+    "yogen-p013",
+    "yogen-p014",
+    "yogen-p015"
+  ],
+  "categoriesSaved": [
+    "business",
+    "healthcare",
+    "education",
+    "commerce",
+    "websites",
+    "community",
+    "games"
+  ],
+  "draftContentCompleted": [
+    "yogen-p001",
+    "yogen-p002",
+    "yogen-p003",
+    "yogen-p004",
+    "yogen-p005",
+    "yogen-p006",
+    "yogen-p007",
+    "yogen-p008",
+    "yogen-p009",
+    "yogen-p010",
+    "yogen-p011",
+    "yogen-p012",
+    "yogen-p013",
+    "yogen-p014",
+    "yogen-p015"
+  ],
+  "mediaUploaded": [
+    {
+      "key": "yogen-p001:images/dr-sales/cover.jpg",
+      "projectId": "yogen-p001",
+      "file": "images/dr-sales/cover.jpg",
+      "alt": {
+        "ar": "لوحة التحكم الرئيسية",
+        "en": "Main dashboard"
+      },
+      "sha256": "7f65c8de3acc7dc2fcfca6970c9af4dd7e5dbbb2db234e8ac1148c848bac1e8d"
+    },
+    {
+      "key": "yogen-p001:images/dr-sales/gallery-01.jpg",
+      "projectId": "yogen-p001",
+      "file": "images/dr-sales/gallery-01.jpg",
+      "alt": {
+        "ar": "واجهة نقطة البيع والكاشير",
+        "en": "Point of sale and cashier interface"
+      },
+      "sha256": "9fd3554dd08e2dfcede14c2ba1ae9199866d1e04a3ebf16fec0f6d38e6233a8b"
+    },
+    {
+      "key": "yogen-p002:images/nexara-clinic/cover.jpg",
+      "projectId": "yogen-p002",
+      "file": "images/nexara-clinic/cover.jpg",
+      "alt": {
+        "ar": "الصفحة الرئيسية لعيادة الطبيب",
+        "en": "Clinic website homepage"
+      },
+      "sha256": "e38cb75452a887258254a9b12c30a4fb0801c97b892bc3aac4191c46f1c1905c"
+    },
+    {
+      "key": "yogen-p002:images/nexara-clinic/gallery-01.jpg",
+      "projectId": "yogen-p002",
+      "file": "images/nexara-clinic/gallery-01.jpg",
+      "alt": {
+        "ar": "اختيار موعد حجز متاح",
+        "en": "Available appointment selection"
+      },
+      "sha256": "ebb30b9a7bd2dd3abbd8e361c20f1e67a96755a572e60a461e45e23f404295e3"
+    },
+    {
+      "key": "yogen-p003:images/james-school-system/cover.jpg",
+      "projectId": "yogen-p003",
+      "file": "images/james-school-system/cover.jpg",
+      "alt": {
+        "ar": "لوحة إدارة المدرسة",
+        "en": "School management dashboard"
+      },
+      "sha256": "6ce397af16406628893d72aefd947c3c956d82f0ef9c06edbcfd857560d1cf07"
+    },
+    {
+      "key": "yogen-p003:images/james-school-system/gallery-01.jpg",
+      "projectId": "yogen-p003",
+      "file": "images/james-school-system/gallery-01.jpg",
+      "alt": {
+        "ar": "واجهة بدء تشغيل النظام المدرسي",
+        "en": "School application start screen"
+      },
+      "sha256": "e45e41186c7163e37b9384eb91d225230036d3a80c75c631c6ce37439679c7be"
+    },
+    {
+      "key": "yogen-p004:images/quality-dental-lab/cover.jpg",
+      "projectId": "yogen-p004",
+      "file": "images/quality-dental-lab/cover.jpg",
+      "alt": {
+        "ar": "الصفحة الرئيسية لمعمل الأسنان",
+        "en": "Dental laboratory homepage"
+      },
+      "sha256": "0d419d9bf631bc5c923790c6182d28397335da23d6bdc39c0ac0ef764d3a2c2a"
+    },
+    {
+      "key": "yogen-p004:images/quality-dental-lab/gallery-01.jpg",
+      "projectId": "yogen-p004",
+      "file": "images/quality-dental-lab/gallery-01.jpg",
+      "alt": {
+        "ar": "قائمة المنتجات والخدمات",
+        "en": "Products and services catalogue"
+      },
+      "sha256": "cccd470961cc6ee55b27d2149d68b1b198be16afc16a76fe05645f075139349a"
+    }
+  ],
+  "classification": "User confirmed a mix of real projects and demos; per-project classification pending.",
+  "extensionPermissionApproved": true,
+  "manualPermissionEnablePending": false,
+  "publicProjectCountVerified": 0,
+  "draftsServerConfirmed": 15,
+  "publicReadback": {
+    "checkedAt": "2026-10-13T14:36:30.391470+00:00",
+    "expectedProjects": 15,
+    "publishedProjects": 15,
+    "publishedImages": 31,
+    "allPublishedContentMatches": true,
+    "complete": true,
+    "projects": [
+      {
+        "projectId": "yogen-p001",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 19
+      },
+      {
+        "projectId": "yogen-p002",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 17
+      },
+      {
+        "projectId": "yogen-p003",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 17
+      },
+      {
+        "projectId": "yogen-p004",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 16
+      },
+      {
+        "projectId": "yogen-p005",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p006",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p007",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p008",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p009",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 1,
+        "revision": 23
+      },
+      {
+        "projectId": "yogen-p010",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 3,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p011",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p012",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 3,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p013",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 1,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p014",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p015",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 3,
+        "revision": 16
+      }
+    ]
+  },
+  "publicationMethod": "Firebase owner import with verified Hosting images",
+  "hostedImagesPublished": [
+    {
+      "projectId": "yogen-p001",
+      "file": "images/dr-sales/cover.jpg",
+      "sha256": "7f65c8de3acc7dc2fcfca6970c9af4dd7e5dbbb2db234e8ac1148c848bac1e8d",
+      "id": "m_2638caa9d7a35cda01bcd14d19edc7bea1100abc129256f11dcc1cdfd6b921eb",
+      "url": "https://portfolio-14d15.web.app/project-media/7f65c8de3acc7dc2fcfca6970c9af4dd7e5dbbb2db234e8ac1148c848bac1e8d.jpg"
+    },
+    {
+      "projectId": "yogen-p001",
+      "file": "images/dr-sales/gallery-01.jpg",
+      "sha256": "9fd3554dd08e2dfcede14c2ba1ae9199866d1e04a3ebf16fec0f6d38e6233a8b",
+      "id": "m_be49dec0eff4b5ae8f6207a65df4b9768e73e401e05e6a0e5e8853ec05c37b7d",
+      "url": "https://portfolio-14d15.web.app/project-media/9fd3554dd08e2dfcede14c2ba1ae9199866d1e04a3ebf16fec0f6d38e6233a8b.jpg"
+    },
+    {
+      "projectId": "yogen-p002",
+      "file": "images/nexara-clinic/cover.jpg",
+      "sha256": "e38cb75452a887258254a9b12c30a4fb0801c97b892bc3aac4191c46f1c1905c",
+      "id": "m_96d59ae71f308596c7ca174e6ab87e1e9ac114e7969e1534913aa1da94e5a214",
+      "url": "https://portfolio-14d15.web.app/project-media/e38cb75452a887258254a9b12c30a4fb0801c97b892bc3aac4191c46f1c1905c.jpg"
+    },
+    {
+      "projectId": "yogen-p002",
+      "file": "images/nexara-clinic/gallery-01.jpg",
+      "sha256": "ebb30b9a7bd2dd3abbd8e361c20f1e67a96755a572e60a461e45e23f404295e3",
+      "id": "m_2b5471c80ca7db5d1895d8bf68d0ab748c2de947b9cea75684c59bc4f9453794",
+      "url": "https://portfolio-14d15.web.app/project-media/ebb30b9a7bd2dd3abbd8e361c20f1e67a96755a572e60a461e45e23f404295e3.jpg"
+    },
+    {
+      "projectId": "yogen-p003",
+      "file": "images/james-school-system/cover.jpg",
+      "sha256": "6ce397af16406628893d72aefd947c3c956d82f0ef9c06edbcfd857560d1cf07",
+      "id": "m_24312cd1afe3498b937e32845f8e2ae8896a634ef9d17722755ae015f0744854",
+      "url": "https://portfolio-14d15.web.app/project-media/6ce397af16406628893d72aefd947c3c956d82f0ef9c06edbcfd857560d1cf07.jpg"
+    },
+    {
+      "projectId": "yogen-p003",
+      "file": "images/james-school-system/gallery-01.jpg",
+      "sha256": "e45e41186c7163e37b9384eb91d225230036d3a80c75c631c6ce37439679c7be",
+      "id": "m_4c78f23f42152573b16e9fbcbb3c8e08a5b4b1ebe36f37425988ae011e081279",
+      "url": "https://portfolio-14d15.web.app/project-media/e45e41186c7163e37b9384eb91d225230036d3a80c75c631c6ce37439679c7be.jpg"
+    },
+    {
+      "projectId": "yogen-p004",
+      "file": "images/quality-dental-lab/cover.jpg",
+      "sha256": "0d419d9bf631bc5c923790c6182d28397335da23d6bdc39c0ac0ef764d3a2c2a",
+      "id": "m_5215af1803455a231a4e5c85dd33e6249c361a5cf7328de7cd685fc3d24d092d",
+      "url": "https://portfolio-14d15.web.app/project-media/0d419d9bf631bc5c923790c6182d28397335da23d6bdc39c0ac0ef764d3a2c2a.jpg"
+    },
+    {
+      "projectId": "yogen-p004",
+      "file": "images/quality-dental-lab/gallery-01.jpg",
+      "sha256": "cccd470961cc6ee55b27d2149d68b1b198be16afc16a76fe05645f075139349a",
+      "id": "m_a6091cd1b3a9d56f09292615d2a98d9095a8db766455e97bf181308cc25c500f",
+      "url": "https://portfolio-14d15.web.app/project-media/cccd470961cc6ee55b27d2149d68b1b198be16afc16a76fe05645f075139349a.jpg"
+    },
+    {
+      "projectId": "yogen-p005",
+      "file": "images/me-and-law/cover.jpg",
+      "sha256": "f097971c7368084ba65ea0baec0998095f8a08a730e94b7691cd7df511181605",
+      "id": "m_63639c21b02be93bd0bb8f999f858009b988b067aa4fa3c5e5bb9d5b985f48a4",
+      "url": "https://portfolio-14d15.web.app/project-media/f097971c7368084ba65ea0baec0998095f8a08a730e94b7691cd7df511181605.jpg"
+    },
+    {
+      "projectId": "yogen-p005",
+      "file": "images/me-and-law/gallery-01.jpg",
+      "sha256": "22b6342346fa67134ce193c098ea18706e8c450b1c3975ad1753b0e29875b913",
+      "id": "m_3ed958bfcd92a8f911f28371025d34387480f44bcc3ff0d077b10736ff52a219",
+      "url": "https://portfolio-14d15.web.app/project-media/22b6342346fa67134ce193c098ea18706e8c450b1c3975ad1753b0e29875b913.jpg"
+    },
+    {
+      "projectId": "yogen-p006",
+      "file": "images/x-frame-store/cover.jpg",
+      "sha256": "f77492e2732a5aa9159041c001cb9d90298041437b32e15145fea8623b5eb524",
+      "id": "m_9d9b675d4e3ed0ffddf0221735ba13e189703dbcb784b2dbce057ca7fe5114d9",
+      "url": "https://portfolio-14d15.web.app/project-media/f77492e2732a5aa9159041c001cb9d90298041437b32e15145fea8623b5eb524.jpg"
+    },
+    {
+      "projectId": "yogen-p006",
+      "file": "images/x-frame-store/gallery-01.jpg",
+      "sha256": "e712811b1adb52d35d513130b907d74f05f0bdd8f07cd47044965a7a796bb22e",
+      "id": "m_c1a2d797b867638d632f559e74191be16cd96f20dac8d86c2ed30b5ed080b074",
+      "url": "https://portfolio-14d15.web.app/project-media/e712811b1adb52d35d513130b907d74f05f0bdd8f07cd47044965a7a796bb22e.jpg"
+    },
+    {
+      "projectId": "yogen-p007",
+      "file": "images/youssab-wagdy-portfolio/cover.jpg",
+      "sha256": "e3625effa44d73747cfb78a96552f427f94741112a704e1d381547d0030aefe2",
+      "id": "m_9e013f5278948eb180e094104fe24aba6aa8a3cbfc3c2ef7a1cbdddb63bc51d2",
+      "url": "https://portfolio-14d15.web.app/project-media/e3625effa44d73747cfb78a96552f427f94741112a704e1d381547d0030aefe2.jpg"
+    },
+    {
+      "projectId": "yogen-p007",
+      "file": "images/youssab-wagdy-portfolio/gallery-01.jpg",
+      "sha256": "9c6e07434f3ed54deb3fedfb0f899b99b34cd3424d5f933bbf49ccbf4f72c793",
+      "id": "m_cd87ed7fca8cea60bcbcd87ccfda8ca7c214099f202aa06903b60b26a4a0b7cc",
+      "url": "https://portfolio-14d15.web.app/project-media/9c6e07434f3ed54deb3fedfb0f899b99b34cd3424d5f933bbf49ccbf4f72c793.jpg"
+    },
+    {
+      "projectId": "yogen-p008",
+      "file": "images/sunday-school-management/cover.jpg",
+      "sha256": "3eb69886f95cb4ded81582ff64db84dda1eaf53e38b820fdb58a7deaf165934f",
+      "id": "m_1f046f10eeaa95793be024dbcaa0e7caddc1220b399b93bf5ec55dc663c8e011",
+      "url": "https://portfolio-14d15.web.app/project-media/3eb69886f95cb4ded81582ff64db84dda1eaf53e38b820fdb58a7deaf165934f.jpg"
+    },
+    {
+      "projectId": "yogen-p008",
+      "file": "images/sunday-school-management/gallery-01.jpg",
+      "sha256": "d9fdce471a03430dcddee2c44d9e5264664f7b8dc00bbac0b4541a6ed33f2b9a",
+      "id": "m_86f272bfefb44203c47b69c766c06ba8f92b8dd20caa33ee8c8c6547a3bff9b7",
+      "url": "https://portfolio-14d15.web.app/project-media/d9fdce471a03430dcddee2c44d9e5264664f7b8dc00bbac0b4541a6ed33f2b9a.jpg"
+    },
+    {
+      "projectId": "yogen-p009",
+      "file": "images/church-membership/cover.jpg",
+      "sha256": "6fbc53b8cec3c8024904667fa45e94fa9d4404c43e9c2aca81cf0d1f7aca5235",
+      "id": "m_a7063c89b12b8d531d0e3c8d95bb0d2e5caf9b43ee4d6633f6287f4df9b8e060",
+      "url": "https://portfolio-14d15.web.app/project-media/6fbc53b8cec3c8024904667fa45e94fa9d4404c43e9c2aca81cf0d1f7aca5235.jpg"
+    },
+    {
+      "projectId": "yogen-p010",
+      "file": "images/church-games-platform/cover.jpg",
+      "sha256": "f7e75cd5604ab791e9d03356799fa761fb4f0bd965bca7de75b1ee91027174b3",
+      "id": "m_f815ead9a33d7b26c8b535ef14ce447235351f974a9f11ab837f7bef8db8ee98",
+      "url": "https://portfolio-14d15.web.app/project-media/f7e75cd5604ab791e9d03356799fa761fb4f0bd965bca7de75b1ee91027174b3.jpg"
+    },
+    {
+      "projectId": "yogen-p010",
+      "file": "images/church-games-platform/gallery-01.jpg",
+      "sha256": "0c837fc09b1a1e3efd3cf2f9f0846e3cc1bcc2bfab2621694db0c46c9eb962f1",
+      "id": "m_4485358ec65fd1169e730cd49f47c79fb043a827840b99eabb95a03e81be72a7",
+      "url": "https://portfolio-14d15.web.app/project-media/0c837fc09b1a1e3efd3cf2f9f0846e3cc1bcc2bfab2621694db0c46c9eb962f1.jpg"
+    },
+    {
+      "projectId": "yogen-p010",
+      "file": "images/church-games-platform/gallery-02.jpg",
+      "sha256": "b32656aa31c288866a8d21ae6dd88ba3f746b31cd9975e0f8959a43347bff1aa",
+      "id": "m_1b3e455d3356a783ebb1f5f4b72fac15a0e65fe5ffaedee23db665308fddc0f0",
+      "url": "https://portfolio-14d15.web.app/project-media/b32656aa31c288866a8d21ae6dd88ba3f746b31cd9975e0f8959a43347bff1aa.jpg"
+    },
+    {
+      "projectId": "yogen-p011",
+      "file": "images/mar-markos-anba-beshoy/cover.jpg",
+      "sha256": "b05c784c1ff31629d73b38a9d85e8d927b023b032a6a5a674d6b63393754da7c",
+      "id": "m_d79fec9b5ccd19a5af9f0c84cc5e9ebff3429b8696cf4d4bca68b26fc9c7a98b",
+      "url": "https://portfolio-14d15.web.app/project-media/b05c784c1ff31629d73b38a9d85e8d927b023b032a6a5a674d6b63393754da7c.jpg"
+    },
+    {
+      "projectId": "yogen-p011",
+      "file": "images/mar-markos-anba-beshoy/gallery-01.jpg",
+      "sha256": "88671f47e19dda324d40d9e9691bf3cad01304c03d96ed68d0863e110436013d",
+      "id": "m_a1a0d9a048c31d9afad0f76b5847fe2d3cca8b24acf0939d45d2525780984c70",
+      "url": "https://portfolio-14d15.web.app/project-media/88671f47e19dda324d40d9e9691bf3cad01304c03d96ed68d0863e110436013d.jpg"
+    },
+    {
+      "projectId": "yogen-p012",
+      "file": "images/tomy-barber-shop/cover.jpg",
+      "sha256": "65ccb7cfae7aa868bad7135a2552996ed684e099682839a70353675ca5667199",
+      "id": "m_f27a28dc2541e4786f0c758988255dab8d7df018867bbf2d0f100ecf166e66e7",
+      "url": "https://portfolio-14d15.web.app/project-media/65ccb7cfae7aa868bad7135a2552996ed684e099682839a70353675ca5667199.jpg"
+    },
+    {
+      "projectId": "yogen-p012",
+      "file": "images/tomy-barber-shop/gallery-01.jpg",
+      "sha256": "45e6240758593ccce4c55a80de6e8c5eb0c6d067d1b11efeb4c387a680daed35",
+      "id": "m_76a16b2e74aa180b8301acc641927b0eaec7e202f35e0fd1e61deb3a49cabd1a",
+      "url": "https://portfolio-14d15.web.app/project-media/45e6240758593ccce4c55a80de6e8c5eb0c6d067d1b11efeb4c387a680daed35.jpg"
+    },
+    {
+      "projectId": "yogen-p012",
+      "file": "images/tomy-barber-shop/gallery-02.jpg",
+      "sha256": "9dc594587a6648f1dc9576a3fc8c32cc1370845ef9d14c35e780632c94dec938",
+      "id": "m_28e823733bdcd371819015fd660b807f860fb546688344848a9c872b5bd24b28",
+      "url": "https://portfolio-14d15.web.app/project-media/9dc594587a6648f1dc9576a3fc8c32cc1370845ef9d14c35e780632c94dec938.jpg"
+    },
+    {
+      "projectId": "yogen-p013",
+      "file": "images/labyrinth-of-love/cover.jpg",
+      "sha256": "c11b7bc9c157cb98926cc8f665aa7e155876f18b6550927af16ccc5378af19d6",
+      "id": "m_13ef0bb9ad07510c73eeedba21170ee7c0abc1685a87c3aed866d3bfa1ab48f3",
+      "url": "https://portfolio-14d15.web.app/project-media/c11b7bc9c157cb98926cc8f665aa7e155876f18b6550927af16ccc5378af19d6.jpg"
+    },
+    {
+      "projectId": "yogen-p014",
+      "file": "images/uae-payroll-management/cover.jpg",
+      "sha256": "e3dcea515332fcf28415caf0ddc142d998f1fc00c9d76219d8b09fa6046ebfd7",
+      "id": "m_a8bc521a61e0ac7aa97a974d64b7b19625a2471042fe5c60fe5e5a5a5936f7ab",
+      "url": "https://portfolio-14d15.web.app/project-media/e3dcea515332fcf28415caf0ddc142d998f1fc00c9d76219d8b09fa6046ebfd7.jpg"
+    },
+    {
+      "projectId": "yogen-p014",
+      "file": "images/uae-payroll-management/gallery-01.jpg",
+      "sha256": "14f4ef8287487b8417e7e0adec7bdbe82b0191ef1f51480b913e4aa80c556dd7",
+      "id": "m_69d9d9ed05c0bfc96840e9484b4d93836ac1dc4834c99748cf65b1d6fa46fe60",
+      "url": "https://portfolio-14d15.web.app/project-media/14f4ef8287487b8417e7e0adec7bdbe82b0191ef1f51480b913e4aa80c556dd7.jpg"
+    },
+    {
+      "projectId": "yogen-p015",
+      "file": "images/el-rajaa-patient-services/cover.jpg",
+      "sha256": "c0aa740eb57ad4e729303e89bc2ee3cc892277041c458300f84b2ffbb177b28f",
+      "id": "m_6c3df537869a7fbc57676824dbc5e7c89cab95d2e3af8e619fdf0d27f5125057",
+      "url": "https://portfolio-14d15.web.app/project-media/c0aa740eb57ad4e729303e89bc2ee3cc892277041c458300f84b2ffbb177b28f.jpg"
+    },
+    {
+      "projectId": "yogen-p015",
+      "file": "images/el-rajaa-patient-services/gallery-01.jpg",
+      "sha256": "b14580a86c168de1c548b4da6243ef863b3b661cf395db9adff760edf26c1bd2",
+      "id": "m_95d564d86f72e8c1c902e2d20c09fabd9236fdbe28bc673da73c3254235e55e4",
+      "url": "https://portfolio-14d15.web.app/project-media/b14580a86c168de1c548b4da6243ef863b3b661cf395db9adff760edf26c1bd2.jpg"
+    },
+    {
+      "projectId": "yogen-p015",
+      "file": "images/el-rajaa-patient-services/gallery-02.jpg",
+      "sha256": "1a74eaca3d502f22fb3327324df5cbb0fd2043aeeab4d458d45106a5a157188f",
+      "id": "m_09da0d9fde587ec4fd47cf33564bc4f2cd9e43d0f08c6e2cf3acc9b99f77ccf8",
+      "url": "https://portfolio-14d15.web.app/project-media/1a74eaca3d502f22fb3327324df5cbb0fd2043aeeab4d458d45106a5a157188f.jpg"
+    }
+  ],
+  "imageRenderingFix": "Verified static images on Firebase Hosting, with local retry and Drive fallback for existing Drive files",
+  "browserVisualVerification": "Unavailable: browser automation could not start",
+  "release": {
+    "rulesMatchLocal": true,
+    "ruleset": "projects/portfolio-14d15/rulesets/098846f1-00c9-417c-a300-aefe90f09936",
+    "hostingVersion": "projects/portfolio-14d15/sites/portfolio-14d15/versions/790e5746abb468f8",
+    "hostingRelease": "projects/portfolio-14d15/sites/portfolio-14d15/channels/live/releases/1791902072617000",
+    "deployedAt": "2026-10-13T14:34:32.617Z"
+  }
+}

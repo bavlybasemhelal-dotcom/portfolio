@@ -1,0 +1,58 @@
+{
+  "id": "P011",
+  "url": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f1805eb2ecf307ba8c16fd",
+  "snapshot": "- link \"Skip to content\":\n  - /url: \"#main\"\n  - text: Skip to content\n- banner:\n  - link \"Examples\":\n    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18\n    - generic: Examples\n  - generic: /\n  - button \"موقع لكنيسة\" [disabled]:\n    - generic: موقع لكنيسة\n  - button \"Close panel\":\n  - button:\n  - button \"Share site to socials\":\n  - button:\n  - button \"More actions\":\n  - button \"Get Notion free\"\n- main:\n  - img \"Page icon\"\n  - heading \"موقع لكنيسة\" [level=1]\n  - table \"Page properties\":\n    - row \"Link\":\n      - cell \"Link\":\n        - generic: Link\n      - cell \"mar-markos-anba-beshoy.web.app\":\n        - link \"mar-markos-anba-beshoy.web.app\":\n          - /url: https://mar-markos-anba-beshoy.web.app/\n  - generic: موقع يعرض جميع الأنشطة والقداسات والخدمات الخاصة بالكنيسة\n  - blockquote:\n    - generic: لرؤية الموقع\n  - figure:\n    - link \"كنيسة مارمرقس والأنبا بيشوي - مدينة ناصر الموقع الرسمي لكنيسة القديس مارمرقس الرسول والأنبا بيشوي بمدينة ناصر. تابع مواعيد القداسات، العظات الروحية، الألبومات، وخدمات الكنيسة المختلفة. https://mar-markos-anba-beshoy.web.app\":\n      - /url: https://mar-markos-anba-beshoy.web.app/\n      - generic: كنيسة مارمرقس والأنبا بيشوي - مدينة ناصر\n      - generic: الموقع الرسمي لكنيسة القديس مارمرقس الرسول والأنبا بيشوي بمدينة ناصر. تابع مواعيد القداسات، العظات الروحية، الألبومات، وخدمات الكنيسة المختلفة.\n      - generic: https://mar-markos-anba-beshoy.web.app\n  - blockquote:\n    - generic: صور من داخل الموقع\n  - figure\n  - figure\n  - figure\n  - figure\n- region\n- status\n- alert\n- iframe",
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/webp",
+        "id": "6de24b2e580ebd9c",
+        "kind": "image",
+        "name": "attachment%3A77d3af4a-5390-4363-ace5-c23fd1a285c3%3AScreenshot_203.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/52527b2c-5fec-4969-90a3-6b25378d57a5/6de24b2e580ebd9c.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A77d3af4a-5390-4363-ace5-c23fd1a285c3%3AScreenshot_203.png?table=block&id=3dcc5f5b-a7f1-805e-b2ec-f307ba8c16fd&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "889cc7d6f12b6793",
+        "kind": "image",
+        "name": "attachment%3A32015cce-2bb8-4271-ba9d-06aa92314dcd%3AScreenshot_203.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/52527b2c-5fec-4969-90a3-6b25378d57a5/889cc7d6f12b6793.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A32015cce-2bb8-4271-ba9d-06aa92314dcd%3AScreenshot_203.png?table=block&id=3dcc5f5b-a7f1-8071-a3c6-c60e7cd3734d&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "71f84201615e7287",
+        "kind": "image",
+        "name": "attachment%3A5ed742f0-81f2-4f8a-9677-a7b7ebc05363%3AScreenshot_205.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/52527b2c-5fec-4969-90a3-6b25378d57a5/71f84201615e7287.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A5ed742f0-81f2-4f8a-9677-a7b7ebc05363%3AScreenshot_205.png?table=block&id=3dcc5f5b-a7f1-80b2-8916-cfdb5e52e9fa&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "bf302f20d7bc3999",
+        "kind": "image",
+        "name": "attachment%3Aeb605c41-bfa7-449d-a2d0-79ab77c7a37c%3AScreenshot_206.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/52527b2c-5fec-4969-90a3-6b25378d57a5/bf302f20d7bc3999.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Aeb605c41-bfa7-449d-a2d0-79ab77c7a37c%3AScreenshot_206.png?table=block&id=3dcc5f5b-a7f1-8000-bac5-f8c939ee6275&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "1357c1042a743cb6",
+        "kind": "image",
+        "name": "attachment%3A2968c358-8ddc-4f8d-957b-db4f6a32fb52%3AScreenshot_207.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/52527b2c-5fec-4969-90a3-6b25378d57a5/1357c1042a743cb6.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3A2968c358-8ddc-4f8d-957b-db4f6a32fb52%3AScreenshot_207.png?table=block&id=3dcc5f5b-a7f1-803d-9696-e41b7afca923&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=1410&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      }
+    ],
+    "directoryPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/52527b2c-5fec-4969-90a3-6b25378d57a5",
+    "failures": [],
+    "manifestPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/52527b2c-5fec-4969-90a3-6b25378d57a5/manifest.json",
+    "summary": {
+      "downloadedCount": 5,
+      "elapsedMs": 370.4268999999622,
+      "failedCount": 0,
+      "requestedCount": 5
+    }
+  }
+}

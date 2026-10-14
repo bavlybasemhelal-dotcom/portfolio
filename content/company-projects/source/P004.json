@@ -1,0 +1,50 @@
+{
+  "id": "P004",
+  "url": "https://hail-bosworth-a45.notion.site/3dcc5f5ba7f180b48300eb9d8b1dd76e",
+  "snapshot": "- link \"تخطي إلى المحتوى\":\n  - /url: \"#main\"\n  - text: تخطي إلى المحتوى\n- banner\n- main:\n  - img \"أيقونة الصفحة\"\n  - heading \"معمل اسنان - موقع حجز\" [level=1]\n  - table \"خصائص الصفحة\":\n    - row \"Link\":\n      - cell \"Link\":\n        - generic: Link\n      - cell \"quality-dental-lab.web.app\":\n        - link \"quality-dental-lab.web.app\":\n          - /url: https://quality-dental-lab.web.app/\n  - generic: موقع يجمع ما بين طبيب الأسنان ومعمل الأسنان لطلب ما يحتاجه من تركيبات\n  - blockquote:\n    - generic: لرؤية الموقع\n  - figure:\n    - link \"Quality Dental Lab - Home Quality is a full-service lab. Everyone here at Quality is always happy to assist you in any case, and always happy to answer any questions. Here at Quality we build relationships with all clients and are just a call away. We take pride in what we do and that why we want you to join us. Take the opportunity to make your business grow, try Quality Lab. Doesn’t hurt to try! https://quality-dental-lab.web.app/\":\n      - /url: https://quality-dental-lab.web.app/\n      - generic: Quality Dental Lab - Home\n      - generic: Quality is a full-service lab. Everyone here at Quality is always happy to assist you in any case, and always happy to answer any questions. Here at Quality we build relationships with all clients and are just a call away. We take pride in what we do and that why we want you to join us. Take the opportunity to make your business grow, try Quality Lab. Doesn’t hurt to try!\n      - generic: https://quality-dental-lab.web.app/\n  - blockquote:\n    - generic: صور بداخل الموقع\n  - figure\n  - figure\n  - figure\n  - figure\n- status\n- alert",
+  "bundle": {
+    "assets": [
+      {
+        "contentType": "image/webp",
+        "id": "4a4390d96cf17b7a",
+        "kind": "image",
+        "name": "attachment%3Affa5d18f-8564-4c6e-ad72-81e3660721f2%3AScreenshot_179.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/0904d6fd-4b11-495f-a58e-eb49b04dc47e/4a4390d96cf17b7a.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Affa5d18f-8564-4c6e-ad72-81e3660721f2%3AScreenshot_179.png?table=block&id=3dcc5f5b-a7f1-80b4-8300-eb9d8b1dd76e&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "18d4b15926d63b18",
+        "kind": "image",
+        "name": "attachment%3Aee5cd8c5-d934-494b-b209-4a679ec35aa2%3AScreenshot_179.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/0904d6fd-4b11-495f-a58e-eb49b04dc47e/18d4b15926d63b18.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Aee5cd8c5-d934-494b-b209-4a679ec35aa2%3AScreenshot_179.png?table=block&id=3dcc5f5b-a7f1-80e9-af7f-db0d347778fa&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "4f7c6dcfcbe2be98",
+        "kind": "image",
+        "name": "attachment%3Afff56fa6-68bd-4c95-964e-38372d70bbad%3AScreenshot_180.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/0904d6fd-4b11-495f-a58e-eb49b04dc47e/4f7c6dcfcbe2be98.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Afff56fa6-68bd-4c95-964e-38372d70bbad%3AScreenshot_180.png?table=block&id=3dcc5f5b-a7f1-8001-81c8-c5d8c66dcdc7&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      },
+      {
+        "contentType": "image/webp",
+        "id": "1b62ac7e2042ea41",
+        "kind": "image",
+        "name": "attachment%3Ad83f80da-5282-440d-83c5-b07a09de674c%3AScreenshot_182.png",
+        "path": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/0904d6fd-4b11-495f-a58e-eb49b04dc47e/1b62ac7e2042ea41.png",
+        "url": "https://hail-bosworth-a45.notion.site/image/attachment%3Ad83f80da-5282-440d-83c5-b07a09de674c%3AScreenshot_182.png?table=block&id=3dcc5f5b-a7f1-805f-b9d0-cfc98d6ebad5&spaceId=2663a11d-82ba-42ad-84b8-aa31d022787a&width=2000&userId=&cache=v2&imgBuildSrc=requestProxiedImageUrl"
+      }
+    ],
+    "directoryPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/0904d6fd-4b11-495f-a58e-eb49b04dc47e",
+    "failures": [],
+    "manifestPath": "C:\\Users\\Graphic\\AppData\\Local\\Temp/browser-use/assets/0904d6fd-4b11-495f-a58e-eb49b04dc47e/manifest.json",
+    "summary": {
+      "downloadedCount": 4,
+      "elapsedMs": 1071.2221999999892,
+      "failedCount": 0,
+      "requestedCount": 4
+    }
+  }
+}

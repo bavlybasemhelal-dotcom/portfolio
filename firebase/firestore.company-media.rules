@@ -1,0 +1,417 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function text(v, max) { return v is string && v.size() <= max; }
+    function filled(v, max) { return text(v, max) && v.matches('(?s).*[^\\s].*'); }
+    function localized(v) {
+      let value = v;
+      let ar = value.ar;
+      let en = value.en;
+      return value is map && value.keys().hasOnly(['ar','en'])
+        && ar is string && ar.size() <= 30000 && en is string && en.size() <= 30000;
+    }
+    function bilingual(v) {
+      let value = v; return localized(value) && value.ar.matches('(?s).*[^\\s].*') && value.en.matches('(?s).*[^\\s].*'); }
+    function validLink(v) {
+      let url=v.url; let ar=v.labelAr; let en=v.labelEn;
+      return v.keys().hasOnly(['url','labelAr','labelEn'])
+        && text(url,2048) && url.matches('https://[A-Za-z0-9.-]+(:[0-9]{1,5})?([/?#][^\\s]*)?')
+        && filled(ar,200) && filled(en,200);
+    }
+    function linkAt(v, i) { return v.size() <= i || validLink(v[i]); }
+    function draftLink(v) {
+      let url=v.url; let ar=v.labelAr; let en=v.labelEn;
+      return v.keys().hasOnly(['url','labelAr','labelEn']) && text(url,2048)
+        && (url == '' || url.matches('https://[A-Za-z0-9.-]+(:[0-9]{1,5})?([/?#][^\\s]*)?'))
+        && text(ar,200) && text(en,200);
+    }
+    function draftLinkAt(v, i) {
+      return v.size() <= i || draftLink(v[i]);
+    }
+    // Column lines keep six bilingual links inside the rule expression budget.
+    // Legacy list snapshots remain readable and editable through the adapter.
+    function urlLengthAt(v,i){return v.size()<=i || v[i].size()<=2048;}
+    function linkLines(v, partial) {
+      let urls=v.url; let ar=v.labelAr; let en=v.labelEn;
+      let rows=urls.split('\n');
+      return v.keys().hasOnly(['url','labelAr','labelEn'])
+        && urls is string && ar is string && en is string
+        && urls.matches('[^\n]{0,1000}[^\n]{0,1000}[^\n]{0,48}(\n[^\n]{0,1000}[^\n]{0,1000}[^\n]{0,48}){0,5}')
+        && (partial ? urls.matches('(https://[A-Za-z0-9.-]+(:[0-9]{1,5})?([/?#][^\\s]*)?)?(\n(https://[A-Za-z0-9.-]+(:[0-9]{1,5})?([/?#][^\\s]*)?)?){0,5}')
+          : urls.matches('https://[A-Za-z0-9.-]+(:[0-9]{1,5})?([/?#][^\\s]*)?(\nhttps://[A-Za-z0-9.-]+(:[0-9]{1,5})?([/?#][^\\s]*)?){0,5}'))
+        && ar.matches('[^\n]{0,200}(\n[^\n]{0,200}){0,5}') && en.matches('[^\n]{0,200}(\n[^\n]{0,200}){0,5}')
+        && (partial || (ar.matches('[^\n]*[^\\s][^\n]*(\n[^\n]*[^\\s][^\n]*){0,5}') && en.matches('[^\n]*[^\\s][^\n]*(\n[^\n]*[^\\s][^\n]*){0,5}')))
+        && rows.size()==ar.split('\n').size() && ar.split('\n').size()==en.split('\n').size();
+    }
+    function draftLinks(v) {
+      return v is map ? linkLines(v,true) : (v is list && v.size() <= 6
+        && draftLinkAt(v,0) && draftLinkAt(v,1) && draftLinkAt(v,2) && draftLinkAt(v,3) && draftLinkAt(v,4) && draftLinkAt(v,5));
+    }
+    function completeLinkAt(v,i) {
+      return v.size()<=i || (v[i].url!='' && v[i].labelAr.matches('(?s).*[^\\s].*') && v[i].labelEn.matches('(?s).*[^\\s].*'));
+    }
+    function completeLinks(v) {
+      // Shape, safe URLs, lengths and aligned columns are validated on the
+      // draft. Publication only checks the remaining completion requirement.
+      return v is map ? (v.url.matches('[^\n]+(\n[^\n]+){0,5}') && completedLines(v))
+        : (completeLinkAt(v,0) && completeLinkAt(v,1) && completeLinkAt(v,2) && completeLinkAt(v,3) && completeLinkAt(v,4) && completeLinkAt(v,5));
+    }
+    function completedLines(v) {
+      let ar=v.get('ar',v.get('labelAr',''));let en=v.get('en',v.get('labelEn',''));
+      return ar.matches('[^\n]*[^\\s][^\n]*(\n[^\n]*[^\\s][^\n]*){0,5}') && en.matches('[^\n]*[^\\s][^\n]*(\n[^\n]*[^\\s][^\n]*){0,5}');
+    }
+    function draftLines(v) {
+      let ar=v.ar; let en=v.en;
+      return v.keys().hasOnly(['ar','en']) && ar is string && en is string
+        && ar.matches('[^\n]{0,600}(\n[^\n]{0,600}){0,5}')
+        && en.matches('[^\n]{0,600}(\n[^\n]{0,600}){0,5}')
+        && ar.split('\n').size() == en.split('\n').size();
+    }
+    function boundedLines(v) {
+      return v is map && v.keys().hasOnly(['ar','en']) && v.ar is string && v.en is string
+        && v.ar.trim().size() > 0 && v.en.trim().size() > 0
+        && v.ar.matches('[^\n]{1,600}(\n[^\n]{1,600}){0,5}')
+        && v.en.matches('[^\n]{1,600}(\n[^\n]{1,600}){0,5}')
+        && v.ar.split('\n').size() == v.en.split('\n').size();
+    }
+    function optionalCase(v, previous) {
+      return (!('problem' in v) || v.problem == previous.get('problem',null) || localized(v.problem))
+        && (!('solution' in v) || v.solution == previous.get('solution',null) || localized(v.solution))
+        && (!('tags' in v) || v.tags == previous.get('tags',null) || draftLines(v.tags))
+        && (!('features' in v) || v.features == previous.get('features',null) || draftLines(v.features))
+        && (!('technologies' in v) || v.technologies == previous.get('technologies',null) || (v.technologies is string
+          && v.technologies.matches('[^\n]{1,80}(\n[^\n]{1,80}){0,5}')));
+    }
+    function initialCase(v) {
+      return (!('problem' in v) || localized(v.problem)) && (!('solution' in v) || localized(v.solution))
+        && (!('tags' in v) || draftLines(v.tags)) && (!('features' in v) || draftLines(v.features))
+        && (!('technologies' in v) || (v.technologies is string && v.technologies.matches('[^\n]{1,80}(\n[^\n]{1,80}){0,5}')));
+    }
+    function initialContent(v) {
+      return v is map && v.keys().hasOnly(['title','summary','body','contribution',
+        'categoryId','slug','usage','attribution','mediaIds','links','order','year','problem','solution','tags','features','technologies'])
+        && initialCase(v) && localized(v.title) && localized(v.summary) && localized(v.body) && localized(v.contribution)
+        && text(v.categoryId,70) && (v.categoryId == '' || v.categoryId.matches('[A-Za-z0-9_-]{1,70}')) && text(v.slug,80)
+        && (v.slug == '' || v.slug.matches('[a-z0-9]+(-[a-z0-9]+)*'))
+        && v.usage in ['unspecified','real','demo','personal']
+        && v.attribution in ['unspecified','company','team_previous','personal']
+        && v.mediaIds is list && v.mediaIds.size() <= 6 && v.mediaIds.toSet().size() == v.mediaIds.size()
+        && draftLinks(v.links)
+        && v.order is int && v.order >= 0 && v.order <= 1000000
+        && (v.year == null || (v.year is int && v.year >= 1990 && v.year <= 2100));
+    }
+    // Unchanged fields reuse validation of the SERVER snapshot, never a client claim.
+    function changedContent(v, previous) {
+      return v is map && v.keys().hasAll(['title','summary','body','contribution','categoryId','slug','usage','attribution','mediaIds','links','order','year'])
+        && v.keys().hasOnly(['title','summary','body','contribution',
+        'categoryId','slug','usage','attribution','mediaIds','links','order','year',
+        'problem','solution','tags','features','technologies'])
+        && (v.title == previous.get('title',null) || localized(v.title))
+        && (v.summary == previous.get('summary',null) || localized(v.summary))
+        && (v.body == previous.get('body',null) || localized(v.body))
+        && (v.contribution == previous.get('contribution',null) || localized(v.contribution))
+        && (v.categoryId == previous.get('categoryId',null) || (text(v.categoryId,70) && (v.categoryId == '' || v.categoryId.matches('[A-Za-z0-9_-]{1,70}'))))
+        && (v.slug == previous.get('slug',null) || (text(v.slug,80) && (v.slug == '' || v.slug.matches('[a-z0-9]+(-[a-z0-9]+)*'))))
+        && (v.usage == previous.get('usage',null) || v.usage in ['unspecified','real','demo','personal'])
+        && (v.attribution == previous.get('attribution',null) || v.attribution in ['unspecified','company','team_previous','personal'])
+        && (v.mediaIds == previous.get('mediaIds',null) || (v.mediaIds is list && v.mediaIds.size() <= 6 && v.mediaIds.toSet().size() == v.mediaIds.size()))
+        && (v.links == previous.get('links',null) || draftLinks(v.links))
+        && (v.order == previous.get('order',null) || (v.order is int && v.order >= 0 && v.order <= 1000000))
+        && (v.year == previous.get('year',null) || (v.year == null || (v.year is int && v.year >= 1990 && v.year <= 2100)))
+        && optionalCase(v,previous);
+    }
+    function complete(v) {
+      // Exact shape/size was checked on the draft written in the same commit.
+      return v.title.ar.matches('(?s).*[^\\s].*') && v.title.en.matches('(?s).*[^\\s].*')
+        && v.summary.ar.matches('(?s).*[^\\s].*') && v.summary.en.matches('(?s).*[^\\s].*')
+        && v.body.ar.matches('(?s).*[^\\s].*') && v.body.en.matches('(?s).*[^\\s].*')
+        && v.contribution.ar.matches('(?s).*[^\\s].*') && v.contribution.en.matches('(?s).*[^\\s].*')
+        && v.categoryId != '' && v.slug != '' && v.usage != 'unspecified'
+        && v.attribution != 'unspecified' && v.mediaIds.size() > 0
+        && (!('problem' in v) || (v.problem.ar.matches('(?s).*[^\\s].*') && v.problem.en.matches('(?s).*[^\\s].*')))
+        && (!('solution' in v) || (v.solution.ar.matches('(?s).*[^\\s].*') && v.solution.en.matches('(?s).*[^\\s].*')))
+        && (!('tags' in v) || completedLines(v.tags)) && (!('features' in v) || completedLines(v.features))
+        && completeLinks(v.links);
+    }
+    function validAsset(v) {
+      return v is map && v.keys().hasAll(['id','driveFileId','name','mime','bytes','alt'])
+        && v.keys().hasOnly(['id','driveFileId','name','mime','bytes','alt','thumbnailDriveFileId','publicUrl'])
+        && filled(v.id,70) && v.driveFileId is string
+        && (v.driveFileId.matches('[A-Za-z0-9_-]{10,200}') || (v.driveFileId == '' && 'publicUrl' in v))
+        && (!('publicUrl' in v) || (v.publicUrl is string && v.publicUrl.matches('https://portfolio-14d15[.]web[.]app/project-media/[a-f0-9]{64}[.]jpg')))
+        && filled(v.name,200) && v.mime in ['image/png','image/jpeg','image/webp','video/mp4','video/webm','application/pdf']
+        && v.bytes is int && v.bytes > 0 && v.bytes <= 5242880 && bilingual(v.alt)
+        && (!('thumbnailDriveFileId' in v) || text(v.thumbnailDriveFileId,200));
+    }
+    function validContacts(v) {
+      return v is map && v.keys().hasOnly(['email','whatsapp','website'])
+        && (!('email' in v) || (text(v.email,320) && v.email.matches('[^\\s@]+@[^\\s@]+\\.[^\\s@]+')))
+        && (!('whatsapp' in v) || (v.whatsapp is string && v.whatsapp.matches('\\+[1-9][0-9]{7,14}')))
+        && (!('website' in v) || (text(v.website,2048) && v.website.matches('https://[A-Za-z0-9.-]+(:[0-9]{1,5})?([/?#][^\\s]*)?')));
+    }
+    match /sites/{site} {
+      function validSite() { return site in ['yogen','phase04-test']; }
+      function staffPath() { return /databases/$(database)/documents/sites/$(site)/adminUsers/$(request.auth.uid); }
+      function isStaff() {
+        return validSite() && request.auth != null
+          && get(staffPath()).data.enabled == true && get(staffPath()).data.role in ['manager','editor'];
+      }
+      function isManager() { return isStaff() && get(staffPath()).data.role == 'manager'; }
+      function draftPath(id) { return /databases/$(database)/documents/sites/$(site)/projectDrafts/$(id); }
+      function publicPath(id) { return /databases/$(database)/documents/sites/$(site)/projects/$(id); }
+      function slugPath(slug) { return /databases/$(database)/documents/sites/$(site)/projectSlugs/$(slug); }
+      function readyAsset(v) {
+        let stored = get(/databases/$(database)/documents/sites/$(site)/media/$(v.id)).data;
+        return stored.ready == true && stored.verified == true && stored.public == v;
+      }
+      function assetAt(list, ids, i) { return list.size() <= i || (list[i].id == ids[i] && readyAsset(list[i])); }
+      function validDraft(v, changed, previous) {
+      let value = v;
+        return value.keys().hasOnly(['content','status','revision','publishedRevision','stableSlug','internalNote',
+          'createdAt','createdBy','updatedAt','updatedBy'])
+          && (!changed || (previous.size() == 0 ? initialContent(value.content) : changedContent(value.content, previous))) && value.status in ['draft','published','archived']
+          && value.revision is int && value.revision > 0 && value.publishedRevision is int
+          && value.publishedRevision >= 0 && value.publishedRevision <= value.revision
+          && text(value.stableSlug,80) && (value.stableSlug == '' || value.content.slug == value.stableSlug)
+          && text(value.internalNote,10000) && value.createdAt is timestamp && value.updatedAt == request.time
+          && value.updatedBy == request.auth.uid;
+      }
+      function coherentDraft(v, id) {
+        return v.status == 'published'
+          ? (v.publishedRevision > 0 && getAfter(publicPath(id)).data.revision == v.publishedRevision
+              && getAfter(publicPath(id)).data.content.slug == v.stableSlug)
+          : (v.publishedRevision == 0 && !existsAfter(publicPath(id)));
+      }
+      match /adminUsers/{uid} {
+        function validRole(v) {
+          return v.keys().hasAll(['uid','loginName','authEmail','recoveryKind','role','enabled','createdAt','createdBy','updatedAt','updatedBy'])
+            && v.keys().hasOnly(['uid','loginName','authEmail','recoveryKind','role','enabled','createdAt','createdBy','updatedAt','updatedBy'])
+            && v.uid == uid && filled(v.loginName,200) && text(v.authEmail,200)
+            && v.authEmail.matches('[a-z0-9]+@login\\.yogen\\.invalid') && v.recoveryKind == 'owner'
+            && v.role == 'editor' && v.enabled is bool && v.createdAt is timestamp
+            && v.updatedAt == request.time && v.updatedBy == request.auth.uid;
+        }
+        allow get: if validSite() && request.auth != null && (request.auth.uid == uid || isManager());
+        allow list: if isManager();
+        allow create: if isManager() && uid != request.auth.uid && validRole(request.resource.data)
+          && request.resource.data.createdBy == request.auth.uid && request.resource.data.createdAt == request.time;
+        allow update: if isManager() && uid != request.auth.uid && resource.data.role == 'editor'
+          && validRole(request.resource.data)
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['enabled','updatedAt','updatedBy']);
+        allow delete: if false;
+      }
+      match /projectDrafts/{id} {
+        allow read: if isStaff();
+        allow create: if isStaff() && id.matches('[A-Za-z0-9_-]{1,70}') && validDraft(request.resource.data, true, {})
+          && request.resource.data.revision == 1 && request.resource.data.publishedRevision == 0
+          && request.resource.data.status == 'draft' && request.resource.data.stableSlug == ''
+          && request.resource.data.createdAt == request.time && request.resource.data.createdBy == request.auth.uid
+          && !existsAfter(publicPath(id));
+        allow update: if isStaff() && validDraft(request.resource.data, request.resource.data.content != resource.data.content, resource.data.content)
+          && request.resource.data.revision == resource.data.revision + 1
+          && request.resource.data.createdAt == resource.data.createdAt && request.resource.data.createdBy == resource.data.createdBy
+          && (resource.data.stableSlug == '' || request.resource.data.stableSlug == resource.data.stableSlug)
+          && (resource.data.stableSlug != '' || request.resource.data.stableSlug == ''
+            || (request.resource.data.status == 'published' && request.resource.data.stableSlug == request.resource.data.content.slug))
+          && !(resource.data.status == 'archived' && request.resource.data.status == 'published')
+          && (resource.data.status != 'archived' || request.resource.data.content == resource.data.content)
+          && (request.resource.data.publishedRevision == resource.data.publishedRevision
+            || request.resource.data.publishedRevision == 0
+            || request.resource.data.publishedRevision == request.resource.data.revision)
+          && coherentDraft(request.resource.data,id);
+        allow delete: if false;
+      }
+      match /projects/{id} {
+        function publication(v) {
+          let draft = getAfter(draftPath(id)).data;
+          let category = get(/databases/$(database)/documents/sites/$(site)/categories/$(v.content.categoryId)).data;
+          return v.keys().hasAll(['projectId','content','category','assets','revision','publishedAt'])
+            && v.keys().hasOnly(['projectId','content','category','assets','revision','publishedAt'])
+            && v.projectId == id && complete(v.content) && v.publishedAt == request.time
+            && draft.status == 'published' && draft.revision == v.revision && draft.publishedRevision == v.revision
+            && draft.updatedAt == request.time && draft.updatedBy == request.auth.uid
+            && draft.content == v.content && draft.stableSlug == v.content.slug
+            && category.enabled == true && bilingual(category.name) && v.category == category.name
+            && v.assets is list && v.assets.size() == v.content.mediaIds.size()
+            && v.assets[0].mime in ['image/png','image/jpeg','image/webp']
+            && assetAt(v.assets,v.content.mediaIds,0) && assetAt(v.assets,v.content.mediaIds,1)
+            && assetAt(v.assets,v.content.mediaIds,2) && assetAt(v.assets,v.content.mediaIds,3)
+            && assetAt(v.assets,v.content.mediaIds,4) && assetAt(v.assets,v.content.mediaIds,5)
+            && getAfter(slugPath(v.content.slug)).data.projectId == id
+            && getAfter(slugPath(v.content.slug)).data.revision == v.revision;
+        }
+        allow read: if validSite();
+        allow create: if isStaff() && publication(request.resource.data);
+        allow update: if isStaff() && request.resource.data.revision > resource.data.revision && publication(request.resource.data);
+        allow delete: if isStaff() && getAfter(draftPath(id)).data.status != 'published'
+          && getAfter(draftPath(id)).data.publishedRevision == 0
+          && !existsAfter(slugPath(resource.data.content.slug));
+      }
+      match /projectSlugs/{slug} {
+        allow read: if validSite();
+        allow create, update: if isStaff() && request.resource.data.keys().hasAll(['projectId','revision'])
+          && request.resource.data.keys().hasOnly(['projectId','revision'])
+          && getAfter(publicPath(request.resource.data.projectId)).data.content.slug == slug
+          && getAfter(publicPath(request.resource.data.projectId)).data.revision == request.resource.data.revision
+          && (!exists(slugPath(slug)) || resource.data.projectId == request.resource.data.projectId);
+        allow delete: if isStaff() && !existsAfter(publicPath(resource.data.projectId));
+      }
+      match /media/{id} {
+        function receipt() { return get(/databases/$(database)/documents/sites/$(site)/mediaReceipts/$(id)).data; }
+        function validMedia(v) {
+          let r = receipt();
+          return v.keys().hasAll(['public','source','ready','verified','createdAt','createdBy','updatedAt','updatedBy'])
+            && v.keys().hasOnly(['public','source','ready','verified','createdAt','createdBy','updatedAt','updatedBy'])
+            && validAsset(v.public) && v.public.id == id && v.ready == true && v.verified == true
+            && r.assetId == id && r.site == site && r.public == true
+            && v.public.driveFileId == r.fileId && v.public.name == r.fileName
+            && v.public.mime == r.mimeType && v.public.bytes == r.fileSize
+            && v.public.thumbnailDriveFileId == r.thumbnailFileId
+            && (!('publicUrl' in v.public) || (r.get('storage','') == 'hosting'
+              && v.public.publicUrl == r.publicUrl
+              && r.publicUrl == 'https://portfolio-14d15.web.app/project-media/' + r.sha256 + '.jpg'))
+            && v.source.keys().hasOnly(['folderId','originProjectId','scope','requestId','sha256','uploadedBy','viewUrl','downloadUrl'])
+            && v.source.folderId == r.folderId && v.source.originProjectId == r.projectId
+            && v.source.scope == r.scope && v.source.requestId == r.requestId
+            && v.source.sha256 == r.sha256 && v.source.uploadedBy == r.uploadedBy
+            && v.source.viewUrl == r.viewUrl && v.source.downloadUrl == r.downloadUrl
+            && v.updatedAt == request.time && v.updatedBy == request.auth.uid;
+        }
+        allow read: if isStaff();
+        allow create: if isStaff() && validMedia(request.resource.data)
+          && request.resource.data.createdBy == request.auth.uid && request.resource.data.createdAt == request.time;
+        allow update: if isStaff() && validMedia(request.resource.data)
+          && request.resource.data.createdAt == resource.data.createdAt && request.resource.data.createdBy == resource.data.createdBy;
+        allow delete: if false;
+      }
+      match /mediaReceipts/{id} {
+        allow read: if isStaff();
+        allow write: if false; // Only the bridge's Google IAM identity writes trusted receipts.
+      }
+      match /mediaOperations/{id} {
+        function validOperation(v) {
+          return v.keys().hasAll(['requestId','projectId','scope','kind','fileName','mimeType','fileSize',
+            'sha256','alt','state','createdAt','createdBy','updatedAt','updatedBy'])
+            && v.keys().hasOnly(['requestId','projectId','scope','kind','fileName','mimeType','fileSize',
+            'sha256','alt','state','createdAt','createdBy','updatedAt','updatedBy'])
+            && v.requestId is string && v.requestId.matches('[A-Za-z0-9_-]{8,100}')
+            && v.projectId is string && v.projectId.matches('[A-Za-z0-9_-]{1,70}')
+            && v.scope in ['project','brand','team'] && v.kind in ['Images','Videos','Attachments']
+            && filled(v.fileName,180) && v.mimeType in ['image/png','image/jpeg','image/webp','video/mp4','video/webm','application/pdf']
+            && v.fileSize is int && v.fileSize > 0 && v.fileSize <= 5242880
+            && v.sha256 is string && v.sha256.matches('[a-f0-9]{64}') && bilingual(v.alt)
+            && v.state in ['prepared','uploading','uncertain','uploaded','registered']
+            && v.createdAt is timestamp && v.createdBy == request.auth.uid
+            && v.updatedAt == request.time && v.updatedBy == request.auth.uid;
+        }
+        allow read: if isStaff();
+        allow create: if isStaff() && validOperation(request.resource.data) && request.resource.data.createdAt == request.time;
+        allow update: if isStaff() && validOperation(request.resource.data)
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['state','updatedAt','updatedBy']);
+        allow delete: if false;
+      }
+      match /mediaRouting/{id} {
+        allow read: if validSite();
+        allow create, update: if isManager() && id == 'current'
+          && request.resource.data.keys().hasOnly(['endpoint','version','updatedAt','updatedBy'])
+          && request.resource.data.endpoint is string && request.resource.data.endpoint.size() <= 2048
+          && request.resource.data.endpoint.matches('https://script[.]google[.]com/macros/s/[A-Za-z0-9_-]+/exec')
+          && request.resource.data.version == 5 && request.resource.data.updatedAt == request.time
+          && request.resource.data.updatedBy == request.auth.uid;
+        allow delete: if false;
+      }
+      match /categories/{id} {
+        allow read: if validSite() && (resource.data.enabled == true || isStaff());
+        allow create, update: if isManager() && request.resource.data.keys().hasAll(['name','enabled','order','updatedAt','updatedBy'])
+          && request.resource.data.keys().hasOnly(['name','enabled','order','updatedAt','updatedBy'])
+          && localized(request.resource.data.name) && request.resource.data.enabled is bool
+          && (!request.resource.data.enabled || bilingual(request.resource.data.name))
+          && request.resource.data.order is int && request.resource.data.updatedAt == request.time
+          && request.resource.data.updatedBy == request.auth.uid;
+        allow delete: if false;
+      }
+      match /teamDrafts/{id} { allow read, write: if isManager(); }
+      match /team/{id} {
+        allow read: if validSite();
+        allow create, update: if isManager() && request.resource.data.keys().hasAll(['name','role','bio','order'])
+          && request.resource.data.keys().hasOnly(['name','role','bio','order','photo','links'])
+          && bilingual(request.resource.data.name) && bilingual(request.resource.data.role)
+          && localized(request.resource.data.bio) && request.resource.data.order is int
+          && ((request.resource.data.bio.ar == '' && request.resource.data.bio.en == '') || bilingual(request.resource.data.bio))
+          && (!('photo' in request.resource.data) || (request.resource.data.photo.mime in ['image/png','image/jpeg','image/webp']
+            && readyAsset(request.resource.data.photo)))
+          && (!('links' in request.resource.data) || (request.resource.data.links is list && request.resource.data.links.size() <= 6
+            && linkAt(request.resource.data.links,0) && linkAt(request.resource.data.links,1) && linkAt(request.resource.data.links,2)
+            && linkAt(request.resource.data.links,3) && linkAt(request.resource.data.links,4) && linkAt(request.resource.data.links,5)));
+        allow delete: if isManager();
+      }
+      match /companyDrafts/{id} { allow read, write: if isManager(); }
+      match /company/{id} {
+        allow read: if validSite();
+        allow write: if isManager() && request.resource.data.keys().hasAll(['name','about','service','contacts'])
+          && request.resource.data.keys().hasOnly(['name','about','service','contacts'])
+          && request.resource.data.name == 'YOGEN' && bilingual(request.resource.data.about)
+          && bilingual(request.resource.data['service']) && validContacts(request.resource.data.contacts);
+      }
+      match /settings/{id} { allow read, write: if isManager(); }
+      // Private input and a non-personal receipt are created in one atomic write.
+      // The 256-bit random ID is also the retry key; receipts cannot be listed.
+      function contactId(id) { return id.matches('[a-f0-9]{64}'); }
+      function contactChannel(value) {
+        return text(value,254) && (value.matches('[^\\s@]+@[^\\s@]+[.][^\\s@]+')
+          || value.matches('[+][1-9][0-9]{7,14}'));
+      }
+      function contactProject(value) {
+        return value is map && value.keys().hasAll(['id','nameAr','nameEn'])
+          && value.keys().hasOnly(['id','nameAr','nameEn'])
+          && text(value.id,70) && text(value.nameAr,30000) && text(value.nameEn,30000)
+          && ((value.id == '' && value.nameAr == '' && value.nameEn == '')
+            || (value.id.matches('[A-Za-z0-9_-]{1,70}')
+              && exists(publicPath(value.id))
+              && value.nameAr == get(publicPath(value.id)).data.content.title.ar
+              && value.nameEn == get(publicPath(value.id)).data.content.title.en));
+      }
+      match /contactRequests/{id} {
+        function validSubmission(v) {
+          let receipt = getAfter(/databases/$(database)/documents/sites/$(site)/contactReceipts/$(id)).data;
+          return v.keys().hasAll(['requestId','name','contact','details','language','project','createdAt','status','note','updatedAt','updatedBy'])
+            && v.keys().hasOnly(['requestId','name','contact','details','language','project','createdAt','status','note','updatedAt','updatedBy'])
+            && contactId(id) && v.requestId == id && filled(v.name,120)
+            && contactChannel(v.contact) && filled(v.details,5000) && v.details.size() >= 10
+            && v.language in ['ar','en'] && contactProject(v.project)
+            && v.createdAt == request.time && v.updatedAt == request.time && v.updatedBy == ''
+            && v.status == 'new' && v.note == ''
+            && receipt.requestId == id && receipt.receivedAt == request.time;
+        }
+        allow read: if isStaff();
+        allow create: if validSite() && validSubmission(request.resource.data);
+        allow update: if isStaff()
+          && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['status','note','updatedAt','updatedBy'])
+          && request.resource.data.status in ['new','inProgress','closed'] && text(request.resource.data.note,5000)
+          && request.resource.data.updatedAt == request.time && request.resource.data.updatedBy == request.auth.uid;
+        allow delete: if false;
+      }
+      match /contactReceipts/{id} {
+        allow get: if validSite() && contactId(id);
+        allow list, update, delete: if false;
+        allow create: if validSite() && contactId(id)
+          && request.resource.data.keys().hasAll(['requestId','receivedAt'])
+          && request.resource.data.keys().hasOnly(['requestId','receivedAt'])
+          && request.resource.data.requestId == id && request.resource.data.receivedAt == request.time
+          && !exists(/databases/$(database)/documents/sites/$(site)/contactRequests/$(id))
+          && getAfter(/databases/$(database)/documents/sites/$(site)/contactRequests/$(id)).data.requestId == id
+          && getAfter(/databases/$(database)/documents/sites/$(site)/contactRequests/$(id)).data.createdAt == request.time;
+      }
+      match /{document=**} { allow read, write: if false; }
+    }
+    // Preserve the previous isolated experiment; it grants no site role.
+    match /phase03_checks/{owner}/{collection}/{record} {
+      function testOwner() { return request.auth != null && request.auth.uid == 'QUUM6tS8dGbRd9rpwxOdEw5oLPS2' && owner == request.auth.uid; }
+      allow read: if testOwner() && collection in ['runs','media'];
+      allow create, update: if testOwner() && collection in ['runs','media'] && request.resource.data.testOnly == true
+        && request.resource.data.keys().hasOnly(['testOnly','createdAt','projectId','runId','fileId','fileName','mimeType','fileSize','directUrl','viewUrl','downloadUrl']);
+      allow delete: if testOwner() && collection in ['runs','media'] && resource.data.testOnly == true;
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

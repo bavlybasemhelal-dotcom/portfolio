@@ -1,0 +1,51 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "برنامج العضوية الكنسية" [disabled]:
+    - generic: برنامج العضوية الكنسية
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "برنامج العضوية الكنسية" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "uuwagdy.github.io/Chu…ership":
+        - link "uuwagdy.github.io/Chu…ership":
+          - /url: https://uuwagdy.github.io/ChurchMermbership
+  - generic: برنامج يربط كل ما يخص الأسر والافتقاد والمناطق والمساعدات
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "برنامج العضوية الكنسية | الموقع الرسمي الموقع الرسمي لبرنامج العضوية الكنسية - نظام متكامل لإدارة الأسر والخدمات والمالية ومتابعة الافتقاد والاعترافات. قم بتحميل نسخة الويندوز والأندرويد الآن. https://uuwagdy.github.io/ChurchMermbership":
+      - /url: https://uuwagdy.github.io/ChurchMermbership
+      - generic: برنامج العضوية الكنسية | الموقع الرسمي
+      - generic: الموقع الرسمي لبرنامج العضوية الكنسية - نظام متكامل لإدارة الأسر والخدمات والمالية ومتابعة الافتقاد والاعترافات. قم بتحميل نسخة الويندوز والأندرويد الآن.
+      - generic: https://uuwagdy.github.io/ChurchMermbership
+  - blockquote:
+    - generic: صور من داخل البرنامج
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

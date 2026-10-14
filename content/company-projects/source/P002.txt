@@ -1,0 +1,58 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "عيادة طبيب - موقع حجز ومتابعة حالات" [disabled]:
+    - generic: عيادة طبيب - موقع حجز ومتابعة حالات
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "عيادة طبيب - موقع حجز ومتابعة حالات" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "nexera-2ba1d.web.app":
+        - link "nexera-2ba1d.web.app":
+          - /url: https://nexera-2ba1d.web.app/
+  - generic: موقع متكامل لعرض عيادة الطبيب والحجز للمريض والسكرتارية بكل تفاصيلهم
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "Nexara Nexara - Clinic Management System https://nexera-2ba1d.web.app":
+      - /url: https://nexera-2ba1d.web.app/
+      - generic: Nexara
+      - generic: Nexara - Clinic Management System
+      - generic: https://nexera-2ba1d.web.app
+  - blockquote:
+    - generic: صور بداخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+  - blockquote:
+    - generic: صفحة الطبيب
+  - figure
+  - figure
+  - figure
+  - blockquote:
+    - generic: صفحة المريض
+  - figure
+  - figure
+  - blockquote:
+    - generic: صفحة السكرتارية
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

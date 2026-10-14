@@ -1,0 +1,1138 @@
+{
+  "report": {
+    "checkedAt": "2026-10-13T14:36:30.391470+00:00",
+    "expectedProjects": 15,
+    "publishedProjects": 15,
+    "publishedImages": 31,
+    "allPublishedContentMatches": true,
+    "complete": true,
+    "projects": [
+      {
+        "projectId": "yogen-p001",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 19
+      },
+      {
+        "projectId": "yogen-p002",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 17
+      },
+      {
+        "projectId": "yogen-p003",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 17
+      },
+      {
+        "projectId": "yogen-p004",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 16
+      },
+      {
+        "projectId": "yogen-p005",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p006",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p007",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p008",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p009",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 1,
+        "revision": 23
+      },
+      {
+        "projectId": "yogen-p010",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 3,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p011",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p012",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 3,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p013",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 1,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p014",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 2,
+        "revision": 14
+      },
+      {
+        "projectId": "yogen-p015",
+        "published": true,
+        "contentAndMediaMatch": true,
+        "mismatches": [],
+        "imageCount": 3,
+        "revision": 16
+      }
+    ]
+  },
+  "documents": {
+    "yogen-p001": {
+      "assets": [
+        {
+          "alt": {
+            "ar": "لوحة التحكم الرئيسية",
+            "en": "Main dashboard"
+          },
+          "bytes": 86638,
+          "mime": "image/jpeg",
+          "id": "m_2638caa9d7a35cda01bcd14d19edc7bea1100abc129256f11dcc1cdfd6b921eb",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/7f65c8de3acc7dc2fcfca6970c9af4dd7e5dbbb2db234e8ac1148c848bac1e8d.jpg",
+          "name": "cover.jpg",
+          "driveFileId": "",
+          "thumbnailDriveFileId": ""
+        },
+        {
+          "id": "m_be49dec0eff4b5ae8f6207a65df4b9768e73e401e05e6a0e5e8853ec05c37b7d",
+          "bytes": 118254,
+          "name": "gallery-01.jpg",
+          "driveFileId": "",
+          "mime": "image/jpeg",
+          "thumbnailDriveFileId": "",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/9fd3554dd08e2dfcede14c2ba1ae9199866d1e04a3ebf16fec0f6d38e6233a8b.jpg",
+          "alt": {
+            "en": "Point of sale and cashier interface",
+            "ar": "واجهة نقطة البيع والكاشير"
+          }
+        }
+      ],
+      "projectId": "yogen-p001",
+      "publishedAt": "2026-10-13T14:35:33.090Z",
+      "revision": 19,
+      "category": {
+        "ar": "أنظمة الأعمال",
+        "en": "Business systems"
+      },
+      "content": {
+        "summary": {
+          "en": "Sales, inventory, accounts and staff in one Android and Windows system, with offline operation and synchronization when connectivity returns.",
+          "ar": "المبيعات والمخزون والحسابات والموظفون في نظام واحد على أندرويد وويندوز، مع العمل دون إنترنت والمزامنة عند عودة الاتصال."
+        },
+        "attribution": "company",
+        "categoryId": "business",
+        "title": {
+          "en": "Dr. Sales — Sales & Business Management",
+          "ar": "Dr. Sales — إدارة المبيعات والأعمال"
+        },
+        "links": [],
+        "slug": "dr-sales",
+        "body": {
+          "en": "Dr. Sales brings together daily business operations: sales, purchases, returns, stocktaking, customer and supplier accounts, and income and expense tracking. It supports cash, credit and installment sales, with staff, representative and technician workflows linked to payroll and commissions.\n\nThe system also covers event bookings and timed gaming sessions with additional products. Phone-camera barcode scanning, Bluetooth invoice printing, separate user permissions and business reports support day-to-day operations.\n\n## Key features\n- Sales, purchases and returns\n- Inventory, stocktaking and customer/supplier accounts\n- Android, Windows and offline operation\n- Synchronization across connected devices\n- Barcode scanning and Bluetooth invoicing\n- Bookings, staff, reports and permissions\n\n[Visit project website](https://dr-sales-activation.web.app/)",
+          "ar": "Dr. Sales يجمع دورة العمل اليومية للنشاط التجاري: المبيعات والمشتريات والمرتجعات، إدارة المخازن والجرد، حسابات العملاء والموردين، ومتابعة الإيرادات والمصروفات. يدعم البيع النقدي والآجل والتقسيط، ويربط متابعة الموظفين والمندوبين والفنيين بالرواتب والعمولات.\n\nيمتد النظام إلى حجوزات المناسبات وإدارة جلسات السايبر والبلايستيشن وحساب وقتها وإضافة المنتجات إليها. ويتيح قراءة الباركود بكاميرا الهاتف وطباعة الفواتير بالبلوتوث، مع صلاحيات منفصلة وتقارير تساعد على متابعة النشاط.\n\n## الوظائف الأساسية\n- إدارة المبيعات والمشتريات والمرتجعات\n- المخزون والجرد وحسابات العملاء والموردين\n- أندرويد وويندوز والعمل دون إنترنت\n- المزامنة بين الأجهزة عند الاتصال\n- الباركود وطباعة فواتير البلوتوث\n- حجوزات وموظفون وتقارير وصلاحيات\n\n[زيارة موقع المشروع](https://dr-sales-activation.web.app/)"
+        },
+        "mediaIds": [
+          "m_2638caa9d7a35cda01bcd14d19edc7bea1100abc129256f11dcc1cdfd6b921eb",
+          "m_be49dec0eff4b5ae8f6207a65df4b9768e73e401e05e6a0e5e8853ec05c37b7d"
+        ],
+        "usage": "demo",
+        "year": null,
+        "order": 0,
+        "contribution": {
+          "en": "Development of an integrated sales, accounting and inventory system, Android and Windows workflows, and monitoring and reporting interfaces.",
+          "ar": "تطوير نظام متكامل للمبيعات والحسابات والمخزون، وتجربة العمل على أندرويد وويندوز، وواجهات المتابعة والتقارير."
+        }
+      }
+    },
+    "yogen-p002": {
+      "projectId": "yogen-p002",
+      "category": {
+        "ar": "الرعاية الصحية",
+        "en": "Healthcare"
+      },
+      "revision": 17,
+      "publishedAt": "2026-10-13T14:35:35.391Z",
+      "content": {
+        "year": null,
+        "attribution": "company",
+        "title": {
+          "en": "Nexara — Clinic Management & Booking",
+          "ar": "Nexara — إدارة العيادة وحجز المواعيد"
+        },
+        "links": [],
+        "summary": {
+          "ar": "موقع للعيادة وتجربة حجز للمريض، مع واجهات للطبيب والسكرتارية لمتابعة المواعيد والعمل اليومي.",
+          "en": "A clinic website and patient booking journey, with doctor and reception interfaces for appointments and daily operations."
+        },
+        "order": 1,
+        "mediaIds": [
+          "m_96d59ae71f308596c7ca174e6ab87e1e9ac114e7969e1534913aa1da94e5a214",
+          "m_2b5471c80ca7db5d1895d8bf68d0ab748c2de947b9cea75684c59bc4f9453794"
+        ],
+        "slug": "nexara-clinic",
+        "contribution": {
+          "ar": "تطوير الموقع التعريفي للعيادة ومسار الحجز وواجهات المريض والطبيب والسكرتارية.",
+          "en": "Development of the clinic website, appointment journey, and patient, doctor and reception interfaces."
+        },
+        "body": {
+          "en": "A platform combining a clinic website with booking and follow-up workflows. It presents the doctor, clinic services and location, and lets patients select an available appointment.\n\nThe experience includes a patient interface, a doctor workspace for visits and practice activity, and a reception workspace for organizing bookings. Source screens also show activity analysis and visit notes.\n\n## Key features\n- Clinic, doctor and service presentation\n- Available day and time selection\n- Patient workspace\n- Doctor and reception workspaces\n\n[Visit project website](https://nexera-2ba1d.web.app/)",
+          "ar": "منصة تجمع الواجهة التعريفية للعيادة مع إدارة الحجز والمتابعة. تعرض معلومات الطبيب وخدمات العيادة وموقعها، وتتيح للمريض اختيار موعد متاح.\n\nتتوزع التجربة بين واجهة المريض، ولوحة الطبيب لمتابعة العمل والكشوفات، ولوحة السكرتارية لتنظيم الحجوزات. تظهر في صور المصدر أيضًا أدوات تحليل النشاط ومتابعة الكشوفات والملاحظات.\n\n## الوظائف الأساسية\n- عرض العيادة والطبيب والخدمات\n- اختيار اليوم والموعد المتاح\n- واجهة مستقلة للمريض\n- لوحة للطبيب والسكرتارية\n\n[زيارة موقع المشروع](https://nexera-2ba1d.web.app/)"
+        },
+        "usage": "demo",
+        "categoryId": "healthcare"
+      },
+      "assets": [
+        {
+          "bytes": 142403,
+          "id": "m_96d59ae71f308596c7ca174e6ab87e1e9ac114e7969e1534913aa1da94e5a214",
+          "name": "cover.jpg",
+          "mime": "image/jpeg",
+          "driveFileId": "",
+          "thumbnailDriveFileId": "",
+          "alt": {
+            "en": "Clinic website homepage",
+            "ar": "الصفحة الرئيسية لعيادة الطبيب"
+          },
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e38cb75452a887258254a9b12c30a4fb0801c97b892bc3aac4191c46f1c1905c.jpg"
+        },
+        {
+          "driveFileId": "",
+          "name": "gallery-01.jpg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/ebb30b9a7bd2dd3abbd8e361c20f1e67a96755a572e60a461e45e23f404295e3.jpg",
+          "id": "m_2b5471c80ca7db5d1895d8bf68d0ab748c2de947b9cea75684c59bc4f9453794",
+          "alt": {
+            "en": "Available appointment selection",
+            "ar": "اختيار موعد حجز متاح"
+          },
+          "thumbnailDriveFileId": "",
+          "mime": "image/jpeg",
+          "bytes": 73893
+        }
+      ]
+    },
+    "yogen-p003": {
+      "content": {
+        "categoryId": "education",
+        "body": {
+          "en": "A Windows system with an Arabic interface that connects attendance and dismissal with school transport. It manages students, classes and buses and provides a dashboard for daily activity.\n\nPrinting tools support card and barcode layouts and thermal dismissal tickets. The source describes offline operation for everyday school workflows.\n\n## Key features\n- Daily attendance and dismissal\n- Students, classes and transport\n- Cards, barcodes and thermal tickets\n- Offline Windows application\n\n[Visit project website](https://uuwagdy.github.io/School)",
+          "ar": "نظام يجمع متابعة الحضور والانصراف مع تنظيم النقل المدرسي في واجهة عربية على ويندوز. يدير الطلاب والفصول والأتوبيسات، ويوفر لوحة عامة لمؤشرات اليوم.\n\nتدعم أدوات الطباعة تصميم الكارنيهات والباركود وإصدار تذاكر انصراف حرارية. يوضح المصدر أن النظام يعمل دون إنترنت، بما يلائم إجراءات المدرسة اليومية.\n\n## الوظائف الأساسية\n- الحضور والانصراف اليومي\n- إدارة الطلاب والفصول والنقل\n- كارنيهات وباركود وتذاكر حرارية\n- تطبيق ويندوز يعمل دون إنترنت\n\n[زيارة موقع المشروع](https://uuwagdy.github.io/School)"
+        },
+        "usage": "demo",
+        "order": 2,
+        "slug": "james-school-system",
+        "summary": {
+          "en": "A desktop system for attendance, dismissal and school transport, with student cards and dismissal ticket printing.",
+          "ar": "نظام مكتبي لإدارة الحضور والانصراف والنقل المدرسي، وطباعة كارنيهات الطلاب وتذاكر الانصراف."
+        },
+        "title": {
+          "en": "James American School — School Management",
+          "ar": "James American School — إدارة المدرسة"
+        },
+        "links": [],
+        "contribution": {
+          "en": "Development of the school management application and attendance, dismissal, transport and printing interfaces.",
+          "ar": "تطوير برنامج الإدارة المدرسية وواجهات الحضور والانصراف والنقل والطباعة."
+        },
+        "mediaIds": [
+          "m_24312cd1afe3498b937e32845f8e2ae8896a634ef9d17722755ae015f0744854",
+          "m_4c78f23f42152573b16e9fbcbb3c8e08a5b4b1ebe36f37425988ae011e081279"
+        ],
+        "year": null,
+        "attribution": "company"
+      },
+      "category": {
+        "ar": "التعليم",
+        "en": "Education"
+      },
+      "revision": 17,
+      "publishedAt": "2026-10-13T14:35:37.715Z",
+      "assets": [
+        {
+          "thumbnailDriveFileId": "",
+          "mime": "image/jpeg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/6ce397af16406628893d72aefd947c3c956d82f0ef9c06edbcfd857560d1cf07.jpg",
+          "id": "m_24312cd1afe3498b937e32845f8e2ae8896a634ef9d17722755ae015f0744854",
+          "bytes": 111760,
+          "alt": {
+            "ar": "لوحة إدارة المدرسة",
+            "en": "School management dashboard"
+          },
+          "driveFileId": "",
+          "name": "cover.jpg"
+        },
+        {
+          "name": "gallery-01.jpg",
+          "thumbnailDriveFileId": "",
+          "alt": {
+            "ar": "واجهة بدء تشغيل النظام المدرسي",
+            "en": "School application start screen"
+          },
+          "driveFileId": "",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e45e41186c7163e37b9384eb91d225230036d3a80c75c631c6ce37439679c7be.jpg",
+          "id": "m_4c78f23f42152573b16e9fbcbb3c8e08a5b4b1ebe36f37425988ae011e081279",
+          "mime": "image/jpeg",
+          "bytes": 86686
+        }
+      ],
+      "projectId": "yogen-p003"
+    },
+    "yogen-p004": {
+      "projectId": "yogen-p004",
+      "content": {
+        "attribution": "company",
+        "body": {
+          "en": "A dental laboratory website combining laboratory information and services with a clear order entry point. It presents restoration and product categories such as zirconia, night guards and implant-supported work.\n\nService, about and FAQ pages help dentists understand the laboratory offering and start a request.\n\n## Key features\n- Laboratory products and restorations\n- Dentist-to-laboratory requests\n- Laboratory information and FAQs\n\n[Visit project website](https://quality-dental-lab.web.app/)",
+          "ar": "واجهة رقمية لمعمل الأسنان تجمع التعريف بالمعمل والخدمات مع نقطة واضحة لبدء الطلب. يعرض الموقع أنواع التركيبات والمنتجات، مثل الزركون والواقيات والتركيبات المرتبطة بالزرعات.\n\nتوضح صفحات الخدمات والتعريف والأسئلة الشائعة ما يقدمه المعمل، لتسهيل وصول الطبيب إلى الخدمة المطلوبة وبدء التواصل حول الحالة.\n\n## الوظائف الأساسية\n- عرض منتجات وتركيبات المعمل\n- مسار طلب من الطبيب إلى المعمل\n- تعريف بالمعمل وأسئلة شائعة\n\n[زيارة موقع المشروع](https://quality-dental-lab.web.app/)"
+        },
+        "mediaIds": [
+          "m_5215af1803455a231a4e5c85dd33e6249c361a5cf7328de7cd685fc3d24d092d",
+          "m_a6091cd1b3a9d56f09292615d2a98d9095a8db766455e97bf181308cc25c500f"
+        ],
+        "usage": "demo",
+        "order": 3,
+        "slug": "quality-dental-lab",
+        "summary": {
+          "en": "A website connecting dentists with the laboratory, presenting products and services and supporting restoration requests.",
+          "ar": "موقع يربط طبيب الأسنان بالمعمل، ويعرض المنتجات والخدمات ويوفر مسارًا لطلب التركيبات."
+        },
+        "links": [],
+        "title": {
+          "ar": "Quality Dental Lab — منصة معمل الأسنان",
+          "en": "Quality Dental Lab — Dental Lab Platform"
+        },
+        "contribution": {
+          "ar": "تطوير واجهات المعمل وعرض الخدمات والمنتجات ومسار طلب التركيبات.",
+          "en": "Development of the laboratory website, service and product presentation, and restoration request journey."
+        },
+        "year": null,
+        "categoryId": "healthcare"
+      },
+      "publishedAt": "2026-10-13T14:35:40.267Z",
+      "assets": [
+        {
+          "id": "m_5215af1803455a231a4e5c85dd33e6249c361a5cf7328de7cd685fc3d24d092d",
+          "thumbnailDriveFileId": "",
+          "driveFileId": "",
+          "bytes": 96232,
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/0d419d9bf631bc5c923790c6182d28397335da23d6bdc39c0ac0ef764d3a2c2a.jpg",
+          "name": "cover.jpg",
+          "mime": "image/jpeg",
+          "alt": {
+            "en": "Dental laboratory homepage",
+            "ar": "الصفحة الرئيسية لمعمل الأسنان"
+          }
+        },
+        {
+          "id": "m_a6091cd1b3a9d56f09292615d2a98d9095a8db766455e97bf181308cc25c500f",
+          "thumbnailDriveFileId": "",
+          "driveFileId": "",
+          "mime": "image/jpeg",
+          "alt": {
+            "ar": "قائمة المنتجات والخدمات",
+            "en": "Products and services catalogue"
+          },
+          "bytes": 117351,
+          "name": "gallery-01.jpg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/cccd470961cc6ee55b27d2149d68b1b198be16afc16a76fe05645f075139349a.jpg"
+        }
+      ],
+      "category": {
+        "en": "Healthcare",
+        "ar": "الرعاية الصحية"
+      },
+      "revision": 16
+    },
+    "yogen-p005": {
+      "category": {
+        "en": "Brand websites",
+        "ar": "المواقع التعريفية"
+      },
+      "revision": 14,
+      "projectId": "yogen-p005",
+      "publishedAt": "2026-10-13T14:35:42.629Z",
+      "content": {
+        "attribution": "company",
+        "usage": "demo",
+        "slug": "me-and-law",
+        "contribution": {
+          "ar": "تطوير موقع المكتب وصفحات الخدمات ونموذج طلب الاستشارة.",
+          "en": "Development of the firm website, service pages and consultation request form."
+        },
+        "body": {
+          "en": "A website connecting the firm’s public identity with a legal service request journey. It presents consultations, contract drafting, complaints, notices and defense memoranda.\n\nClients select a service and complete a request form with contact details and their legal question.\n\n## Key features\n- Legal service presentation\n- Service selection and consultation requests\n- Structured request form\n\n[Visit project website](https://me-and-law.web.app/)",
+          "ar": "موقع يجمع الهوية التعريفية للمكتب مع رحلة طلب الخدمة القانونية. تعرض الواجهة الاستشارات وصياغة العقود والشكاوى والإنذارات ومذكرات الدفاع.\n\nيختار الموكل الخدمة ثم يستكمل نموذج الطلب وبيانات التواصل والسؤال القانوني من واجهة واحدة واضحة.\n\n## الوظائف الأساسية\n- عرض الخدمات القانونية\n- اختيار الخدمة وطلب الاستشارة\n- نموذج واضح لبيانات الطلب\n\n[زيارة موقع المشروع](https://me-and-law.web.app/)"
+        },
+        "order": 4,
+        "year": null,
+        "summary": {
+          "ar": "موقع لمكتب محاماة يعرض الخدمات القانونية ويتيح للموكل اختيار الخدمة وطلب الاستشارة.",
+          "en": "A law firm website presenting legal services and letting clients select a service and request a consultation."
+        },
+        "title": {
+          "en": "Me & Law — Legal Services Website",
+          "ar": "أنا والقانون وثغراته — منصة خدمات قانونية"
+        },
+        "links": [],
+        "mediaIds": [
+          "m_63639c21b02be93bd0bb8f999f858009b988b067aa4fa3c5e5bb9d5b985f48a4",
+          "m_3ed958bfcd92a8f911f28371025d34387480f44bcc3ff0d077b10736ff52a219"
+        ],
+        "categoryId": "websites"
+      },
+      "assets": [
+        {
+          "mime": "image/jpeg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/f097971c7368084ba65ea0baec0998095f8a08a730e94b7691cd7df511181605.jpg",
+          "thumbnailDriveFileId": "",
+          "driveFileId": "",
+          "bytes": 140304,
+          "alt": {
+            "en": "Law firm homepage",
+            "ar": "الواجهة الرئيسية للمكتب"
+          },
+          "id": "m_63639c21b02be93bd0bb8f999f858009b988b067aa4fa3c5e5bb9d5b985f48a4",
+          "name": "cover.jpg"
+        },
+        {
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/22b6342346fa67134ce193c098ea18706e8c450b1c3975ad1753b0e29875b913.jpg",
+          "name": "gallery-01.jpg",
+          "alt": {
+            "ar": "نموذج طلب الاستشارة القانونية",
+            "en": "Legal consultation request form"
+          },
+          "id": "m_3ed958bfcd92a8f911f28371025d34387480f44bcc3ff0d077b10736ff52a219",
+          "driveFileId": "",
+          "mime": "image/jpeg",
+          "bytes": 95017,
+          "thumbnailDriveFileId": ""
+        }
+      ]
+    },
+    "yogen-p006": {
+      "publishedAt": "2026-10-13T14:35:44.996Z",
+      "projectId": "yogen-p006",
+      "content": {
+        "body": {
+          "ar": "متجر إلكتروني يربط العميل بالتاجر عبر عرض المنتجات وتفاصيلها وخيارات تخصيصها. يستطيع العميل تصفح الكتالوج واختيار المقاس أو الخيارات المتاحة وإضافة المنتج إلى الطلب.\n\nتظهر صور المصدر مسار متابعة مراحل تنفيذ الطلب، إلى جانب لوحة لإحصائيات المتجر وإدارة الطلبات. تجمع التجربة بين العرض البصري للمنتج ومتابعته بعد الشراء.\n\n## الوظائف الأساسية\n- كتالوج منتجات وتصنيفات\n- خيارات تخصيص المنتج\n- متابعة مراحل تنفيذ الطلب\n- لوحة إحصائيات وإدارة الطلبات\n\n[زيارة موقع المشروع](https://test-8e5e2.web.app/)",
+          "en": "An online store connecting customers and merchants through product presentation, details and customization. Customers browse the catalogue, choose available options and add products to an order.\n\nSource screens show order production stages, store statistics and order administration, connecting visual product discovery with post-purchase tracking.\n\n## Key features\n- Product catalogue and categories\n- Product customization options\n- Order production tracking\n- Statistics and order administration\n\n[Visit project website](https://test-8e5e2.web.app/)"
+        },
+        "summary": {
+          "ar": "متجر يجمع كتالوج البراويز والهدايا مع خيارات تخصيص المنتج ومتابعة الطلب وإدارة المتجر.",
+          "en": "A frames and gifts store combining a product catalogue, customization options, order tracking and store administration."
+        },
+        "links": [],
+        "title": {
+          "ar": "X FRAME — متجر البراويز والهدايا",
+          "en": "X FRAME — Frames & Gifts Store"
+        },
+        "contribution": {
+          "en": "Development of storefront, catalogue, product detail, order journey and administration interfaces.",
+          "ar": "تطوير واجهات المتجر والكتالوج وتفاصيل المنتجات ومسار الطلب ولوحة الإدارة."
+        },
+        "attribution": "company",
+        "slug": "x-frame-store",
+        "mediaIds": [
+          "m_9d9b675d4e3ed0ffddf0221735ba13e189703dbcb784b2dbce057ca7fe5114d9",
+          "m_c1a2d797b867638d632f559e74191be16cd96f20dac8d86c2ed30b5ed080b074"
+        ],
+        "categoryId": "commerce",
+        "usage": "demo",
+        "order": 5,
+        "year": null
+      },
+      "revision": 14,
+      "category": {
+        "en": "E-commerce",
+        "ar": "التجارة الإلكترونية"
+      },
+      "assets": [
+        {
+          "id": "m_9d9b675d4e3ed0ffddf0221735ba13e189703dbcb784b2dbce057ca7fe5114d9",
+          "driveFileId": "",
+          "name": "cover.jpg",
+          "mime": "image/jpeg",
+          "bytes": 163494,
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/f77492e2732a5aa9159041c001cb9d90298041437b32e15145fea8623b5eb524.jpg",
+          "alt": {
+            "en": "X FRAME store homepage",
+            "ar": "الصفحة الرئيسية لمتجر X FRAME"
+          },
+          "thumbnailDriveFileId": ""
+        },
+        {
+          "thumbnailDriveFileId": "",
+          "name": "gallery-01.jpg",
+          "id": "m_c1a2d797b867638d632f559e74191be16cd96f20dac8d86c2ed30b5ed080b074",
+          "driveFileId": "",
+          "bytes": 126014,
+          "alt": {
+            "ar": "تفاصيل المنتج وخياراته",
+            "en": "Product detail and customization"
+          },
+          "mime": "image/jpeg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e712811b1adb52d35d513130b907d74f05f0bdd8f07cd47044965a7a796bb22e.jpg"
+        }
+      ]
+    },
+    "yogen-p007": {
+      "projectId": "yogen-p007",
+      "publishedAt": "2026-10-13T14:35:47.447Z",
+      "category": {
+        "en": "Brand websites",
+        "ar": "المواقع التعريفية"
+      },
+      "content": {
+        "slug": "youssab-wagdy-portfolio",
+        "title": {
+          "en": "Youssab Wagdy — Personal Portfolio",
+          "ar": "يوساب وجدي — بورتفوليو شخصي"
+        },
+        "links": [],
+        "categoryId": "websites",
+        "body": {
+          "en": "A professional portfolio bringing together the developer’s profile, skills, work and services. Dark surfaces and gold accents connect clear sections that guide visitors from experience to projects and contact.\n\nThe experience includes Arabic and English, theme options, project cards and a contact form.\n\n## Key features\n- Skills, work and services\n- Arabic and English experience\n- Theme options and contact interface\n\n[Visit project website](https://portofolio-youssab.web.app/)",
+          "ar": "بورتفوليو احترافي يجمع التعريف بالمطور مع مهاراته وأعماله وخدماته. تستخدم الواجهة تدرجات داكنة ولمسات ذهبية، مع أقسام واضحة تساعد الزائر على الانتقال من التعرف على الخبرات إلى استعراض المشاريع والتواصل.\n\nتتضمن التجربة العربية والإنجليزية وخيارات المظهر، مع بطاقات للأعمال ونموذج تواصل.\n\n## الوظائف الأساسية\n- عرض المهارات والأعمال والخدمات\n- تجربة عربية وإنجليزية\n- خيارات المظهر وواجهة تواصل\n\n[زيارة موقع المشروع](https://portofolio-youssab.web.app/)"
+        },
+        "summary": {
+          "ar": "موقع شخصي يعرض المهارات والمشاريع والخدمات وطرق التواصل بهوية بصرية موحدة.",
+          "en": "A personal website presenting skills, projects, services and contact channels through a consistent visual identity."
+        },
+        "contribution": {
+          "en": "Development of the portfolio website and profile, skills, projects, services and contact sections.",
+          "ar": "تطوير موقع البورتفوليو وأقسام التعريف والمهارات والأعمال والخدمات والتواصل."
+        },
+        "usage": "demo",
+        "attribution": "company",
+        "year": null,
+        "mediaIds": [
+          "m_9e013f5278948eb180e094104fe24aba6aa8a3cbfc3c2ef7a1cbdddb63bc51d2",
+          "m_cd87ed7fca8cea60bcbcd87ccfda8ca7c214099f202aa06903b60b26a4a0b7cc"
+        ],
+        "order": 6
+      },
+      "revision": 14,
+      "assets": [
+        {
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e3625effa44d73747cfb78a96552f427f94741112a704e1d381547d0030aefe2.jpg",
+          "thumbnailDriveFileId": "",
+          "name": "cover.jpg",
+          "bytes": 151144,
+          "id": "m_9e013f5278948eb180e094104fe24aba6aa8a3cbfc3c2ef7a1cbdddb63bc51d2",
+          "alt": {
+            "en": "Portfolio homepage",
+            "ar": "الواجهة الرئيسية للبورتفوليو"
+          },
+          "mime": "image/jpeg",
+          "driveFileId": ""
+        },
+        {
+          "id": "m_cd87ed7fca8cea60bcbcd87ccfda8ca7c214099f202aa06903b60b26a4a0b7cc",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/9c6e07434f3ed54deb3fedfb0f899b99b34cd3424d5f933bbf49ccbf4f72c793.jpg",
+          "name": "gallery-01.jpg",
+          "driveFileId": "",
+          "alt": {
+            "en": "Portfolio project gallery",
+            "ar": "معرض الأعمال في البورتفوليو"
+          },
+          "bytes": 135392,
+          "thumbnailDriveFileId": "",
+          "mime": "image/jpeg"
+        }
+      ]
+    },
+    "yogen-p008": {
+      "content": {
+        "order": 7,
+        "mediaIds": [
+          "m_1f046f10eeaa95793be024dbcaa0e7caddc1220b399b93bf5ec55dc663c8e011",
+          "m_86f272bfefb44203c47b69c766c06ba8f92b8dd20caa33ee8c8c6547a3bff9b7"
+        ],
+        "year": null,
+        "contribution": {
+          "en": "Development of the service management system and attendance, assessment, pastoral visit and card design interfaces.",
+          "ar": "تطوير برنامج تنظيم الخدمة وواجهات الحضور والتقييم والافتقاد وتصميم الكارنيهات."
+        },
+        "usage": "demo",
+        "summary": {
+          "en": "A service management system for attendance and pastoral visits, with behavior tracking, assessments and card design.",
+          "ar": "نظام لتنظيم الخدمة والحضور والافتقاد، مع متابعة السلوك والتقييمات وتصميم الكارنيهات."
+        },
+        "categoryId": "education",
+        "body": {
+          "en": "A system organizing Sunday school and deacon school work, bringing attendance, absence and pastoral visits into one workspace. Interfaces cover participants, attendance records, assessments and service reports.\n\nSource screens include card design, deacon assessments, behavior categories and visit tracking for day-to-day organization.\n\n## Key features\n- Attendance, absence and service reports\n- Pastoral visit tracking\n- Assessments, behavior and card design\n\n[Visit project website](https://uuwagdy.github.io/Sunday_School)",
+          "ar": "برنامج ينظم العمل داخل مدارس الأحد ومدرسة الشمامسة، ويجمع الحضور والغياب والافتقاد في نظام واحد. تتضمن الواجهات تنظيم المخدومين وسجل الحضور والتقييمات وتقارير الخدمة.\n\nتظهر صور المصدر أدوات تصميم الكارنيهات، وتقييم الشمامسة، وتصنيف السلوك، ومتابعة الافتقاد بما يخدم التنظيم اليومي.\n\n## الوظائف الأساسية\n- الحضور والغياب وتقارير الخدمة\n- متابعة الافتقاد\n- تقييمات وسلوك وتصميم كارنيهات\n\n[زيارة موقع المشروع](https://uuwagdy.github.io/Sunday_School)"
+        },
+        "slug": "sunday-school-management",
+        "title": {
+          "ar": "مدارس الأحد ومدرسة الشمامسة — إدارة الخدمة",
+          "en": "Sunday School & Deacon School Management"
+        },
+        "links": [],
+        "attribution": "company"
+      },
+      "publishedAt": "2026-10-13T14:35:49.860Z",
+      "revision": 14,
+      "category": {
+        "en": "Education",
+        "ar": "التعليم"
+      },
+      "assets": [
+        {
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/3eb69886f95cb4ded81582ff64db84dda1eaf53e38b820fdb58a7deaf165934f.jpg",
+          "name": "cover.jpg",
+          "id": "m_1f046f10eeaa95793be024dbcaa0e7caddc1220b399b93bf5ec55dc663c8e011",
+          "alt": {
+            "en": "Attendance overview",
+            "ar": "لوحة مؤشرات الحضور"
+          },
+          "bytes": 87444,
+          "thumbnailDriveFileId": "",
+          "mime": "image/jpeg",
+          "driveFileId": ""
+        },
+        {
+          "mime": "image/jpeg",
+          "id": "m_86f272bfefb44203c47b69c766c06ba8f92b8dd20caa33ee8c8c6547a3bff9b7",
+          "bytes": 105738,
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/d9fdce471a03430dcddee2c44d9e5264664f7b8dc00bbac0b4541a6ed33f2b9a.jpg",
+          "thumbnailDriveFileId": "",
+          "driveFileId": "",
+          "alt": {
+            "ar": "تصنيفات السلوك وتنظيمها",
+            "en": "Behavior categories and organization"
+          },
+          "name": "gallery-01.jpg"
+        }
+      ],
+      "projectId": "yogen-p008"
+    },
+    "yogen-p009": {
+      "publishedAt": "2026-10-13T14:35:52.726Z",
+      "projectId": "yogen-p009",
+      "assets": [
+        {
+          "thumbnailDriveFileId": "",
+          "id": "m_a7063c89b12b8d531d0e3c8d95bb0d2e5caf9b43ee4d6633f6287f4df9b8e060",
+          "bytes": 70877,
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/6fbc53b8cec3c8024904667fa45e94fa9d4404c43e9c2aca81cf0d1f7aca5235.jpg",
+          "alt": {
+            "ar": "الواجهة الرئيسية ووحدات العضوية",
+            "en": "Membership home screen and modules"
+          },
+          "mime": "image/jpeg",
+          "driveFileId": "",
+          "name": "cover.jpg"
+        }
+      ],
+      "revision": 23,
+      "category": {
+        "en": "Community services",
+        "ar": "إدارة الخدمات"
+      },
+      "content": {
+        "contribution": {
+          "ar": "تطوير برنامج العضوية وواجهات إدارة الأسر والمناطق والخدمات والمتابعة.",
+          "en": "Development of the membership system and family, area, service and follow-up interfaces."
+        },
+        "usage": "demo",
+        "mediaIds": [
+          "m_a7063c89b12b8d531d0e3c8d95bb0d2e5caf9b43ee4d6633f6287f4df9b8e060"
+        ],
+        "body": {
+          "ar": "برنامج يجمع إدارة الأسر والمناطق مع متابعة الافتقاد والخدمات والمساعدات. تعرض الواجهة الرئيسية وحدات واضحة للوصول إلى أقسام العمل بدل توزيع المتابعة بين سجلات منفصلة.\n\nيوضح المصدر توفر نسختي ويندوز وأندرويد، مع أدوات للبحث والتقارير وتنظيم المسؤوليات داخل الخدمة.\n\n## الوظائف الأساسية\n- إدارة الأسر والمناطق\n- تنظيم الافتقاد والمساعدات\n- نسختا ويندوز وأندرويد\n\n[زيارة موقع المشروع](https://uuwagdy.github.io/ChurchMermbership)",
+          "en": "A system connecting family and area records with pastoral visits, services and assistance. The home screen provides clear modules for accessing workflows within a shared application.\n\nThe source describes Windows and Android versions, with search, reports and service organization tools.\n\n## Key features\n- Family and area management\n- Pastoral visits and assistance\n- Windows and Android versions\n\n[Visit project website](https://uuwagdy.github.io/ChurchMermbership)"
+        },
+        "categoryId": "community",
+        "slug": "church-membership",
+        "order": 8,
+        "links": [],
+        "title": {
+          "en": "Church Membership — Families & Services",
+          "ar": "العضوية الكنسية — إدارة الأسر والخدمات"
+        },
+        "year": null,
+        "attribution": "company",
+        "summary": {
+          "en": "A system for families, areas, pastoral visits and assistance, with tools for organizing church services.",
+          "ar": "برنامج لإدارة الأسر والمناطق والافتقاد والمساعدات، مع أدوات لتنظيم خدمات الكنيسة."
+        }
+      }
+    },
+    "yogen-p010": {
+      "projectId": "yogen-p010",
+      "publishedAt": "2026-10-13T14:35:54.599Z",
+      "revision": 14,
+      "category": {
+        "en": "Interactive games",
+        "ar": "الألعاب التفاعلية"
+      },
+      "assets": [
+        {
+          "name": "cover.jpg",
+          "thumbnailDriveFileId": "",
+          "alt": {
+            "en": "Game selection screen",
+            "ar": "واجهة اختيار الألعاب"
+          },
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/f7e75cd5604ab791e9d03356799fa761fb4f0bd965bca7de75b1ee91027174b3.jpg",
+          "id": "m_f815ead9a33d7b26c8b535ef14ce447235351f974a9f11ab837f7bef8db8ee98",
+          "driveFileId": "",
+          "bytes": 62064,
+          "mime": "image/jpeg"
+        },
+        {
+          "thumbnailDriveFileId": "",
+          "driveFileId": "",
+          "id": "m_4485358ec65fd1169e730cd49f47c79fb043a827840b99eabb95a03e81be72a7",
+          "name": "gallery-01.jpg",
+          "mime": "image/jpeg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/0c837fc09b1a1e3efd3cf2f9f0846e3cc1bcc2bfab2621694db0c46c9eb962f1.jpg",
+          "bytes": 87283,
+          "alt": {
+            "en": "Wheel of fortune and scores",
+            "ar": "عجلة الحظ والنقاط"
+          }
+        },
+        {
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/b32656aa31c288866a8d21ae6dd88ba3f746b31cd9975e0f8959a43347bff1aa.jpg",
+          "mime": "image/jpeg",
+          "bytes": 121153,
+          "id": "m_1b3e455d3356a783ebb1f5f4b72fac15a0e65fe5ffaedee23db665308fddc0f0",
+          "driveFileId": "",
+          "thumbnailDriveFileId": "",
+          "name": "gallery-02.jpg",
+          "alt": {
+            "en": "Board game interface",
+            "ar": "لعبة بنك الحظ"
+          }
+        }
+      ],
+      "content": {
+        "title": {
+          "ar": "Games Platform — منصة ألعاب الخدمة",
+          "en": "Games Platform — Community Games"
+        },
+        "links": [],
+        "year": null,
+        "body": {
+          "ar": "منصة تجمع مجموعة من الألعاب في مكان واحد لاستخدامها في أنشطة الخدمة والمسابقات الجماعية. تتضمن صور المصدر عجلة الحظ وبنك الحظ والتحديات والأسئلة، مع عرض النقاط وواجهات لإعداد اللعبة.\n\nإمكانية تغيير الأسئلة تمنح منظمي النشاط مساحة لتكييف المحتوى مع الفئة المشاركة وطبيعة المناسبة.\n\n## الوظائف الأساسية\n- عدة ألعاب داخل منصة واحدة\n- أسئلة قابلة للتغيير\n- تحديات جماعية ومتابعة النقاط\n\n[زيارة موقع المشروع](https://games-platform-church.web.app/)",
+          "en": "A platform bringing several games into one workspace for community activities and group competitions. Source screens show a wheel of fortune, a board game, challenges and questions, with scoring and game setup interfaces.\n\nEditable questions let organizers adapt content to participants and the occasion.\n\n## Key features\n- Multiple games in one platform\n- Customizable questions\n- Group challenges and scoring\n\n[Visit project website](https://games-platform-church.web.app/)"
+        },
+        "order": 9,
+        "contribution": {
+          "en": "Development of the games platform, selection and gameplay interfaces, scores and question settings.",
+          "ar": "تطوير منصة الألعاب وواجهات الاختيار واللعب والنقاط وإعداد الأسئلة."
+        },
+        "summary": {
+          "en": "A group games platform with customizable questions, challenges, scores and games for community activities.",
+          "ar": "منصة ألعاب جماعية وأسئلة قابلة للتغيير، تجمع التحديات والنقاط وألعابًا مناسبة لأنشطة الخدمة."
+        },
+        "categoryId": "games",
+        "attribution": "company",
+        "usage": "demo",
+        "mediaIds": [
+          "m_f815ead9a33d7b26c8b535ef14ce447235351f974a9f11ab837f7bef8db8ee98",
+          "m_4485358ec65fd1169e730cd49f47c79fb043a827840b99eabb95a03e81be72a7",
+          "m_1b3e455d3356a783ebb1f5f4b72fac15a0e65fe5ffaedee23db665308fddc0f0"
+        ],
+        "slug": "church-games-platform"
+      }
+    },
+    "yogen-p011": {
+      "publishedAt": "2026-10-13T14:35:57.460Z",
+      "content": {
+        "contribution": {
+          "en": "Development of the church website, news, schedules, services and information sections.",
+          "ar": "تطوير موقع الكنيسة وأقسام الأخبار والمواعيد والخدمات والمحتوى التعريفي."
+        },
+        "order": 10,
+        "year": null,
+        "usage": "demo",
+        "mediaIds": [
+          "m_d79fec9b5ccd19a5af9f0c84cc5e9ebff3429b8696cf4d4bca68b26fc9c7a98b",
+          "m_a1a0d9a048c31d9afad0f76b5847fe2d3cca8b24acf0939d45d2525780984c70"
+        ],
+        "attribution": "company",
+        "categoryId": "community",
+        "slug": "mar-markos-anba-beshoy",
+        "body": {
+          "ar": "موقع تعريفي وخدمي لكنيسة مارمرقس والأنبا بيشوي بمدينة ناصر. يعرض أنشطة الكنيسة وأخبارها وخدماتها، ويوفر تقويمًا يساعد الزائر على معرفة المواعيد.\n\nتتضمن الواجهة التعريف بالآباء الكهنة وأقسام العظات والألبومات، بهوية بصرية مستوحاة من طابع الكنيسة.\n\n## الوظائف الأساسية\n- أخبار الكنيسة وأنشطتها\n- تقويم ومواعيد القداسات\n- عظات وألبومات وخدمات\n\n[زيارة موقع المشروع](https://mar-markos-anba-beshoy.web.app/)",
+          "en": "An information and service website for St. Mark and Anba Bishoy Church in Nasser City. It presents church activities, news and services, with a calendar for discovering schedules.\n\nThe interface also introduces the clergy and includes sermons and albums, using a visual identity inspired by the church.\n\n## Key features\n- Church news and activities\n- Calendar and liturgy schedules\n- Sermons, albums and services\n\n[Visit project website](https://mar-markos-anba-beshoy.web.app/)"
+        },
+        "summary": {
+          "en": "A church website bringing news, liturgy schedules, services, sermons and albums into one interface.",
+          "ar": "موقع يجمع أخبار الكنيسة ومواعيد القداسات والخدمات والعظات والألبومات في واجهة واحدة."
+        },
+        "title": {
+          "ar": "كنيسة مارمرقس والأنبا بيشوي — الموقع الرسمي",
+          "en": "St. Mark & Anba Bishoy Church Website"
+        },
+        "links": []
+      },
+      "projectId": "yogen-p011",
+      "revision": 14,
+      "assets": [
+        {
+          "thumbnailDriveFileId": "",
+          "bytes": 152551,
+          "id": "m_d79fec9b5ccd19a5af9f0c84cc5e9ebff3429b8696cf4d4bca68b26fc9c7a98b",
+          "mime": "image/jpeg",
+          "alt": {
+            "ar": "الصفحة الرئيسية لموقع الكنيسة",
+            "en": "Church website homepage"
+          },
+          "name": "cover.jpg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/b05c784c1ff31629d73b38a9d85e8d927b023b032a6a5a674d6b63393754da7c.jpg",
+          "driveFileId": ""
+        },
+        {
+          "bytes": 173110,
+          "mime": "image/jpeg",
+          "thumbnailDriveFileId": "",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/88671f47e19dda324d40d9e9691bf3cad01304c03d96ed68d0863e110436013d.jpg",
+          "alt": {
+            "en": "Schedule and events calendar",
+            "ar": "تقويم المواعيد والفعاليات"
+          },
+          "id": "m_a1a0d9a048c31d9afad0f76b5847fe2d3cca8b24acf0939d45d2525780984c70",
+          "name": "gallery-01.jpg",
+          "driveFileId": ""
+        }
+      ],
+      "category": {
+        "ar": "إدارة الخدمات",
+        "en": "Community services"
+      }
+    },
+    "yogen-p012": {
+      "projectId": "yogen-p012",
+      "content": {
+        "body": {
+          "ar": "موقع يجمع هوية الصالون وعرض خدماته مع تجربة حجز خطوة بخطوة. يبدأ الزائر باختيار الخدمات المطلوبة ومعرفة إجماليها، ثم يختار اليوم من التقويم والموعد المتاح.\n\nتعتمد الواجهة على ألوان داكنة ولمسات ذهبية تتماشى مع طابع الصالون، مع تقسيم واضح للخدمات وخطوات الحجز.\n\n## الوظائف الأساسية\n- اختيار الخدمات وحساب الإجمالي\n- تقويم لاختيار يوم الزيارة\n- عرض المواعيد المتاحة\n\n[زيارة موقع المشروع](https://tomy-barber-shop-main.web.app/)",
+          "en": "A website combining the salon identity and service presentation with step-by-step booking. Visitors choose services and see their total before selecting a calendar day and an available time.\n\nDark surfaces and gold accents reflect the salon brand, while clear service and booking sections guide the journey.\n\n## Key features\n- Service selection and total\n- Visit-day calendar\n- Available appointment times\n\n[Visit project website](https://tomy-barber-shop-main.web.app/)"
+        },
+        "title": {
+          "en": "Tomy Barber Shop — Service Booking",
+          "ar": "Tomy Barber Shop — حجز خدمات الحلاقة"
+        },
+        "links": [],
+        "attribution": "company",
+        "mediaIds": [
+          "m_f27a28dc2541e4786f0c758988255dab8d7df018867bbf2d0f100ecf166e66e7",
+          "m_76a16b2e74aa180b8301acc641927b0eaec7e202f35e0fd1e61deb3a49cabd1a",
+          "m_28e823733bdcd371819015fd660b807f860fb546688344848a9c872b5bd24b28"
+        ],
+        "contribution": {
+          "ar": "تطوير موقع الصالون وقائمة الخدمات ومسار اختيار اليوم والموعد للحجز.",
+          "en": "Development of the salon website, service list and day/time booking journey."
+        },
+        "slug": "tomy-barber-shop",
+        "categoryId": "websites",
+        "summary": {
+          "en": "A salon website with a clear booking journey for selecting grooming services, a day and an available time.",
+          "ar": "موقع للصالون يتيح اختيار خدمات الحلاقة واليوم والموعد المتاح في رحلة حجز واضحة."
+        },
+        "usage": "demo",
+        "order": 11,
+        "year": null
+      },
+      "assets": [
+        {
+          "bytes": 119958,
+          "mime": "image/jpeg",
+          "driveFileId": "",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/65ccb7cfae7aa868bad7135a2552996ed684e099682839a70353675ca5667199.jpg",
+          "thumbnailDriveFileId": "",
+          "alt": {
+            "en": "Salon homepage",
+            "ar": "الصفحة الرئيسية للصالون"
+          },
+          "id": "m_f27a28dc2541e4786f0c758988255dab8d7df018867bbf2d0f100ecf166e66e7",
+          "name": "cover.jpg"
+        },
+        {
+          "id": "m_76a16b2e74aa180b8301acc641927b0eaec7e202f35e0fd1e61deb3a49cabd1a",
+          "driveFileId": "",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/45e6240758593ccce4c55a80de6e8c5eb0c6d067d1b11efeb4c387a680daed35.jpg",
+          "thumbnailDriveFileId": "",
+          "mime": "image/jpeg",
+          "alt": {
+            "en": "Grooming service selection",
+            "ar": "اختيار خدمات الحلاقة"
+          },
+          "name": "gallery-01.jpg",
+          "bytes": 67169
+        },
+        {
+          "id": "m_28e823733bdcd371819015fd660b807f860fb546688344848a9c872b5bd24b28",
+          "driveFileId": "",
+          "bytes": 51021,
+          "thumbnailDriveFileId": "",
+          "name": "gallery-02.jpg",
+          "mime": "image/jpeg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/9dc594587a6648f1dc9576a3fc8c32cc1370845ef9d14c35e780632c94dec938.jpg",
+          "alt": {
+            "ar": "تقويم اختيار موعد الزيارة",
+            "en": "Booking calendar"
+          }
+        }
+      ],
+      "publishedAt": "2026-10-13T14:35:59.869Z",
+      "revision": 14,
+      "category": {
+        "ar": "المواقع التعريفية",
+        "en": "Brand websites"
+      }
+    },
+    "yogen-p013": {
+      "projectId": "yogen-p013",
+      "content": {
+        "mediaIds": [
+          "m_13ef0bb9ad07510c73eeedba21170ee7c0abc1685a87c3aed866d3bfa1ab48f3"
+        ],
+        "categoryId": "games",
+        "usage": "demo",
+        "slug": "labyrinth-of-love",
+        "body": {
+          "ar": "لعبة ويب تقدم رحلة مشتركة داخل متاهة تفاعلية. تبدأ التجربة بإنشاء جلسة ودعوة الشريك، ثم الانتقال بين مراحل وأسئلة تتناول جوانب مختلفة من العلاقة.\n\nتظهر صور المصدر خريطة للمراحل وواجهات لطرح الأسئلة والرد عليها، بهوية داكنة ولمسات لونية تميز أطراف التجربة.\n\n## الوظائف الأساسية\n- جلسة مشتركة ودعوة الشريك\n- خريطة مراحل تفاعلية\n- أسئلة وردود لفتح الحوار\n\n[زيارة موقع المشروع](https://labyrinth-of-love-47987471064.us-west1.run.app/)",
+          "en": "A web game presenting a shared journey through an interactive labyrinth. The experience starts with a session and partner invitation, followed by stages and questions covering different aspects of the relationship.\n\nSource screens show a stage map and question/answer interfaces, with a dark visual identity and color accents.\n\n## Key features\n- Shared session and partner invitation\n- Interactive stage map\n- Questions and responses for conversation\n\n[Visit project website](https://labyrinth-of-love-47987471064.us-west1.run.app/)"
+        },
+        "order": 12,
+        "contribution": {
+          "ar": "تطوير تجربة اللعبة المشتركة وواجهات الجلسة والدعوة وخريطة المراحل والأسئلة.",
+          "en": "Development of the shared game experience, session and invitation interfaces, stage map and questions."
+        },
+        "year": null,
+        "summary": {
+          "en": "A shared game for couples using questions and interactive stages to open conversations about their relationship.",
+          "ar": "تجربة لعب مشتركة للمرتبطين تستخدم أسئلة ومراحل تفاعلية لفتح الحوار حول العلاقة."
+        },
+        "links": [],
+        "title": {
+          "en": "Labyrinth of Love — Couples Conversation Game",
+          "ar": "متاهة الحب — لعبة حوار للمرتبطين"
+        },
+        "attribution": "company"
+      },
+      "publishedAt": "2026-10-13T14:36:02.864Z",
+      "assets": [
+        {
+          "alt": {
+            "ar": "الواجهة الرئيسية لمتاهة الحب",
+            "en": "Labyrinth of Love landing screen"
+          },
+          "name": "cover.jpg",
+          "thumbnailDriveFileId": "",
+          "id": "m_13ef0bb9ad07510c73eeedba21170ee7c0abc1685a87c3aed866d3bfa1ab48f3",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/c11b7bc9c157cb98926cc8f665aa7e155876f18b6550927af16ccc5378af19d6.jpg",
+          "driveFileId": "",
+          "bytes": 40695,
+          "mime": "image/jpeg"
+        }
+      ],
+      "revision": 14,
+      "category": {
+        "ar": "الألعاب التفاعلية",
+        "en": "Interactive games"
+      }
+    },
+    "yogen-p014": {
+      "publishedAt": "2026-10-13T14:36:05.189Z",
+      "content": {
+        "year": null,
+        "categoryId": "business",
+        "attribution": "company",
+        "order": 13,
+        "usage": "demo",
+        "summary": {
+          "ar": "برنامج محاسبي يجمع حضور العمال واليوميات والرواتب مع المصروفات والوارد والتقارير الشهرية.",
+          "en": "An accounting system combining worker attendance, daily rates and payroll with expenses, income and monthly reporting."
+        },
+        "contribution": {
+          "en": "Development of workforce, attendance, payroll, accounting and reporting interfaces.",
+          "ar": "تطوير برنامج إدارة العمال والحضور والرواتب والحسابات والتقارير."
+        },
+        "mediaIds": [
+          "m_a8bc521a61e0ac7aa97a974d64b7b19625a2471042fe5c60fe5e5a5a5936f7ab",
+          "m_69d9d9ed05c0bfc96840e9484b4d93836ac1dc4834c99748cf65b1d6fa46fe60"
+        ],
+        "slug": "uae-payroll-management",
+        "title": {
+          "ar": "إدارة العمال والرواتب — شركة بالإمارات",
+          "en": "Workforce & Payroll — UAE Company"
+        },
+        "links": [],
+        "body": {
+          "ar": "برنامج لإدارة العمال والحسابات في شركة بالإمارات، يربط متابعة الحضور اليومي بقيمة اليومية والراتب المستحق. تتوزع الواجهات بين العمال والوظائف والمواقع والمشاريع.\n\nيشمل النظام تسجيل المصروفات والوارد وعرض التقارير والرواتب، لتجميع متابعات الشهر داخل برنامج واحد.\n\n## الوظائف الأساسية\n- حضور العمال واليوميات والرواتب\n- إدارة الوظائف والمواقع والمشاريع\n- الوارد والمصروفات وتقارير الشهر",
+          "en": "A workforce and accounting application for a UAE company, linking daily attendance to daily rates and payroll. Interfaces cover workers, jobs, locations and projects.\n\nThe system records expenses and income and presents reports and payroll, bringing monthly follow-up into one application.\n\n## Key features\n- Worker attendance, daily rates and payroll\n- Jobs, locations and projects\n- Income, expenses and monthly reports"
+        }
+      },
+      "assets": [
+        {
+          "name": "cover.jpg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/e3dcea515332fcf28415caf0ddc142d998f1fc00c9d76219d8b09fa6046ebfd7.jpg",
+          "id": "m_a8bc521a61e0ac7aa97a974d64b7b19625a2471042fe5c60fe5e5a5a5936f7ab",
+          "alt": {
+            "ar": "الواجهة الرئيسية لإدارة العمال",
+            "en": "Workforce management home screen"
+          },
+          "driveFileId": "",
+          "thumbnailDriveFileId": "",
+          "mime": "image/jpeg",
+          "bytes": 61356
+        },
+        {
+          "mime": "image/jpeg",
+          "thumbnailDriveFileId": "",
+          "driveFileId": "",
+          "id": "m_69d9d9ed05c0bfc96840e9484b4d93836ac1dc4834c99748cf65b1d6fa46fe60",
+          "bytes": 50746,
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/14f4ef8287487b8417e7e0adec7bdbe82b0191ef1f51480b913e4aa80c556dd7.jpg",
+          "name": "gallery-01.jpg",
+          "alt": {
+            "ar": "تصنيفات الوظائف",
+            "en": "Job categories"
+          }
+        }
+      ],
+      "projectId": "yogen-p014",
+      "category": {
+        "ar": "أنظمة الأعمال",
+        "en": "Business systems"
+      },
+      "revision": 14
+    },
+    "yogen-p015": {
+      "category": {
+        "en": "Healthcare",
+        "ar": "الرعاية الصحية"
+      },
+      "publishedAt": "2026-10-13T14:36:07.519Z",
+      "revision": 16,
+      "projectId": "yogen-p015",
+      "assets": [
+        {
+          "mime": "image/jpeg",
+          "bytes": 72365,
+          "id": "m_6c3df537869a7fbc57676824dbc5e7c89cab95d2e3af8e619fdf0d27f5125057",
+          "alt": {
+            "en": "El Rajaa application start screen",
+            "ar": "واجهة بدء تشغيل خدمة الرجاء"
+          },
+          "thumbnailDriveFileId": "",
+          "driveFileId": "",
+          "name": "cover.jpg",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/c0aa740eb57ad4e729303e89bc2ee3cc892277041c458300f84b2ffbb177b28f.jpg"
+        },
+        {
+          "driveFileId": "",
+          "name": "gallery-01.jpg",
+          "thumbnailDriveFileId": "",
+          "alt": {
+            "en": "Service dashboard",
+            "ar": "لوحة مؤشرات الخدمة"
+          },
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/b14580a86c168de1c548b4da6243ef863b3b661cf395db9adff760edf26c1bd2.jpg",
+          "mime": "image/jpeg",
+          "id": "m_95d564d86f72e8c1c902e2d20c09fabd9236fdbe28bc673da73c3254235e55e4",
+          "bytes": 100806
+        },
+        {
+          "mime": "image/jpeg",
+          "driveFileId": "",
+          "alt": {
+            "ar": "واجهة الحسابات الخالية من بيانات المرضى",
+            "en": "Accounting interface without patient records"
+          },
+          "bytes": 104537,
+          "thumbnailDriveFileId": "",
+          "publicUrl": "https://portfolio-14d15.web.app/project-media/1a74eaca3d502f22fb3327324df5cbb0fd2043aeeab4d458d45106a5a157188f.jpg",
+          "id": "m_09da0d9fde587ec4fd47cf33564bc4f2cd9e43d0f08c6e2cf3acc9b99f77ccf8",
+          "name": "gallery-02.jpg"
+        }
+      ],
+      "content": {
+        "year": null,
+        "categoryId": "healthcare",
+        "summary": {
+          "ar": "نظام لإدارة مركز خدمة المرضى ومتابعة الحالات وبنك الدم والأجهزة الطبية والحسابات.",
+          "en": "A system for a patient service center, case follow-up, blood bank, medical equipment and accounting."
+        },
+        "title": {
+          "en": "El Rajaa — Patient Service Management",
+          "ar": "خدمة الرجاء — إدارة خدمات المرضى"
+        },
+        "links": [],
+        "slug": "el-rajaa-patient-services",
+        "order": 14,
+        "mediaIds": [
+          "m_6c3df537869a7fbc57676824dbc5e7c89cab95d2e3af8e619fdf0d27f5125057",
+          "m_95d564d86f72e8c1c902e2d20c09fabd9236fdbe28bc673da73c3254235e55e4",
+          "m_09da0d9fde587ec4fd47cf33564bc4f2cd9e43d0f08c6e2cf3acc9b99f77ccf8"
+        ],
+        "contribution": {
+          "ar": "تطوير برنامج إدارة الخدمة وواجهات متابعة المرضى والموارد وبنك الدم والحسابات والتقارير.",
+          "en": "Development of service management interfaces for patient follow-up, resources, blood bank, accounting and reports."
+        },
+        "body": {
+          "ar": "برنامج ينظم العمل داخل خدمة الرجاء للمرضى بالمطرانية، ويجمع متابعة الحالات مع الموارد والخدمات المرتبطة بها. تعرض الواجهات إدارة المرضى ومخزن الأجهزة الطبية وبنك الدم والحسابات.\n\nتوفر لوحة المؤشرات والتقارير صورة عامة عن نشاط الخدمة، مع أقسام للبيانات والتنظيم تساعد الفريق على متابعة العمل من مكان واحد.\n\n## الوظائف الأساسية\n- تنظيم خدمات المرضى ومتابعة الحالات\n- بنك دم ومخزن أجهزة طبية\n- حسابات ومؤشرات وتقارير",
+          "en": "An application organizing El Rajaa patient services at the diocese, connecting case follow-up with related resources and services. Interfaces cover patient management, medical equipment inventory, blood bank and accounting.\n\nDashboards and reports provide an overview of service activity, with organizational sections for the team’s daily work.\n\n## Key features\n- Patient services and case follow-up\n- Blood bank and equipment inventory\n- Accounting, dashboards and reports"
+        },
+        "attribution": "company",
+        "usage": "demo"
+      }
+    }
+  }
+}

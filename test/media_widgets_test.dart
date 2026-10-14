@@ -43,6 +43,68 @@ class LayoutStore extends FirestoreRestStore {
 }
 
 void main() {
+  testWidgets('Hosted image failure retries locally without a Drive receipt', (
+    tester,
+  ) async {
+    final transport = FixtureTransport(MemoryStore());
+    final cache = MediaByteCache(transport);
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: DriveImage(
+            cache: cache,
+            endpoint: 'https://script.google.com/macros/s/fixture/exec',
+            site: 'yogen',
+            assetId: 'hosted-fixture',
+            alt: 'Hosted cover',
+            publicUrl:
+                'https://portfolio-14d15.web.app/project-media/${'a' * 64}.jpg',
+          ),
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+    expect(find.text('Image unavailable'), findsOneWidget);
+    expect(transport.reads, 0);
+    await tester.tap(find.text('Retry'));
+    await tester.pumpAndSettle();
+    expect(find.text('Image unavailable'), findsOneWidget);
+    expect(transport.reads, 0);
+    expect(tester.takeException(), isNull);
+    await tester.pumpWidget(const SizedBox());
+    cache.clear();
+  });
+  testWidgets('Public cover falls back to its receipt when image host fails', (
+    tester,
+  ) async {
+    final transport = FixtureTransport(MemoryStore());
+    final cache = MediaByteCache(transport);
+    await tester.pumpWidget(
+      MaterialApp(
+        home: Scaffold(
+          body: DriveImage(
+            cache: cache,
+            endpoint: 'https://script.google.com/macros/s/fixture/exec',
+            site: 'yogen',
+            assetId: 'fixture-receipt',
+            publicFileId: 'public-drive-file',
+            alt: 'Public cover',
+          ),
+        ),
+      ),
+    );
+    // Widget tests return HTTP 400 for network images. The existing receipt
+    // transport then returns invalid bytes, exercising its handled retry UI.
+    await tester.pumpAndSettle();
+    expect(transport.reads, 1);
+    expect(find.text('Image unavailable'), findsOneWidget);
+    await tester.tap(find.text('Retry'));
+    await tester.pumpAndSettle();
+    expect(transport.reads, 2);
+    expect(tester.takeException(), isNull);
+    await tester.pumpWidget(const SizedBox());
+    cache.clear();
+  });
   for (final language in ['ar', 'en']) {
     for (final theme in ['light', 'dark']) {
       for (final width in [360.0, 768.0, 1440.0]) {

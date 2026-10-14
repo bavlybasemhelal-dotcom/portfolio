@@ -1,0 +1,43 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "برنامج لخدمة الرجاء للمرضى بالمطرانية" [disabled]:
+    - generic: برنامج لخدمة الرجاء للمرضى بالمطرانية
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "برنامج لخدمة الرجاء للمرضى بالمطرانية" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "Empty":
+        - generic: Empty
+  - generic: برنامج لإدارة مركز خاص بالمرضى ومتابعة الحالات وبنك الدم والمحاسبة
+  - blockquote:
+    - generic: صور بداخل البرنامج
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

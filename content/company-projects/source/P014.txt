@@ -1,0 +1,47 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "برنامج حساب مرتبات لشركة بالامارات" [disabled]:
+    - generic: برنامج حساب مرتبات لشركة بالامارات
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "برنامج حساب مرتبات لشركة بالامارات" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "Empty":
+        - generic: Empty
+  - generic: برنامج محاسبي لحساب حضور العمال واليوميات والمرتبات والمصروفات والوارد آخر كل شهر
+  - blockquote:
+    - generic: صور من البرنامج
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

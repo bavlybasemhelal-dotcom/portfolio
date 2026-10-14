@@ -1,0 +1,45 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "مكتب محامي - موقع حجز" [disabled]:
+    - generic: مكتب محامي - موقع حجز
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "مكتب محامي - موقع حجز" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "me-and-law.web.app":
+        - link "me-and-law.web.app":
+          - /url: https://me-and-law.web.app/
+  - generic: موقع يجمع ما بين مكتب المحاماة والموكل
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "مكتب أنا والقانون وثغراته للمحاماة والاستشارات القانونية نخبه من المحامين المتخصصين فى جميع المجالات القانونية معاك فى اى وقت وفي كل مكان هنساعدك وهنقدملك الدعم والاستشارات والحلول اللي انت محتاجها في اسرع وقت https://me-and-law.web.app":
+      - /url: https://me-and-law.web.app/
+      - generic: مكتب أنا والقانون وثغراته للمحاماة والاستشارات القانونية
+      - generic: نخبه من المحامين المتخصصين فى جميع المجالات القانونية معاك فى اى وقت وفي كل مكان هنساعدك وهنقدملك الدعم والاستشارات والحلول اللي انت محتاجها في اسرع وقت
+      - generic: https://me-and-law.web.app
+  - blockquote:
+    - generic: صور من داخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

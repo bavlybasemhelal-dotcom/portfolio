@@ -7,6 +7,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import '../../app/yogen_app.dart' show tr;
 import '../../auth/admin_session.dart';
+import '../../data/media_repository.dart';
 import '../../data/media_settings_repository.dart';
 import '../../domain/media.dart';
 import '../../domain/project.dart';
@@ -712,61 +713,6 @@ class _ProjectEditorPageState extends ConsumerState<ProjectEditorPage> {
       );
       return;
     }
-    final ar = TextEditingController(), en = TextEditingController();
-    final key = GlobalKey<FormState>();
-    final descriptions = await showDialog<LocalizedText>(
-      context: context,
-      builder: (d) => AlertDialog(
-        title: Text(
-          tr(d, 'وصف الملف قبل الرفع', 'Describe the file before upload'),
-        ),
-        content: Form(
-          key: key,
-          child: Column(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              TextFormField(
-                controller: ar,
-                maxLength: 30000,
-                decoration: InputDecoration(
-                  labelText: tr(d, 'الوصف بالعربية', 'Arabic description'),
-                ),
-                validator: (v) => (v ?? '').trim().isEmpty
-                    ? tr(d, 'مطلوب', 'Required')
-                    : null,
-              ),
-              TextFormField(
-                controller: en,
-                maxLength: 30000,
-                decoration: InputDecoration(
-                  labelText: tr(d, 'الوصف بالإنجليزية', 'English description'),
-                ),
-                validator: (v) => (v ?? '').trim().isEmpty
-                    ? tr(d, 'مطلوب', 'Required')
-                    : null,
-              ),
-            ],
-          ),
-        ),
-        actions: [
-          TextButton(
-            onPressed: () => Navigator.pop(d),
-            child: Text(tr(d, 'إلغاء', 'Cancel')),
-          ),
-          FilledButton(
-            onPressed: () {
-              if (key.currentState!.validate()) {
-                Navigator.pop(d, LocalizedText(ar: ar.text, en: en.text));
-              }
-            },
-            child: Text(tr(d, 'اختيار الملف', 'Select file')),
-          ),
-        ],
-      ),
-    );
-    ar.dispose();
-    en.dispose();
-    if (descriptions == null) return;
     try {
       final selection = await FilePicker.pickFiles(
         type: FileType.custom,
@@ -786,6 +732,108 @@ class _ProjectEditorPageState extends ConsumerState<ProjectEditorPage> {
       final bytes = buffer.takeBytes();
       if (bytes.length != size) throw const DriveFailure('file_read_failed');
       final mime = MediaPolicy.mime(file.name);
+      MediaPolicy.validate(bytes, mime);
+      MediaRepository.validateSignature(bytes, mime);
+
+      final projectTitleAr = session?.content.title.ar ?? '';
+      final projectTitleEn = session?.content.title.en ?? '';
+      final cleanName = file.name
+          .replaceAll(RegExp(r'\.[^.]+$'), '')
+          .replaceAll(RegExp(r'[_-]'), ' ');
+      final defaultAr = projectTitleAr.trim().isNotEmpty
+          ? 'صورة لمشروع $projectTitleAr'
+          : cleanName;
+      final defaultEn = projectTitleEn.trim().isNotEmpty
+          ? 'Media for $projectTitleEn'
+          : cleanName;
+
+      final ar = TextEditingController(text: defaultAr),
+          en = TextEditingController(text: defaultEn);
+      final key = GlobalKey<FormState>();
+      if (!mounted) return;
+      final descriptions = await showDialog<LocalizedText>(
+        context: context,
+        builder: (d) => AlertDialog(
+          title: Row(
+            children: [
+              const Icon(Icons.cloud_upload_outlined),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  tr(
+                    d,
+                    'تأكيد رفع: ${file.name}',
+                    'Confirm upload: ${file.name}',
+                  ),
+                ),
+              ),
+            ],
+          ),
+          content: Form(
+            key: key,
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(
+                  tr(
+                    d,
+                    'تم اختيار الملف بنجاح من جهازك. يمكنك تأكيد الوصف الآن:',
+                    'File chosen from your device. You can confirm the description:',
+                  ),
+                ),
+                const SizedBox(height: 12),
+                TextFormField(
+                  controller: ar,
+                  maxLength: 30000,
+                  decoration: InputDecoration(
+                    labelText: tr(d, 'الوصف بالعربية', 'Arabic description'),
+                  ),
+                  validator: (v) => (v ?? '').trim().isEmpty
+                      ? tr(d, 'مطلوب', 'Required')
+                      : null,
+                ),
+                TextFormField(
+                  controller: en,
+                  maxLength: 30000,
+                  decoration: InputDecoration(
+                    labelText: tr(
+                      d,
+                      'الوصف بالإنجليزية',
+                      'English description',
+                    ),
+                  ),
+                  validator: (v) => (v ?? '').trim().isEmpty
+                      ? tr(d, 'مطلوب', 'Required')
+                      : null,
+                ),
+              ],
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () => Navigator.pop(d),
+              child: Text(tr(d, 'إلغاء', 'Cancel')),
+            ),
+            FilledButton.icon(
+              onPressed: () {
+                if (key.currentState!.validate()) {
+                  Navigator.pop(
+                    d,
+                    LocalizedText(ar: ar.text.trim(), en: en.text.trim()),
+                  );
+                }
+              },
+              icon: const Icon(Icons.check),
+              label: Text(tr(d, 'تأكيد الرفع الآن', 'Upload now')),
+            ),
+          ],
+        ),
+      );
+      ar.dispose();
+      en.dispose();
+      if (descriptions == null || !mounted) return;
+
       setState(() {
         externalBusy = true;
         operationFailure = null;
@@ -814,6 +862,17 @@ class _ProjectEditorPageState extends ConsumerState<ProjectEditorPage> {
         if (mounted) {
           setState(() => externalBusy = false);
           changed();
+          ScaffoldMessenger.of(context).showSnackBar(
+            SnackBar(
+              content: Text(
+                tr(
+                  context,
+                  'تم رفع الملف بنجاح وربطه بالمشروع.',
+                  'File uploaded and linked to project successfully.',
+                ),
+              ),
+            ),
+          );
         }
       } catch (e) {
         if (mounted) {
@@ -905,40 +964,113 @@ class _ProjectEditorPageState extends ConsumerState<ProjectEditorPage> {
       Text(
         tr(
           context,
-          'أول ملف هو الغلاف. حتى 6 ملفات للمشروع و5 MiB للملف؛ ترتيب الصورة ووصفها يظهران بعد نشر النسخة.',
-          'The first file is the cover. Up to 6 files per project, 5 MiB each. Media order and descriptions become public after publication.',
+          'أول ملف في القائمة هو الغلاف الرئيسي للمشروع. حتى 6 ملفات و5 MiB لكل ملف.',
+          'The first file is the main project cover. Up to 6 files per project, 5 MiB each.',
         ),
       ),
       const SizedBox(height: 16),
-      Wrap(
-        spacing: 12,
-        runSpacing: 12,
-        children: [
-          FilledButton.tonalIcon(
-            onPressed: externalBusy ? null : upload,
-            icon: const Icon(Icons.upload_file),
-            label: Text(tr(context, 'رفع ملف', 'Upload file')),
+      Container(
+        padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 22),
+        decoration: BoxDecoration(
+          color: Theme.of(context).colorScheme.surfaceContainerLow,
+          borderRadius: BorderRadius.circular(18),
+          border: Border.all(
+            color: Theme.of(
+              context,
+            ).colorScheme.primary.withValues(alpha: 0.35),
+            width: 1.5,
           ),
-          OutlinedButton.icon(
-            onPressed: externalBusy ? null : chooseMedia,
-            icon: const Icon(Icons.photo_library_outlined),
-            label: Text(
-              tr(context, 'اختيار من المكتبة', 'Choose from library'),
+        ),
+        child: Column(
+          children: [
+            Icon(
+              Icons.cloud_upload_rounded,
+              size: 44,
+              color: Theme.of(context).colorScheme.primary,
             ),
-          ),
-          TextButton(
-            onPressed: externalBusy ? null : refreshMedia,
-            child: Text(tr(context, 'تحديث المكتبة', 'Refresh library')),
-          ),
-        ],
+            const SizedBox(height: 10),
+            Text(
+              tr(
+                context,
+                'رفع صور وملفات المشروع مباشرة من جهازك',
+                'Upload project images directly from device',
+              ),
+              style: Theme.of(
+                context,
+              ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 6),
+            Text(
+              tr(
+                context,
+                'ارفع الغلاف ولقطات العمل مباشرة من جهاز الكمبيوتر (PNG, JPG, WebP، فيديو أو PDF حتى 5 ميجابايت)',
+                'Upload cover and screenshots directly from your device (PNG, JPG, WebP, Video, PDF up to 5MB)',
+              ),
+              style: TextStyle(
+                fontSize: 13,
+                color: Theme.of(context).colorScheme.onSurfaceVariant,
+              ),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 16),
+            Wrap(
+              spacing: 12,
+              runSpacing: 10,
+              alignment: WrapAlignment.center,
+              children: [
+                FilledButton.icon(
+                  onPressed: externalBusy ? null : upload,
+                  icon: const Icon(Icons.add_photo_alternate_outlined),
+                  label: Text(
+                    tr(
+                      context,
+                      'رفع صورة / ملف من الجهاز الآن',
+                      'Upload file from device now',
+                    ),
+                    style: const TextStyle(fontWeight: FontWeight.bold),
+                  ),
+                  style: FilledButton.styleFrom(
+                    padding: const EdgeInsets.symmetric(
+                      horizontal: 24,
+                      vertical: 14,
+                    ),
+                  ),
+                ),
+                OutlinedButton.icon(
+                  onPressed: externalBusy ? null : chooseMedia,
+                  icon: const Icon(Icons.photo_library_outlined),
+                  label: Text(
+                    tr(
+                      context,
+                      'أو اختيار من المكتبة',
+                      'Or choose from library',
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: externalBusy ? null : refreshMedia,
+                  child: Text(tr(context, 'تحديث', 'Refresh')),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
       const SizedBox(height: 20),
       if (bound.isEmpty)
-        Text(
-          tr(
-            context,
-            'اختَر صورة غلاف قبل النشر.',
-            'Choose a cover before publishing.',
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          child: Text(
+            tr(
+              context,
+              'اختَر أو ارفع صورة غلاف للمشروع قبل النشر.',
+              'Upload or choose a cover image before publishing.',
+            ),
+            style: TextStyle(
+              color: Theme.of(context).colorScheme.error,
+              fontWeight: FontWeight.w500,
+            ),
           ),
         ),
       ReorderableListView.builder(
@@ -970,6 +1102,7 @@ class _ProjectEditorPageState extends ConsumerState<ProjectEditorPage> {
                       endpoint: endpoint,
                       site: activeSite,
                       assetId: entry!.id,
+                      publicUrl: entry.public['publicUrl'] as String?,
                       alt: entry.alt.ar,
                       thumbnail: true,
                       height: 140,

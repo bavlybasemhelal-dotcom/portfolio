@@ -1,0 +1,129 @@
+{
+  "hosting": {
+    "site": "portfolio-14d15",
+    "public": "releases/company-projects/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "**/*.map",
+      "**/*.apk"
+    ],
+    "redirects": [
+      {
+        "source": "/downloads/yogen-1.0.1.apk",
+        "destination": "https://drive.google.com/file/d/1rKAARrlUxfEUzmgNpYlk59ZY9hfr4xsV/view?usp=drivesdk",
+        "type": 302
+      },
+      {
+        "source": "/downloads/yogen-latest.apk",
+        "destination": "/downloads/yogen-1.0.1.apk",
+        "type": 302
+      },
+      {
+        "source": "/downloads/yogen-1.0.0.apk",
+        "destination": "/downloads/yogen-1.0.1.apk",
+        "type": 302
+      }
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ],
+    "headers": [
+      {
+        "source": "**",
+        "headers": [
+          {
+            "key": "X-Content-Type-Options",
+            "value": "nosniff"
+          },
+          {
+            "key": "Referrer-Policy",
+            "value": "strict-origin-when-cross-origin"
+          },
+          {
+            "key": "X-Frame-Options",
+            "value": "SAMEORIGIN"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      },
+      {
+        "source": "/downloads/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          },
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex"
+          }
+        ]
+      },
+      {
+        "source": "/admin{,/**}",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex,nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/validation{,/**}",
+        "headers": [
+          {
+            "key": "X-Robots-Tag",
+            "value": "noindex,nofollow"
+          }
+        ]
+      },
+      {
+        "source": "/project-media/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          },
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      },
+      {
+        "source": "/project-media/**",
+        "headers": [
+          {
+            "key": "Cache-Control",
+            "value": "public, max-age=31536000, immutable"
+          },
+          {
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          }
+        ]
+      }
+    ]
+  },
+  "firestore": {
+    "rules": "firebase/firestore.company-media.rules"
+  },
+  "emulators": {
+    "firestore": {
+      "host": "127.0.0.1",
+      "port": 8085
+    },
+    "ui": {
+      "enabled": false
+    },
+    "singleProjectMode": true
+  }
+}

@@ -1,0 +1,45 @@
+- link "Skip to content":
+  - /url: "#main"
+  - text: Skip to content
+- banner:
+  - link "Examples":
+    - /url: /3dcc5f5ba7f18069859ecbb8ff9380a8?v=3dcc5f5ba7f1806f8273000c0cfd49ca&pvs=18
+    - generic: Examples
+  - generic: /
+  - button "Portofolio" [disabled]:
+    - generic: Portofolio
+  - button "Close panel":
+  - button:
+  - button "Share site to socials":
+  - button:
+  - button "More actions":
+  - button "Get Notion free"
+- main:
+  - img "Page icon"
+  - heading "Portofolio" [level=1]
+  - table "Page properties":
+    - row "Link":
+      - cell "Link":
+        - generic: Link
+      - cell "portofolio-youssab.web.app":
+        - link "portofolio-youssab.web.app":
+          - /url: http://portofolio-youssab.web.app/
+  - generic: بورتفليو احترافي يحتوي على كل أعمالك وطرق التواصل
+  - blockquote:
+    - generic: لرؤية الموقع
+  - figure:
+    - link "Youssab Wagdy | يوساب وجدي يوساب وجدي - مطور تطبيقات فلاتر http://portofolio-youssab.web.app":
+      - /url: http://portofolio-youssab.web.app/
+      - generic: Youssab Wagdy | يوساب وجدي
+      - generic: يوساب وجدي - مطور تطبيقات فلاتر
+      - generic: http://portofolio-youssab.web.app
+  - blockquote:
+    - generic: صور بداخل الموقع
+  - figure
+  - figure
+  - figure
+  - figure
+- region
+- status
+- alert
+- iframe

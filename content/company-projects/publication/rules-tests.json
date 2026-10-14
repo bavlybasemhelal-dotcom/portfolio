@@ -1,0 +1,14 @@
+{
+  "passed": 9,
+  "checks": [
+    "Existing Drive receipts remain valid",
+    "Verified hosted image is accepted",
+    "Bilingual alt remains editable",
+    "Clients cannot create trusted receipts",
+    "Anonymous media writes rejected",
+    "External host rejected",
+    "Wrong byte hash rejected",
+    "Unexpected path rejected",
+    "Drive receipt cannot authorize a hosted URL"
+  ]
+}

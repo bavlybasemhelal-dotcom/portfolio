@@ -1,17 +1,25 @@
+import 'dart:typed_data';
+import 'package:file_picker/file_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import '../../app/yogen_app.dart' show tr;
+import '../../auth/admin_session.dart' show activeSite;
 import '../../data/document_store.dart';
 import '../../data/read_collection.dart';
 import '../../data/company_repository.dart';
+import '../../data/media_repository.dart';
 import '../../data/public_content_repository.dart';
 import '../../domain/project.dart';
+import '../media/drive_bridge.dart';
+import '../media/media_preview.dart';
+import '../media/thumbnail.dart';
 import '../public/public_pages.dart' show aboutText, serviceText;
 import 'admin_shell.dart';
 import 'admin_providers.dart';
 import 'projects_pages.dart';
 import 'access_pages.dart';
+import 'media_library_page.dart' show mediaError;
 
 Widget managerField(
   BuildContext c,
@@ -57,6 +65,9 @@ String managementError(BuildContext c, Object e) {
         'Each visible link needs labels in both languages and a valid HTTPS URL.',
       );
     }
+  }
+  if (e is DriveFailure) {
+    return mediaError(c, e);
   }
   return operationError(c, e);
 }
@@ -345,236 +356,510 @@ class _AdminTeamPageState extends ConsumerState<AdminTeamPage> {
           ),
     };
     String photo = old?.data['photoId'] as String? ?? '';
+    Uint8List? uploadedPhotoBytes;
+    bool uploadingPhoto = false;
     bool busy = false;
     String? error, confirmation;
     String lang = Localizations.localeOf(context).languageCode;
-    final media = await (await ref.read(
-      adminMediaRepositoryProvider.future,
-    )).list();
+    final media = List.of(
+      await (await ref.read(adminMediaRepositoryProvider.future)).list(),
+    );
     if (!mounted) return;
     await showDialog<void>(
       context: context,
       barrierDismissible: false,
       builder: (d) => StatefulBuilder(
-        builder: (d, set) => PopScope(
-          canPop: !busy,
-          child: AlertDialog(
-            title: Text(tr(d, 'ملف عضو عام', 'Public team profile')),
-            content: SizedBox(
-              width: 680,
-              height: 520,
-              child: SingleChildScrollView(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    Text(
-                      tr(
-                        d,
-                        'ملف العرض منفصل عن حساب الدخول. حفظ المسودة لا يظهرها للزوار.',
-                        'This profile is separate from the login account. Saving a draft does not make it visible.',
-                      ),
-                    ),
-                    const SizedBox(height: 16),
-                    SegmentedButton<String>(
-                      segments: const [
-                        ButtonSegment(value: 'ar', label: Text('العربية')),
-                        ButtonSegment(value: 'en', label: Text('English')),
-                      ],
-                      selected: {lang},
-                      onSelectionChanged: busy
-                          ? null
-                          : (v) => set(() => lang = v.first),
-                    ),
-                    const SizedBox(height: 18),
-                    managerField(
-                      d,
-                      controls['name.$lang']!,
-                      lang == 'ar' ? 'الاسم · AR' : 'الاسم · EN',
-                      lang == 'ar' ? 'Name · AR' : 'Name · EN',
-                    ),
-                    managerField(
-                      d,
-                      controls['role.$lang']!,
-                      lang == 'ar' ? 'الدور · AR' : 'الدور · EN',
-                      lang == 'ar' ? 'Role · AR' : 'Role · EN',
-                    ),
-                    managerField(
-                      d,
-                      controls['bio.$lang']!,
-                      lang == 'ar' ? 'نبذة · AR' : 'نبذة · EN',
-                      lang == 'ar' ? 'Bio · AR' : 'Bio · EN',
-                      lines: 3,
-                    ),
-                    managerField(
-                      d,
-                      controls['order']!,
-                      'ترتيب العرض',
-                      'Display order',
-                      number: true,
-                      max: 7,
-                    ),
-                    DropdownButtonFormField<String>(
-                      key: ValueKey(photo),
-                      initialValue: media.any((v) => v.id == photo && v.image)
-                          ? photo
-                          : '',
-                      isExpanded: true,
-                      decoration: InputDecoration(
-                        labelText: tr(
-                          d,
-                          'صورة من مكتبة الوسائط',
-                          'Photo from media library',
-                        ),
-                      ),
-                      items: [
-                        DropdownMenuItem(
-                          value: '',
-                          child: Text(tr(d, 'بدون صورة', 'No photo')),
-                        ),
-                        ...media
-                            .where((v) => v.image)
-                            .map(
-                              (v) => DropdownMenuItem(
-                                value: v.id,
-                                child: Text(v.name),
-                              ),
-                            ),
-                      ],
-                      onChanged: busy
-                          ? null
-                          : (v) => set(() => photo = v ?? ''),
-                    ),
-                    const SizedBox(height: 18),
-                    Text(
-                      tr(
-                        d,
-                        'لرفع صورة جديدة، افتح التخزين والوسائط أولًا.',
-                        'Upload a new photo in Storage and media first.',
-                      ),
-                    ),
-                    ...List.generate(
-                      6,
-                      (i) => ExpansionTile(
-                        key: PageStorageKey('team-$id-link-$i'),
-                        title: Text('${tr(d, 'رابط', 'Link')} ${i + 1}'),
-                        children: [
-                          managerField(
-                            d,
-                            controls['links.$i.labelAr']!,
-                            'اسم الرابط · AR',
-                            'Link label · AR',
-                            max: 200,
-                          ),
-                          managerField(
-                            d,
-                            controls['links.$i.labelEn']!,
-                            'اسم الرابط · EN',
-                            'Link label · EN',
-                            max: 200,
-                          ),
-                          managerField(
-                            d,
-                            controls['links.$i.url']!,
-                            'رابط HTTPS',
-                            'HTTPS URL',
-                            max: 2048,
-                          ),
-                        ],
-                      ),
-                    ),
-                    if (error != null)
-                      Text(
-                        error!,
-                        style: TextStyle(color: Theme.of(d).colorScheme.error),
-                      ),
-                    if (confirmation != null)
-                      Semantics(liveRegion: true, child: Text(confirmation!)),
-                  ],
+        builder: (d, set) {
+          Future<void> pickAndUploadPhoto() async {
+            try {
+              final selection = await FilePicker.pickFiles(
+                type: FileType.custom,
+                allowedExtensions: ['png', 'jpg', 'jpeg', 'webp'],
+              );
+              if (selection.isEmpty) return;
+              final file = selection.single;
+              final size = await file.length();
+              MediaPolicy.validateSize(size);
+              final buffer = BytesBuilder(copy: false);
+              await for (final part in file.readAsByteStream()) {
+                buffer.add(part);
+                if (buffer.length > MediaPolicy.maxTestBytes) {
+                  throw const DriveFailure('file_too_large');
+                }
+              }
+              final bytes = buffer.takeBytes();
+              if (bytes.length != size)
+                throw const DriveFailure('file_read_failed');
+              final mime = MediaPolicy.mime(file.name);
+              if (!mime.startsWith('image/')) {
+                throw const ContentFailure('cover_must_be_image');
+              }
+              MediaPolicy.validate(bytes, mime);
+              MediaRepository.validateSignature(bytes, mime);
+              set(() {
+                uploadingPhoto = true;
+                error = null;
+              });
+              final thumbnail = await createThumbnail(bytes);
+              final repo = await ref.read(adminMediaRepositoryProvider.future);
+              final endpoint = await ref.read(adminEndpointProvider.future);
+              final memberNameAr = controls['name.ar']!.text.trim();
+              final memberNameEn = controls['name.en']!.text.trim();
+              final operation = await repo.prepare(
+                bytes: bytes,
+                name: file.name,
+                mime: mime,
+                projectId: id,
+                scope: 'team',
+                alt: LocalizedText(
+                  ar: memberNameAr.isNotEmpty
+                      ? 'صورة $memberNameAr'
+                      : 'صورة عضو الفريق',
+                  en: memberNameEn.isNotEmpty
+                      ? 'Photo of $memberNameEn'
+                      : 'Team member photo',
                 ),
-              ),
-            ),
-            actions: [
-              TextButton(
-                onPressed: busy ? null : () => Navigator.pop(d),
-                child: Text(tr(d, 'إغلاق', 'Close')),
-              ),
-              ...[false, true].map(
-                (publish) => FilledButton.tonal(
-                  onPressed: busy
-                      ? null
-                      : () async {
-                          set(() {
-                            busy = true;
-                            error = null;
-                            confirmation = null;
-                          });
-                          try {
-                            final repo = await ref.read(
-                              adminCompanyRepositoryProvider.future,
-                            );
-                            final links =
-                                List.generate(
-                                      6,
-                                      (i) => {
-                                        for (final key in [
-                                          'labelAr',
-                                          'labelEn',
-                                          'url',
-                                        ])
-                                          key: controls['links.$i.$key']!.text,
-                                      },
-                                    )
-                                    .where(
-                                      (v) => v.values.any(
-                                        (s) => s.trim().isNotEmpty,
-                                      ),
-                                    )
-                                    .toList();
-                            await repo.saveTeamDraft(
-                              id,
-                              name: managerPair(controls, 'name'),
-                              role: managerPair(controls, 'role'),
-                              bio: managerPair(controls, 'bio'),
-                              order: int.tryParse(controls['order']!.text) ?? 0,
-                              photoId: photo,
-                              links: links,
-                            );
-                            if (publish) await repo.publishTeam(id);
-                            await load();
-                            ref.invalidate(publicContentProvider);
-                            if (d.mounted) {
-                              set(
-                                () => confirmation = tr(
-                                  d,
-                                  publish
-                                      ? 'تم إظهار الملف من الخادم.'
-                                      : 'تم حفظ المسودة من الخادم.',
-                                  publish
-                                      ? 'The server confirmed the visible profile.'
-                                      : 'The server confirmed the draft.',
+              );
+              final source = await repo.upload(
+                endpoint,
+                operation,
+                bytes,
+                thumbnail: thumbnail,
+              );
+              final updatedMedia = await repo.list();
+              if (d.mounted) {
+                set(() {
+                  photo = source.assetId;
+                  uploadedPhotoBytes = bytes;
+                  media.clear();
+                  media.addAll(updatedMedia);
+                  uploadingPhoto = false;
+                  confirmation = tr(
+                    d,
+                    'تم رفع صورة العضو وتعيينها بنجاح.',
+                    'Member photo uploaded successfully.',
+                  );
+                });
+              }
+            } catch (e) {
+              if (d.mounted) {
+                set(() {
+                  uploadingPhoto = false;
+                  error = managementError(d, e);
+                });
+              }
+            }
+          }
+
+          return PopScope(
+            canPop: !busy && !uploadingPhoto,
+            child: AlertDialog(
+              title: Text(tr(d, 'ملف عضو عام', 'Public team profile')),
+              content: SizedBox(
+                width: 680,
+                height: 540,
+                child: SingleChildScrollView(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Text(
+                        tr(
+                          d,
+                          'ملف العرض منفصل عن حساب الدخول. حفظ المسودة لا يظهرها للزوار.',
+                          'This profile is separate from the login account. Saving a draft does not make it visible.',
+                        ),
+                      ),
+                      const SizedBox(height: 16),
+                      SegmentedButton<String>(
+                        segments: const [
+                          ButtonSegment(value: 'ar', label: Text('العربية')),
+                          ButtonSegment(value: 'en', label: Text('English')),
+                        ],
+                        selected: {lang},
+                        onSelectionChanged: busy || uploadingPhoto
+                            ? null
+                            : (v) => set(() => lang = v.first),
+                      ),
+                      const SizedBox(height: 18),
+                      managerField(
+                        d,
+                        controls['name.$lang']!,
+                        lang == 'ar' ? 'الاسم · AR' : 'الاسم · EN',
+                        lang == 'ar' ? 'Name · AR' : 'Name · EN',
+                      ),
+                      managerField(
+                        d,
+                        controls['role.$lang']!,
+                        lang == 'ar' ? 'الدور · AR' : 'الدور · EN',
+                        lang == 'ar' ? 'Role · AR' : 'Role · EN',
+                      ),
+                      managerField(
+                        d,
+                        controls['bio.$lang']!,
+                        lang == 'ar' ? 'نبذة · AR' : 'نبذة · EN',
+                        lang == 'ar' ? 'Bio · AR' : 'Bio · EN',
+                        lines: 3,
+                      ),
+                      managerField(
+                        d,
+                        controls['order']!,
+                        'ترتيب العرض',
+                        'Display order',
+                        number: true,
+                        max: 7,
+                      ),
+                      const SizedBox(height: 8),
+                      Container(
+                        padding: const EdgeInsets.all(16),
+                        decoration: BoxDecoration(
+                          color: Theme.of(d).colorScheme.surfaceContainerLow,
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(
+                            color: Theme.of(d).colorScheme.outlineVariant,
+                          ),
+                        ),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.stretch,
+                          children: [
+                            Row(
+                              children: [
+                                Icon(
+                                  Icons.account_circle_outlined,
+                                  color: Theme.of(d).colorScheme.primary,
                                 ),
-                              );
-                            }
-                          } catch (e) {
-                            if (d.mounted) {
-                              set(() => error = managementError(d, e));
-                            }
-                          } finally {
-                            if (d.mounted) set(() => busy = false);
-                          }
-                        },
-                  child: Text(
-                    tr(
-                      d,
-                      publish ? 'حفظ وإظهار' : 'حفظ مسودة',
-                      publish ? 'Save and show' : 'Save draft',
-                    ),
+                                const SizedBox(width: 8),
+                                Text(
+                                  tr(d, 'صورة الملف الشخصي', 'Profile photo'),
+                                  style: const TextStyle(
+                                    fontWeight: FontWeight.w600,
+                                    fontSize: 15,
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 14),
+                            Row(
+                              children: [
+                                ClipRRect(
+                                  borderRadius: BorderRadius.circular(14),
+                                  child: SizedBox(
+                                    width: 76,
+                                    height: 76,
+                                    child: uploadingPhoto
+                                        ? const Center(
+                                            child: CircularProgressIndicator(
+                                              strokeWidth: 2,
+                                            ),
+                                          )
+                                        : uploadedPhotoBytes != null
+                                        ? Image.memory(
+                                            uploadedPhotoBytes!,
+                                            fit: BoxFit.cover,
+                                          )
+                                        : photo.isNotEmpty
+                                        ? Consumer(
+                                            builder: (c, ref, _) => DriveImage(
+                                              cache: ref.watch(
+                                                publicMediaCacheProvider,
+                                              ),
+                                              endpoint:
+                                                  ref
+                                                      .watch(
+                                                        adminEndpointProvider,
+                                                      )
+                                                      .value ??
+                                                  '',
+                                              site: activeSite,
+                                              assetId: photo,
+                                              publicUrl:
+                                                  media
+                                                          .where(
+                                                            (entry) =>
+                                                                entry.id ==
+                                                                photo,
+                                                          )
+                                                          .firstOrNull
+                                                          ?.public['publicUrl']
+                                                      as String?,
+                                              alt: 'Photo',
+                                              thumbnail: true,
+                                            ),
+                                          )
+                                        : Container(
+                                            color: Theme.of(
+                                              d,
+                                            ).colorScheme.surfaceContainerHigh,
+                                            child: Icon(
+                                              Icons.person_outline,
+                                              size: 38,
+                                              color: Theme.of(
+                                                d,
+                                              ).colorScheme.onSurfaceVariant,
+                                            ),
+                                          ),
+                                  ),
+                                ),
+                                const SizedBox(width: 16),
+                                Expanded(
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Wrap(
+                                        spacing: 8,
+                                        runSpacing: 8,
+                                        children: [
+                                          FilledButton.icon(
+                                            onPressed: busy || uploadingPhoto
+                                                ? null
+                                                : pickAndUploadPhoto,
+                                            icon: const Icon(
+                                              Icons.cloud_upload_outlined,
+                                              size: 18,
+                                            ),
+                                            label: Text(
+                                              tr(
+                                                d,
+                                                'رفع صورة من الجهاز',
+                                                'Upload from device',
+                                              ),
+                                            ),
+                                          ),
+                                          if (photo.isNotEmpty ||
+                                              uploadedPhotoBytes != null)
+                                            OutlinedButton.icon(
+                                              onPressed: busy || uploadingPhoto
+                                                  ? null
+                                                  : () => set(() {
+                                                      photo = '';
+                                                      uploadedPhotoBytes = null;
+                                                    }),
+                                              icon: const Icon(
+                                                Icons.delete_outline,
+                                                size: 18,
+                                              ),
+                                              label: Text(
+                                                tr(
+                                                  d,
+                                                  'إزالة الصورة',
+                                                  'Remove photo',
+                                                ),
+                                              ),
+                                            ),
+                                        ],
+                                      ),
+                                      const SizedBox(height: 6),
+                                      Text(
+                                        photo.isNotEmpty
+                                            ? tr(
+                                                d,
+                                                'تم ربط صورة العضو بنجاح.',
+                                                'Photo linked for member.',
+                                              )
+                                            : tr(
+                                                d,
+                                                'PNG, JPG, WebP حتى 5 ميجابايت',
+                                                'PNG, JPG, WebP up to 5MB',
+                                              ),
+                                        style: TextStyle(
+                                          fontSize: 12,
+                                          color: Theme.of(
+                                            d,
+                                          ).colorScheme.onSurfaceVariant,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                            const SizedBox(height: 10),
+                            ExpansionTile(
+                              tilePadding: EdgeInsets.zero,
+                              dense: true,
+                              title: Text(
+                                tr(
+                                  d,
+                                  'أو اختيار صورة سابقة من مكتبة الوسائط',
+                                  'Or choose from media library',
+                                ),
+                                style: TextStyle(
+                                  fontSize: 13,
+                                  color: Theme.of(d).colorScheme.primary,
+                                ),
+                              ),
+                              children: [
+                                DropdownButtonFormField<String>(
+                                  key: ValueKey(photo),
+                                  initialValue:
+                                      media.any((v) => v.id == photo && v.image)
+                                      ? photo
+                                      : '',
+                                  isExpanded: true,
+                                  decoration: InputDecoration(
+                                    labelText: tr(
+                                      d,
+                                      'صورة من مكتبة الوسائط',
+                                      'Photo from library',
+                                    ),
+                                  ),
+                                  items: [
+                                    DropdownMenuItem(
+                                      value: '',
+                                      child: Text(
+                                        tr(d, 'بدون صورة', 'No photo'),
+                                      ),
+                                    ),
+                                    ...media
+                                        .where((v) => v.image)
+                                        .map(
+                                          (v) => DropdownMenuItem(
+                                            value: v.id,
+                                            child: Text(v.name),
+                                          ),
+                                        ),
+                                  ],
+                                  onChanged: busy || uploadingPhoto
+                                      ? null
+                                      : (v) => set(() {
+                                          photo = v ?? '';
+                                          uploadedPhotoBytes = null;
+                                        }),
+                                ),
+                              ],
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 18),
+                      ...List.generate(
+                        6,
+                        (i) => ExpansionTile(
+                          key: PageStorageKey('team-$id-link-$i'),
+                          title: Text('${tr(d, 'رابط', 'Link')} ${i + 1}'),
+                          children: [
+                            managerField(
+                              d,
+                              controls['links.$i.labelAr']!,
+                              'اسم الرابط · AR',
+                              'Link label · AR',
+                              max: 200,
+                            ),
+                            managerField(
+                              d,
+                              controls['links.$i.labelEn']!,
+                              'اسم الرابط · EN',
+                              'Link label · EN',
+                              max: 200,
+                            ),
+                            managerField(
+                              d,
+                              controls['links.$i.url']!,
+                              'رابط HTTPS',
+                              'HTTPS URL',
+                              max: 2048,
+                            ),
+                          ],
+                        ),
+                      ),
+                      if (error != null)
+                        Text(
+                          error!,
+                          style: TextStyle(
+                            color: Theme.of(d).colorScheme.error,
+                          ),
+                        ),
+                      if (confirmation != null)
+                        Semantics(liveRegion: true, child: Text(confirmation!)),
+                    ],
                   ),
                 ),
               ),
-            ],
-          ),
-        ),
+              actions: [
+                TextButton(
+                  onPressed: busy ? null : () => Navigator.pop(d),
+                  child: Text(tr(d, 'إغلاق', 'Close')),
+                ),
+                ...[false, true].map(
+                  (publish) => FilledButton.tonal(
+                    onPressed: busy
+                        ? null
+                        : () async {
+                            set(() {
+                              busy = true;
+                              error = null;
+                              confirmation = null;
+                            });
+                            try {
+                              final repo = await ref.read(
+                                adminCompanyRepositoryProvider.future,
+                              );
+                              final links =
+                                  List.generate(
+                                        6,
+                                        (i) => {
+                                          for (final key in [
+                                            'labelAr',
+                                            'labelEn',
+                                            'url',
+                                          ])
+                                            key:
+                                                controls['links.$i.$key']!.text,
+                                        },
+                                      )
+                                      .where(
+                                        (v) => v.values.any(
+                                          (s) => s.trim().isNotEmpty,
+                                        ),
+                                      )
+                                      .toList();
+                              await repo.saveTeamDraft(
+                                id,
+                                name: managerPair(controls, 'name'),
+                                role: managerPair(controls, 'role'),
+                                bio: managerPair(controls, 'bio'),
+                                order:
+                                    int.tryParse(controls['order']!.text) ?? 0,
+                                photoId: photo,
+                                links: links,
+                              );
+                              if (publish) await repo.publishTeam(id);
+                              await load();
+                              ref.invalidate(publicContentProvider);
+                              if (d.mounted) {
+                                set(
+                                  () => confirmation = tr(
+                                    d,
+                                    publish
+                                        ? 'تم إظهار الملف من الخادم.'
+                                        : 'تم حفظ المسودة من الخادم.',
+                                    publish
+                                        ? 'The server confirmed the visible profile.'
+                                        : 'The server confirmed the draft.',
+                                  ),
+                                );
+                              }
+                            } catch (e) {
+                              if (d.mounted) {
+                                set(() => error = managementError(d, e));
+                              }
+                            } finally {
+                              if (d.mounted) set(() => busy = false);
+                            }
+                          },
+                    child: Text(
+                      tr(
+                        d,
+                        publish ? 'حفظ وإظهار' : 'حفظ مسودة',
+                        publish ? 'Save and show' : 'Save draft',
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          );
+        },
       ),
     );
     for (final v in controls.values) {
