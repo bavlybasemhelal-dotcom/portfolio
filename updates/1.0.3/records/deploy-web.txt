@@ -1,0 +1,17 @@
+
+=== Deploying to 'portfolio-14d15'...
+
+i  deploying hosting
+i  hosting[portfolio-14d15]: beginning deploy...
+i  hosting[portfolio-14d15]: found 85 files in releases/1.0.3/web
+i  hosting: upload complete
++  hosting[portfolio-14d15]: file upload complete
+i  hosting[portfolio-14d15]: finalizing version...
++  hosting[portfolio-14d15]: version finalized
+i  hosting[portfolio-14d15]: releasing new version...
++  hosting[portfolio-14d15]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/portfolio-14d15/overview
+Hosting URL: https://portfolio-14d15.web.app

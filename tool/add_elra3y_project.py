@@ -1,16 +1,21 @@
 """Process user uploaded screenshots for Alban El-Ra3y project and add to projects.json"""
+import argparse
 import hashlib
 import json
 from pathlib import Path
 from PIL import Image, ImageOps
 
-root = Path(r"e:/Prog Progs/portfolio")
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--images', nargs=3, type=Path, required=True,
+                    metavar=('COVER', 'GALLERY_1', 'GALLERY_2'))
+args = parser.parse_args()
+if any(not image.is_file() for image in args.images):
+    parser.error('Each supplied screenshot must be an existing image file.')
+root = Path(__file__).resolve().parent.parent
 catalog_file = root / "content/company-projects/projects.json"
 out_img_dir = root / "content/company-projects/images/alban-elra3y"
 out_img_dir.mkdir(parents=True, exist_ok=True)
 
-web_media_dir = root / "releases/company-projects/web/project-media"
-web_media_dir.mkdir(parents=True, exist_ok=True)
 local_web_media = root / "web/project-media"
 local_web_media.mkdir(parents=True, exist_ok=True)
 asset_img_dir = root / "assets/images/projects/alban-elra3y"
@@ -18,19 +23,19 @@ asset_img_dir.mkdir(parents=True, exist_ok=True)
 
 inputs = [
     {
-        "src": r"C:/Users/Graphic/.gemini/antigravity/brain/5541834c-354a-44a8-b4fb-6852354ae641/.user_uploaded/media_1791992176685_8e6d0cc5.png",
+        "src": args.images[0],
         "file": "cover.jpg",
         "alt_ar": "الواجهة الرئيسية لكتالوج ومنيو الراعي للألبان والمجمدات",
         "alt_en": "Main catalog and menu interface of Alban & Mogamadat El-Ra3y",
     },
     {
-        "src": r"C:/Users/Graphic/.gemini/antigravity/brain/5541834c-354a-44a8-b4fb-6852354ae641/.user_uploaded/media_1791992193419_7cea7d90.png",
+        "src": args.images[1],
         "file": "gallery-01.jpg",
         "alt_ar": "تفاصيل المنتج وأسعار القطعة والكرتونة ومشاركة الرابط",
         "alt_en": "Product details page with multi-tier pricing and sharing options",
     },
     {
-        "src": r"C:/Users/Graphic/.gemini/antigravity/brain/5541834c-354a-44a8-b4fb-6852354ae641/.user_uploaded/media_1791992230735_2f52fa69.png",
+        "src": args.images[2],
         "file": "gallery-02.jpg",
         "alt_ar": "لوحة تحكم وإدارة المنتجات والأقسام والعروض",
         "alt_en": "Admin dashboard for managing catalog products, categories and offers",
@@ -53,8 +58,7 @@ for item in inputs:
     media_id = f"m_{sha}"
     pub_url = f"https://portfolio-14d15.web.app/project-media/{sha}.jpg"
     
-    # Save copy to web/project-media and assets
-    (web_media_dir / f"{sha}.jpg").write_bytes(data)
+    # Stage source assets; the next explicitly requested build copies them.
     (local_web_media / f"{sha}.jpg").write_bytes(data)
     (asset_img_dir / item["file"]).write_bytes(data)
     

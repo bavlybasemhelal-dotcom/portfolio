@@ -65,7 +65,7 @@ for project in catalog['projects']:
                     'imageCount': len(assets), 'revision': public['revision']})
 
 report = {'checkedAt': datetime.now(timezone.utc).isoformat(),
-          'expectedProjects': 15,
+          'expectedProjects': len(catalog['projects']),
           'publishedProjects': sum(r['published'] for r in results),
           'publishedImages': sum(r.get('imageCount', 0) for r in results),
           'allPublishedContentMatches': all(r.get('contentAndMediaMatch', True)
@@ -84,6 +84,8 @@ status['publishedProjectIds'] = [r['projectId'] for r in results if r['published
 status['publicReadback'] = report
 if report['complete']:
     status['status'] = 'published'
+else:
+    status['status'] = 'incomplete'
 status_file.write_text(json.dumps(status, ensure_ascii=False, indent=2),
                        encoding='utf-8')
 print(json.dumps({k: v for k, v in report.items() if k != 'projects'}))

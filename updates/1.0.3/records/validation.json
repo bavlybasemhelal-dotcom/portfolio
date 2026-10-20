@@ -1,0 +1,38 @@
+{
+  "releaseId": "yogen-1.0.3+13",
+  "recordedAt": "2026-10-15T21:34:39.572685+00:00",
+  "flutterAnalyze": {
+    "issues": 0
+  },
+  "flutterTests": {
+    "passed": 150,
+    "skippedCloud": 9
+  },
+  "featuredRulesEmulator": {
+    "passed": 10
+  },
+  "releasePathPythonTests": {
+    "passed": 2
+  },
+  "builds": {
+    "webSeconds": 78.2,
+    "androidSeconds": 470.7
+  },
+  "webBrowser": {
+    "homeAllProjectsButtonVerified": true,
+    "destination": "/work",
+    "displayedProjects": 15,
+    "adminRouteRequiresLogin": true
+  },
+  "downloadBrowser": {
+    "filename": "yogen-1.0.3.apk",
+    "anyoneWithLink": true,
+    "signInRequired": false
+  },
+  "initialSelectionCount": 0,
+  "initialSelectionByOwner": true,
+  "productionProjectDataModified": false,
+  "androidRuntimeTested": false,
+  "windowsBuilt": false,
+  "githubPushed": false
+}

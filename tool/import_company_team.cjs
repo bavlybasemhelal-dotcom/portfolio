@@ -26,7 +26,7 @@ const command=new Command('yogen:team-import').before(requireAuth).action(async(
    for(const collection of ['teamDrafts','team'])backup.push({collection,id:m.id,document:await get(doc(collection,m.id))});
    const bytes=fs.readFileSync(path.join(out,m.media.file));
    if(hash(bytes)!==m.media.sha256)throw Error('Local photo hash mismatch');
-   const dir=path.join(root,'releases/company-projects/web/project-media');fs.mkdirSync(dir,{recursive:true});
+   const dir=path.join(root,'web/project-media');fs.mkdirSync(dir,{recursive:true});
    fs.writeFileSync(path.join(dir,m.media.sha256+'.jpg'),bytes);
   }
   const file=path.join(privateDir,'profiles-before.json');if(!fs.existsSync(file))fs.writeFileSync(file,JSON.stringify(backup,null,2));

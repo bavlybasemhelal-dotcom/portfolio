@@ -56,6 +56,7 @@ class FixturePublicRepository extends PublicContentRepository {
   FixturePublicRepository({int count = 3})
     : value = PublicContent(
         projects: List.generate(count, publicFixture),
+        featuredProjectIds: {for (var i = 0; i < count; i++) 'fixture-$i'},
         endpoint: 'https://script.google.com/macros/s/fixture/exec',
       ),
       super(FirestoreRestStore(projectId: 'test', token: () async => null));

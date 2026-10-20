@@ -2,15 +2,19 @@
 import hashlib
 import json
 import pathlib
-import re
 import shutil
 import zipfile
 from datetime import datetime, timezone
+from release_paths import release_identity, sync_hosting_paths, web_release_dir
 
 root = pathlib.Path(__file__).resolve().parents[1]
-version, build_number = re.search(r'^version:\s*(\d+\.\d+\.\d+)\+(\d+)\s*$', (root / 'pubspec.yaml').read_text(), re.M).groups()
+version, build_number = release_identity(root)
 release = root / 'releases' / version
-web = release / 'web'
+web = web_release_dir(root)
+web_metadata = json.loads((web / 'version.json').read_text(encoding='utf-8'))
+if (web_metadata['version'] != version
+        or int(web_metadata['build_number']) != build_number):
+    raise RuntimeError('Web build metadata does not match the release being packaged.')
 for source in (root / 'web/project-media').glob('*'):
     if source.is_file():
         target = web / 'project-media' / source.name
@@ -22,6 +26,7 @@ apk = root / 'build/app/outputs/flutter-apk/app-release.apk'
 apk_metadata = json.loads((root / 'build/app/outputs/apk/release/output-metadata.json').read_text())['elements'][0]
 if apk_metadata['versionName'] != version or apk_metadata['versionCode'] != int(build_number):
     raise RuntimeError('Android build metadata does not match the release being packaged.')
+sync_hosting_paths(root)
 shutil.copy2(apk, android / f'yogen-{version}.apk')
 (web / 'downloads').mkdir(exist_ok=True)
 shutil.copy2(apk, web / 'downloads' / f'yogen-{version}.apk')
@@ -56,6 +61,11 @@ source_files = [
     'lib/core/viewport_visibility.dart', 'lib/features/media/media_preview.dart',
     'lib/features/media/media_transport.dart', 'lib/features/public/project_widgets.dart',
     'lib/features/public/public_pages.dart', 'lib/features/admin/project_editor_page.dart',
+    'lib/features/public/team_photo.dart', 'lib/data/public_content_repository.dart',
+    'lib/features/public/atmospheric_3d_background.dart', 'web/index.html',
+    'lib/data/featured_projects_repository.dart', 'lib/data/project_repository.dart',
+    'lib/features/admin/featured_projects_page.dart', 'lib/features/admin/admin_providers.dart',
+    'firebase/firestore.company-media.rules',
     'lib/features/admin/media_library_page.dart', 'lib/features/admin/projects_pages.dart',
     'pubspec.yaml', 'pubspec.lock', 'firebase.json', 'web/manifest.json',
     'web/flutter_bootstrap.js', 'android/app/build.gradle.kts',

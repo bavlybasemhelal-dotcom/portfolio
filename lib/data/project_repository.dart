@@ -169,6 +169,7 @@ class ProjectRepository {
           path('projectDrafts', id),
           draftMap(draft, draft.content, status: next, publishedRevision: 0),
         );
+        tx.delete(path('featuredProjects', id));
         if (publication != null) {
           tx.delete(path('projects', id));
           tx.delete(

@@ -1,14 +1,26 @@
-"""Package the tested web build and original project pictures for Hosting."""
+"""Prepare an existing versioned web build; never build or deploy the app."""
 import hashlib
 import json
-import shutil
 from pathlib import Path
+from release_paths import release_identity, sync_hosting_paths, web_release_dir
 
 root = Path(__file__).resolve().parent.parent
 catalog_dir = root / 'content/company-projects'
 catalog = json.loads((catalog_dir / 'projects.json').read_text(encoding='utf-8'))
-web = root / 'releases/company-projects/web'
-shutil.copytree(root / '.runtime/company-web-fix', web, dirs_exist_ok=True)
+web = web_release_dir(root)
+version, build_number = release_identity(root)
+if not (web / 'index.html').is_file() or not (web / 'version.json').is_file():
+    raise RuntimeError('Build the current web release before preparing Hosting files.')
+metadata = json.loads((web / 'version.json').read_text(encoding='utf-8'))
+if metadata['version'] != version or int(metadata['build_number']) != build_number:
+    raise RuntimeError('Web build version does not match pubspec.yaml.')
+# The Flutter build must already contain every public image, including team
+# photos. Never regenerate security rules from a private, possibly stale backup.
+for source in (root / 'web/project-media').glob('*'):
+    if source.is_file():
+        target = web / 'project-media' / source.name
+        if not target.is_file() or target.read_bytes() != source.read_bytes():
+            raise RuntimeError('A public image is missing or different in the web build.')
 origin = 'https://portfolio-14d15.web.app'
 index = (web / 'index.html').read_text(encoding='utf-8')
 index = index.replace('content="noindex,nofollow"', 'content="index,follow"')
@@ -26,36 +38,6 @@ for project in catalog['projects']:
         assert hashlib.sha256(data).hexdigest() == media['sha256']
         (images / (media['sha256'] + '.jpg')).write_bytes(data)
 
-rules = (root / '.runtime/company-import/deployed.rules').read_text(encoding='utf-8')
-changes = [
-    ("['id','driveFileId','name','mime','bytes','alt','thumbnailDriveFileId'])",
-     "['id','driveFileId','name','mime','bytes','alt','thumbnailDriveFileId','publicUrl'])"),
-    ("&& filled(v.id,70) && v.driveFileId is string && v.driveFileId.matches('[A-Za-z0-9_-]{10,200}')",
-     "&& filled(v.id,70) && v.driveFileId is string\n"
-     "        && (v.driveFileId.matches('[A-Za-z0-9_-]{10,200}') || (v.driveFileId == '' && 'publicUrl' in v))\n"
-     "        && (!('publicUrl' in v) || (v.publicUrl is string && v.publicUrl.matches('https://portfolio-14d15[.]web[.]app/project-media/[a-f0-9]{64}[.]jpg')))"),
-    ("&& v.public.thumbnailDriveFileId == r.thumbnailFileId",
-     "&& v.public.thumbnailDriveFileId == r.thumbnailFileId\n"
-     "            && (!('publicUrl' in v.public) || (r.get('storage','') == 'hosting'\n"
-     "              && v.public.publicUrl == r.publicUrl\n"
-     "              && r.publicUrl == 'https://portfolio-14d15.web.app/project-media/' + r.sha256 + '.jpg'))"),
-]
-for before, after in changes:
-    if rules.count(before) == 1:
-        rules = rules.replace(before, after)
-    else:
-        assert rules.count(after) == 1, before
-(root / 'firebase/firestore.company-media.rules').write_text(rules, encoding='utf-8')
-
-config = json.loads((root / 'firebase.json').read_text(encoding='utf-8'))
-config['hosting']['public'] = web.relative_to(root).as_posix()
-config['hosting']['headers'].append({'source': '/project-media/**', 'headers': [
-    {'key': 'Cache-Control', 'value': 'public, max-age=31536000, immutable'},
-    {'key': 'Access-Control-Allow-Origin', 'value': '*'},
-]})
-config['firestore'] = {'rules': 'firebase/firestore.company-media.rules'}
-config['emulators'] = {'firestore': {'host': '127.0.0.1', 'port': 8085},
-                       'ui': {'enabled': False}, 'singleProjectMode': True}
-(root / 'firebase.company.json').write_text(json.dumps(config, indent=2), encoding='utf-8')
+sync_hosting_paths(root)
 print(json.dumps({'web': str(web), 'images': len(list(images.glob('*.jpg'))),
-                  'rulesDerivedFromDeployedVersion': True}))
+                  'rulesPreserved': True, 'built': False, 'deployed': False}))

@@ -1,4 +1,5 @@
 """Prepare the user-provided team photos and bilingual public profiles."""
+import argparse
 import hashlib
 import html
 import json
@@ -6,7 +7,12 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 root = Path(__file__).resolve().parent.parent
-source = Path('C:/Users/Graphic/Downloads/صور الشركة')
+parser = argparse.ArgumentParser(description=__doc__)
+parser.add_argument('--source-dir', type=Path, required=True)
+args = parser.parse_args()
+source = args.source_dir.resolve()
+if not source.is_dir():
+    parser.error('The source photo directory does not exist.')
 out = root / 'content/company-team'
 (out / 'images').mkdir(parents=True, exist_ok=True)
 bi = lambda ar, en: {'ar': ar, 'en': en}

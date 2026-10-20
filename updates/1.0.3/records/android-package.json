@@ -1,0 +1,10 @@
+{
+  "version": "1.0.3",
+  "build": 13,
+  "bytes": 63207772,
+  "sha256": "ef2242883f2a79f6bbdd5fa720b5998584298e79b9d23cd463968b5c7d8558e8",
+  "signatureVerified": true,
+  "matchesPreviousCertificate": true,
+  "certificateSha256": "Signer #1 certificate SHA-256 digest: e6ef437d673be142f518607bc1d9f930cf62c40f6213d87d9d5e504caeda9ef7",
+  "nativeRuntimeTested": false
+}

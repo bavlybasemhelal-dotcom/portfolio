@@ -48,7 +48,7 @@ const command = new Command('yogen:company-import').before(requireAuth).action(a
       }
     }
     fs.writeFileSync(path.join(root,'.runtime/company-import/documents-before.json'),JSON.stringify(backups,null,2));
-    console.log(JSON.stringify({prepared:true,backedUpProjects:15,ruleset:release.rulesetName}));
+    console.log(JSON.stringify({prepared:true,backedUpProjects:backups.filter(b=>b.collection==='projects').length,ruleset:release.rulesetName}));
     return;
   }
   if(!process.argv.includes('--publish')) throw Error('Use --prepare or --publish');

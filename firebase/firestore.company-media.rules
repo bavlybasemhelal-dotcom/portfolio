@@ -200,6 +200,18 @@ service cloud.firestore {
           && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['enabled','updatedAt','updatedBy']);
         allow delete: if false;
       }
+      match /featuredProjects/{id} {
+        allow read: if validSite();
+        allow create, update: if isStaff()
+          && id.matches('[A-Za-z0-9_-]{1,70}')
+          && exists(publicPath(id))
+          && request.resource.data.keys().hasAll(['projectId','updatedAt','updatedBy'])
+          && request.resource.data.keys().hasOnly(['projectId','updatedAt','updatedBy'])
+          && request.resource.data.projectId == id
+          && request.resource.data.updatedAt == request.time
+          && request.resource.data.updatedBy == request.auth.uid;
+        allow delete: if isStaff();
+      }
       match /projectDrafts/{id} {
         allow read: if isStaff();
         allow create: if isStaff() && id.matches('[A-Za-z0-9_-]{1,70}') && validDraft(request.resource.data, true, {})

@@ -50,6 +50,11 @@ class AdminOverviewPage extends ConsumerWidget {
         'Start with a draft, then review both languages and media before publishing.',
       ),
       actions: [
+        OutlinedButton.icon(
+          onPressed: () => c.go('/admin/featured-projects'),
+          icon: const Icon(Icons.star_outline),
+          label: Text(tr(c, 'اختيار أهم المشاريع', 'Choose featured projects')),
+        ),
         FilledButton.icon(
           onPressed: () => c.go('/admin/projects/${newProjectId()}/edit'),
           icon: const Icon(Icons.add),
@@ -341,6 +346,8 @@ class _AdminProjectsPageState extends ConsumerState<AdminProjectsPage> {
           if (value != null) await repo.reorder(d, value);
       }
       ref.invalidate(adminProjectsProvider);
+      ref.invalidate(adminFeaturedIdsProvider);
+      ref.invalidate(publicContentProvider);
     } catch (e) {
       if (mounted) setState(() => error = e);
     } finally {

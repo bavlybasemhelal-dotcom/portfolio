@@ -41,7 +41,6 @@ class DriveImage extends StatefulWidget {
 class _DriveImageState extends State<DriveImage> {
   Future<Uint8List>? future;
   bool visible = false;
-  int networkRevision = 0;
 
   void visibilityChanged(bool value) {
     if (!mounted || (visible == value && !(value && future == null))) return;

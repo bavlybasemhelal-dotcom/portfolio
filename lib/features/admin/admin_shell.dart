@@ -26,6 +26,12 @@ const adminNavigation = [
   AdminNav('/admin', 'نظرة عامة', 'Overview', Icons.space_dashboard_outlined),
   AdminNav('/admin/projects', 'المشاريع', 'Projects', Icons.layers_outlined),
   AdminNav(
+    '/admin/featured-projects',
+    'اختيار أهم المشاريع',
+    'Choose featured projects',
+    Icons.star_outline,
+  ),
+  AdminNav(
     '/admin/requests',
     'طلبات العملاء',
     'Client requests',

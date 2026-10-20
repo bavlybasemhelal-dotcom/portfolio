@@ -49,15 +49,20 @@ class PublicProject {
 
 class PublicContent {
   final List<PublicProject> projects;
+  final Set<String> featuredProjectIds;
   final List<Map<String, dynamic>> team;
   final Map<String, dynamic>? company;
   final String endpoint;
   const PublicContent({
     this.projects = const [],
+    this.featuredProjectIds = const {},
     this.team = const [],
     this.company,
     this.endpoint = '',
   });
+  List<PublicProject> get featuredProjects => projects
+      .where((project) => featuredProjectIds.contains(project.id))
+      .toList();
   Map<String, String> get contacts {
     final result = <String, String>{};
     for (final e in Map<String, dynamic>.from(
@@ -142,21 +147,33 @@ class PublicContentRepository {
       store.get('sites/$site/company/current'),
       store.listAll('sites/$site/team'),
       MediaSettingsRepository.endpoint(store, site),
+      store.listAll('sites/$site/featuredProjects'),
     ]);
     final team =
-        (values[1] as List<StoredDocument>).map((d) => d.data).where((d) {
-          return LocalizedText.fromMap(
-                Map<String, dynamic>.from(d['name'] as Map? ?? {}),
-              ).complete &&
-              LocalizedText.fromMap(
-                Map<String, dynamic>.from(d['role'] as Map? ?? {}),
-              ).complete;
-        }).toList()..sort(
-          (a, b) =>
-              (a['order'] as num? ?? 0).compareTo(b['order'] as num? ?? 0),
-        );
+        (values[1] as List<StoredDocument>)
+            .map((d) {
+              return {...d.data, 'id': d.path.split('/').last};
+            })
+            .where((d) {
+              return LocalizedText.fromMap(
+                    Map<String, dynamic>.from(d['name'] as Map? ?? {}),
+                  ).complete &&
+                  LocalizedText.fromMap(
+                    Map<String, dynamic>.from(d['role'] as Map? ?? {}),
+                  ).complete;
+            })
+            .toList()
+          ..sort(
+            (a, b) =>
+                (a['order'] as num? ?? 0).compareTo(b['order'] as num? ?? 0),
+          );
     return PublicContent(
       projects: all,
+      featuredProjectIds: {
+        for (final doc in values[3] as List<StoredDocument>)
+          if (doc.data['projectId'] == doc.path.split('/').last)
+            doc.path.split('/').last,
+      },
       team: team,
       company: (values[0] as StoredDocument?)?.data,
       endpoint: values[2] as String,

@@ -1,7 +1,7 @@
 name: yogen_portfolio
 description: "YOGEN multiplatform foundation, content services and role-based access."
 publish_to: 'none'
-version: 1.0.2+12
+version: 1.0.3+13
 
 environment:
   sdk: ^3.11.0
@@ -37,7 +37,7 @@ flutter:
   assets:
     - planning-assets/yogen-logo-horizontal.png
     - assets/images/team/
-    - assets/images/projects/
+    - assets/images/projects/alban-elra3y/
   fonts:
     - family: PlexArabic
       fonts:

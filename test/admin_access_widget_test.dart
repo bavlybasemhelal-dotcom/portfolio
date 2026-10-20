@@ -36,6 +36,7 @@ class FixtureSession extends AdminSession {
 
 class FixtureAuth implements AccountAuth {
   bool changed = false;
+  String? changedFrom, changedTo;
   @override
   AuthAccount? get current =>
       const AuthAccount('fixture', 'fixture@login.yogen.invalid');
@@ -52,6 +53,8 @@ class FixtureAuth implements AccountAuth {
   @override
   Future<void> changePassword(String old, String next) async {
     changed = true;
+    changedFrom = old;
+    changedTo = next;
   }
 }
 
@@ -142,11 +145,49 @@ void main() {
           find.text(locale == 'ar' ? 'تغيير كلمة المرور' : 'Change password'),
         );
         await tester.pumpAndSettle();
-        await tester.enterText(find.byType(TextField).at(0), 'old-fixture');
-        await tester.enterText(find.byType(TextField).at(1), 'new-fixture');
-        await tester.tap(find.text(locale == 'ar' ? 'حفظ' : 'Save'));
+        final savePassword = find.widgetWithText(
+          FilledButton,
+          locale == 'ar' ? 'حفظ كلمة المرور' : 'Save password',
+        );
+        final current = find.byKey(const ValueKey('password-current'));
+        final next = find.byKey(const ValueKey('password-new'));
+        final confirmation = find.byKey(
+          const ValueKey('password-confirmation'),
+        );
+        await tester.enterText(current, 'old-fixture');
+        await tester.enterText(next, 'short');
+        await tester.enterText(confirmation, 'short');
+        await tester.ensureVisible(savePassword);
+        await tester.tap(savePassword);
+        await tester.pumpAndSettle();
+        expect(auth.changed, false);
+        expect(
+          find.text(
+            locale == 'ar'
+                ? 'استخدم من 12 إلى 128 حرفًا.'
+                : 'Use 12 to 128 characters.',
+          ),
+          findsOneWidget,
+        );
+        await tester.enterText(next, 'New-Fixture-Password-123');
+        await tester.enterText(confirmation, 'Different-Password-123');
+        await tester.tap(savePassword);
+        await tester.pumpAndSettle();
+        expect(auth.changed, false);
+        expect(
+          find.text(
+            locale == 'ar'
+                ? 'تأكيد كلمة المرور غير مطابق.'
+                : 'Passwords do not match.',
+          ),
+          findsOneWidget,
+        );
+        await tester.enterText(confirmation, 'New-Fixture-Password-123');
+        await tester.tap(savePassword);
         await tester.pumpAndSettle();
         expect(auth.changed, true);
+        expect(auth.changedFrom, 'old-fixture');
+        expect(auth.changedTo, 'New-Fixture-Password-123');
         expect(tester.takeException(), isNull);
         (container.read(adminSessionProvider.notifier) as FixtureSession)
             .revoke();

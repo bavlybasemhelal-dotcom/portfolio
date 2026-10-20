@@ -9,6 +9,7 @@ import '../auth/admin_session.dart';
 import '../features/admin/access_pages.dart';
 import '../features/admin/media_library_page.dart';
 import '../features/admin/admin_shell.dart';
+import '../features/admin/featured_projects_page.dart';
 import '../features/admin/contact_inbox_page.dart';
 import '../features/public/contact_page.dart';
 import '../features/admin/projects_pages.dart';
@@ -138,6 +139,10 @@ final routerProvider = Provider<GoRouter>((ref) {
             builder: (_, _) => const AdminProjectsPage(),
           ),
           GoRoute(
+            path: '/admin/featured-projects',
+            builder: (_, _) => const FeaturedProjectsPage(),
+          ),
+          GoRoute(
             path: '/admin/projects/:id/edit',
             builder: (_, s) => ProjectEditorPage(
               key: ValueKey('editor-${s.pathParameters['id']}'),
@@ -198,35 +203,36 @@ final routerProvider = Provider<GoRouter>((ref) {
           ),
         ],
       ),
-      if (!releaseBuild) ShellRoute(
-        builder: (c, s, child) => VerificationShell(child: child),
-        routes: [
-          GoRoute(
-            path: '/validation/foundation',
-            builder: (_, _) => const _PageScroll(child: FoundationPage()),
-          ),
-          GoRoute(
-            path: '/validation/backend',
-            builder: (_, _) => const _PageScroll(child: BackendPage()),
-          ),
-          GoRoute(
-            path: '/validation/media',
-            builder: (_, _) => const _PageScroll(child: MediaPage()),
-          ),
-          GoRoute(
-            path: '/validation/scene',
-            builder: (_, _) => const _PageScroll(child: ScenePage()),
-          ),
-          GoRoute(
-            path: '/validation/media-gallery',
-            builder: (_, _) => const _PageScroll(child: MediaGalleryPage()),
-          ),
-          GoRoute(
-            path: '/validation/fixture',
-            builder: (_, _) => const _PageScroll(child: FixturePage()),
-          ),
-        ],
-      ),
+      if (!releaseBuild)
+        ShellRoute(
+          builder: (c, s, child) => VerificationShell(child: child),
+          routes: [
+            GoRoute(
+              path: '/validation/foundation',
+              builder: (_, _) => const _PageScroll(child: FoundationPage()),
+            ),
+            GoRoute(
+              path: '/validation/backend',
+              builder: (_, _) => const _PageScroll(child: BackendPage()),
+            ),
+            GoRoute(
+              path: '/validation/media',
+              builder: (_, _) => const _PageScroll(child: MediaPage()),
+            ),
+            GoRoute(
+              path: '/validation/scene',
+              builder: (_, _) => const _PageScroll(child: ScenePage()),
+            ),
+            GoRoute(
+              path: '/validation/media-gallery',
+              builder: (_, _) => const _PageScroll(child: MediaGalleryPage()),
+            ),
+            GoRoute(
+              path: '/validation/fixture',
+              builder: (_, _) => const _PageScroll(child: FixturePage()),
+            ),
+          ],
+        ),
     ],
     errorBuilder: (c, s) =>
         PublicShell(uri: s.uri, child: const PublicNotFound()),

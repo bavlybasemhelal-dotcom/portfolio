@@ -11,6 +11,7 @@ import '../media/media_preview.dart';
 import 'project_widgets.dart';
 import 'public_shell.dart';
 import 'formatted_text.dart';
+import 'team_photo.dart';
 
 const serviceText = LocalizedText(
   ar: 'إنشاء تطبيقات برمجية حسب طلب العميل.',
@@ -729,39 +730,12 @@ class AboutPage extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 if (member['photo'] != null)
-                                  ClipRRect(
-                                    borderRadius: BorderRadius.circular(20),
-                                    child: Image.asset(
-                                      'assets/images/team/${member['id']}.jpg',
-                                      height: 300,
-                                      width: double.infinity,
-                                      fit: BoxFit.cover,
-                                      alignment: Alignment.topCenter,
-                                      cacheWidth: 600,
-                                      errorBuilder: (c, _, _) => Consumer(
-                                        builder: (c, ref, _) => DriveImage(
-                                          cache: ref.watch(
-                                            publicMediaCacheProvider,
-                                          ),
-                                          endpoint: data.endpoint,
-                                          site: activeSite,
-                                          assetId:
-                                              member['photo']['id'] as String,
-                                          publicUrl: publicImageUrl(
-                                            Map<String, dynamic>.from(
-                                              member['photo'] as Map,
-                                            ),
-                                          ),
-                                          alt: member['photo']['alt'] is Map
-                                              ? (member['photo']['alt'][code] as String? ?? '')
-                                              : (member['photo']['alt'] as String? ?? ''),
-                                          thumbnail: true,
-                                          height: 300,
-                                          fit: BoxFit.cover,
-                                          alignment: Alignment.topCenter,
-                                        ),
-                                      ),
+                                  TeamPhoto(
+                                    photo: Map<String, dynamic>.from(
+                                      member['photo'] as Map,
                                     ),
+                                    endpoint: data.endpoint,
+                                    site: activeSite,
                                   ),
                                 PublicMessage(
                                   icon: Icons.person_outline,

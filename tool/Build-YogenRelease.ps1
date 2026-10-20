@@ -12,6 +12,8 @@ $releaseLogs = Join-Path $releaseRoot ".runtime/updates/$releaseVersion/build-lo
 New-Item -ItemType Directory -Path $releaseLogs -Force | Out-Null
 $flutterCommand = 'C:\dev\flutter\bin\flutter.bat'
 $pythonCommand = 'C:\Users\Dell\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe'
+& $pythonCommand tool/release_paths.py --sync
+if ($LASTEXITCODE -ne 0) { throw 'Hosting path synchronization failed.' }
 if (!$AndroidOnly) {
     & $pythonCommand tool/prepare_launcher_assets.py
     if ($LASTEXITCODE -ne 0) { throw 'Launcher asset export failed.' }

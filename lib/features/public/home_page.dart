@@ -62,7 +62,7 @@ class _HomePageState extends ConsumerState<HomePage> {
     final reduced = reducedMotion(c, ref);
     final value = ref.watch(publicContentProvider);
     final data = value.asData?.value;
-    final projects = data?.projects ?? [];
+    final projects = data?.featuredProjects ?? [];
     return LayoutBuilder(
       builder: (c, box) {
         final pinned =
@@ -155,7 +155,7 @@ class _HomePageState extends ConsumerState<HomePage> {
                 SliverToBoxAdapter(
                   child: ContentState(builder: (d) => const SizedBox.shrink()),
                 ),
-              if (data != null && projects.isEmpty)
+              if (data != null && data.projects.isEmpty)
                 SliverToBoxAdapter(
                   child: PublicFrame(
                     child: PublicMessage(
@@ -252,6 +252,41 @@ class _HomePageState extends ConsumerState<HomePage> {
                       ),
                     ),
                   ),
+              if (data != null && data.projects.isNotEmpty)
+                SliverToBoxAdapter(
+                  child: PublicFrame(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          tr(
+                            c,
+                            'والمزيد من الأفكار تحوّل لأعمال.',
+                            'There’s more to explore.',
+                          ),
+                          style: Theme.of(c).textTheme.headlineMedium,
+                        ),
+                        const SizedBox(height: 12),
+                        Text(
+                          tr(
+                            c,
+                            'اكتشف باقي مشاريعنا في معرض الأعمال الكامل.',
+                            'Explore the rest of our projects in the full portfolio.',
+                          ),
+                        ),
+                        const SizedBox(height: 24),
+                        FilledButton.icon(
+                          key: const ValueKey('home-all-projects'),
+                          onPressed: () => publicGo(c, '/work'),
+                          icon: const Icon(Icons.arrow_forward),
+                          label: Text(
+                            tr(c, 'عرض كل المشاريع', 'View all projects'),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ),
               const SliverToBoxAdapter(child: ProcessChapter()),
               SliverToBoxAdapter(
                 child: PublicFrame(
@@ -802,8 +837,8 @@ class ProjectStage extends ConsumerWidget {
                     child: Text(
                       tr(
                         c,
-                        '02 / أعمالنا — مرّر لاكتشاف المشروع التالي',
-                        '02 / OUR WORK — SCROLL TO DISCOVER',
+                        '02 / أهم المشاريع — مرّر لاكتشاف المشروع التالي',
+                        '02 / FEATURED WORK — SCROLL TO DISCOVER',
                       ),
                       style: TextStyle(
                         fontSize: 13,
@@ -1061,8 +1096,8 @@ class _MobileProjectStage extends StatelessWidget {
                     child: Text(
                       tr(
                         c,
-                        '02 / مرّر للعمل التالي',
-                        '02 / SCROLL TO DISCOVER',
+                        '02 / أهم المشاريع — مرّر للعمل التالي',
+                        '02 / FEATURED — SCROLL TO DISCOVER',
                       ),
                       style: TextStyle(fontSize: 12, color: colors.tertiary),
                     ),

@@ -7,6 +7,7 @@ import '../../data/media_repository.dart';
 import '../../domain/project.dart';
 import '../../domain/media.dart';
 import '../../data/media_settings_repository.dart';
+import '../../data/featured_projects_repository.dart';
 import '../media/drive_bridge.dart';
 import '../media/media_transport.dart';
 
@@ -26,6 +27,21 @@ final adminContentRepositoryProvider = FutureProvider<AdminContentRepository>((
 final adminProjectsProvider = FutureProvider<List<ProjectDraft>>(
   (ref) async =>
       (await ref.watch(adminContentRepositoryProvider.future)).listProjects(),
+  retry: (_, _) => null,
+);
+final featuredProjectsRepositoryProvider =
+    FutureProvider<FeaturedProjectsRepository>((ref) async {
+      final repo = await ref.watch(adminContentRepositoryProvider.future);
+      return FeaturedProjectsRepository(
+        repo.store,
+        actor: repo.actor,
+        site: repo.site,
+      );
+    });
+final adminFeaturedIdsProvider = FutureProvider.autoDispose<Set<String>>(
+  (ref) async => (await ref.watch(
+    featuredProjectsRepositoryProvider.future,
+  )).selectedIds(),
   retry: (_, _) => null,
 );
 final adminCategoriesProvider = FutureProvider<List<StoredDocument>>(
